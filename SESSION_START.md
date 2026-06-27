@@ -54,8 +54,9 @@ If MODE is `quick`, skip steps 3–4 and instead ask the user to paste the relev
 
 ## Process Standards (Non-Negotiable)
 
-All sessions follow the Universal Project Architect (UPA) v1.0 framework.
-Full spec: [UPA_V1.md](./UPA_V1.md)
+All sessions follow the Universal Project Architect (UPA) **v2.0** framework.
+Full spec: [UPA_V2.md](./UPA_V2.md)
+Previous version (archived): [UPA_V1.md](./UPA_V1.md)
 Light mode: [UPA_LIGHT_MODE.md](./UPA_LIGHT_MODE.md)
 Escalation checklist: [UPA_ESCALATION_CHECKLIST.md](./UPA_ESCALATION_CHECKLIST.md)
 
