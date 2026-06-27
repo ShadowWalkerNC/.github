@@ -1,18 +1,12 @@
 name: Auto-Bootstrap New Repos
 
-# Runs every hour and on manual trigger.
-# Scans all ShadowWalkerNC repos, finds any missing AGENTS.md, and pushes one.
-# Required secret: ORG_BOOTSTRAP_TOKEN
-#   — Classic PAT with `repo` scope
-#   Set at: https://github.com/ShadowWalkerNC/.github/settings/secrets/actions
-
 on:
   schedule:
-    - cron: '0 * * * *'   # Every hour
-  workflow_dispatch:       # Manual trigger — run immediately after creating a new repo
+    - cron: '0 * * * *'
+  workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Dry run (list repos that would be bootstrapped, do not push)'
+        description: 'Dry run (list only, no push)'
         required: false
         default: 'false'
         type: boolean
@@ -21,23 +15,100 @@ jobs:
   bootstrap:
     name: Detect and Bootstrap New Repos
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     steps:
-      - name: Checkout .github repo
-        uses: actions/checkout@v4
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Install dependencies
+      - name: Install Octokit
         run: npm install @octokit/rest
 
-      - name: Bootstrap missing repos
+      - name: Run bootstrap script
         env:
           ORG_BOOTSTRAP_TOKEN: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
-        run: node .github/scripts/bootstrap-repos.js
+        run: |
+          cat << 'SCRIPT' > bootstrap.js
+          const { Octokit } = require('@octokit/rest');
+          const ORG = 'ShadowWalkerNC';
+          const DRY_RUN = process.env.DRY_RUN === 'true';
+          const TOKEN = process.env.ORG_BOOTSTRAP_TOKEN;
+          const SKIP_REPOS = ['.github','RecipeOS','CulinaryOS','NexCMS'];
+
+          if (!TOKEN) { console.error('ERROR: ORG_BOOTSTRAP_TOKEN not set.'); process.exit(1); }
+
+          const octokit = new Octokit({ auth: TOKEN });
+
+          async function getAllRepos() {
+            const repos = [];
+            let page = 1;
+            while (true) {
+              const { data } = await octokit.repos.listForUser({ username: ORG, type: 'owner', per_page: 100, page });
+              if (!data.length) break;
+              repos.push(...data);
+              if (data.length < 100) break;
+              page++;
+            }
+            return repos;
+          }
+
+          async function hasAgentsMd(repo, branch) {
+            try {
+              await octokit.repos.getContent({ owner: ORG, repo, path: 'AGENTS.md', ref: branch });
+              return true;
+            } catch(e) { if (e.status === 404) return false; throw e; }
+          }
+
+          async function detectStack(repo, branch) {
+            const checks = [
+              ['package.json','Node.js/TypeScript'],['pnpm-workspace.yaml','pnpm monorepo'],
+              ['turbo.json','Turborepo'],['build.gradle.kts','Kotlin/Android'],
+              ['Cargo.toml','Rust'],['go.mod','Go'],['pyproject.toml','Python'],
+              ['docker-compose.yml','Docker'],['next.config.ts','Next.js'],
+              ['next.config.js','Next.js'],['supabase','Supabase'],
+            ];
+            const found = [];
+            for (const [path, hint] of checks) {
+              try {
+                await octokit.repos.getContent({ owner: ORG, repo, path, ref: branch });
+                if (!found.includes(hint)) found.push(hint);
+              } catch {}
+            }
+            return found.length ? found.join(' · ') : 'Unknown — update manually';
+          }
+
+          function generateAgentsMd(name, desc, stack, url) {
+            const date = new Date().toISOString().split('T')[0];
+            return `# AGENTS.md — ${name}\n\n> **Extends:** \`ShadowWalkerNC/.github/AGENTS.md\` — all global rules apply unconditionally.\n> **Auto-loaded by:** Claude Code · GitHub Copilot · OpenAI Codex · Cursor · Windsurf\n> **Auto-generated:** ${date} — fill in all [UPDATE THIS] fields before use.\n\n---\n\n## Project Identity\n\n\`\`\`\nProject:      ${name}\nDescription:  ${(desc||'No description — update this.').substring(0,200)}\nStatus:       [planning | in development | in production] — UPDATE THIS\nPhase:        [phase number and name] — UPDATE THIS\n\`\`\`\n\n---\n\n## Tech Stack\n\n\`\`\`\nDetected:  ${stack}\n\nLanguage:  [UPDATE THIS]\nFramework: [UPDATE THIS]\nDatabase:  [UPDATE THIS]\nHosting:   [UPDATE THIS]\n\`\`\`\n\n---\n\n## Active Agents\n\n\`\`\`\nAlways active:   COHERENCE · SECURITY · DOCS\nDefault on-demand: ENGINEER · ARCHITECT — UPDATE THIS\n\`\`\`\n\n---\n\n## Project-Specific Rules\n\n1. [Add project-specific rules here — UPDATE THIS]\n\n---\n\n## Current Phase Context\n\n\`\`\`\nPhase goal:         [UPDATE THIS]\nDefinition of done: [UPDATE THIS]\nNext phase:         [UPDATE THIS]\n\`\`\`\n\n---\n\n*Auto-generated: ${date} | Extends: ShadowWalkerNC/.github/AGENTS.md | Repo: [${name}](${url})*\n*Action required: Fill in all [UPDATE THIS] fields before using this repo in a session.*\n`;
+          }
+
+          async function main() {
+            console.log(`Bootstrap — Org: ${ORG} | Dry run: ${DRY_RUN}`);
+            const repos = await getAllRepos();
+            console.log(`Found ${repos.length} repos`);
+            let pushed = 0;
+            for (const repo of repos) {
+              const { name, default_branch: branch, archived, disabled, description, html_url } = repo;
+              if (SKIP_REPOS.includes(name) || archived || disabled) { console.log(`SKIP: ${name}`); continue; }
+              if (await hasAgentsMd(name, branch)) { console.log(`OK:   ${name}`); continue; }
+              const stack = await detectStack(name, branch);
+              console.log(`NEED: ${name} (${stack})`);
+              if (!DRY_RUN) {
+                const content = Buffer.from(generateAgentsMd(name, description, stack, html_url)).toString('base64');
+                await octokit.repos.createOrUpdateFileContents({
+                  owner: ORG, repo: name, path: 'AGENTS.md', branch,
+                  message: 'feat(agents): auto-bootstrap AGENTS.md — update [UPDATE THIS] fields before use',
+                  content,
+                });
+                console.log(`DONE: ${name}`);
+                pushed++;
+              }
+            }
+            console.log(`\nPushed: ${pushed}`);
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          SCRIPT
+          node bootstrap.js
