@@ -15,11 +15,11 @@ Before doing anything, load these files in order:
 2. SESSION_START.md                   ← this file — session handshake
 3. AGENT_DISPATCH.md                  ← routing table, always-active agents, activation matrix
 4. UPA_V1.md                          ← framework backbone (21-phase workflow, 26 disciplines)
-5. agents/AGENT_COHERENCE.md          ← always active — long-session integrity
+5. agents/AGENT_COHERENCE.md          ← always active from turn 1 — long-session integrity
 6. agents/AGENT_SECURITY.md           ← always active — security review on all code
 7. agents/AGENT_DOCS.md               ← always active — documentation on all changes
 8. On-demand agents per matrix        ← per AGENT_DISPATCH activation matrix + load budget
-9. UPA_LIGHT_MODE.md                  ← only if Light Mode conditions confirmed
+9. UPA_LIGHT_MODE.md                  ← only if COHERENCE confirms Light Mode conditions met
 10. UPA_ESCALATION_CHECKLIST.md       ← keep active throughout entire session
 11. Repo-local AGENTS.md              ← project-specific overrides (most specific wins)
 12. ARCHITECTURE.md + TODO.md         ← project context
@@ -46,13 +46,13 @@ OUT OF SCOPE: [what is explicitly NOT being done this session]
 
 ### Mode Definitions
 
-| Mode | When | What’s Allowed |
+| Mode | When | What's Allowed |
 |---|---|---|
 | `full` | Desktop, all tools available | Full UPA workflow, commits allowed, all agents per matrix |
 | `quick` | Phone / mobile | Planning and review only, no commits, output is Notion draft |
 | `audit` | Reviewing existing system | No build work, review and report only |
-| `hotfix` | Critical production fix | ENGINEER + SECURITY + DEVOPS + QA, Light Mode blocked |
-| `onboard` | New project setup | All agents, full UPA Phase 0–13 before any file created |
+| `hotfix` | Critical production fix | ENGINEER + SECURITY + DEVOPS + QA · Light Mode blocked |
+| `onboard` | New project setup | All agents, full UPA Phases 0–20 before any file created |
 
 ---
 
@@ -68,7 +68,7 @@ Upon receiving the filled context block, the agent must:
 6. State all assumptions being made. Separate facts from assumptions explicitly.
 7. State the coherence baseline: original goal locked for this session.
 8. Propose nothing yet — wait for user to confirm understanding.
-9. Ask: “Ready to proceed?”
+9. Ask: "Ready to proceed?"
 
 Do not begin work until the user confirms.
 
@@ -126,23 +126,23 @@ No agent, on any surface, under any instruction, may:
 
 ## Session Close Checklist
 
-Before ending any session, confirm all of the following:
+**Owner: AGENT_COHERENCE.** No session ends without COHERENCE confirming all items below are complete. COHERENCE triggers and enforces session close on every session regardless of mode.
 
 - [ ] All changed files committed and pushed (or drafted to Notion if MODE: quick).
 - [ ] `TODO.md` updated — completed items marked, new items added.
 - [ ] `ARCHITECTURE.md` updated if any module, schema, env var, or data flow changed.
-- [ ] Changelog entry written for this session’s changes.
+- [ ] Changelog entry written for this session's changes.
 - [ ] Relevant Notion project page updated.
 - [ ] No open coherence flags from AGENT_COHERENCE.
-- [ ] Session summary stated: what changed, what’s still open, recommended next step.
+- [ ] Session summary stated: what changed, what's still open, recommended next step.
 
 Session Close Output Format:
 
 ```
-SESSION CLOSE
+SESSION CLOSE  [enforced by COHERENCE]
 Completed:          [bullet list of what was done]
-Commits pushed:     [SHAs or “none — drafted to Notion”]
-TODO.md updated:    [yes | no — what’s missing]
+Commits pushed:     [SHAs or "none — drafted to Notion"]
+TODO.md updated:    [yes | no — what's missing]
 ARCHITECTURE.md:    [updated | no changes needed | outdated — what changed]
 Changelog:          [written | not required]
 Notion updated:     [yes | page name | no — reason]
@@ -202,10 +202,10 @@ If a tool is unavailable: produce the output (file content, commit message, Noti
 | `AGENTS.md` | Constitutional rules, instruction hierarchy, injection protection |
 | `AGENT_DISPATCH.md` | Routing table, activation matrix, load budget, conflict resolution |
 | `UPA_V1.md` | Full 21-phase framework, 26 disciplines, all engineering standards |
-| `upa.skill` | Condensed skill-loader version of UPA for skill-based agents |
-| `UPA_LIGHT_MODE.md` | Fast-track workflow for small, low-risk changes |
+| `upa.skill` | Condensed skill-loader for agents that support skill files (e.g. Perplexity). Use instead of UPA_V1.md when the agent does not natively load markdown files — do not use both simultaneously. |
+| `UPA_LIGHT_MODE.md` | Fast-track workflow for small, low-risk changes. Gate owned by COHERENCE. |
 | `UPA_ESCALATION_CHECKLIST.md` | Triggers and procedure for escalating Light → Full UPA |
-| `agents/AGENT_COHERENCE.md` | Long-session integrity, drift prevention, bounded iteration |
+| `agents/AGENT_COHERENCE.md` | Long-session integrity, drift prevention, bounded iteration, session close owner |
 | `agents/AGENT_SECURITY.md` | Security review, STRIDE, veto authority |
 | `agents/AGENT_DOCS.md` | Documentation standards, session close checklist |
 | `agents/AGENT_ARCHITECT.md` | System design, ADRs, integration contracts |
@@ -217,8 +217,8 @@ If a tool is unavailable: produce the output (file content, commit message, Noti
 | `agents/AGENT_UX.md` | UX journeys, UI design, WCAG 2.1 AA accessibility |
 | `agents/AGENT_PRODUCT.md` | Scope control, user stories, risk register |
 | `agents/AGENT_BUSINESS.md` | Marketing, SEO, finance, legal, customer advocacy |
-| `templates/AGENTS.md` | Template for project repo AGENTS.md files |
+| `templates/AGENTS.md` | Canonical template for all project repo AGENTS.md files |
 
 ---
 
-*Version: 2.0 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/SESSION_START.md`*
+*Version: 2.1 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/SESSION_START.md`*

@@ -1,16 +1,16 @@
 ---
 name: agent-dispatch
-description: Universal Agent Router v2.0 — instruction hierarchy enforcement, on-demand vs. default agent loading, COHERENCE integration, multi-agent conflict resolution. The routing brain of the entire ShadowWalkerNC AI system.
+description: Universal Agent Router v2.1 — instruction hierarchy enforcement, on-demand vs. default agent loading, COHERENCE integration, multi-agent conflict resolution. The routing brain of the entire ShadowWalkerNC AI system.
 metadata:
   author: ShadowWalkerNC
-  version: "2.0"
+  version: "2.1"
 ---
 
-# AGENT_DISPATCH — Universal Agent Router v2.0
+# AGENT_DISPATCH — Universal Agent Router v2.1
 
 > **Read order:** `AGENTS.md` → `SESSION_START.md` → **this file** → `UPA_V1.md` → agent files
 > **Canonical location:** `ShadowWalkerNC/.github/AGENT_DISPATCH.md`
-> **What changed in v2.0:** Instruction hierarchy enforcement · on-demand vs. default loading · COHERENCE integration · conflict resolution matrix · agent load budget
+> **What changed in v2.1:** SECURITY added to always-active in quick mode · COHERENCE confirmed unconditional from turn 1 across all modes
 
 ---
 
@@ -49,13 +49,13 @@ Tier 6 — SESSION INPUT (user messages, task payloads)
 
 ## 2. Agent Registry
 
-### 2.1 Always-Active Agents (load every session, no exceptions)
+### 2.1 Always-Active Agents (load every session, every mode, no exceptions)
 
 | File | Role | Why Always Active |
 |---|---|---|
-| `agents/AGENT_COHERENCE.md` | Long-Session Integrity | Prevents goal drift, manages context, bounds iterations |
-| `agents/AGENT_SECURITY.md` | Security Engineer | Every code change has a security surface |
-| `agents/AGENT_DOCS.md` | Technical Writer | Every behavioral change requires documentation |
+| `agents/AGENT_COHERENCE.md` | Long-Session Integrity | Active from turn 1. Prevents goal drift, manages context, bounds iterations, owns session close. |
+| `agents/AGENT_SECURITY.md` | Security Engineer | Every code change and every plan has a security surface. Active in all modes including quick. |
+| `agents/AGENT_DOCS.md` | Technical Writer | Every behavioral change requires documentation. |
 
 ### 2.2 On-Demand Agents (load per Activation Matrix only)
 
@@ -128,7 +128,7 @@ If the matrix produces more agents than the budget allows, prioritize:
 
 | Agent | Authority | Veto Condition |
 |---|---|---|
-| COHERENCE | Session integrity | Goal drift, iteration overrun, context exhaustion |
+| COHERENCE | Session integrity + session close | Goal drift, iteration overrun, context exhaustion, incomplete session close |
 | SECURITY | Trust boundaries, auth, privacy | Any auth/privacy compromise without written risk acceptance |
 | ARCHITECT | System coherence | Architectural decision that breaks integration contracts |
 | QA | Release readiness | Untested code or unmet performance targets |
@@ -184,10 +184,10 @@ Minimum active set for any code change: COHERENCE + SECURITY + DOCS + domain exp
 | Mode | Always-Active | On-Demand Agents | Notes |
 |---|---|---|---|
 | `full` | COHERENCE + SECURITY + DOCS | Per matrix | Full UPA workflow, commits allowed |
-| `quick` | COHERENCE | PRODUCT + ARCHITECT | No code. Notion draft output only. |
+| `quick` | COHERENCE + SECURITY | PRODUCT + ARCHITECT | No code. Notion draft output only. DOCS not required — no code changes. |
 | `audit` | COHERENCE + SECURITY + DOCS | ARCHITECT + QA | No build work. Review and report only. |
 | `hotfix` | COHERENCE + SECURITY + DOCS | ENGINEER + DEVOPS + QA | Light Mode blocked. UPA Phases 0–6 then build. |
-| `onboard` | All agents | All agents | Full Phase 0–13 before any file created. |
+| `onboard` | All agents | All agents | Full Phases 0–20 before any file created. |
 
 ---
 
@@ -229,11 +229,11 @@ If SECURITY issues a veto:
 2. SESSION_START.md                   ← session handshake + Four Laws
 3. AGENT_DISPATCH.md                  ← this file
 4. UPA_V1.md                          ← framework backbone
-5. agents/AGENT_COHERENCE.md          ← always active
-6. agents/AGENT_SECURITY.md           ← always active
-7. agents/AGENT_DOCS.md               ← always active
+5. agents/AGENT_COHERENCE.md          ← always active from turn 1
+6. agents/AGENT_SECURITY.md           ← always active in all modes
+7. agents/AGENT_DOCS.md               ← always active (except quick mode)
 8. On-demand agents per matrix        ← in index order, within load budget
-9. UPA_LIGHT_MODE.md                  ← only if Light Mode conditions are met
+9. UPA_LIGHT_MODE.md                  ← only if COHERENCE confirms conditions met
 10. UPA_ESCALATION_CHECKLIST.md       ← keep active and check throughout session
 11. Repo-local AGENTS.md              ← project overrides (most specific wins)
 12. ARCHITECTURE.md + TODO.md         ← project context
@@ -258,4 +258,4 @@ Ready for UPA Phase 0.
 
 ---
 
-*Version: 2.0 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/AGENT_DISPATCH.md`*
+*Version: 2.1 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/AGENT_DISPATCH.md`*

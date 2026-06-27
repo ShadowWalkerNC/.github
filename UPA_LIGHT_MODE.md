@@ -2,12 +2,23 @@
 
 > **Use when:** scope is small, well-understood, and low-risk. Single-file changes, copy edits, minor config updates, hotfixes on known issues.
 > **Do not use when:** architecture is affected, DB schema changes, new integrations, security-sensitive changes, or anything touching more than 3 files.
+> **Gate owner:** AGENT_COHERENCE confirms Light Mode eligibility before this workflow begins. If COHERENCE is not active, default to full UPA.
+
+---
+
+## Light Mode is Blocked In
+
+- `hotfix` mode — use full UPA Phases 0–6 then build
+- Any session where COHERENCE has raised an active flag
+- Any task that touches auth, tokens, secrets, or permissions
+
+If you are in `hotfix` mode and reading this file, stop. Switch to full UPA.
 
 ---
 
 ## Light Mode Checklist
 
-Before proceeding in Light Mode, confirm ALL of these:
+Before proceeding in Light Mode, COHERENCE confirms ALL of these:
 
 - [ ] Change touches ≤ 3 files
 - [ ] No DB schema or migration involved
@@ -16,8 +27,9 @@ Before proceeding in Light Mode, confirm ALL of these:
 - [ ] No new environment variables
 - [ ] No architectural change
 - [ ] Scope is completely clear — no unknowns
+- [ ] Not in `hotfix` mode
 
-If any box is unchecked → switch to full UPA mode.
+If any box is unchecked → switch to full UPA mode immediately.
 
 ---
 
