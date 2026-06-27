@@ -3,9 +3,8 @@ name: Auto-Bootstrap New Repos
 # Runs every hour and on manual trigger.
 # Scans all ShadowWalkerNC repos, finds any missing AGENTS.md, and pushes one.
 # Required secret: ORG_BOOTSTRAP_TOKEN
-#   — Fine-grained PAT with Contents: Read & Write on all org repos
-#   — Or classic PAT with `repo` scope
-#   Set at: https://github.com/organizations/ShadowWalkerNC/settings/secrets/actions
+#   — Classic PAT with `repo` scope
+#   Set at: https://github.com/ShadowWalkerNC/.github/settings/secrets/actions
 
 on:
   schedule:
@@ -28,8 +27,6 @@ jobs:
     steps:
       - name: Checkout .github repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
