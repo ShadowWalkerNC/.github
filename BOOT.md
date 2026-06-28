@@ -13,9 +13,9 @@ Load and follow these files before responding:
 https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/AGENTS.md
 https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/SESSION_START.md
 https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/AGENT_DISPATCH.md
-https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/UPA_V1.md
-https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/UPA_LIGHT_MODE.md
-https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/UPA_ESCALATION_CHECKLIST.md
+https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/upa/UPA_V1.md
+https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/upa/UPA_LIGHT_MODE.md
+https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/upa/UPA_ESCALATION_CHECKLIST.md
 https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/agents/AGENT_COHERENCE.md
 https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/agents/AGENT_SECURITY.md
 https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/agents/AGENT_DOCS.md
@@ -89,4 +89,4 @@ Replace `[REPO]` with the repo name.
 
 ---
 
-*UPA v2.0 — Updated June 27, 2026 — ShadowWalkerNC/.github*
+*UPA v2.0 — Updated June 28, 2026 — ShadowWalkerNC/.github*

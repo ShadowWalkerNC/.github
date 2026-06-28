@@ -31,15 +31,26 @@ AGENT_DISPATCH.md                ← Universal router
 │   Conflict resolution matrix
 │   Escalation routing
 │
-UPA_V1.md                        ← Framework backbone
-│   21-phase universal workflow
-│   26 discipline roles
-│   Full engineering, security, UX, DB, AI standards
+BOOT.md                          ← Quick-start bootstrap (copy-paste session starter)
+│   Core file URLs
+│   Session Context Block template
+│   Required repo files checklist
+│   Mode reference
+│   iPhone shortcut tip
 │
-upa.skill                        ← Condensed skill-loader format (YAML + prose)
+upa/                             ← UPA framework files
 │
-UPA_LIGHT_MODE.md                ← Fast-track workflow for small changes
-UPA_ESCALATION_CHECKLIST.md     ← Triggers and procedure: Light → Full UPA
+├── UPA_V1.md                    ← Framework backbone
+│   │   21-phase universal workflow
+│   │   26 discipline roles
+│   │   Full engineering, security, UX, DB, AI standards
+│
+├── upa.skill                    ← Condensed skill-loader format (YAML + prose)
+│   │   Use this for agents that accept .skill files or condensed system prompts
+│   │   Equivalent to UPA_V1.md but optimized for context budget
+│
+├── UPA_LIGHT_MODE.md            ← Fast-track workflow for small changes
+└── UPA_ESCALATION_CHECKLIST.md  ← Triggers and procedure: Light → Full UPA
 │
 agents/
 ├── AGENT_COHERENCE.md            ← ALWAYS ACTIVE — long-session integrity
@@ -56,7 +67,8 @@ agents/
 └── AGENT_BUSINESS.md             ← on-demand — Marketing + SEO + Finance + Legal
 │
 templates/
-└── AGENTS.md                     ← Template for project repo AGENTS.md files
+├── AGENTS.md                     ← Template for project repo AGENTS.md files
+└── SESSION_CONTEXT.md            ← Standalone fill-in session bootstrap template
 │
 profile/
 └── README.md                     ← Public GitHub org profile
@@ -64,9 +76,20 @@ profile/
 
 ---
 
+## UPA File Hierarchy
+
+| File | When to use |
+|---|---|
+| `upa/UPA_V1.md` | Full reference — all 23 sections, 20 phases, 26 roles. Use for deep sessions. |
+| `upa/upa.skill` | Condensed YAML+prose format. Use for agents that accept skill files or when context budget is tight. |
+| `upa/UPA_LIGHT_MODE.md` | ≤3 file changes, low-risk, no architecture impact. COHERENCE must approve. |
+| `upa/UPA_ESCALATION_CHECKLIST.md` | Always keep active. Run when scope grows or unknowns appear. |
+
+---
+
 ## How to Start a Session
 
-1. Copy the Session Context Block from `SESSION_START.md`.
+1. Copy the Session Context Block from `SESSION_START.md` (or use `templates/SESSION_CONTEXT.md` for a standalone version).
 2. Fill in every field.
 3. Paste as the first message to your agent.
 4. The agent loads all files, confirms dispatch, and waits for your go-ahead.
@@ -87,15 +110,16 @@ profile/
 1.  AGENTS.md
 2.  SESSION_START.md
 3.  AGENT_DISPATCH.md
-4.  UPA_V1.md
-5.  agents/AGENT_COHERENCE.md     (always)
-6.  agents/AGENT_SECURITY.md      (always)
-7.  agents/AGENT_DOCS.md          (always)
-8.  On-demand agents per matrix   (per task type + load budget)
-9.  UPA_LIGHT_MODE.md             (if applicable)
-10. UPA_ESCALATION_CHECKLIST.md   (keep active)
-11. Repo-local AGENTS.md          (project overrides)
-12. ARCHITECTURE.md + TODO.md     (project context)
+4.  BOOT.md                          (quick-start reference — load for path lookup)
+5.  upa/UPA_V1.md
+6.  agents/AGENT_COHERENCE.md        (always)
+7.  agents/AGENT_SECURITY.md         (always)
+8.  agents/AGENT_DOCS.md             (always)
+9.  On-demand agents per matrix      (per task type + load budget)
+10. upa/UPA_LIGHT_MODE.md            (if applicable)
+11. upa/UPA_ESCALATION_CHECKLIST.md  (keep active)
+12. Repo-local AGENTS.md             (project overrides)
+13. ARCHITECTURE.md + TODO.md        (project context)
 ```
 
 ---
@@ -113,4 +137,4 @@ profile/
 
 ---
 
-*Author: ShadowWalkerNC · Last updated: June 27, 2026*
+*Author: ShadowWalkerNC · Last updated: June 28, 2026*
