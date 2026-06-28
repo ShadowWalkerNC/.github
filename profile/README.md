@@ -15,8 +15,16 @@ Full-stack developer and AI systems architect. Building intelligent platforms fo
 
 ## Process Standard
 
-All projects follow the **Universal Project Architect (UPA) v1.0** framework.
-AI agents working on any project must read [SESSION_START.md](..SESSION_START.md) before beginning.
+All projects follow the **Universal Project Architect (UPA) v2.0** framework — a multi-agent, multi-phase engineering and decision system.
+
+Every AI session on any project must load the bootstrap files before doing any work.
+**Session bootstrap reference:** [BOOT.md](https://github.com/ShadowWalkerNC/.github/blob/main/BOOT.md)
+
+Key system files:
+- [AGENTS.md](https://github.com/ShadowWalkerNC/.github/blob/main/AGENTS.md) — Constitutional rules, instruction hierarchy
+- [SESSION_START.md](https://github.com/ShadowWalkerNC/.github/blob/main/SESSION_START.md) — Session handshake and operating protocol
+- [AGENT_DISPATCH.md](https://github.com/ShadowWalkerNC/.github/blob/main/AGENT_DISPATCH.md) — 12-agent routing system
+- [UPA_V1.md](https://github.com/ShadowWalkerNC/.github/blob/main/UPA_V1.md) — Full 21-phase framework
 
 ## Stack
 
