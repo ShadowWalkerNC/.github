@@ -5,6 +5,24 @@ Format: `[version] — date — summary`
 
 ---
 
+## [3.0] — September 23, 2026
+
+### Classifier-first refactor (token-optimized)
+
+- `AGENTS.md`: compact control plane — normalize → classify → minimum
+  context → plan by risk → execute → verify → audit changed scope → cache.
+  Fast path for LOW/LOCAL; UPA is HIGH/CRITICAL escalation only.
+- `AGENT_DISPATCH.md`: removed always-active agents and 3-agent floor;
+  risk-tier router with load budget 0/1/3/4.
+- `SESSION_START.md`: 2-line start, short close; no confirmation gate or
+  mandatory full load; docs by relevance.
+- `BOOT.md` + `templates/SESSION_CONTEXT.md`: progressive bootstrap, all
+  fields optional.
+- `templates/AGENTS.md`: slimmed to identity + rules + cache pointer.
+- Added `templates/PROJECT_CACHE.md`: durable-facts-only project cache.
+- Preserved unchanged: `upa/*`, all 12 `agents/*` (now on-demand).
+- `README.md`: rewritten for v3.0 + token estimate.
+
 ## [2.1] — June 28, 2026
 
 ### Reorganized

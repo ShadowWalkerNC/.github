@@ -1,140 +1,62 @@
 # ShadowWalkerNC/.github
 
-Universal AI agent system, process standards, UPA framework, and session bootstrap for all ShadowWalkerNC repositories.
+Classifier-first universal AI system for all ShadowWalkerNC repos.
+Portable across Codex, Gemini/Antigravity, Claude, Copilot, Cursor, Windsurf.
 
----
-
-## What This Repo Is
-
-This is the **brain of the ShadowWalkerNC AI development system**. Every AI agent (Perplexity, Claude, Codex, Cursor, Copilot, Windsurf) operating in any ShadowWalkerNC project reads from this repo before doing anything. It defines identity, load order, instruction hierarchy, engineering standards, and the full team of specialist agents.
-
----
-
-## System Architecture
+## How it works
 
 ```
-AGENTS.md                        ← START HERE (auto-loaded by coding agents)
-│   Constitutional rules
-│   6-tier instruction hierarchy
-│   Injection protection
-│
-SESSION_START.md                 ← Session handshake protocol
-│   Context block format
-│   Four Laws
-│   Never-Do List
-│   Agent Handoff Block
-│
-AGENT_DISPATCH.md                ← Universal router
-│   Always-active vs. on-demand agent split
-│   Activation matrix (17 task types)
-│   Load budget per session mode
-│   Conflict resolution matrix
-│   Escalation routing
-│
-BOOT.md                          ← Quick-start bootstrap (copy-paste session starter)
-│   Core file URLs
-│   Session Context Block template
-│   Required repo files checklist
-│   Mode reference
-│   iPhone shortcut tip
-│
-upa/                             ← UPA framework files
-│
-├── UPA_V1.md                    ← Framework backbone
-│   │   21-phase universal workflow
-│   │   26 discipline roles
-│   │   Full engineering, security, UX, DB, AI standards
-│
-├── upa.skill                    ← Condensed skill-loader format (YAML + prose)
-│   │   Use this for agents that accept .skill files or condensed system prompts
-│   │   Equivalent to UPA_V1.md but optimized for context budget
-│
-├── UPA_LIGHT_MODE.md            ← Fast-track workflow for small changes
-└── UPA_ESCALATION_CHECKLIST.md  ← Triggers and procedure: Light → Full UPA
-│
-agents/
-├── AGENT_COHERENCE.md            ← ALWAYS ACTIVE — long-session integrity
-├── AGENT_SECURITY.md             ← ALWAYS ACTIVE — security review on all code
-├── AGENT_DOCS.md                 ← ALWAYS ACTIVE — documentation on all changes
-├── AGENT_ARCHITECT.md            ← on-demand — Enterprise Architect + Systems Engineer
-├── AGENT_ENGINEER.md             ← on-demand — Principal + Frontend + Backend Engineer
-├── AGENT_AI.md                   ← on-demand — AI/ML Engineer
-├── AGENT_DATABASE.md             ← on-demand — Database Architect
-├── AGENT_DEVOPS.md               ← on-demand — DevOps + SRE + Cloud Architect
-├── AGENT_QA.md                   ← on-demand — QA + Performance Engineer
-├── AGENT_UX.md                   ← on-demand — UX/UI Designer + Accessibility
-├── AGENT_PRODUCT.md              ← on-demand — Product + Project Manager
-└── AGENT_BUSINESS.md             ← on-demand — Marketing + SEO + Finance + Legal
-│
-templates/
-├── AGENTS.md                     ← Template for project repo AGENTS.md files
-└── SESSION_CONTEXT.md            ← Standalone fill-in session bootstrap template
-│
-profile/
-└── README.md                     ← Public GitHub org profile
+INTENT → NORMALIZE → CLASSIFY → LOAD MINIMUM CONTEXT → ANALYZE
+  → PLAN (by risk) → EXECUTE → VERIFY → AUDIT (changed scope) → CACHE
 ```
 
----
+- LOW + LOCAL + confident → fast path: inspect → change → verify. No UPA,
+  no extra agents, no written plan.
+- HIGH/CRITICAL (arch, auth, security, migration, deploy, breaking API,
+  cross-system, destructive) → escalates to `upa/UPA_V1.md` + routed experts
+  + rollback planning + heavy audit.
 
-## UPA File Hierarchy
-
-| File | When to use |
-|---|---|
-| `upa/UPA_V1.md` | Full reference — all 23 sections, 20 phases, 26 roles. Use for deep sessions. |
-| `upa/upa.skill` | Condensed YAML+prose format. Use for agents that accept skill files or when context budget is tight. |
-| `upa/UPA_LIGHT_MODE.md` | ≤3 file changes, low-risk, no architecture impact. COHERENCE must approve. |
-| `upa/UPA_ESCALATION_CHECKLIST.md` | Always keep active. Run when scope grows or unknowns appear. |
-
----
-
-## How to Start a Session
-
-1. Copy the Session Context Block from `SESSION_START.md` (or use `templates/SESSION_CONTEXT.md` for a standalone version).
-2. Fill in every field.
-3. Paste as the first message to your agent.
-4. The agent loads all files, confirms dispatch, and waits for your go-ahead.
-
----
-
-## How to Add This System to a New Project Repo
-
-1. Copy `templates/AGENTS.md` to the project repo root.
-2. Fill in the project identity, stack, structure, and project-specific rules.
-3. Any coding agent working in that repo will auto-load the project `AGENTS.md`, which extends this system.
-
----
-
-## Agent Load Order (Every Session)
+## Files
 
 ```
-1.  AGENTS.md
-2.  SESSION_START.md
-3.  AGENT_DISPATCH.md
-4.  BOOT.md                          (quick-start reference — load for path lookup)
-5.  upa/UPA_V1.md
-6.  agents/AGENT_COHERENCE.md        (always)
-7.  agents/AGENT_SECURITY.md         (always)
-8.  agents/AGENT_DOCS.md             (always)
-9.  On-demand agents per matrix      (per task type + load budget)
-10. upa/UPA_LIGHT_MODE.md            (if applicable)
-11. upa/UPA_ESCALATION_CHECKLIST.md  (keep active)
-12. Repo-local AGENTS.md             (project overrides)
-13. ARCHITECTURE.md + TODO.md        (project context)
+AGENTS.md                 ← START HERE — compact control plane (Tier 0)
+AGENT_DISPATCH.md         ← risk-based router (no always-active agents)
+SESSION_START.md          ← 2-line start, short close (no ceremony)
+BOOT.md                   ← manual bootstrap for agents without auto-load
+upa/UPA_V1.md             ← deep/escalation framework (HIGH/CRITICAL only)
+upa/UPA_LIGHT_MODE.md     ← optional helper, not a gate
+upa/UPA_ESCALATION_CHECKLIST.md ← optional helper, not a gate
+agents/                   ← 12 specialists, all on-demand (ENGINEER UX DATABASE
+│                           DEVOPS SECURITY QA ARCHITECT AI PRODUCT BUSINESS
+│                           DOCS COHERENCE)
+templates/AGENTS.md       ← project AGENTS.md (identity + rules + cache pointer)
+templates/PROJECT_CACHE.md← durable project facts (stack, map, decisions, issues)
+templates/SESSION_CONTEXT.md ← optional paste-in bootstrap
 ```
 
----
+Context tiers: 0 = AGENTS.md + request · 1 = project cache + `git status` ·
+2 = affected files/tests · 3 = deps/logs/history · 4 = broad analysis (rare).
 
-## Veto Authority
+## New project setup
 
-| Agent | Can Block |
-|---|---|
-| SECURITY | Any auth, privacy, or trust boundary violation |
-| COHERENCE | Any work when goal drift or context exhaustion is detected |
-| QA | Any release without passing tests or performance targets |
-| DATABASE | Any migration that risks data loss or corruption |
-| DEVOPS | Any deployment without rollback plan or observability |
-| UX | Any WCAG 2.1 AA accessibility violation |
+1. Copy `templates/AGENTS.md` → repo root, fill in identity/commands/map/rules.
+2. Copy `templates/PROJECT_CACHE.md` → repo root, fill in stack/decisions/issues.
+3. Agents auto-load the project `AGENTS.md`, which extends this system.
 
----
+## Token savings (estimate)
 
-*Author: ShadowWalkerNC · Last updated: June 28, 2026*
+Old boot forced ~12 files every session (AGENTS + SESSION_START + DISPATCH +
+UPA_V1 ~19KB + COHERENCE/SECURITY/DOCS + LIGHT + ESCALATION + ARCH + TODO):
+roughly 45–60KB of context before any work. New boot for a LOW task is
+AGENTS.md (~8KB) + DISPATCH (~3KB) + project cache (~1–2KB) + affected files —
+roughly 12–15KB, a ~70% reduction. MEDIUM adds one agent file (~5KB).
+HIGH/CRITICAL loads UPA (~19KB) + ≤3 agents — i.e. the old cost, but only when
+justified. Output savings come from no ceremony blocks, no mandatory multi-agent
+panels, no fixed 4-file doc updates, and audits scoped to changed code.
+
+## Vetoes (only when that agent is loaded)
+
+SECURITY: trust boundaries · DATABASE: lossy migrations · DEVOPS: unsafe
+releases · UX: WCAG 2.1 AA · QA: untested releases · ARCHITECT: system design.
+
+*Author: ShadowWalkerNC · v3.0*
