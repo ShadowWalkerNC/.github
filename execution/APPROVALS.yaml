@@ -106,6 +106,20 @@
         "push",
         "source_retirement"
       ]
+    },
+    {
+      "id": "APP-2026-10-04-ROUTINE-AUTONOMY",
+      "status": "approved",
+      "actor": "ShadowWalkerNC",
+      "userMessage": "remove need for approval from me",
+      "context": "Following concrete ForgeSatchel source recovery and request to push verified commit.",
+      "scope": "Standing authorization for routine scoped development edits, tests, local commits and non-force pushes under the master plan; Forge recovery commit 8cbee2a7c3dedec9e1302b560fd8560a3b102167 published.",
+      "doesNotAuthorize": [
+        "destructive_action",
+        "production_change",
+        "secret_change",
+        "access_control_change"
+      ]
     }
   ]
 }

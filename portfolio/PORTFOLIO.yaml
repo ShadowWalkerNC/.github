@@ -2133,7 +2133,7 @@
       "id": "forgesatchel",
       "name": "ForgeSatchel",
       "entityKind": "project",
-      "repository": null,
+      "repository": "ShadowWalkerNC/ForgeSatchel",
       "classification": "platform",
       "lifecycle": "active",
       "stateKind": "portfolio-designation",
@@ -2144,12 +2144,13 @@
       "parentId": null,
       "observed": {
         "localPaths": [
+          "C:\\Users\\white\\Desktop\\ForgeSatchel\\ForgeSatchel",
           "C:\\Users\\white\\Desktop\\ForgeSatchel"
         ],
         "markers": [
           "package.json"
         ],
-        "hasGit": false
+        "hasGit": true
       },
       "baseline": {
         "evidence": "baseline/forgesatchel-source-snapshot.json",
@@ -2159,9 +2160,10 @@
       "migration": null,
       "evidence": [
         "baseline/local-discovery-full.json",
-        "baseline/dependency-migration-inventory.json"
+        "baseline/dependency-migration-inventory.json",
+        "execution/FORGE_SOURCE_RECOVERY.md"
       ],
-      "note": "Existing source must be reused. No remote repository was created."
+      "note": "Maintained Git checkout is Desktop/ForgeSatchel/ForgeSatchel; outer working copy preserved. Published recovery commit 8cbee2a7c3dedec9e1302b560fd8560a3b102167; no final release claimed. Original snapshot baseline remains historical."
     },
     {
       "id": "local-path-desktop-financial-tracker",
@@ -2243,4 +2245,3 @@
   "blueprintVersion": "4.0",
   "stateSemantics": "classification/lifecycle are portfolio designations; observed fields retain provider/filesystem truth. Migration execution is separate."
 }
-

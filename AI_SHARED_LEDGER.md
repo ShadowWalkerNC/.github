@@ -403,3 +403,34 @@ CLAIM Antigravity P05 legacy transport source-only review: execution/ANTIGRAVITY
 - 2026-10-04 Codex staging parity extension complete:29vectors/18matches/11incompatibilities;1/3percentage roundtrip notbitexact,nonfinite tagged inputs/outputs preserved;changed-source baseline rejected. No source/product/DB changes. Tests-only scope evidence updated;auth containment proposal stillpending approval. No active claims/jobs.
 
 - 2026-10-04 APPROVAL GATE:auth containment activation unrecorded after proposal,test extension and current approval recheck. Approved staging parity work complete29vectors;no further necessary tests pending. Goal blocked awaiting P06_AUTH_CONTAINMENT_PROPOSAL.md approval;no active jobs/claims,no application edits.
+
+## 2026-10-04 Forge source recovery — Codex claim
+Owner authorized local changes/coding following repository completeness audit. Codex owns Desktop/ForgeSatchel/ForgeSatchel imported source/docs/tests/tooling/package/CI files, outer STATUS.md and PORTFOLIO_HANDOFF.md, execution/FORGE_SOURCE_RECOVERY.md and this appended ledger entry. Preserve outer application and operational state. Nested clone retains remote initial history/LICENSE. No push/settings/release or CulinaryOS implementation authorized by this task. Antigravity: avoid these paths until release.
+
+
+## 2026-10-04 Forge source recovery — complete, claim released
+Local maintained checkout Desktop/ForgeSatchel/ForgeSatchel; commit 8cbee2a7c3dedec9e1302b560fd8560a3b102167 preserves initial remote history and LICENSE. Clean-checkout install/typecheck/build and 70 compiled tests PASS. Outer working copy/state preserved. No push/settings/release. execution/FORGE_SOURCE_RECOVERY.md contains exact evidence and a read-only Antigravity review assignment (available, not dispatched). Codex paths released. Portfolio P06 and Culinary auth gate unchanged.
+
+
+## 2026-10-04 Standing routine authorization and Forge publication
+Owner: remove need for approval from me. APP-2026-10-04-ROUTINE-AUTONOMY authorizes routine scoped development/tests/commits/non-force pushes; destructive/production/secret/access-control changes remain outside standing scope. Forge recovery commit pushed to origin/main; portfolio and active registry now point to maintained Git checkout. Hosted CI not yet verified. No agent dispatched.
+
+
+## 2026-10-04 Compiled CLI regression — Codex claim
+Codex owns maintained checkout test/cli-entry.test.ts, STATUS.md and PORTFOLIO_HANDOFF.md; central execution/FORGE_SOURCE_RECOVERY.md and ledger append. Goal: CI compiled suite must verify actual command output, not exit code alone. Browser CI inspection timed out without a usable handle; hosted result remains unknown. No overlapping agent assignment or provider mutation.
+
+
+## 2026-10-04 CLI regression complete — claims released
+Codex published 11bfac321ffe67703885f2cdc2b16f4f9a3ee171. Build and 71 compiled tests PASS; source/compiled entry checks PASS; deliberate old-guard regression detected. Browser hosted-CI inspection unavailable; no live success claimed. Antigravity review scope in FORGE_SOURCE_RECOVERY.md now includes this follow-up commit. No agent launched or duplicated tests assigned. Claims released.
+
+
+## 2026-10-04 P06 omitted-surface capture — Codex claim
+Scope: staging scripts/Capture-P06-Omitted-Sources.mjs; missing pinned baseline/p06-prep source files; execution/P06_OMITTED_SOURCE_CAPTURE.json and P06_PREP_SOURCE_INVENTORY.json; ledger append. Read-only source capture/inventory; no CulinaryOS edits or applied DB operations. Goal: close known mobile/middleware/source omissions before feature parity. Other claims remain released.
+
+
+Additional claimed evidence path for omitted-surface capture: execution/P06_ADDITIONAL_SURFACES.md. No target product paths claimed.
+
+
+## 2026-10-04 P06 omitted surfaces captured — claims released
+Captured49 missing pinned source files; inventory now64KitchenKit +112RecipeOS, all Git blob checks PASS. Added P06_ADDITIONAL_SURFACES.md: Android7destinations/Roomv4sevenentities/destructive-upgrade declaration, Expo7screens, OCR auth/provider chain and web middleware. No product edit/DB execution/provider integration/retirement. Governance validation PASS. P06-A inventory remains in progress because feature/platform/applied-data parity is unverified. Codex paths released.
+

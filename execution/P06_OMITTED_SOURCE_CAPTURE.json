@@ -1,0 +1,399 @@
+{
+  "date": "2026-10-04",
+  "scope": "Previously omitted TypeScript/TSX/Kotlin/SQL sources at pinned commits; no runtime or applied-schema acceptance",
+  "captured": [
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "path": "apps/web/tailwind.config.ts",
+      "gitBlob": "38fee987839f6a1c2bb1089222ba6ec7ba9397bb",
+      "blobVerified": true,
+      "sha256": "cd84edba3dacd6c97a8d0bd0f4b100dfb79d7fcfeb11338942e3ba6ea148dc45"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "path": "apps/web/vite.config.ts",
+      "gitBlob": "95d423e2db92982a5fe99e7dcf9faa21a2b9c391",
+      "blobVerified": true,
+      "sha256": "b19e74030c5910a9ecf980e05bcc648c7e97c6cc0e528b02237637fc7308ebcc"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "path": "supabase/seed.sql",
+      "gitBlob": "062c6dcbdca7370423284a884f59b4a134bc74ab",
+      "blobVerified": true,
+      "sha256": "49c1bbec11ac33e7dadd44144980cfb44c431d4686ca3a8d84272201deb66c96"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/data/AppDatabase.kt",
+      "gitBlob": "6af8bcecee3c3445954c34e5cfa8394bf347124e",
+      "blobVerified": true,
+      "sha256": "f26e46b7292d49cfd781207df4ec3e8f5f5f4745c418ec17f00dc5b5bdcffd0a"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/data/AppRepository.kt",
+      "gitBlob": "6803b876ea18043c013b6bdd8908a70d5e01b1f1",
+      "blobVerified": true,
+      "sha256": "b21e469184b30ed9c530d0a0564f80979d6884a1fb88e17d4048584fe7c7715f"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/data/Daos.kt",
+      "gitBlob": "1938c2f1f65565ef5418a16e5bf861225c5f187b",
+      "blobVerified": true,
+      "sha256": "cbfc6bcab6dc95fa61d66371c8bac225434c3180208856882814de1bed22acef"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/data/Entities.kt",
+      "gitBlob": "64fbb611174c92e0661e0e9067df2105b8ebde45",
+      "blobVerified": true,
+      "sha256": "5f6a4c7b9db59f92b4f9588f99cb6d125f79a8b48b453d88be5d92ce92f2f883"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/MainActivity.kt",
+      "gitBlob": "22cbfb9dc0bead8f003d040e5053fd3b97bfa1bd",
+      "blobVerified": true,
+      "sha256": "c005a810fff875b884b2673ea6bd9ce28984471c3d64dfbf57f1033d237407f4"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/AddEditRecipeScreen.kt",
+      "gitBlob": "f7a4384cee9ba9fdf6c14529400863a080568c7e",
+      "blobVerified": true,
+      "sha256": "c95ded3148ba9fa677086d116f1779c8e99c2f23b3fce9d35282f1fed83ca161"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/GroceryScreen.kt",
+      "gitBlob": "6c444b63d3e4ecd6d7770a929c3dfba4a10232e4",
+      "blobVerified": true,
+      "sha256": "4a6d0f10046a1d5d4b25a567481af445ce526e5066b4a0d493777d0d2e42412d"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/GroceryViewModel.kt",
+      "gitBlob": "4296e3f6cfc50c45d36dcb119f8c79b774a148b1",
+      "blobVerified": true,
+      "sha256": "edc2cf84f9ed5f0e74d1ed51b1ff66fa4713714004ffcaaae8e5546c73b3cb05"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/MainNavigation.kt",
+      "gitBlob": "8401f2836d551c206ff0d4d1ee5eb90cd3c62594",
+      "blobVerified": true,
+      "sha256": "a77033dccd750c107eb362f835f79eb987ac0eb813de95e586dac6c0f8aa2a46"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/MainViewModelFactory.kt",
+      "gitBlob": "1cb9752f1d83d7de5dc65c14786a3133670c27e6",
+      "blobVerified": true,
+      "sha256": "5a3defc231ad0a392c1fb8a702cedc56d494600ddb052929be1d977c48617d32"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/PantryScreen.kt",
+      "gitBlob": "0118da860fae373f1059376661b0329fe21f7808",
+      "blobVerified": true,
+      "sha256": "33905f2e605d3133246dbc3549b8f0227c0044f6c7ac93dd59c69a5463a45094"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/PantryViewModel.kt",
+      "gitBlob": "d552905e228f60b62a15d9dd16e76af171df9c9f",
+      "blobVerified": true,
+      "sha256": "790a947f3a81d8f6b914dce11bc3631902c14a284b998d46d3097973f47be33c"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/PrepDetailScreen.kt",
+      "gitBlob": "b486e797460b883dfa936e5c86086d7b3ee8e9fe",
+      "blobVerified": true,
+      "sha256": "9aa764ab5f4c2a80660f23da91015da9ec4e525ea0a5ae3d18d2f69e661c3075"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/PrepListScreen.kt",
+      "gitBlob": "aefe492328f676d51068f5797653e5c8df42a5ca",
+      "blobVerified": true,
+      "sha256": "7fce14ee5d79095d85cfb98d9f0f5d378ee11a6c7b3d0b4ff956375cdaef9a96"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/PrepViewModel.kt",
+      "gitBlob": "b9b451caec271798782f89a23f2f1b6811481a30",
+      "blobVerified": true,
+      "sha256": "92a4afc08f28bc30cd6dcc766f91ec0633770657dfdf9161d52e6e20241a097a"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/RecipeDetailScreen.kt",
+      "gitBlob": "5a8c6cfe5c2f0466a281cba159bd7935c83df692",
+      "blobVerified": true,
+      "sha256": "7473dcec0920dd5a00f1bac35609a5744968492826936b7d58fbe0b6df064826"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/RecipeListScreen.kt",
+      "gitBlob": "bdd73c6f9605a26eda4f5654dd3471ffd6ee731f",
+      "blobVerified": true,
+      "sha256": "a9c81e44284fc219c3c67d41afa3e432951ea6d5a2cfa92ef791c508dee5bf7c"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/RecipeViewModel.kt",
+      "gitBlob": "f936a8741ee263b927b698ec960e947460ea645f",
+      "blobVerified": true,
+      "sha256": "7dc462958c045afbee62eb9aea21aa13cbb21c45c0cc0b881010393251a8c7cb"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/theme/Color.kt",
+      "gitBlob": "24b2c5318f27e658598db10efa244ce96c4db0a2",
+      "blobVerified": true,
+      "sha256": "076854451f4a73c6ab382fa560c3a6e170bea3e9ea346728641e73cea6032964"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/theme/Theme.kt",
+      "gitBlob": "c40b035215373a4b0f923f8f18d64a7b821ec9e1",
+      "blobVerified": true,
+      "sha256": "8060ab0085e5ec3bd6695bbd726a6f80f10df3eb0fbe095af47e143c024a2a76"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "app/src/main/java/com/example/ui/theme/Type.kt",
+      "gitBlob": "9b36c5658d2d627cd6c8f4e4975d6c12114498ca",
+      "blobVerified": true,
+      "sha256": "20f71cb381d2bdb62b0b4b572793729529ab4810c134def72a3731331d2d8b3c"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/_layout.tsx",
+      "gitBlob": "5b4244b070abd25f9fc7f963b29d4e18d02f673d",
+      "blobVerified": true,
+      "sha256": "981418145bd9a577d2d1b827cd382724e5e95f6aec7f613b18ffdbe3d546f651"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(auth)/_layout.tsx",
+      "gitBlob": "b401ec2cacad26dea4cb76a932f89ec3b534da76",
+      "blobVerified": true,
+      "sha256": "c5d70428c1a3d8c641eed638b4b556c6b49a477e4424ea52d4c61b0ab78c5bf8"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(auth)/login.tsx",
+      "gitBlob": "48ff799d8c08d7d66d18255bca3c827a00404793",
+      "blobVerified": true,
+      "sha256": "2033f70bf9a486adb3e58bc32db06b6834485acd6e5d21633b78d7cad237feef"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(tabs)/_layout.tsx",
+      "gitBlob": "56f301636da756186f7364e8616160aa1e2a4174",
+      "blobVerified": true,
+      "sha256": "6a7b35638beffb1104c564f9472b40d16f4a094374a72d8828ec40f01d6328ec"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(tabs)/index.tsx",
+      "gitBlob": "5dfdcf03e98fdf28bfa5b238e439b4114f1c33af",
+      "blobVerified": true,
+      "sha256": "97e90e02ff9c0fc72e8e3a944e0812665a8d01d3a4ebf389991b573e226ffc63"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(tabs)/pantry.tsx",
+      "gitBlob": "44bbb29e60acc6e37a08a2b194524c577ed85608",
+      "blobVerified": true,
+      "sha256": "90e6e4d50dba9fe12311a27cb9c4bdd39f6012683e7b5f8da68db64bb8729b27"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(tabs)/prep.tsx",
+      "gitBlob": "9ae9709dc3f33594fbcd627554e507067852aa6e",
+      "blobVerified": true,
+      "sha256": "61b1c4d6513e649ed40f4b51d396eeadef6ae27d1e43809e0482ac0019dd77df"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(tabs)/scale.tsx",
+      "gitBlob": "4d61ba9d9dbf78a1ccaf5fa46e35959fe424c22e",
+      "blobVerified": true,
+      "sha256": "3ff042fb0d0623e3f163e98fb4845141b751b548671e9921daef30653c2c3fae"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/(tabs)/scan.tsx",
+      "gitBlob": "861ceae935439bbe3fe5a3d8ec70bfeadd9f7e31",
+      "blobVerified": true,
+      "sha256": "99c2e7afa66224ee634c3bd1635c4f2b370446a6929d48f194d3240af6f82f92"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/app/recipe/[id].tsx",
+      "gitBlob": "819be68cb3054d6238ddfec9dc5bad0ad5826a2f",
+      "blobVerified": true,
+      "sha256": "ecb79d9792533bdadfb62c1db5299b414699bc64033b0a5affd9e8c5811cd9c5"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/components/PantryRow.tsx",
+      "gitBlob": "1dfe0bb07b0ccf761bb910a4ecbf93ba8746e3b9",
+      "blobVerified": true,
+      "sha256": "ae4f997c43b6482cac64976459d85e070cb7318fb7df5b890821a30c34ef4016"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/components/PrepTaskRow.tsx",
+      "gitBlob": "cc17014e3645716056b50ae7e2c5c7e9d26f6e41",
+      "blobVerified": true,
+      "sha256": "e94ffb532db9a1e4d14ad84752b1f80bab772dc4212345d57c58db91f070691a"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/components/RecipeCard.tsx",
+      "gitBlob": "d1b672010a381c46ada8a67d5efdaeb5e4737570",
+      "blobVerified": true,
+      "sha256": "34aa08933cb2909356bd8eba9bec75dee7d164bfbe599e362754dccc0a7983f1"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/components/ScreenShell.tsx",
+      "gitBlob": "fe022ced3bc1d55ff08c40818059ee39eb439aae",
+      "blobVerified": true,
+      "sha256": "51968ff918f246d848188e6c1cc3d94bdbcf043baa0a2da24afad0f6f21f3ad0"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/lib/queries.ts",
+      "gitBlob": "823baed5c805bde95b98f25018d9b36f54df56ee",
+      "blobVerified": true,
+      "sha256": "110c5d4de0b8df55dbdc06a1917c277539c7d43c6be6b24bcb58194c46148609"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/lib/ratio-engine.ts",
+      "gitBlob": "67630d888a31232920d74a8cb7dea93b379b01d6",
+      "blobVerified": true,
+      "sha256": "dee492b786b54d85ca3a256687e5257166b8ab90ca2f96c2436e620d8b968686"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/lib/store.ts",
+      "gitBlob": "33aa68854562938d99ca5b66c47ac1cd7e982696",
+      "blobVerified": true,
+      "sha256": "79d519084f259f3edffd21a8cba82928ffd7e1205090f2983a3d5c08dd81d9ce"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/lib/supabase.ts",
+      "gitBlob": "53395ab322769d475185f79157c5a3bf0d59f9f0",
+      "blobVerified": true,
+      "sha256": "ab3c79767d0a2d7379181b6f9a11889e4ed3c492683914c29cc13b6e721b99e8"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "mobile/lib/types.ts",
+      "gitBlob": "aeba40efcea74be72d29b1066cdb3df107c3e270",
+      "blobVerified": true,
+      "sha256": "b386d52c5495089daa48f20fed1b0ae2969ee9bb4025d6daf2352eb398c43c5d"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "supabase/functions/ocr-recipe/index.ts",
+      "gitBlob": "496d0782b8588647cd2648c65b1f14241b0cce79",
+      "blobVerified": true,
+      "sha256": "57adf92d5825eaf7ea11141770e9df3535a756dbc4af6daf57bc4c336d93530f"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "supabase/seed-demo.sql",
+      "gitBlob": "1e7cb39ba76a80cae445e66873e912111238f2aa",
+      "blobVerified": true,
+      "sha256": "b39f70e9e6f26a8be56b154d648da82b7f1ce8ad5ebf36feb0bd382e33d4a772"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "supabase/seed.sql",
+      "gitBlob": "0d79914cd7d1e86dafa01c82914168dbea883d33",
+      "blobVerified": true,
+      "sha256": "cd4c403ea14e60eeb33f85dbaf8cacfe13a9b1583a65c98470cde6c04ba172ff"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "web/middleware.ts",
+      "gitBlob": "18e33debbd683328240d823f01fa3d2aec6ef65f",
+      "blobVerified": true,
+      "sha256": "baacd4148656a4c7d3d55b4ac7b83b0b6248b8f8f71a79a7fd1667c293c40d84"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "web/next.config.ts",
+      "gitBlob": "94647ade0f7785f1cd62f280ae77d755ce473590",
+      "blobVerified": true,
+      "sha256": "26c2ebe375f14bd185f520f39a965cbd6803ae333df72406d59665eda3f15faa"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "path": "web/tailwind.config.ts",
+      "gitBlob": "cbcf2de83799647cec507349bd3ba037408b245a",
+      "blobVerified": true,
+      "sha256": "66a04a4b67b7a8daa9b8a7456571473d98f18cde6936afc2e34a215cb7fbb524"
+    }
+  ],
+  "failures": []
+}

@@ -1,5 +1,5 @@
 # P06-A source/data/auth boundary map
-Pinned sources and file/line/blob evidence:execution/P06_PREP_SOURCE_INVENTORY.json. Captured60KitchenKit and62RecipeOSfiles;all captured Git blob hashes verified. This is source evidence only, not applied schema/runtime certification. Omitted paths are explicitly listed.
+Pinned sources and file/line/blob evidence:execution/P06_PREP_SOURCE_INVENTORY.json. Captured64KitchenKit and112RecipeOSfiles;all captured Git blob hashes verified. This is source evidence only, not applied schema/runtime certification. Omitted paths are explicitly listed.
 
 | Source feature/data | Proposed authoritative target | Required migration decision/acceptance |
 | --- | --- | --- |
@@ -16,3 +16,7 @@ RecipeOS contains V1__core_schema.sql and V1__initial_schema.sql plus two V2 var
 Product decision before data cutover:how personal/home-cook and public-library records map to restaurant tenants. This does not block pure engine source parity planning. No default mapping is assumed.
 
 Remaining full source checklist:source tests/native/mobile completeness, license grant, releases/issues/PRs refresh, real deployments/domains/DB applied versions, source auth/API negative behavior and actual target feature parity. Tree/source declarations alone cannot close these gates. No P06 feature migration is started.
+
+
+Additional Android/Expo/Room/OCR obligations are recorded in execution/P06_ADDITIONAL_SURFACES.md; these were outside the earlier selected web capture and are not covered by the calculation/UI parity evidence.
+

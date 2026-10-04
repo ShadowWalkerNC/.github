@@ -246,6 +246,12 @@
       "status": "complete",
       "action": "Approved staging-only evidence29vectors:18matches/11incompatible;bit-exact conversion counterexample;no migration parity claim",
       "evidence": "execution/P06_PREP_PARITY_RESULTS.json"
+    },
+    {
+      "id": "P06-A-OMITTED-SURFACES",
+      "status": "complete",
+      "action": "Captured49 previously omitted pinned TS/TSX/Kotlin/SQL sources;176 captured files blob-verified;mobile/native/OCR acceptance obligations recorded,not runtime parity",
+      "evidence": "execution/P06_ADDITIONAL_SURFACES.md"
     }
   ]
 }

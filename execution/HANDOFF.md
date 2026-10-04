@@ -1,3 +1,7 @@
+# Latest checkpoint — 2026-10-04 P06 omitted source capture
+DONE: 49 additional pinned source files captured; 176 total hashes verified. Read execution/P06_ADDITIONAL_SURFACES.md before claiming RecipeOS absorption. Android Room/local data, seven native destinations, seven Expo screens, camera/OCR and middleware were omitted from earlier web-only evidence.
+VERIFIED: source Git blob integrity and governance validation. Platform/runtime/applied-schema/feature parity NOT RUN. No product or DB edits. Existing auth containment remains separately gated; routine authorization does not grant access-control changes. Antigravity Forge recovery review remains available, not running. Claims released.
+NEXT: complete feature/data mappings for these source surfaces; do not retire source or equate KitchenKit web parity to RecipeOS mobile/native parity.
 # Current approval gate
 BLOCKED:activate P06_AUTH_CONTAINMENT_PROPOSAL.md before three-file application auth fix. APP-P06-PARITY authorizes only completed staging tests/evidence. No active jobs/claims. Resume with explicit owner approval,source snapshot/ownership recheck,then focused edit/tests/typecheck/build/browser verification. DB/production/push remain excluded.
 
@@ -110,6 +114,7 @@ Goal status BLOCKED at APP-P04-FOUNDATION pending after repeated impasse checks.
 Read-only P05 preflight ready: P05_READONLY_PREFLIGHT.md and manifest/change inventory. Existing substantial monorepo/paymentreplay work must be preserved. No product mutation, phaseadvance or historicaltest acceptance claimed. P04 liveacceptance blockers unchanged.
 
 Latest goal BLOCKED at APP-P04-CHECKPOINT. Resume with explicit owner checkpoint decision; existing boundedP05 preflight/contractmap ready. P04 remaining liveacceptance items must staytracked. No activeprocesses.
+
 
 
 
