@@ -1,0 +1,24 @@
+{
+  "id": "TEST-1",
+  "projectId": "forgesatchel",
+  "title": "Smoke task",
+  "status": "pending",
+  "handoff": "",
+  "updatedAt": "2026-10-03T21:29:58.758Z"
+}
+{
+  "id": "TEST-1",
+  "projectId": "forgesatchel",
+  "title": "Smoke task",
+  "status": "complete",
+  "handoff": "Tests pass; next independent review",
+  "updatedAt": "2026-10-03T21:29:59.856Z"
+}
+{
+  "id": "TEST-1",
+  "projectId": "forgesatchel",
+  "title": "Smoke task",
+  "status": "complete",
+  "handoff": "Tests pass; next independent review",
+  "updatedAt": "2026-10-03T21:29:59.856Z"
+}

@@ -1,0 +1,31 @@
+### Units Mismatch & Behavioral Delta
+* **Scale:** Original returns a unitless decimal fraction ($1.0 = 100\%$). Target returns a percentage ($100 = 100\%$, scaled $\times 100$).
+* **Domain Validation:** Target rejects `baseWeight <= 0` and `ingredientWeight < 0`. Original only rejected `baseWeight === 0`.
+
+### Compatibility Boundary
+Preserve existing target callers by introducing an explicit legacy adapter wrapper for KitchenKit call sites:
+```typescript
+export const calculateRatioLegacy = (ingredientWeight: number, baseWeight: number): number => {
+    return calculateRatio(ingredientWeight, baseWeight) / 100;
+};
+```
+*(Note: If legacy callers require negative weight calculations, the adapter must compute directly rather than delegating to Target).*
+
+---
+
+### 4 Deterministic Acceptance Vectors
+
+1. **Standard Ratio:** `(50, 200)`
+   * Target: `25` | Adapter: `0.25` (matches Original `0.25`).
+2. **Zero Numerator:** `(0, 100)`
+   * Target: `0` | Adapter: `0` (matches Original `0`).
+3. **Identity Scaling:** `(100, 100)`
+   * Target: `100` | Adapter: `1.0` (matches Original `1.0`).
+4. **Zero Denominator Error:** `(20, 0)`
+   * Both reject execution (Target throws `'baseWeight must be > 0'`; Original throws `'Base weight cannot be zero'`).
+
+---
+
+### Inference vs. Actual Execution
+* **Inference:** Derived strictly via static source inspection under the assumption that KitchenKit consumers expect $[0, 1]$ decimal floats and positive domain inputs.
+* **Execution:** Static review only; zero runtime tests, assertions, or tool executions were performed.

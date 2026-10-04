@@ -1,0 +1,49 @@
+{
+  "approval": "Required before retirement/archive/delete",
+  "state": "Portfolio dispositions only; actual provider archive state remains in PORTFOLIO.yaml",
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "benjamins",
+      "name": "Benjamins",
+      "repository": "ShadowWalkerNC/Benjamins",
+      "classification": "archive",
+      "lifecycle": "deprecated"
+    },
+    {
+      "id": "joes-tacos",
+      "name": "Joe's Tacos",
+      "repository": "ShadowWalkerNC/Joes-Tacos",
+      "classification": "archive",
+      "lifecycle": "deprecated"
+    },
+    {
+      "id": "prayer-atlas-source",
+      "name": "Prayer Atlas source",
+      "repository": "ShadowWalkerNC/prayer-atlas",
+      "classification": "absorbed",
+      "lifecycle": "deprecated"
+    },
+    {
+      "id": "recipeos-source",
+      "name": "RecipeOS source",
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "classification": "absorbed",
+      "lifecycle": "archived"
+    },
+    {
+      "id": "restrevive-source",
+      "name": "RestRevive-AI source",
+      "repository": "ShadowWalkerNC/RestRevive-AI",
+      "classification": "absorbed",
+      "lifecycle": "archived"
+    },
+    {
+      "id": "unity-mc",
+      "name": "Unity-MC",
+      "repository": "ShadowWalkerNC/Unity-MC",
+      "classification": "archive",
+      "lifecycle": "paused"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "P03",
+  "name": "ForgeSatchel foundation",
+  "status": "complete",
+  "depends_on": [
+    "P02"
+  ],
+  "repositories": [
+    "ForgeSatchel"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "create",
+    "edit",
+    "test",
+    "build",
+    "typecheck",
+    "validate",
+    "document"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Discover/classify repos",
+    "Read manifests/status",
+    "Search docs and relationships"
+  ],
+  "permission_note": "Bounded existing ForgeSatchel foundation work only; new repo/fork, SDK adoption and production/destructive actions remain gated."
+}

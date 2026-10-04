@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "currentPhase": "P06",
+  "phaseAdvance": "requires recorded exit evidence",
+  "tasks": [
+    {
+      "id": "P00-01",
+      "status": "complete",
+      "action": "Inventory connector-visible owned repositories",
+      "evidence": [
+        "github-metadata-v2.json"
+      ],
+      "scope": "34 repositories; second owner page empty"
+    },
+    {
+      "id": "P00-02",
+      "status": "complete",
+      "action": "Complete local discovery",
+      "scope": "Confirmed Desktop/Documents scope; no depth limit; 23 Git roots, 14 candidate locations; generated/cache/reparse exclusions and five reviewed scan errors recorded."
+    },
+    {
+      "id": "P00-03",
+      "status": "complete",
+      "action": "Capture tags, releases, issues, PRs, CI, license and dependency boundaries",
+      "scope": "Inventory captured with explicit unknowns: 313 local manifests, pinned root owned-repo manifests, tags, releases/issues/PRs and CI filenames. Full runtime graph/parity belongs to migration inventory."
+    },
+    {
+      "id": "P00-04",
+      "status": "complete",
+      "action": "Reconcile hosting, domains, environment names and database identities",
+      "scope": "Hosting baseline recorded. Database applied versions and Vercel custom domains/linkage explicitly unknown; get_project wrapper validation failure recorded."
+    },
+    {
+      "id": "P00-05",
+      "status": "complete",
+      "action": "ForgeSatchel selective source snapshot verified; APP-2026-10-03-P00-SNAPSHOT accepted baseline exception. Preserve dirty product work before structural mutation."
+    },
+    {
+      "id": "P00-06",
+      "status": "complete",
+      "action": "P00 exit audit completed with recorded baseline exception."
+    },
+    {
+      "id": "P01",
+      "name": "Classification",
+      "status": "complete",
+      "dependsOn": "P00"
+    },
+    {
+      "id": "P02",
+      "name": "Governance",
+      "status": "complete",
+      "dependsOn": "P01"
+    },
+    {
+      "id": "P03",
+      "name": "ForgeSatchel foundation",
+      "status": "complete",
+      "dependsOn": "P02"
+    },
+    {
+      "id": "P04",
+      "name": "MuseLab",
+      "status": "complete",
+      "dependsOn": "P03"
+    },
+    {
+      "id": "P05",
+      "name": "CulinaryOS foundation",
+      "status": "complete",
+      "dependsOn": "P04"
+    },
+    {
+      "id": "P06",
+      "name": "CulinaryOS migrations",
+      "status": "pending",
+      "dependsOn": "P05"
+    },
+    {
+      "id": "P07",
+      "name": "Portfolio cleanup",
+      "status": "pending",
+      "dependsOn": "P06"
+    },
+    {
+      "id": "P08",
+      "name": "Provider layer",
+      "status": "pending",
+      "dependsOn": "P07"
+    },
+    {
+      "id": "P09",
+      "name": "Agent layer",
+      "status": "pending",
+      "dependsOn": "P08"
+    },
+    {
+      "id": "P10",
+      "name": "Automation",
+      "status": "pending",
+      "dependsOn": "P09"
+    },
+    {
+      "id": "P11",
+      "name": "Hardware simulation",
+      "status": "pending",
+      "dependsOn": "P10"
+    },
+    {
+      "id": "P12",
+      "name": "XR experiments",
+      "status": "pending",
+      "dependsOn": "P11"
+    },
+    {
+      "id": "P13",
+      "name": "Organizations",
+      "status": "pending",
+      "dependsOn": "P12"
+    },
+    {
+      "id": "P03-RPC-CONTAINMENT",
+      "status": "complete",
+      "action": "Reviewed HTTP read-only permission boundary, denial tests and request metadata audit",
+      "approval": "permission_change",
+      "evidence": "execution/P03_AUTHORIZATION_PLAN.md"
+    },
+    {
+      "id": "P03-REQUEST-VALIDATION",
+      "status": "complete",
+      "action": "Validate malformed HTTP envelopes and string params while preserving valid dispatch"
+    },
+    {
+      "id": "P03-EXTENSION-TRUST",
+      "status": "complete",
+      "action": "Document actual in-process extension trust and future gated control plan"
+    },
+    {
+      "id": "P03-ACCEPTANCE",
+      "status": "complete",
+      "action": "Accept full foundation against P03_FOUNDATION_ACCEPTANCE_AUDIT.md; do not advance from original feature flags alone"
+    },
+    {
+      "evidence": "C:/Users/white/Documents/GitHub/MuseAiBots/experiments/MUSE-001/selftest.json",
+      "status": "complete",
+      "action": "Baseline/reference strict checks and protected added/modified/deleted-file denial before execution",
+      "id": "P04-MUSE001-HARNESS"
+    },
+    {
+      "blocker": "Provider API429 subscription quota; reset reported2026-10-05T00Z",
+      "status": "blocked",
+      "action": "Fresh Muse coding trials and measured decision",
+      "id": "P04-MUSE001-TRIALS",
+      "evidence": "C:/Users/white/Documents/GitHub/MuseAiBots/experiments/MUSE-001/benchmarks.json"
+    },
+    {
+      "evidence": "execution/ANTIGRAVITY_P04_SOURCE_REVIEW.txt",
+      "status": "complete",
+      "action": "Antigravity source-only review without product-edit permission",
+      "id": "P04-ACCEPTANCE-REVIEW"
+    },
+    {
+      "id": "P04-VERIFIER-FOLLOWUP",
+      "status": "complete",
+      "action": "AST-safe event checks and reviewed numeric-domain contract (isolation separately pending)"
+    },
+    {
+      "id": "P04-GENERATED-CODE-ISOLATION",
+      "status": "pending",
+      "action": "Establish safe generated-code execution boundary; resource guards alone insufficient"
+    },
+    {
+      "evidence": "execution/P04_RENAME_VERIFICATION.json",
+      "id": "P04-RENAME",
+      "status": "complete",
+      "action": "Approved same-repository rename and canonical metadata/origin update"
+    },
+    {
+      "evidence": "C:/Users/white/Documents/GitHub/MuseAiBots/experiments/MUSE-001/harness-safety.test.mjs",
+      "id": "P04-RUNTIME-WITHHOLD",
+      "action": "Public generated-code verifier returns NOT RUN without runtime execution",
+      "status": "complete"
+    },
+    {
+      "id": "P04-LOCAL-FOUNDATION",
+      "status": "complete",
+      "evidence": "execution/P04_FOUNDATION_VERIFICATION.json",
+      "action": "Approved local lifecycle/catalog/simulated contracts/XR checklist"
+    },
+    {
+      "id": "P05-FOUNDATION-METADATA",
+      "status": "complete",
+      "action": "Source-backed ownership/events/contract map and native validation",
+      "evidence": "execution/P05_FOUNDATION_VERIFICATION.json"
+    },
+    {
+      "id": "P05-BOUNDARY-REVIEW",
+      "status": "pending",
+      "action": "Independent import/event contract gap review",
+      "evidence": "execution/ANTIGRAVITY_P05_ASSIGNMENT.md"
+    },
+    {
+      "id": "P05-SOURCE-REVIEW",
+      "status": "complete",
+      "action": "Antigravity independent source review and fixes",
+      "evidence": "execution/P05_REVIEW_RESOLUTION.md"
+    },
+    {
+      "id": "P05-PACKAGE-APP-GUARD",
+      "status": "complete",
+      "action": "AST check of packages/src imports into apps",
+      "evidence": "execution/P05_DEPENDENCY_VERIFICATION.json"
+    },
+    {
+      "id": "P05-VERSIONED-EVENT-CONTRACTS",
+      "status": "complete",
+      "action": "Foundation contracts and explicit pending-spec disposition complete; no live broker adoption",
+      "evidence": "execution/P05_FOUNDATION_VERIFICATION.json"
+    },
+    {
+      "id": "FORGE-V2-BASELINE",
+      "status": "complete",
+      "action": "Adopt desktop-first75-section product target and reconcile existing evidence",
+      "evidence": "execution/FORGE_V2_RECONCILIATION.json"
+    },
+    {
+      "id": "FORGE-V2-IMPLEMENTATION",
+      "status": "pending",
+      "action": "Desktop V1 contracts/workspace/Suites/Guard/Care/UI and measured end-to-end acceptance; phase activation required",
+      "evidence": "execution/FORGE_V2_IMPLEMENTATION_DELTA.md"
+    },
+    {
+      "id": "P05-TARGET-LAYOUT",
+      "status": "complete",
+      "action": "Prepare33 content-bearing target boundary descriptors without moving implementations",
+      "evidence": "execution/P05_FOUNDATION_VERIFICATION.json"
+    },
+    {
+      "id": "P06-A-INVENTORY",
+      "status": "in_progress",
+      "action": "Read-only KitchenKit/RecipeOS source inventory, first Prep boundary and rollback plan; no source edits",
+      "evidence": "execution/P06_PREP_INITIAL_INVENTORY.json"
+    },
+    {
+      "id": "P06-A-CALCULATION-PARITY",
+      "status": "complete",
+      "action": "Approved staging-only evidence29vectors:18matches/11incompatible;bit-exact conversion counterexample;no migration parity claim",
+      "evidence": "execution/P06_PREP_PARITY_RESULTS.json"
+    }
+  ]
+}

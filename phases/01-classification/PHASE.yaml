@@ -1,0 +1,32 @@
+{
+  "id": "P01",
+  "name": "Classification",
+  "status": "complete",
+  "depends_on": [
+    "P00"
+  ],
+  "repositories": [],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "document"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Every repo classified with lifecycle",
+    "Active priorities exact",
+    "References and migration sources separated"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}

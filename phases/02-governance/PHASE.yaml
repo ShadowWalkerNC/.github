@@ -1,0 +1,38 @@
+{
+  "id": "P02",
+  "name": "Governance",
+  "status": "complete",
+  "depends_on": [
+    "P01"
+  ],
+  "repositories": [
+    "ShadowWalkerNC/.github"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "create_governance_files",
+    "edit_governance_files",
+    "create_project_manifests",
+    "validate",
+    "document"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Active manifests installed",
+    "Canonical docs present or accepted exception",
+    "Schemas and governance links validate"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}

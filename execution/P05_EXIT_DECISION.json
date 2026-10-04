@@ -1,0 +1,43 @@
+{
+  "phase": "P05",
+  "date": "2026-10-04",
+  "decision": "foundation-preparation-complete",
+  "requirements": [
+    {
+      "requirement": "Target structure apps/modules/domain/packages/services/integrations/api/cli/mcp/tooling/docs",
+      "evidence": "33 descriptors plus contained source reference validation PASS",
+      "scope": "metadata layout; no feature consolidation"
+    },
+    {
+      "evidence": "16 canonical domains source-backed validator PASS",
+      "requirement": "Data ownership"
+    },
+    {
+      "evidence": "21 wires inventoried;11 tested V1 payloads;1 tested legacy transport;9 declared-only specifications explicitly pending",
+      "requirement": "Event catalog and contracts"
+    },
+    {
+      "requirement": "Dependency direction and shared boundaries",
+      "limitation": "full runtime layering NOT RUN",
+      "evidence": "canonical direction and package-boundary docs; bounded147file/341import guard PASS"
+    },
+    {
+      "requirement": "Test strategy",
+      "limitation": "existing root runner integration gap documented",
+      "evidence": "docs/testing/strategy.md and dedicated runner41tests PASS"
+    },
+    {
+      "requirement": "Prepare without breaking existing CulinaryOS",
+      "limitation": "no runtime source moved or consumers adopted; full app builds/live behavior NOT RUN",
+      "evidence": "existing producer/routes hashes preserved; isolated shared build/types barrel import PASS; POS/KDS/Admin/Server/MCP/SDK/EventBus typechecks PASS"
+    }
+  ],
+  "deferred": [
+    "Nine declaration-only payload specifications",
+    "Live broker contract adoption",
+    "MCP API/auth convergence and direct DB removal",
+    "Foundation suite root pipeline integration",
+    "Full runtime layering and live/deployed parity"
+  ],
+  "next": "P06 planning/inspection only. Source/product edits require bounded execution contract; no migration activated."
+}

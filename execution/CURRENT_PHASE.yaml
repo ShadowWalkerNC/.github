@@ -1,0 +1,32 @@
+{
+  "id": "P06",
+  "name": "CulinaryOS migration planning",
+  "status": "in_progress",
+  "owner": "ShadowWalkerNC",
+  "blueprintVersion": "4.0",
+  "dependsOn": [
+    "P05"
+  ],
+  "allowedActions": [
+    "read",
+    "inspect",
+    "plan",
+    "create",
+    "edit",
+    "test",
+    "execute"
+  ],
+  "approvalRequiredBefore": [
+    "repository_rename",
+    "permission_change",
+    "push",
+    "sdk_adoption",
+    "production_deploy",
+    "secret_change",
+    "archive",
+    "destructive_migration"
+  ],
+  "executionScope": "APP-P06-PARITY approved by owner proceed:staging-only calculation parity harness/fixtures/evidence. No product implementation edits,source moves,DB/provider/permission/secret/install/deploy/push/retirement. Other P06 migration remains planning only.",
+  "previousPhaseEvidence": "execution/P05_EXIT_DECISION.json",
+  "sharedLedger": "AI_SHARED_LEDGER.md"
+}

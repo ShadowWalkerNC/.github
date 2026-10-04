@@ -1,0 +1,19 @@
+{
+  "number": 1,
+  "state": "open",
+  "title": "Fix pnpm version mismatch (ERR_PNPM_BAD_PM_VERSION)",
+  "draft": false,
+  "baseSha": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+  "headSha": "17e7eb5755aeda9bf9f8783eb3c33114188f44a4",
+  "changedFiles": 1,
+  "capturedFiles": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2
+    }
+  ],
+  "pagination": "First100; compare with changedFiles",
+  "review": "No merge/review/mutation performed"
+}

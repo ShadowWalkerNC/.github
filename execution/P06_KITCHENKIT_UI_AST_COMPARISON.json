@@ -1,0 +1,209 @@
+{
+  "scope": "33 captured KitchenKit UI TS/TSX files only",
+  "namespaceNormalization": "@kitchenkit/ -> @culinaryos/ only;comments/format ignored",
+  "rows": [
+    {
+      "path": "App.tsx",
+      "sourceHash": "a63265a38c7ff8aa54b31c365a8c721b8aad1173579b29fb391d1a3dc569ba2e",
+      "targetHash": "af6861e25dc1eab44183ac13714ac14308c2b07841255150f1a179a102cf77b7",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "main.tsx",
+      "sourceHash": "0c5a9f94078603b9f85f2a1af190b1bdf4d81f809d5ecea874372b166834f7cf",
+      "targetHash": "e5bb099e43cd598524c079c6c65f8d29db59de6a3a94ebbe326dd876cbc28e8d",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "vite-env.d.ts",
+      "sourceHash": "33602db4c7e7c78ab3e675b7dabd43044b159203271500e975ee9a7197a14863",
+      "targetHash": "0e8d80eb1bffe708fcc31644677f33ed84660fea9400e8ce2cea9b451f8229ea",
+      "status": "same-normalized-AST"
+    },
+    {
+      "path": "components/auth/RequireAuth.tsx",
+      "sourceHash": "134b99ab905336dcbce6b4a005d776d28eda120a3ef12ebe9e150643e8d0b9d0",
+      "targetHash": "b499bd5bc03b3a4dc71493bbbf4f56e227e77986b95808e182f439c21c820940",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/layout/Layout.tsx",
+      "sourceHash": "a1faeb71ff4e13b10a978cbde053595a62dbbd2110bba87f3b19be804307c8ae",
+      "targetHash": "7acc46bf74020ce8e61dfbbe2661b3aa3c3e82b8ec9448ec34afa0aa1c9ed806",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/layout/Sidebar.tsx",
+      "sourceHash": "888006a77c7d369fc5d1bef786ba298624709ee50b195c3056f62be10396b708",
+      "targetHash": "ef1fc8b655286a22e948d28c0ac88a5bec5052e131e99c050a1976e6be36224b",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/layout/Topbar.tsx",
+      "sourceHash": "bfd7226e46aac4af9cbb583851e1ac21be20f8a5716f50da94383ce6b4511afd",
+      "targetHash": "7de372a66be7db156e5f51f976272aaf053674a3febfbffb4396f6e5f210acc5",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/prep/ParLevelModal.tsx",
+      "sourceHash": "890827d744ecbe877f1132109d850fa290ea9d709f98485e3173bded0637db7f",
+      "targetHash": "76a4e3919dac6d916145dc67357b9da69bc551bf995c330abbf8f6b5fd58b1a0",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/prep/StationExportModal.tsx",
+      "sourceHash": "7c20a7e2a2f742379fd0f352ab59bf0baa388bf1f78f965ff4938ab62a3bea6c",
+      "targetHash": "d35525f29f8e7f3675362f00e1712efc843f3249b2f26141c2c97159e1a11276",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/prep/StationPrepSheet.tsx",
+      "sourceHash": "9a281eb20180eb41d627de7269832efa96a88b01a6680348f1056d018ec97311",
+      "targetHash": "66bde0811fc89d70b3f29a10de013de43faabf8f37a5edd235fb4ea602c7523b",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/recipes/CreateRecipeModal.tsx",
+      "sourceHash": "ef253c400fe6103644bf974cadf913bcff6c79ec750d8f1286bee2b78ef0a93d",
+      "targetHash": "a3cbdc3bfccbb04a10eea83add83a649841857f0ff113ea2b882fb9de461d2bd",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/recipes/EditRecipeModal.tsx",
+      "sourceHash": "59dc8ac0da5c85c0cc3b60be5cf8bf12ec037ff064386854dc7ebe10de67b481",
+      "targetHash": "0a395d79cd6a1ddab78bb1c7e671638d28dc85e08d649fc101950f0af14ef8af",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/ui/ErrorBoundary.tsx",
+      "sourceHash": "312340e23aaa45d64185b146d7f4f9044ef8165e4c660aeffbef4fc186c79fab",
+      "targetHash": "7271ba363a3d40cf51074528f48214c06c353dcb16347fbf663bbffb80190f81",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "components/ui/FullScreenSpinner.tsx",
+      "sourceHash": "e073555e3e7121d7d0e11646e3f0209ead336885702744cd4a3eaad11f9e47e6",
+      "targetHash": "1b8d01d56a720fba13a8afca546c79837e3f48e6070ef3ce921cdff807ff2727",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "context/AuthContext.tsx",
+      "sourceHash": "a3ca5cca77d037900f181586a4f39b3b9eb22b334a9b043a2d0cef3e8e3f9a13",
+      "targetHash": "1ecc7a7d81de9b3ad9e8f31d1719addbe27a6dc706b80d01c32f52bf966ce3c5",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "hooks/useDashboardStats.ts",
+      "sourceHash": "a1e5e78cdb98bb1ed5d0f312a094753d16449156a585514e903fc81026a38df7",
+      "targetHash": "90994f6afae1fb39f311751400cb75ca9ca610c2c7989c31275978a0f4aef793",
+      "status": "same-normalized-AST"
+    },
+    {
+      "path": "hooks/useParLevels.ts",
+      "sourceHash": "285c5ebd5876a8a519d7e5c0a463e31ef1745d81e1650b0e7c346fab24227c5e",
+      "targetHash": "5b364eb31567775446fd7ce5d141cddf750c3453995142fd605b331b3935a5a6",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "hooks/usePrepHistory.ts",
+      "sourceHash": "b03e8e3658b0a4c1a30d7dcf4da50b4698c8005d5fa6356aace39b235d7a6126",
+      "targetHash": "1276ce6813aaee2c9441067cc173f7ed1daef2d121a3b738ea5454b5f5ac34ed",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "hooks/usePrepPlans.ts",
+      "sourceHash": "7aaac835bc047cd112b8681d2ec5884b934810c9b5335512c3657b8290f7cd8b",
+      "targetHash": "b050c6c827843d9aff50e90b1d5e0570aa9a37e74fcd40f64347222cc4562d72",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "hooks/useRecipes.ts",
+      "sourceHash": "1f13f46683310ce1d948cb890a23e42e06813047d649d825574beb98e772da56",
+      "targetHash": "8b74cbc2fc635227b4f3e447587890284a662a7a6ac6967b3b60535d0bdf2ddd",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "lib/auth.ts",
+      "sourceHash": "b2cec538aaf673221b82b8fa4c59fe0f64ac00a2e4deb4c3e4f25af3975a2ee9",
+      "targetHash": "346be2d9327188c16cf790cbacd9d71bc25b09c963522363f2a58f8f66302421",
+      "status": "same-normalized-AST"
+    },
+    {
+      "path": "lib/supabase.ts",
+      "sourceHash": "6911a7ef23db5b37058f8b8dc02818f02fd20c87a16c178619c60b9ec1292d14",
+      "targetHash": "136e334d979c55a3b85c40368b49796a35369618d02428e718ba69df91d56237",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "lib/utils.ts",
+      "sourceHash": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+      "targetHash": "4b705c7d7e5c7a2dd73d26ad35e9c0583d3d3655e2a5be1e67cea21458f29c01",
+      "status": "same-normalized-AST"
+    },
+    {
+      "path": "pages/AuthCallbackPage.tsx",
+      "sourceHash": "1684a79f6c3d1d26ba1a7bc90dddb3fd797af3a63ec3c3bb502e500cf4c1e2bf",
+      "targetHash": "70fdf5fe9aec20a36bf17a6071a189e70352dda45cfe6a831bc560ef64dc5550",
+      "status": "same-normalized-AST"
+    },
+    {
+      "path": "pages/DashboardPage.tsx",
+      "sourceHash": "630cf1173136cf74ce09e75a1c53c539eb1986833e95aabaa83fa06dc50f14b4",
+      "targetHash": "a605fdb641d91cb38a79e9906047aa4bad05a793b93073767a07e8caad567328",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/LoginPage.tsx",
+      "sourceHash": "5b68c6cd8ea815a927a8775c10e57d19110c3d337ab7d72871d2701d890197d8",
+      "targetHash": "a2c006dc1ee1e083d545354f27c71af241b9123c2bfcdb7f01be7efa0a86cd45",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/NotFoundPage.tsx",
+      "sourceHash": "5df6ba96e5fbfe5d62cbd1e8ba179ac1c556f7c6dedac7df4f468893fcead146",
+      "targetHash": "254e451847ce67f870140102b665145d4673e1fa61c8863d9cd35bd4f52235b2",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/ParLevelsPage.tsx",
+      "sourceHash": "c0b333088109fbb307d8a9efe2ae57288ef476c32e732e87c191cb2b8d4316c6",
+      "targetHash": "56a31e334ad16d1c00af10b422b40137d10e22407342b0f16bc1a625d56389c4",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/PrepHistoryPage.tsx",
+      "sourceHash": "21ed381b2bf1b01dd56d52a9a761b9596bd4a3815588ceeef1857009a5f672f3",
+      "targetHash": "4b18771775ed272ada066f9b87290bb8a6c07f0d8f07e6a5371f57ea1a563c9b",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/PrepPlannerPage.tsx",
+      "sourceHash": "316074d378b45c924b3ce2722d5044703805d3c5f9de53b556e54471279d4782",
+      "targetHash": "c70f4546e51d2a2fa8072b1fd30a3bacce9720e053aabcdc4e441ce6ea4ade2c",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/RecipeDetailPage.tsx",
+      "sourceHash": "fd8fb2fd45565fef13fcf25b4814bc19c6a34eea4324de7cdf41c097a837e70e",
+      "targetHash": "4aa90f9655be971a618f4555fc2079b6183418224a75057201299b97e4fb1116",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "pages/RecipesPage.tsx",
+      "sourceHash": "2a807b252e0c763b08b9fc8bb52499787f976801698462a30138d90a592f915f",
+      "targetHash": "97e09cb65fb502d2429dd2bdefcc6172bd00a4c839c9ad25ce5ac5069ad96e9d",
+      "status": "changed-needs-feature-parity"
+    },
+    {
+      "path": "types/index.ts",
+      "sourceHash": "395193f0eae1efe6be2a74dc882f0d5b1f4e3ae8edd5e064b47e004689a7d2d4",
+      "targetHash": "1db57e570567f2ab21d62c79ee180bf3f316fd1f64f380c2b89d16422b8c9674",
+      "status": "same-normalized-AST"
+    }
+  ],
+  "limitations": [
+    "Namespace mapping does not prove package implementation equivalence",
+    "Existing target-only pages are not removed or judged by this comparison",
+    "Dynamic imports/backend/auth/deployment/browser feature parity NOT RUN"
+  ]
+}

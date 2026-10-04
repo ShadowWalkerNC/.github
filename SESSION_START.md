@@ -39,3 +39,7 @@ OPEN/NEXT: [items]  CACHE: [updated PROJECT_CACHE.md | no durable change]
 ```
 
 *Version: 3.0 | Author: ShadowWalkerNC*
+
+
+## Portfolio session context
+Read current phase and shared ledger before target work. Record task, actor, exact paths and acceptance evidence before concurrent edits. Consult target manifest/status/instructions; avoid repeated broad scans. Release ownership and record actual checks, blockers and next action after material work.

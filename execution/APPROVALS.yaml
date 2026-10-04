@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "approvals": [
+    {
+      "id": "APP-2026-10-03-P00-SNAPSHOT",
+      "status": "approved",
+      "actor": "ShadowWalkerNC",
+      "userMessage": "Proceed",
+      "context": "Following the pending ForgeSatchel source-snapshot exception question and proposed next step.",
+      "scope": "Accept the 76-file hash-verified ForgeSatchel source snapshot as the P00 commit-baseline exception; proceed to classification.",
+      "evidence": "baseline/forgesatchel-source-snapshot.json",
+      "doesNotAuthorize": [
+        "git_initialization",
+        "repository_creation",
+        "archive",
+        "rename",
+        "production_deploy",
+        "secret_change",
+        "database_migration"
+      ]
+    },
+    {
+      "id": "APP-P03-RPC-CONTAINMENT",
+      "status": "approved",
+      "scope": "Authenticated HTTP RPC read-only containment and selected-metadata audit; preserve direct CLI",
+      "requiredBy": "execution/CURRENT_PHASE.yaml permission_change",
+      "evidence": "execution/P03_AUTHORIZATION_PLAN.md",
+      "userMessage": "Approve please",
+      "actor": "ShadowWalkerNC"
+    },
+    {
+      "id": "APP-P04-MUSE001",
+      "status": "approved",
+      "scope": "Bounded local MUSE-001 harness/fixtures and default-sandbox scratch Muse execution only",
+      "evidence": "execution/P04_EXECUTION_PLAN.md",
+      "doesNotAuthorize": [
+        "repository_rename",
+        "sdk_adoption",
+        "secret_change",
+        "permission_settings_change",
+        "production_promotion",
+        "push"
+      ],
+      "userMessage": "aprroce",
+      "actor": "ShadowWalkerNC"
+    },
+    {
+      "userMessage": "Approve same-repository rename",
+      "actor": "ShadowWalkerNC",
+      "evidence": "execution/P04_RENAME_PLAN.md",
+      "id": "APP-P04-RENAME",
+      "scope": "Rename same GitHub repository MuseAiBots to MuseLab, retain ID/local directory; update origin and canonical metadata",
+      "status": "approved",
+      "doesNotAuthorize": [
+        "push",
+        "production_deploy",
+        "secret_change",
+        "repository_deletion",
+        "organization_migration"
+      ]
+    },
+    {
+      "status": "approved",
+      "doesNotAuthorize": [
+        "sdk_installation",
+        "provider_calls",
+        "hardware_purchase",
+        "permission_change",
+        "push",
+        "production_promotion"
+      ],
+      "scope": "Local lifecycle registry/templates, NOT RUN comparison catalog, simulated read-only MCP/device contracts and XR checklist",
+      "evidence": "execution/P04_REMAINING_EXECUTION_PLAN.md",
+      "id": "APP-P04-FOUNDATION",
+      "userMessage": "approve"
+    },
+    {
+      "scope": "Accept local P04 foundation exit exception with retained R&D follow-ups; activate bounded P05 foundation only",
+      "id": "APP-P04-CHECKPOINT",
+      "doesNotAuthorize": [
+        "P06_migration",
+        "production_deploy",
+        "database_migration",
+        "permission_change",
+        "sdk_installation",
+        "push",
+        "archive"
+      ],
+      "status": "approved",
+      "evidence": "execution/P04_CHECKPOINT_DECISION.md",
+      "userMessage": "aprrove, resume",
+      "actor": "ShadowWalkerNC"
+    },
+    {
+      "id": "APP-P06-PARITY",
+      "status": "approved",
+      "actor": "ShadowWalkerNC",
+      "userMessage": "proceed",
+      "scope": "Activate pending tests-only parity proposal:staging harness/fixtures/evidence;no application implementation or database changes",
+      "evidence": "execution/P06_PREP_EXECUTION_PROPOSAL.md",
+      "doesNotAuthorize": [
+        "feature_migration",
+        "database_migration",
+        "production_deploy",
+        "permission_change",
+        "push",
+        "source_retirement"
+      ]
+    }
+  ]
+}

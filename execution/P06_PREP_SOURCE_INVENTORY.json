@@ -1,0 +1,2150 @@
+{
+  "phase": "P06-A",
+  "date": "2026-10-04",
+  "status": "read-only-source-inventory",
+  "repositories": [
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "completeTree": true,
+      "treeEntries": 202,
+      "capturedFiles": 61,
+      "files": [
+        {
+          "path": ".github/workflows/deploy.yml",
+          "gitBlob": "2b354abdecaed34c20f1dbf80fcb8b20013376c4",
+          "blobVerified": true,
+          "sha256": "e2cf3645296b9600c44e393861ea45790a509a530660b42dd57f70a364fbe760"
+        },
+        {
+          "path": "AGENTS.md",
+          "gitBlob": "23a934f94732a97e11ad285417f542888a3cf0dd",
+          "blobVerified": true,
+          "sha256": "7e79571d1adb47748b888a1b42d9182802c9c80583c3eb08efad6231b472dee2"
+        },
+        {
+          "path": "README.md",
+          "gitBlob": "be1552bc310f2a3a859d3013bd2e42ec4b26c4f1",
+          "blobVerified": true,
+          "sha256": "7656e26df6529d54b0ceb893d079a0d3b2607bd4c5e8a06497409410efc82ea4"
+        },
+        {
+          "path": "apps/web/package.json",
+          "gitBlob": "f5f691bc30b6ea65b5c45dda3832eb0b06355093",
+          "blobVerified": true,
+          "sha256": "3cdcb3ac9542e34e7fac75e4ad1ef69a4709601487915c85ba86f0fc0ab9d2a8"
+        },
+        {
+          "path": "apps/web/src/App.tsx",
+          "gitBlob": "314af44685514b894f3100f7d3092803c6d28146",
+          "blobVerified": true,
+          "sha256": "a63265a38c7ff8aa54b31c365a8c721b8aad1173579b29fb391d1a3dc569ba2e",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/auth/RequireAuth.tsx",
+          "gitBlob": "b8af60bd107280db2ca98d18c499baa5e94c5a79",
+          "blobVerified": true,
+          "sha256": "134b99ab905336dcbce6b4a005d776d28eda120a3ef12ebe9e150643e8d0b9d0",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/layout/Layout.tsx",
+          "gitBlob": "f46849c2a235b443953cb825ace8d1c9eae4c008",
+          "blobVerified": true,
+          "sha256": "a1faeb71ff4e13b10a978cbde053595a62dbbd2110bba87f3b19be804307c8ae",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/layout/Sidebar.tsx",
+          "gitBlob": "b903a5fa4bca676d2585dd1f191f9a1f5a18897c",
+          "blobVerified": true,
+          "sha256": "888006a77c7d369fc5d1bef786ba298624709ee50b195c3056f62be10396b708",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/layout/Topbar.tsx",
+          "gitBlob": "bd448599fb3006e914b3856f5e95ab8e6e465904",
+          "blobVerified": true,
+          "sha256": "bfd7226e46aac4af9cbb583851e1ac21be20f8a5716f50da94383ce6b4511afd",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/prep/ParLevelModal.tsx",
+          "gitBlob": "adf8d3a498dabeac3fab7087b1e78b51c1417e6e",
+          "blobVerified": true,
+          "sha256": "890827d744ecbe877f1132109d850fa290ea9d709f98485e3173bded0637db7f",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/prep/StationExportModal.tsx",
+          "gitBlob": "536635b642867bf0d25d6e93cdd49885b6a1dc33",
+          "blobVerified": true,
+          "sha256": "7c20a7e2a2f742379fd0f352ab59bf0baa388bf1f78f965ff4938ab62a3bea6c",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/prep/StationPrepSheet.tsx",
+          "gitBlob": "03af1d3fc61272bb0a4b6bde8ab79cce940cac8b",
+          "blobVerified": true,
+          "sha256": "9a281eb20180eb41d627de7269832efa96a88b01a6680348f1056d018ec97311",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/recipes/CreateRecipeModal.tsx",
+          "gitBlob": "ee6e9dd10de0fd662159931adfaeddc37be1f4d5",
+          "blobVerified": true,
+          "sha256": "ef253c400fe6103644bf974cadf913bcff6c79ec750d8f1286bee2b78ef0a93d",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/recipes/EditRecipeModal.tsx",
+          "gitBlob": "c3a0c5732be88513f0d99c0b509fca9324ebf020",
+          "blobVerified": true,
+          "sha256": "59dc8ac0da5c85c0cc3b60be5cf8bf12ec037ff064386854dc7ebe10de67b481",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/ui/ErrorBoundary.tsx",
+          "gitBlob": "44934d6cb1fc41d5fedf334816e294409e9b3302",
+          "blobVerified": true,
+          "sha256": "312340e23aaa45d64185b146d7f4f9044ef8165e4c660aeffbef4fc186c79fab",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/components/ui/FullScreenSpinner.tsx",
+          "gitBlob": "6aaeeb7dea040d04b38b556718cb955fe0848696",
+          "blobVerified": true,
+          "sha256": "e073555e3e7121d7d0e11646e3f0209ead336885702744cd4a3eaad11f9e47e6",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/context/AuthContext.tsx",
+          "gitBlob": "bbc918210374923063af458afeb62d6ad7302d9e",
+          "blobVerified": true,
+          "sha256": "a3ca5cca77d037900f181586a4f39b3b9eb22b334a9b043a2d0cef3e8e3f9a13",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/hooks/useDashboardStats.ts",
+          "gitBlob": "914fe09d9adccee07a88fdae92f5768bd0cde2d9",
+          "blobVerified": true,
+          "sha256": "a1e5e78cdb98bb1ed5d0f312a094753d16449156a585514e903fc81026a38df7",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 23,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "par_levels",
+              "line": 28,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plans",
+              "line": 33,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plans",
+              "line": 39,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/hooks/useParLevels.ts",
+          "gitBlob": "3f8b16fd1f41bfb06ef43b75e79c7857edd87d76",
+          "blobVerified": true,
+          "sha256": "285c5ebd5876a8a519d7e5c0a463e31ef1745d81e1650b0e7c346fab24227c5e",
+          "literalTableCalls": [
+            {
+              "name": "par_levels",
+              "line": 31,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "par_levels",
+              "line": 53,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "par_levels",
+              "line": 87,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "par_levels",
+              "line": 110,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/hooks/usePrepHistory.ts",
+          "gitBlob": "000942721a6e232b9003e84f8000e9b31100dafa",
+          "blobVerified": true,
+          "sha256": "b03e8e3658b0a4c1a30d7dcf4da50b4698c8005d5fa6356aace39b235d7a6126",
+          "literalTableCalls": [
+            {
+              "name": "prep_plans",
+              "line": 18,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/hooks/usePrepPlans.ts",
+          "gitBlob": "af262f4114d24cd68f4a9418fbaf9f398892749a",
+          "blobVerified": true,
+          "sha256": "7aaac835bc047cd112b8681d2ec5884b934810c9b5335512c3657b8290f7cd8b",
+          "literalTableCalls": [
+            {
+              "name": "prep_plans",
+              "line": 36,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plans",
+              "line": 63,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 73,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 81,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 111,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 139,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plans",
+              "line": 146,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/hooks/useRecipes.ts",
+          "gitBlob": "77751f1c9896d6f115d72dc8f5c34759c3dc13e3",
+          "blobVerified": true,
+          "sha256": "1f13f46683310ce1d948cb890a23e42e06813047d649d825574beb98e772da56",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 79,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 97,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 119,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 134,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 159,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 172,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 175,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 199,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/lib/auth.ts",
+          "gitBlob": "3cdcc4c5f36214869e32b6bab2f4d53d6cc1b533",
+          "blobVerified": true,
+          "sha256": "b2cec538aaf673221b82b8fa4c59fe0f64ac00a2e4deb4c3e4f25af3975a2ee9",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/lib/supabase.ts",
+          "gitBlob": "106eb5002c2f87e9f507e5f765de40ee6d2d5da8",
+          "blobVerified": true,
+          "sha256": "6911a7ef23db5b37058f8b8dc02818f02fd20c87a16c178619c60b9ec1292d14",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/lib/utils.ts",
+          "gitBlob": "2819a830d242f11fda91c4e8951794ab815cec77",
+          "blobVerified": true,
+          "sha256": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/main.tsx",
+          "gitBlob": "e3518e11ca46c592dc457143d4b2d63311b3cbcf",
+          "blobVerified": true,
+          "sha256": "0c5a9f94078603b9f85f2a1af190b1bdf4d81f809d5ecea874372b166834f7cf",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/AuthCallbackPage.tsx",
+          "gitBlob": "fd2506a6108b954ac2313cf33679fb2efe7ac586",
+          "blobVerified": true,
+          "sha256": "1684a79f6c3d1d26ba1a7bc90dddb3fd797af3a63ec3c3bb502e500cf4c1e2bf",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/DashboardPage.tsx",
+          "gitBlob": "daafb6340364ae5da87300d5ef6d2f4c6862fdb7",
+          "blobVerified": true,
+          "sha256": "630cf1173136cf74ce09e75a1c53c539eb1986833e95aabaa83fa06dc50f14b4",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/LoginPage.tsx",
+          "gitBlob": "542e02dc92c8508e5b203a0db2b6a2c2e542765e",
+          "blobVerified": true,
+          "sha256": "5b68c6cd8ea815a927a8775c10e57d19110c3d337ab7d72871d2701d890197d8",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/NotFoundPage.tsx",
+          "gitBlob": "67a2144ade1a8293218f3da54554ff57cf0d1af5",
+          "blobVerified": true,
+          "sha256": "5df6ba96e5fbfe5d62cbd1e8ba179ac1c556f7c6dedac7df4f468893fcead146",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/ParLevelsPage.tsx",
+          "gitBlob": "aa812025e315a970f61090a5904aa596a6b1a1d3",
+          "blobVerified": true,
+          "sha256": "c0b333088109fbb307d8a9efe2ae57288ef476c32e732e87c191cb2b8d4316c6",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/PrepHistoryPage.tsx",
+          "gitBlob": "3434979a679499d6e629be224dfb90663f577548",
+          "blobVerified": true,
+          "sha256": "21ed381b2bf1b01dd56d52a9a761b9596bd4a3815588ceeef1857009a5f672f3",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/PrepPlannerPage.tsx",
+          "gitBlob": "a9d8189b48464cdc86ddf84088efcece392286b4",
+          "blobVerified": true,
+          "sha256": "316074d378b45c924b3ce2722d5044703805d3c5f9de53b556e54471279d4782",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/RecipeDetailPage.tsx",
+          "gitBlob": "f9eabba25a35484a22f6a73aa9ad87791ffba522",
+          "blobVerified": true,
+          "sha256": "fd8fb2fd45565fef13fcf25b4814bc19c6a34eea4324de7cdf41c097a837e70e",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/pages/RecipesPage.tsx",
+          "gitBlob": "108567b5b2d073fb61a1e1333733019f5f3cc222",
+          "blobVerified": true,
+          "sha256": "2a807b252e0c763b08b9fc8bb52499787f976801698462a30138d90a592f915f",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/types/index.ts",
+          "gitBlob": "fcac5335d218e9ee7dcf4134ab9b62214d301bbc",
+          "blobVerified": true,
+          "sha256": "395193f0eae1efe6be2a74dc882f0d5b1f4e3ae8edd5e064b47e004689a7d2d4",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/src/vite-env.d.ts",
+          "gitBlob": "4a7a149b64e16c2ffbcc5c4ee44a1c08a27f5d08",
+          "blobVerified": true,
+          "sha256": "33602db4c7e7c78ab3e675b7dabd43044b159203271500e975ee9a7197a14863",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "apps/web/tsconfig.json",
+          "gitBlob": "c20738e2839535c4db7d2e159cfb38647a8ea3c2",
+          "blobVerified": true,
+          "sha256": "e19b78464a8fa72e9950d1075f539af3b409cd524096dd398826d9008c5d34d9"
+        },
+        {
+          "path": "mcp/prep-mcp/package.json",
+          "gitBlob": "916620d20bbfd2fb0c94b5fb95e78133b28d3386",
+          "blobVerified": true,
+          "sha256": "60fe0f8e4faa6a28a67558248f1512284d9509356c18eaa7dd92e88f261179b8"
+        },
+        {
+          "path": "mcp/prep-mcp/src/index.ts",
+          "gitBlob": "68fc842f05102c9f6dd03a7b136015bbc5139049",
+          "blobVerified": true,
+          "sha256": "eaf7092ae198663bf46828eba1aa036a30f43cdc17dcfff81fa1298e074ace64",
+          "literalTableCalls": [
+            {
+              "name": "prep_plans",
+              "line": 199,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 209,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 220,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 262,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_plan_items",
+              "line": 273,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 326,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 340,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "par_levels",
+              "line": 446,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [
+            {
+              "name": "build_shift_prep",
+              "line": 102
+            }
+          ],
+          "registeredTools": [
+            {
+              "name": "build_shift_prep",
+              "line": 91
+            },
+            {
+              "name": "save_prep_plan",
+              "line": 179
+            },
+            {
+              "name": "complete_prep_item",
+              "line": 255
+            },
+            {
+              "name": "get_mise_en_place",
+              "line": 317
+            },
+            {
+              "name": "project_batch_size",
+              "line": 395
+            },
+            {
+              "name": "update_stock",
+              "line": 437
+            }
+          ],
+          "environmentNames": [
+            {
+              "name": "KITCHENKIT_SUPABASE_URL",
+              "line": 22
+            },
+            {
+              "name": "KITCHENKIT_SUPABASE_SERVICE_KEY",
+              "line": 23
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/prep-mcp/tsconfig.json",
+          "gitBlob": "7bb7c4f903d067d616b938b693869ce300784838",
+          "blobVerified": true,
+          "sha256": "17e559bbb6884056e49e38014139aa7b15a718c0ff8671a660777b3649b65294"
+        },
+        {
+          "path": "mcp/recipe-mcp/package.json",
+          "gitBlob": "ba7796e8bd04bb336d42abc3deaeda97c1076e4b",
+          "blobVerified": true,
+          "sha256": "ebd8a390c064e5501b8f35000f12ed41c9b3e0b561f5b179a5dd9aeca007021f"
+        },
+        {
+          "path": "mcp/recipe-mcp/src/index.ts",
+          "gitBlob": "b8954bfc9bbf316ecd756791de7b0e1b4d9bb9f8",
+          "blobVerified": true,
+          "sha256": "a3f320e18d8049385f0b9f70ce99a5a077e8a243b741a007289e428c45874eb3",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 52,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 73,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 147,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 160,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 210,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 270,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "ingredients",
+              "line": 290,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [
+            {
+              "name": "scale_recipe",
+              "line": 42
+            },
+            {
+              "name": "get_ratio",
+              "line": 139
+            },
+            {
+              "name": "list_recipes",
+              "line": 202
+            },
+            {
+              "name": "generate_prep_list",
+              "line": 260
+            }
+          ],
+          "environmentNames": [
+            {
+              "name": "KITCHENKIT_SUPABASE_URL",
+              "line": 19
+            },
+            {
+              "name": "KITCHENKIT_SUPABASE_SERVICE_KEY",
+              "line": 20
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/recipe-mcp/tsconfig.json",
+          "gitBlob": "7bb7c4f903d067d616b938b693869ce300784838",
+          "blobVerified": true,
+          "sha256": "17e559bbb6884056e49e38014139aa7b15a718c0ff8671a660777b3649b65294"
+        },
+        {
+          "path": "package.json",
+          "gitBlob": "54de732209d2b86bab278b28df41e03e6fdf995e",
+          "blobVerified": true,
+          "sha256": "07b896b98bfdbca1bd3455043b6d1361f1da636009e55bb134f675868856d94d"
+        },
+        {
+          "path": "packages/prep-engine/package.json",
+          "gitBlob": "d98a77268ac576738b4a0e7f11fd5356513bc282",
+          "blobVerified": true,
+          "sha256": "de78d5df96a16d188c7da1bb532650fd814f9217942c7cb4185a327ba91af6c7"
+        },
+        {
+          "path": "packages/prep-engine/src/index.ts",
+          "gitBlob": "879099c545b48f523b4a68d6152bf14a51bb84c2",
+          "blobVerified": true,
+          "sha256": "7b37fd09a24f1bb2d93309c44dbbb3f6bbf384a775d49434f3285f424e0c991b",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "packages/prep-engine/tsconfig.json",
+          "gitBlob": "d1041a7761926746551057194890398d81ea0b9f",
+          "blobVerified": true,
+          "sha256": "fe82fded19126b2f723453d3629689e8811df42ff3273dafae15b534c4b87da7"
+        },
+        {
+          "path": "packages/ratio-engine/package.json",
+          "gitBlob": "20787d22f789636c2d88bad67324bb8df8d284d7",
+          "blobVerified": true,
+          "sha256": "b3167ac6aa5cd6dc6a8be080007ba97b3e50c484fd5acbeed40a844882c5cd10"
+        },
+        {
+          "path": "packages/ratio-engine/src/index.ts",
+          "gitBlob": "a8f60b6d192938220ba60f50aa15f670da530139",
+          "blobVerified": true,
+          "sha256": "1a34e686a4ff56386c20e36302f3468fbc4edf0f59a3700aef54dc1d5de3073d",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "packages/ratio-engine/tsconfig.json",
+          "gitBlob": "d1041a7761926746551057194890398d81ea0b9f",
+          "blobVerified": true,
+          "sha256": "fe82fded19126b2f723453d3629689e8811df42ff3273dafae15b534c4b87da7"
+        },
+        {
+          "path": "supabase/migrations/V001__init_users.sql",
+          "gitBlob": "a13487493b41a97f2dc51ddd8d439b28d0eeca46",
+          "blobVerified": true,
+          "sha256": "e14b07e3a15bbf19c76d52cfdd00fc8013ed416c20b2ae802459aadae177ddc3",
+          "tableDeclarations": [
+            {
+              "name": "public.profiles",
+              "line": 4,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V002__recipes.sql",
+          "gitBlob": "139090a91fd76887925c275ef4eb6501cdf08e78",
+          "blobVerified": true,
+          "sha256": "ddc00aa99b25ebe07930394893f0d7f136bd93502582443a6e2e659ecdb86f32",
+          "tableDeclarations": [
+            {
+              "name": "public.recipes",
+              "line": 4,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V003__ingredients.sql",
+          "gitBlob": "cf08e9445db054d5e8d571ec26bfa9d9ff2244ed",
+          "blobVerified": true,
+          "sha256": "11ab9cb3d187e3401937ddc95188095a6d24f60753a07cb39cef898fa69b6796",
+          "tableDeclarations": [
+            {
+              "name": "public.ingredients",
+              "line": 7,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V004__par_levels.sql",
+          "gitBlob": "2b8db1d8348f143ea58025e3f8b618fc928569e4",
+          "blobVerified": true,
+          "sha256": "fa474737c31b8f859fc35e42322752ccc7aa8962655aab55d5b56722b8845df4",
+          "tableDeclarations": [
+            {
+              "name": "public.par_levels",
+              "line": 5,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V005__prep_plans.sql",
+          "gitBlob": "700471a18ee517bbbb739e70a51ecd142a3f1dab",
+          "blobVerified": true,
+          "sha256": "1473e63032150abf0a4b73ae3b267e36c6ebdfd1d365af9814f8e5322b9fd06a",
+          "tableDeclarations": [
+            {
+              "name": "public.prep_plans",
+              "line": 7,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.prep_plan_items",
+              "line": 31,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V006__rpc_helpers.sql",
+          "gitBlob": "79ae1ac941cca1be9931bf0afaee35573ec5996e",
+          "blobVerified": true,
+          "sha256": "c4a698bffa73d7964c0f68686af516716a44c5ef16635f454faf590ca26d06b1",
+          "tableDeclarations": []
+        },
+        {
+          "path": "supabase/migrations/V007__prep_plan_rpc.sql",
+          "gitBlob": "826ce6b93a9f311754fa7b05d05530eb59b8e9bc",
+          "blobVerified": true,
+          "sha256": "ba8218bce978aa28ea2aa1646cbc7dde2217a8d2753dbd3d3237173d7e425af2",
+          "tableDeclarations": []
+        },
+        {
+          "path": "supabase/migrations/V008__stock_decrement_trigger.sql",
+          "gitBlob": "f0af218ffbdd6e2bb7ca98b5910360a65cf3695c",
+          "blobVerified": true,
+          "sha256": "cd17e38f4441264a75a1072c1f1c889f9ae64f253390c29a9fad53c32c1d025d",
+          "tableDeclarations": []
+        },
+        {
+          "path": "supabase/migrations/V009__fix_trigger_and_rpc_security.sql",
+          "gitBlob": "f1a75de7fcbc26da71e148992a426633f4015fc8",
+          "blobVerified": true,
+          "sha256": "6b2cbfadbd79a645539766d93bc13d9597aaec79a5cf87615457375cdb64d863",
+          "tableDeclarations": []
+        },
+        {
+          "path": "vercel.json",
+          "gitBlob": "fe3734b9927d8dde4faede036710d86765be654c",
+          "blobVerified": true,
+          "sha256": "ffac1eda6cc6a787c5cb075f04c256226e3e1cd870bfcc1ac74e2b1bd99886ea"
+        }
+      ],
+      "integrityErrors": [],
+      "declaredSchemaFiles": [
+        "supabase/migrations/V001__init_users.sql",
+        "supabase/migrations/V002__recipes.sql",
+        "supabase/migrations/V003__ingredients.sql",
+        "supabase/migrations/V004__par_levels.sql",
+        "supabase/migrations/V005__prep_plans.sql",
+        "supabase/migrations/V006__rpc_helpers.sql",
+        "supabase/migrations/V007__prep_plan_rpc.sql",
+        "supabase/migrations/V008__stock_decrement_trigger.sql",
+        "supabase/migrations/V009__fix_trigger_and_rpc_security.sql"
+      ],
+      "omittedPaths": [
+        ".agents/ORIGINAL_REQUEST.md",
+        ".agents/orchestrator/BRIEFING.md",
+        ".agents/orchestrator/ORIGINAL_REQUEST.md",
+        ".agents/orchestrator/plan.md",
+        ".agents/orchestrator/progress.md",
+        ".agents/sentinel/BRIEFING.md",
+        ".agents/sentinel/handoff.md",
+        ".agents/teamwork_preview_explorer_m1_1/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m1_1/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m1_1/handoff.md",
+        ".agents/teamwork_preview_explorer_m1_1/progress.md",
+        ".agents/teamwork_preview_explorer_m1_2/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m1_2/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m1_2/handoff.md",
+        ".agents/teamwork_preview_explorer_m1_2/progress.md",
+        ".agents/teamwork_preview_explorer_m1_3/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m1_3/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m1_3/handoff.md",
+        ".agents/teamwork_preview_explorer_m1_3/progress.md",
+        ".agents/teamwork_preview_explorer_m2_1/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m2_1/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m2_1/handoff.md",
+        ".agents/teamwork_preview_explorer_m2_1/progress.md",
+        ".agents/teamwork_preview_explorer_m2_2/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m2_2/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m2_2/handoff.md",
+        ".agents/teamwork_preview_explorer_m2_2/progress.md",
+        ".agents/teamwork_preview_explorer_m2_3/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m2_3/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m2_3/handoff.md",
+        ".agents/teamwork_preview_explorer_m2_3/progress.md",
+        ".agents/teamwork_preview_explorer_m3_1/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m3_1/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m3_1/handoff.md",
+        ".agents/teamwork_preview_explorer_m3_1/progress.md",
+        ".agents/teamwork_preview_explorer_m3_2/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m3_2/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m3_2/handoff.md",
+        ".agents/teamwork_preview_explorer_m3_2/progress.md",
+        ".agents/teamwork_preview_explorer_m3_3/BRIEFING.md",
+        ".agents/teamwork_preview_explorer_m3_3/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_explorer_m3_3/handoff.md",
+        ".agents/teamwork_preview_explorer_m3_3/progress.md",
+        ".agents/teamwork_preview_reviewer_m1_1/BRIEFING.md",
+        ".agents/teamwork_preview_reviewer_m1_1/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_reviewer_m1_1/handoff.md",
+        ".agents/teamwork_preview_reviewer_m1_1/progress.md",
+        ".agents/teamwork_preview_reviewer_m1_2/BRIEFING.md",
+        ".agents/teamwork_preview_reviewer_m1_2/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_reviewer_m1_2/handoff.md",
+        ".agents/teamwork_preview_reviewer_m1_2/progress.md",
+        ".agents/teamwork_preview_reviewer_m2_1/BRIEFING.md",
+        ".agents/teamwork_preview_reviewer_m2_1/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_reviewer_m2_1/handoff.md",
+        ".agents/teamwork_preview_reviewer_m2_1/progress.md",
+        ".agents/teamwork_preview_reviewer_m2_2/BRIEFING.md",
+        ".agents/teamwork_preview_reviewer_m2_2/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_reviewer_m2_2/handoff.md",
+        ".agents/teamwork_preview_reviewer_m2_2/progress.md",
+        ".agents/teamwork_preview_worker_m1/BRIEFING.md",
+        ".agents/teamwork_preview_worker_m1/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_worker_m1/handoff.md",
+        ".agents/teamwork_preview_worker_m1/progress.md",
+        ".agents/teamwork_preview_worker_m2/BRIEFING.md",
+        ".agents/teamwork_preview_worker_m2/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_worker_m2/handoff.md",
+        ".agents/teamwork_preview_worker_m2/progress.md",
+        ".agents/teamwork_preview_worker_m3/BRIEFING.md",
+        ".agents/teamwork_preview_worker_m3/ORIGINAL_REQUEST.md",
+        ".agents/teamwork_preview_worker_m3/handoff.md",
+        ".agents/teamwork_preview_worker_m3/progress.md",
+        ".gitignore",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "ORIGINAL_REQUEST.md",
+        "PROJECT.md",
+        "TODO.md",
+        "apps/web/.env.example",
+        "apps/web/.gitkeep",
+        "apps/web/index.html",
+        "apps/web/postcss.config.js",
+        "apps/web/src/index.css",
+        "apps/web/tailwind.config.ts",
+        "apps/web/tsconfig.node.json",
+        "apps/web/vite.config.ts",
+        "mcp/README.md",
+        "mcp/prep-mcp/.env.example",
+        "mcp/recipe-mcp/.env.example",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "supabase/README.md",
+        "supabase/migrations/.gitkeep",
+        "supabase/seed.sql",
+        "turbo.json"
+      ],
+      "limitations": [
+        "Selected source snapshot, not exhaustive repository contents",
+        "AST literal from/rpc calls do not prove DB receiver, tenant/auth or dynamic absence",
+        "Dynamic/environment index accesses not cataloged",
+        "SQL declarations are not applied schema",
+        "Source not executed; deployment, data parity and integration tests NOT RUN"
+      ]
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "completeTree": true,
+      "treeEntries": 241,
+      "capturedFiles": 66,
+      "files": [
+        {
+          "path": ".github/workflows/deploy.yml",
+          "gitBlob": "295d756fbeaadd61cc835349c445709e9c5814bd",
+          "blobVerified": true,
+          "sha256": "2b946a4f76b21c868b803cbb40354908fcf4c2be86cb488e1349e3ad973b3dfb"
+        },
+        {
+          "path": ".github/workflows/mobile.yml",
+          "gitBlob": "03a694edd8ebfbd1f7a6014aac6135a65f1b523b",
+          "blobVerified": true,
+          "sha256": "016f6fa74eb68bb8cb905d487cf36b30d14e4c9c2f0bd81072120c71deea5754"
+        },
+        {
+          "path": "AGENTS.md",
+          "gitBlob": "82b6748101fe5dd407b845fa293b23e76ea517f9",
+          "blobVerified": true,
+          "sha256": "90e77c838cf6ea42e76b3d8c4969bd86f55cc21ce19f8a1ca65d698e3b9fc196"
+        },
+        {
+          "path": "README.md",
+          "gitBlob": "1ddd6508297e04d759fba0f7a8825bb3c2bb68b4",
+          "blobVerified": true,
+          "sha256": "33104054b29c2c28ca06e8f77725f8a019db1593bb710589c66d3a6916f17df1"
+        },
+        {
+          "path": "app/src/androidTest/java/com/example/ExampleInstrumentedTest.kt",
+          "gitBlob": "6436111cf681c41f689956a86ac082d74d6ed744",
+          "blobVerified": true,
+          "sha256": "af79227e88d1ea0ae10279e9dd2a16f0e290766cd9d90620f4339449cb28067e"
+        },
+        {
+          "path": "app/src/test/java/com/example/ExampleUnitTest.kt",
+          "gitBlob": "e8edd2c5ce97e52b2aec4264020ba783c24e451d",
+          "blobVerified": true,
+          "sha256": "23f42e47e120caa28734bae3302e7277bbd805e597302f7cb79354641d441cdb"
+        },
+        {
+          "path": "app/src/test/java/com/example/NavigationTest.kt",
+          "gitBlob": "bb3f67071703c9a5066fcd1487c3e116716c7f28",
+          "blobVerified": true,
+          "sha256": "349ca702d78f796d8a85da7da7264e960abf9b3fa968359075ebb30960b4813f"
+        },
+        {
+          "path": "cli/package.json",
+          "gitBlob": "fff5271f77ec8600b1645dddbbeb0ced825ade40",
+          "blobVerified": true,
+          "sha256": "7d425e4eb2b02edad301bc54bce5ead81c8b17eb770bee8dd0d45b01730010c3"
+        },
+        {
+          "path": "cli/src/commands/config.ts",
+          "gitBlob": "8444e15632dd4c77100aea53b07a1135807d0380",
+          "blobVerified": true,
+          "sha256": "4d2b856f2b8380afb45b120c11af57c7ff49858490882066e0009dff2dd30a42",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/commands/convert.ts",
+          "gitBlob": "a80b85063a004f4106b1f35dd503e79001900327",
+          "blobVerified": true,
+          "sha256": "7a5b232ae0833d167719817b772d3f281a7e919c3349359f25e0423855350a9a",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/commands/pantry.ts",
+          "gitBlob": "12a1dbb69194679d48f9244679a9835456efb26c",
+          "blobVerified": true,
+          "sha256": "fc58f8f690a457dd116f30a161ea2b20073e5b37d4f804632fbe79ed9c30b48f",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/commands/prep.ts",
+          "gitBlob": "cab4cf9da4ccd5bceb90f187ff58c90b96a794b3",
+          "blobVerified": true,
+          "sha256": "011f0d86907e3d037bb415c66b80705020dc0fa1e2af23e81e0ce0659da246f8",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/commands/recipe.ts",
+          "gitBlob": "489f6a01a8295edfd4abb64e4dcb3b83dfd3b91a",
+          "blobVerified": true,
+          "sha256": "f26e96eeb63c25eca0eeceec59d7a633fc366b10d3ab132c76e7ed8fc655869f",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/commands/scale.ts",
+          "gitBlob": "9aadda90ac7c9126a420b8d3c2d0d14e257319ca",
+          "blobVerified": true,
+          "sha256": "51487c9d22cad9a7cae12e97cb76f010d2ae07db934b656fe65ece3d7abe5e14",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/commands/shop.ts",
+          "gitBlob": "d545f8da88d1c817f8d712b93085c05d890f74ea",
+          "blobVerified": true,
+          "sha256": "dd162356f7a673855ca43285e88e08c7570a8d9a5ea168a824a171cf951ad474",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/index.ts",
+          "gitBlob": "df8991a3a07517801a93f43159c12f7dd7915bbd",
+          "blobVerified": true,
+          "sha256": "653b428c619249e1bcad6d5161b1a29596be1216c0427e2c79a28ab8131382d0",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/lib/api-client.ts",
+          "gitBlob": "0871825b4087c9aafeb7679404253e648622392f",
+          "blobVerified": true,
+          "sha256": "64edd341573a7b319fbde35d22e8ad1cbc986aec6806a29ae6f19554a6c29840",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "RECIPEOS_API_URL",
+              "line": 5
+            },
+            {
+              "name": "RECIPEOS_API_KEY",
+              "line": 9
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/src/lib/config.ts",
+          "gitBlob": "aa18cf17b40377202150da33508644130d4249b4",
+          "blobVerified": true,
+          "sha256": "3e2bb88efab615f892f38b5a2fbd859bbd8030143cc9d4c9e34a134b23b02983",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "cli/tsconfig.json",
+          "gitBlob": "c2b3eb18bf93968e383157d012513b3b398b0331",
+          "blobVerified": true,
+          "sha256": "faf34ebe8b4fa86338621d8e5e61482ce67d42b17b4ae5e0364d86b9a9a99cb0"
+        },
+        {
+          "path": "mcp/auth.ts",
+          "gitBlob": "a7632aa563d827278f2811147221aa5a4521689b",
+          "blobVerified": true,
+          "sha256": "420e205867ecc1514a20e3c308c2a9eb6f5e0203cb0d5b0583c4a29401c6ba61",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "RECIPEOS_API_KEY",
+              "line": 8
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/package.json",
+          "gitBlob": "2d6f1f68a0668219016a407958000fd6783e8a9b",
+          "blobVerified": true,
+          "sha256": "8f2f3106bd38115d2c35fb3e0a08cc1f6b99bef27ad5b2407446293c91042604"
+        },
+        {
+          "path": "mcp/recipeos-server.ts",
+          "gitBlob": "60db48bb75470f8a75ff56819ad4f02446c86679",
+          "blobVerified": true,
+          "sha256": "dc264a9bc4f78c321f57ac1535c4c1403ae836836fd1f925636ae98525fdca02",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/tools/convert.ts",
+          "gitBlob": "428a0a30e0a71f3e5162ec9326f01199bebcbc39",
+          "blobVerified": true,
+          "sha256": "4a5036b50691f82c5ebefe9dd972fef294f470aa72c8f362e27a770e8b566f71",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [
+            {
+              "name": "convert_units",
+              "line": 17,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            }
+          ],
+          "environmentNames": [
+            {
+              "name": "RECIPEOS_API_URL",
+              "line": 3
+            },
+            {
+              "name": "RECIPEOS_API_KEY",
+              "line": 4
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/tools/pantry.ts",
+          "gitBlob": "40edc9fd46172d08307f55f4e00d44d5a3afcffb",
+          "blobVerified": true,
+          "sha256": "049a402c6a3164f3d56f320930a1c34a6f848d55077bfa418331d954f9925a7c",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [
+            {
+              "name": "get_pantry",
+              "line": 17,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            },
+            {
+              "name": "update_pantry",
+              "line": 27,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            },
+            {
+              "name": "get_shopping_list",
+              "line": 39,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            }
+          ],
+          "environmentNames": [
+            {
+              "name": "RECIPEOS_API_URL",
+              "line": 3
+            },
+            {
+              "name": "RECIPEOS_API_KEY",
+              "line": 4
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/tools/prep.ts",
+          "gitBlob": "174cbd35109fddd8052de326d3a7cf3582e7eb83",
+          "blobVerified": true,
+          "sha256": "0af2ff6cf69536f457f90cbbeba72740a97d5fc3565ae30e1c11aa0e34d0b5e0",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [
+            {
+              "name": "generate_prep_list",
+              "line": 17,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            }
+          ],
+          "environmentNames": [
+            {
+              "name": "RECIPEOS_API_URL",
+              "line": 3
+            },
+            {
+              "name": "RECIPEOS_API_KEY",
+              "line": 4
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/tools/recipes.ts",
+          "gitBlob": "b81ac8cada8f8683723580f6b915e6cdd4ecb74c",
+          "blobVerified": true,
+          "sha256": "966a1c4cfb5d20de6b7e42f407e4520e8408aeb784fee7ae173b0e6e6d86a2e6",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [
+            {
+              "name": "get_recipe",
+              "line": 17,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            },
+            {
+              "name": "add_recipe",
+              "line": 29,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            },
+            {
+              "name": "scale_recipe",
+              "line": 47,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            },
+            {
+              "name": "search_by_ingredient",
+              "line": 60,
+              "scope": "tool-shaped literal descriptor; runtime registration not proven"
+            }
+          ],
+          "environmentNames": [
+            {
+              "name": "RECIPEOS_API_URL",
+              "line": 3
+            },
+            {
+              "name": "RECIPEOS_API_KEY",
+              "line": 4
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "mcp/tsconfig.json",
+          "gitBlob": "92b4ee2a5597160e43d3bec986515a210ef095d0",
+          "blobVerified": true,
+          "sha256": "266f5b68ec6e65b0c3c6c0d0b7ebcd1aa7cbcb9a97eb61c8db819b350f3e5695"
+        },
+        {
+          "path": "mobile/package.json",
+          "gitBlob": "29330bb77b1bed2d01d71f44024bdea3ce219dd2",
+          "blobVerified": true,
+          "sha256": "ee3c14f8ac0b6045db022c36d0554b1cdf36c1ba118560f3084e523620ff3de5"
+        },
+        {
+          "path": "render.yaml",
+          "gitBlob": "2cd5c27a32bbc1ea1ff0fd89815c682775f6c36b",
+          "blobVerified": true,
+          "sha256": "7c5ca2e89371d3cc9039c6208720c2ada5a1ff80d1ca6ffe90b5513902d368d4"
+        },
+        {
+          "path": "shared/ratio-engine.ts",
+          "gitBlob": "a977b0d8e8e9698d8e19217740aac63643c13ce3",
+          "blobVerified": true,
+          "sha256": "b45e089cde1807e43f11d51f36f2285a8283417aa4506c1f0b0e9dba078d7b85",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "shared/types.ts",
+          "gitBlob": "640d518a804bbe0aac3854d7f01740f5a0fd42bd",
+          "blobVerified": true,
+          "sha256": "19928599ba1452f86414d03870d570574091ad361007c3492eecef0558d712a9",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "supabase/migrations/V1__core_schema.sql",
+          "gitBlob": "72e271632d6e2a7693867cfd1950715135c01bed",
+          "blobVerified": true,
+          "sha256": "fb38ff936d1be8da616cc23cf25062a405aaa9daa476fc69e450c09123ccf977",
+          "tableDeclarations": [
+            {
+              "name": "profiles",
+              "line": 12,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "categories",
+              "line": 35,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "ratio_blueprints",
+              "line": 50,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "recipes",
+              "line": 70,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "recipe_steps",
+              "line": 101,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "ingredients",
+              "line": 120,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "recipe_ingredients",
+              "line": 136,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V1__initial_schema.sql",
+          "gitBlob": "36ed7c1f3a53c07fd9f9f475686944823be0ea1e",
+          "blobVerified": true,
+          "sha256": "ed8b309674d28c87aaa5614b06b5f7d89d0ea053f0cae9420e6249d55ae2faaf",
+          "tableDeclarations": [
+            {
+              "name": "public.profiles",
+              "line": 11,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.categories",
+              "line": 23,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.recipes",
+              "line": 45,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.recipe_steps",
+              "line": 71,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.ingredients",
+              "line": 85,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.recipe_ingredients",
+              "line": 125,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.pantry",
+              "line": 144,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.prep_tasks",
+              "line": 162,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "public.recipe_scans",
+              "line": 181,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V2__pantry_prep.sql",
+          "gitBlob": "69ebf68e3b9b72ab3352be43b3b42b1ce56a7a2c",
+          "blobVerified": true,
+          "sha256": "653b97050c191ac9ee9648a0b759d681fafc249e090c2e6dd3f60c0a98823a5e",
+          "tableDeclarations": [
+            {
+              "name": "pantry_items",
+              "line": 9,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "prep_lists",
+              "line": 30,
+              "scope": "SQL declaration; applied schema unknown"
+            },
+            {
+              "name": "prep_tasks",
+              "line": 47,
+              "scope": "SQL declaration; applied schema unknown"
+            }
+          ]
+        },
+        {
+          "path": "supabase/migrations/V2__rls_policies.sql",
+          "gitBlob": "240fc4b392e961e025b5be07143ff606698c055e",
+          "blobVerified": true,
+          "sha256": "bd0fd0c8d5c2f4230f729a9e41495985acd121073e10ba4797b22ec4b2e86fb0",
+          "tableDeclarations": []
+        },
+        {
+          "path": "web/app/(app)/layout.tsx",
+          "gitBlob": "e0902460aa0d97778b889e17180c2a17bc8a85d0",
+          "blobVerified": true,
+          "sha256": "c6007040fc34a41784fe0c4b96c803d3157451b38667423c565a2d42ebe6a12a",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_URL",
+              "line": 13
+            },
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+              "line": 13
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(app)/pantry/page.tsx",
+          "gitBlob": "47dc7c947e5b7988b36c40e0d769d938871eeeaf",
+          "blobVerified": true,
+          "sha256": "7ff02efffe9ebade15b2464f341eaa011cd3d93795c1c37624d4526d8b3c58ce",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(app)/prep/page.tsx",
+          "gitBlob": "440adc1908b8829fe0ee66c516b98724656b1746",
+          "blobVerified": true,
+          "sha256": "ee7b9f5ee844a929f7042b88fe06ff0a28eb2105eb90183e40073fcfe252ba39",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(app)/scale/page.tsx",
+          "gitBlob": "f743e50c092e665f3c4278c9ad779d15f34a1537",
+          "blobVerified": true,
+          "sha256": "8feb954e4da5b2b1a39d7f2cf83b69313feac4f39949481914b802e7d6a32598",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(app)/vault/[id]/page.tsx",
+          "gitBlob": "bf1fbba67d000f03d0e3d462b6a902b61d051bb2",
+          "blobVerified": true,
+          "sha256": "1dd67009d1134af4c37274d577879a9cb8cf42b8688d36fa242b7f773f2133ae",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(app)/vault/page.tsx",
+          "gitBlob": "e97c21c727e360b80ecf46dc69bae74117f8d000",
+          "blobVerified": true,
+          "sha256": "3a575c75efd4b28f9db7b97d18d649d6ea28654ceab2b5aa56e3172904b5a550",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(marketing)/layout.tsx",
+          "gitBlob": "fe3e60190e5172089be8e8cd08b924b90016135d",
+          "blobVerified": true,
+          "sha256": "3aad88f81ad51edf14efdeeb9930b15dc5c8e7a0a2c4fab8a93864f837df2ed4",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/(marketing)/page.tsx",
+          "gitBlob": "9ccb4749d7c203710a7de9a3ecfd3006110c7888",
+          "blobVerified": true,
+          "sha256": "940887b73e001bd5160794bb2cbc88bf95342118600c397327e584ddf422cd01",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/api/convert/route.ts",
+          "gitBlob": "152595774e5910327bcc415612e73da661607783",
+          "blobVerified": true,
+          "sha256": "22f7bacaf0192574d5dbb092f3ee4b940bf46b4da373c8700f282fecf6135f73",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "POST",
+              "line": 4
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/demo/route.ts",
+          "gitBlob": "dfd0df7a4892244ad4ccb105f321eee9420d9c22",
+          "blobVerified": true,
+          "sha256": "4284bd6a11551283f2bdf74103c0afa81d4036e49b2af9261aff6149153c487c",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "NEXT_PUBLIC_SITE_URL",
+              "line": 12
+            },
+            {
+              "name": "NEXT_PUBLIC_SITE_URL",
+              "line": 23
+            }
+          ],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 6
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/pantry/[id]/route.ts",
+          "gitBlob": "9e4637ed91d9a72826f40b985931c0fa376a2965",
+          "blobVerified": true,
+          "sha256": "ed5e3fb80356c30ac85915d0e2888b8836b38771ecba292077c7a54e8ef5961f",
+          "literalTableCalls": [
+            {
+              "name": "pantry_items",
+              "line": 12,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "pantry_items",
+              "line": 30,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "PATCH",
+              "line": 4
+            },
+            {
+              "method": "DELETE",
+              "line": 24
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/pantry/route.ts",
+          "gitBlob": "49bca6565066c78e6dd21e038a587dd8384b4879",
+          "blobVerified": true,
+          "sha256": "59480c995234906b259b71b600749ffb72e753bc8ade5cce318b7ef29aae3220",
+          "literalTableCalls": [
+            {
+              "name": "pantry_items",
+              "line": 12,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "pantry_items",
+              "line": 38,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 4
+            },
+            {
+              "method": "POST",
+              "line": 30
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/recipes/[id]/route.ts",
+          "gitBlob": "0296a0681352af588778e5c3fa91ad0b26a3fd3a",
+          "blobVerified": true,
+          "sha256": "cdfe4487c95864922a0a88db4fc30c4d735f16e999f767993e6fd6574a1a0305",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 8,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 24,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 4
+            },
+            {
+              "method": "DELETE",
+              "line": 18
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/recipes/[id]/scale/route.ts",
+          "gitBlob": "75f71de13f3148a30a7a5958ec29c33d8c64462b",
+          "blobVerified": true,
+          "sha256": "9376c7244d280f4beb2fc7f8158a956f0f87a9850328178b1173b8a7ae6ffe49",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 16,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 5
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/recipes/route.ts",
+          "gitBlob": "6411bac695869347874d8ad897519967fd1c851e",
+          "blobVerified": true,
+          "sha256": "720828cfa79c11f727f3d0184398d9bcf941d204b77de52a5e050fbbfe456afa",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 11,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 35,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 4
+            },
+            {
+              "method": "POST",
+              "line": 27
+            }
+          ]
+        },
+        {
+          "path": "web/app/api/shopping-list/route.ts",
+          "gitBlob": "a6c0d6a0592ac4699066bb75d6405ac297e24173",
+          "blobVerified": true,
+          "sha256": "b40bd80625f72424e0e5dbe31ab0bea0a8aeea89752d2811b09cc3396a8bd8e2",
+          "literalTableCalls": [
+            {
+              "name": "pantry_items",
+              "line": 9,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 4
+            }
+          ]
+        },
+        {
+          "path": "web/app/auth/callback/route.ts",
+          "gitBlob": "2de4e8dbe16ca5db3633815b55b49b5fdeae3eff",
+          "blobVerified": true,
+          "sha256": "d4c62924d0fc73959257fd277a1cdf322336f00b671b0f771ddd50db99ef6907",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "GET",
+              "line": 6
+            }
+          ]
+        },
+        {
+          "path": "web/app/auth/login/page.tsx",
+          "gitBlob": "400b443af13f266df6bb082c08906a5fa2795258",
+          "blobVerified": true,
+          "sha256": "8ebaf7507e3de0081f6cf451b7a5a2f65535d28368b6026b06edaa35d3ce03d6",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/auth/signout/route.ts",
+          "gitBlob": "11f1fd8c32bd90a48a28dbb8a171add53227d752",
+          "blobVerified": true,
+          "sha256": "a24744a9899c934f21187b50be339793d2b6393ff0bc50846b7d9da668cf9e83",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": [
+            {
+              "method": "POST",
+              "line": 4
+            }
+          ]
+        },
+        {
+          "path": "web/app/demo/check-email/page.tsx",
+          "gitBlob": "bafa7314996729d11b10e18abe7ada2e5b0f7051",
+          "blobVerified": true,
+          "sha256": "7fa706faf567fa6fd16e43b1e15540f211e976d2d108852b8a5dba459dcc664d",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/app/layout.tsx",
+          "gitBlob": "e24eccaa3423cb74d0cccf29b133402a8bcce667",
+          "blobVerified": true,
+          "sha256": "b240b1acdbde281dfee6dd571ea4fce3d2d8d7176c0c0eba593eb718af5c5be5",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/providers.tsx",
+          "gitBlob": "aa8b9a8dc0d907008549d8787758b4f455fbf1f2",
+          "blobVerified": true,
+          "sha256": "46afc4fee3f7703f3eaf15e59ec144bef8f8dd1f8b4c9d2cc9bab99dcf236787",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/queries/pantry.ts",
+          "gitBlob": "fcfc8ac98f345b889c00406ddda3acd99188cb15",
+          "blobVerified": true,
+          "sha256": "5721d8106d10468095d829cd3c75b7051710da8a6f0f6b2b48627365c7ab8d98",
+          "literalTableCalls": [
+            {
+              "name": "pantry_items",
+              "line": 10,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "pantry_items",
+              "line": 31,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "pantry_items",
+              "line": 46,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/queries/prep.ts",
+          "gitBlob": "67ccf887e8df3fd71ab7a7d8c9a23004edeb4d03",
+          "blobVerified": true,
+          "sha256": "bc1208cc5e662b0583e0fbe4966a8a005fd0acbbb01ce661ddf42892a041f7e6",
+          "literalTableCalls": [
+            {
+              "name": "prep_lists",
+              "line": 10,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "prep_tasks",
+              "line": 25,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/queries/recipes.ts",
+          "gitBlob": "d194072b8abaae09106212b2f3e871b310b48dcf",
+          "blobVerified": true,
+          "sha256": "455eac6cb98b9c993f644f97e0d2c50ae868017127c4bd9338f2d111174d28a5",
+          "literalTableCalls": [
+            {
+              "name": "recipes",
+              "line": 9,
+              "scope": "literal call; receiver/authorization not proven"
+            },
+            {
+              "name": "recipes",
+              "line": 27,
+              "scope": "literal call; receiver/authorization not proven"
+            }
+          ],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/supabase/client.ts",
+          "gitBlob": "41c5149a7f420e7f2be1790583d05abc159b95c3",
+          "blobVerified": true,
+          "sha256": "6216c1ff412a3cf25c97cf0444d37c54511738270883f5384b1ed5e8f3c34006",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_URL",
+              "line": 11
+            },
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+              "line": 12
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/supabase/database.types.ts",
+          "gitBlob": "03306846670e2134923e34e6d540398d7e5fedb1",
+          "blobVerified": true,
+          "sha256": "c1413af969047d964d53d987d8aaf73ef8b4adff758de721c74557e7346920a3",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/supabase/middleware.ts",
+          "gitBlob": "008c4daed7f86ae930131c004b6c24485a6445ec",
+          "blobVerified": true,
+          "sha256": "e8644a678ec17f31eedf44e9228fc6bfd1ce01c13e1a1fdb6befac47f6542024",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_URL",
+              "line": 9
+            },
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+              "line": 10
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/lib/supabase/server.ts",
+          "gitBlob": "16c715aa51ce6215e96927c7deb87381fb8134c6",
+          "blobVerified": true,
+          "sha256": "2c3ccc7f94914f84e6df121be5b621ad77f0132923e8585a1c335d4f2e304764",
+          "literalTableCalls": [],
+          "literalRpcCalls": [],
+          "registeredTools": [],
+          "environmentNames": [
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_URL",
+              "line": 11
+            },
+            {
+              "name": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+              "line": 12
+            }
+          ],
+          "exportedHttpMethods": []
+        },
+        {
+          "path": "web/package.json",
+          "gitBlob": "3919c4d95e4600968fc00658dec6fd49fccb8a38",
+          "blobVerified": true,
+          "sha256": "abc90bd2ecf4f1a9769dd7f811b57f87d1bfb7bde15d1fc2b4ba659ad95f77b7"
+        },
+        {
+          "path": "web/tsconfig.json",
+          "gitBlob": "17759db1b37d70e2d4d47fb3bff69c4f304b159b",
+          "blobVerified": true,
+          "sha256": "32a5a247dbc47589ffc1cc9a16e39a41e5e5ebc1c16df34dfe8df25c1f665779"
+        }
+      ],
+      "integrityErrors": [],
+      "declaredSchemaFiles": [
+        "supabase/migrations/V1__core_schema.sql",
+        "supabase/migrations/V1__initial_schema.sql",
+        "supabase/migrations/V2__pantry_prep.sql",
+        "supabase/migrations/V2__rls_policies.sql"
+      ],
+      "omittedPaths": [
+        ".build-outputs/app-debug.apk",
+        ".env.example",
+        ".gitignore",
+        "ARCHITECTURE.md",
+        "MIGRATION.md",
+        "PROJECT_PLAN.md",
+        "app/.gitignore",
+        "app/build.gradle.kts",
+        "app/proguard-rules.pro",
+        "app/src/main/AndroidManifest.xml",
+        "app/src/main/java/com/example/MainActivity.kt",
+        "app/src/main/java/com/example/data/AppDatabase.kt",
+        "app/src/main/java/com/example/data/AppRepository.kt",
+        "app/src/main/java/com/example/data/Daos.kt",
+        "app/src/main/java/com/example/data/Entities.kt",
+        "app/src/main/java/com/example/ui/AddEditRecipeScreen.kt",
+        "app/src/main/java/com/example/ui/GroceryScreen.kt",
+        "app/src/main/java/com/example/ui/GroceryViewModel.kt",
+        "app/src/main/java/com/example/ui/MainNavigation.kt",
+        "app/src/main/java/com/example/ui/MainViewModelFactory.kt",
+        "app/src/main/java/com/example/ui/PantryScreen.kt",
+        "app/src/main/java/com/example/ui/PantryViewModel.kt",
+        "app/src/main/java/com/example/ui/PrepDetailScreen.kt",
+        "app/src/main/java/com/example/ui/PrepListScreen.kt",
+        "app/src/main/java/com/example/ui/PrepViewModel.kt",
+        "app/src/main/java/com/example/ui/RecipeDetailScreen.kt",
+        "app/src/main/java/com/example/ui/RecipeListScreen.kt",
+        "app/src/main/java/com/example/ui/RecipeViewModel.kt",
+        "app/src/main/java/com/example/ui/theme/Color.kt",
+        "app/src/main/java/com/example/ui/theme/Theme.kt",
+        "app/src/main/java/com/example/ui/theme/Type.kt",
+        "app/src/main/res/drawable/ic_launcher_background.xml",
+        "app/src/main/res/drawable/ic_launcher_foreground.xml",
+        "app/src/main/res/drawable/recipe_boom_icon_1779840377742.png",
+        "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+        "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+        "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+        "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+        "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+        "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+        "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+        "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+        "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+        "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+        "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+        "app/src/main/res/values/colors.xml",
+        "app/src/main/res/values/strings.xml",
+        "app/src/main/res/values/themes.xml",
+        "app/src/main/res/xml/backup_rules.xml",
+        "app/src/main/res/xml/data_extraction_rules.xml",
+        "app/src/test/screenshots/greeting.png",
+        "assets/.aistudio/.gitignore",
+        "build.gradle.kts",
+        "cli/README.md",
+        "debug.keystore.base64",
+        "docs/mcp-tools.md",
+        "gradle.properties",
+        "gradle/libs.versions.toml",
+        "mcp/README.md",
+        "metadata.json",
+        "mobile/README.md",
+        "mobile/app.json",
+        "mobile/app/(auth)/_layout.tsx",
+        "mobile/app/(auth)/login.tsx",
+        "mobile/app/(tabs)/_layout.tsx",
+        "mobile/app/(tabs)/index.tsx",
+        "mobile/app/(tabs)/pantry.tsx",
+        "mobile/app/(tabs)/prep.tsx",
+        "mobile/app/(tabs)/scale.tsx",
+        "mobile/app/(tabs)/scan.tsx",
+        "mobile/app/_layout.tsx",
+        "mobile/app/recipe/[id].tsx",
+        "mobile/components/PantryRow.tsx",
+        "mobile/components/PrepTaskRow.tsx",
+        "mobile/components/RecipeCard.tsx",
+        "mobile/components/ScreenShell.tsx",
+        "mobile/eas.json",
+        "mobile/lib/queries.ts",
+        "mobile/lib/ratio-engine.ts",
+        "mobile/lib/store.ts",
+        "mobile/lib/supabase.ts",
+        "mobile/lib/types.ts",
+        "settings.gradle.kts",
+        "supabase/README.md",
+        "supabase/functions/ocr-recipe/deno.json",
+        "supabase/functions/ocr-recipe/index.ts",
+        "supabase/seed-demo.sql",
+        "supabase/seed.sql",
+        "web/.env.example",
+        "web/app/globals.css",
+        "web/middleware.ts",
+        "web/next.config.ts",
+        "web/postcss.config.js",
+        "web/tailwind.config.ts"
+      ],
+      "limitations": [
+        "Selected source snapshot, not exhaustive repository contents",
+        "AST literal from/rpc calls do not prove DB receiver, tenant/auth or dynamic absence",
+        "Dynamic/environment index accesses not cataloged",
+        "SQL declarations are not applied schema",
+        "Source not executed; deployment, data parity and integration tests NOT RUN"
+      ]
+    }
+  ]
+}

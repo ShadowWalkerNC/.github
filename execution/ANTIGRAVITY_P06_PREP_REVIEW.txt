@@ -1,0 +1,38 @@
+### Contract & Behavior Differences
+
+1. **`getMiseEnPlace` Fallback & Runtime Safety (`scaled[ing.name]`)**:
+   - **Original**: Returns `scaled[ing.name]` directly. If `scaleRecipe` omits a key, `amount` evaluates to `undefined` at runtime (violating the nominal TypeScript return signature `amount: number`).
+   - **Target**: Introduces nullish coalescing (`scaled[ing.name] ?? 0`). If an ingredient is missing or undefined in the scaled mapping, `amount` cleanly defaults to `0`.
+
+2. **Explicit Type Annotations in Target**:
+   - **Original**: Relies on inferred typing for `recipe.ingredients.map(ing => ...)` and returns `unit?: string`.
+   - **Target**: Adds explicit typing `(ing: { name: string; unit?: string | undefined })` and explicit optional union `unit?: string | undefined`. Functionally equivalent in standard TS, but hardened for strict type-checking (`exactOptionalPropertyTypes`).
+
+3. **Surface Area Expansion (Re-exports)**:
+   - **Original**: Pure engine containing only `PrepItem`, `ShiftPrepPlan`, `buildShiftPrep`, `getMiseEnPlace`, and `projectBatchSize`.
+   - **Target**: Adds `export * from './labels.js';`, pulling in label formatting and generation contracts into the public package barrel.
+
+4. **Package Namespace Boundary**:
+   - Original imports from `@kitchenkit/ratio-engine`; Target imports from `@culinaryos/ratio-engine`.
+
+---
+
+### Recommended Deterministic Parity Cases (Pre-Migration)
+
+Before migrating or harmonizing code, establish tests covering:
+
+1. **Missing Scaled Ingredient Key**:
+   - Pass a recipe where `scaleRecipe` does not return a key for one ingredient.
+   - *Assert*: Target returns `amount: 0`; Original returned `amount: undefined`. Confirm whether downstream consumers require `0` or fail on falsy non-numbers.
+2. **`buildShiftPrep` Thresholds**:
+   - `currentStock === parLevel` (must be excluded from plan).
+   - `currentStock > parLevel` (surplus; must be excluded).
+   - `currentStock < parLevel` (prepAmount = `parLevel - currentStock`).
+   - Edge case: Negative current stock (e.g., spoilage adjustment).
+3. **Optional Unit Preservation**:
+   - Ingredients where `unit` is omitted or `undefined`. Ensure both implementations return `{ ingredient, amount, unit: undefined }` without throwing.
+4. **`projectBatchSize` Precision**:
+   - Explicit `wasteFactor` override vs default `1.1`.
+   - Floating-point cover calculations (e.g., `portionWeight = 125.5`, `covers = 33`, `wasteFactor = 1.1`).
+5. **Labels Module Export Resolution**:
+   - Verify downstream consumers importing from `@culinaryos/prep-engine` do not suffer bundle bloat or missing `./labels.js` resolution errors in non-bundled environments.

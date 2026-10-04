@@ -1,0 +1,122 @@
+{
+  "phase": "P06-A",
+  "kind": "static-source-comparison",
+  "comparisons": [
+    {
+      "engine": "ratio-engine",
+      "source": "baseline/p06-prep/KitchenKit/packages/ratio-engine/src/index.ts",
+      "sourceHash": "1a34e686a4ff56386c20e36302f3468fbc4edf0f59a3700aef54dc1d5de3073d",
+      "target": "C:/Users/white/Documents/GitHub/CulinaryOS/packages/ratio-engine/src/index.ts",
+      "targetHash": "c7126757ba16e2a7a1d4c2cc42bb29d7c59c264d97a519b9b9081109095fb90f",
+      "functions": [
+        {
+          "name": "scaleRecipe",
+          "sourceLine": 25,
+          "targetLine": 43,
+          "normalizedBodyEqual": true,
+          "normalizedDeclarationEqual": true,
+          "sourceBodyHash": "bea07c0e630d5a3ff0bedfcfeaf7e4caca84c94918ee6460497122480db62c6f",
+          "targetBodyHash": "bea07c0e630d5a3ff0bedfcfeaf7e4caca84c94918ee6460497122480db62c6f",
+          "sourceBody": "{\n    const scaled: Record<string, number> = {};\n    for (const ingredient of recipe.ingredients) {\n        scaled[ingredient.name] = ingredient.ratio * targetBaseWeight;\n    }\n    return scaled;\n}",
+          "targetBody": "{\n    const scaled: Record<string, number> = {};\n    for (const ingredient of recipe.ingredients) {\n        scaled[ingredient.name] = ingredient.ratio * targetBaseWeight;\n    }\n    return scaled;\n}",
+          "status": "same-printed-AST-body"
+        },
+        {
+          "name": "calculateRatio",
+          "sourceLine": 37,
+          "targetLine": 230,
+          "normalizedBodyEqual": false,
+          "normalizedDeclarationEqual": false,
+          "sourceBodyHash": "17c23b0d22896e1ca2a3627dd0f804ffbd4ea631d761a5eb9e8c2ba7f983315a",
+          "targetBodyHash": "a8f860be91ae4d5385a258fa8ff8192170b81cd73a9b47d94352ab89558f0abc",
+          "sourceBody": "{\n    if (baseWeight === 0)\n        throw new Error('Base weight cannot be zero');\n    return ingredientWeight / baseWeight;\n}",
+          "targetBody": "{\n    if (baseWeight <= 0) {\n        throw new Error('baseWeight must be > 0');\n    }\n    if (ingredientWeight < 0) {\n        throw new Error('ingredientWeight cannot be negative');\n    }\n    return (ingredientWeight / baseWeight) * 100;\n}",
+          "status": "changed-body-needs-parity"
+        },
+        {
+          "name": "totalFormulaWeight",
+          "sourceLine": 43,
+          "targetLine": 244,
+          "normalizedBodyEqual": false,
+          "normalizedDeclarationEqual": false,
+          "sourceBodyHash": "662eb034985e34f1486c49c96a85945ea85b87d0fa4fa92c9c35d215e091891f",
+          "targetBodyHash": "d91559cecfd6d6e1666231d67f9673eae0bfa328131bbed7e2a7fbb1bb1f3e47",
+          "sourceBody": "{\n    return recipe.ingredients.reduce((sum, ing) => sum + ing.ratio * targetBaseWeight, 0);\n}",
+          "targetBody": "{\n    if (targetBaseWeight <= 0) {\n        throw new Error('targetBaseWeight must be > 0');\n    }\n    if (!recipe || !recipe.ingredients || recipe.ingredients.length === 0) {\n        return 0;\n    }\n    const getRatio = (i: any) => (i.ratio !== undefined ? i.ratio : i.ratioWeight !== undefined ? i.ratioWeight : 0);\n    const baseIngredientName = (recipe as RecipeBlueprint).baseIngredient;\n    const baseIng = recipe.ingredients.find((i: any) => i.id === baseIngredientName || i.name === baseIngredientName || getRatio(i) === 100);\n    const baseRatio = baseIng ? getRatio(baseIng) : 100;\n    if (baseRatio <= 0) {\n        throw new Error('Base ingredient ratio must be > 0');\n    }\n    const ratioSum = recipe.ingredients.reduce((sum: number, ing: any) => sum + getRatio(ing), 0);\n    const unitWeight = targetBaseWeight / baseRatio;\n    return ratioSum * unitWeight;\n}",
+          "status": "changed-body-needs-parity"
+        }
+      ],
+      "addedTargetFunctions": [
+        "scaleRecipeTree",
+        "flattenScaledTree",
+        "scaleByServings",
+        "formatAmount",
+        "gramsToCups",
+        "cupsToGrams",
+        "computeRecipeCost",
+        "calculateCostVariance",
+        "summarizeWaste",
+        "calculateWastePercentage",
+        "generateShiftPrepPlan",
+        "projectBatchRequirement",
+        "scaleBlueprint",
+        "computeCost",
+        "fromTotalWeight",
+        "detectAllergensFromIngredients",
+        "calculateRecipeNutrition"
+      ]
+    },
+    {
+      "engine": "prep-engine",
+      "source": "baseline/p06-prep/KitchenKit/packages/prep-engine/src/index.ts",
+      "sourceHash": "7b37fd09a24f1bb2d93309c44dbbb3f6bbf384a775d49434f3285f424e0c991b",
+      "target": "C:/Users/white/Documents/GitHub/CulinaryOS/packages/prep-engine/src/index.ts",
+      "targetHash": "86173a03aae298fe4d604c2451ab1dadee2b7b8e5f76a90426ded1d147f9a49c",
+      "functions": [
+        {
+          "name": "buildShiftPrep",
+          "sourceLine": 27,
+          "targetLine": 27,
+          "normalizedBodyEqual": true,
+          "normalizedDeclarationEqual": true,
+          "sourceBodyHash": "23d9a43372e6a7ba2ae63fdb81d831afcab978db7a2d66a5b4160535aba0f2df",
+          "targetBodyHash": "23d9a43372e6a7ba2ae63fdb81d831afcab978db7a2d66a5b4160535aba0f2df",
+          "sourceBody": "{\n    const items = prepItems\n        .filter((item) => item.currentStock < item.parLevel)\n        .map((item) => ({\n        ingredient: item.ingredient,\n        prepAmount: item.parLevel - item.currentStock,\n        unit: item.unit,\n    }));\n    return { shift, date, items };\n}",
+          "targetBody": "{\n    const items = prepItems\n        .filter((item) => item.currentStock < item.parLevel)\n        .map((item) => ({\n        ingredient: item.ingredient,\n        prepAmount: item.parLevel - item.currentStock,\n        unit: item.unit,\n    }));\n    return { shift, date, items };\n}",
+          "status": "same-printed-AST-body"
+        },
+        {
+          "name": "getMiseEnPlace",
+          "sourceLine": 43,
+          "targetLine": 43,
+          "normalizedBodyEqual": false,
+          "normalizedDeclarationEqual": false,
+          "sourceBodyHash": "9b698dbe4d18bc9d0c5acc65510a4c7523e8b7ca8b067c3be2f746ebbbe4363e",
+          "targetBodyHash": "1f8037a6b66306ffca4aae774a734d5da75a38dc079ba5289e4a42cb9a7e7f1d",
+          "sourceBody": "{\n    const scaled = scaleRecipe(recipe, targetBaseWeight);\n    return recipe.ingredients.map((ing) => ({\n        ingredient: ing.name,\n        amount: scaled[ing.name],\n        unit: ing.unit,\n    }));\n}",
+          "targetBody": "{\n    const scaled = scaleRecipe(recipe, targetBaseWeight);\n    return recipe.ingredients.map((ing: {\n        name: string;\n        unit?: string | undefined;\n    }) => ({\n        ingredient: ing.name,\n        amount: scaled[ing.name] ?? 0,\n        unit: ing.unit,\n    }));\n}",
+          "status": "changed-body-needs-parity"
+        },
+        {
+          "name": "projectBatchSize",
+          "sourceLine": 56,
+          "targetLine": 58,
+          "normalizedBodyEqual": true,
+          "normalizedDeclarationEqual": true,
+          "sourceBodyHash": "f27382ab79a17e6ecb382f1654b08fe27722fce141bfab17cda7445fd3e074bc",
+          "targetBodyHash": "f27382ab79a17e6ecb382f1654b08fe27722fce141bfab17cda7445fd3e074bc",
+          "sourceBody": "{\n    return portionWeight * covers * wasteFactor;\n}",
+          "targetBody": "{\n    return portionWeight * covers * wasteFactor;\n}",
+          "status": "same-printed-AST-body"
+        }
+      ],
+      "addedTargetFunctions": []
+    }
+  ],
+  "limitations": [
+    "AST printing equality is syntax evidence, not full behavior/type/dependency equivalence",
+    "No source function executed",
+    "Imports and enriched target types still need compatibility tests",
+    "Runtime parity NOT RUN"
+  ]
+}

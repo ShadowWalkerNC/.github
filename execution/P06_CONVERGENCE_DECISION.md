@@ -1,0 +1,5 @@
+# P06 convergence finding
+33captured original KitchenKit UI paths already exist in CulinaryOS;6same normalized AST,27changed. No target paths missing under this capture. Normalization changes package namespace and strips comments/format;this is static syntax evidence only. Do not recopy source or replace expanded target engine/UI.
+Target login guard/mock-session behavior differs from protected source and blocks acceptance. Source and target hooks use plan_id but source SQL declares prep_plan_id;applied target schema unknown. P06_AUTH_CONTAINMENT_PROPOSAL.md proposes bounded authentication containment first,without data/provider changes.
+Source fraction/targetpercentage mismatch remains real exported-API incompatibility,though captured source internal consumers reference scaleRecipe rather than calculateRatio;do not invent a presently migrated caller. External consumers remain unknown. Source scaleRecipe and three retained bodies require real consumer parity,not inferred acceptance.
+Next:activate auth containment scope before product edits;then independently verify actual source/target feature/auth/data contracts. Tests-only parity approval remains separate.

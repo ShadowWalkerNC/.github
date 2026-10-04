@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "testsFailed": 0,
+  "museCoding": "BLOCKED quota",
+  "hardware": "NOT RUN",
+  "productionPromotion": "NOT APPROVED",
+  "testsPassed": 11,
+  "phase": "P04",
+  "scope": "approved bounded local foundation",
+  "experiments": [
+    "MUSE-001",
+    "MUSE-002",
+    "MUSE-003"
+  ],
+  "metaConnectorTransport": "NOT RUN",
+  "review": "execution/ANTIGRAVITY_P04_FOUNDATION_REVIEW.txt",
+  "xr": "NOT RUN",
+  "registry": "PASS"
+}

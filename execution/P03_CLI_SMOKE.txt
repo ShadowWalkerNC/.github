@@ -1,0 +1,8 @@
+forgesatchel             ForgeSatchel  [  local platform active]
+culinaryos               CulinaryOS  [  local product active]
+muselab                  MuseLab  [  local lab planned-active]
+bibledesk                BibleDesk  [  local product active]
+dominion                 Dominion  [  local product active]
+cheezies                 Cheezies Gourmet  [  local client active]
+mercury                  Mercury  [  local infrastructure supporting]
+shorelineops             ShorelineOps  [  local product supporting]

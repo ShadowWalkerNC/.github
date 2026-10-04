@@ -1,0 +1,9 @@
+# P03 authorization proposal - pending runtime approval
+Current API safety labels are metadata. Authenticated RPC dispatches execution methods without per-capability checks.
+Prepared: src/authorization.ts is a pure evaluator, not connected to any runtime path. Two denial/allow tests and strict no-emit typecheck PASS.
+Proposed first deployment: HTTP RPC accepts read methods only. Explicit method allowlist, trusted server-owned actor context, canonical project ID resolution and input schema validation precede dispatch. Request bodies never supply grants or approvals. Known execution methods receive HTTP 403 before adapter/process invocation. CLI behavior preserved during this bounded containment step.
+Read methods may have local bookkeeping side effects (session refresh/events/files); classify those separately. Read-only here means no process/agent command execution, not mathematical absence of disk writes.
+Do not enable remote execution grants in this step. The pure execute evaluator is future contract scaffolding; approvalId alone is not proof of owner approval and cannot be accepted from model/client input. A future validated approval store is required.
+Tests required: unauthenticated 401; authenticated read succeeds; execution denied before side effects; unknown method denied; spoofed grants ignored; malformed body/params rejected; errors expose no secrets. Record request/actor/method/decision/result without raw bodies/tokens.
+Rollback: restore server/API before-snapshots; preserve operational data and token.
+Gate: current phase requires approval for permission_change. Obtain owner approval before activating RPC containment. No live permission, secret or production change occurs merely from this proposal.

@@ -1,0 +1,78 @@
+{
+  "projects": [
+    {
+      "id": "bibledesk",
+      "name": "BibleDesk",
+      "repository": "ShadowWalkerNC/BibleDesk",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 2,
+      "ecosystem": "BibleDesk"
+    },
+    {
+      "id": "cheezies",
+      "name": "Cheezies Gourmet",
+      "repository": "ShadowWalkerNC/cheezies-gourmet",
+      "classification": "client",
+      "lifecycle": "active",
+      "priority": 3,
+      "ecosystem": "Cheezies"
+    },
+    {
+      "id": "culinaryos",
+      "name": "CulinaryOS",
+      "repository": "ShadowWalkerNC/CulinaryOS",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 1,
+      "ecosystem": "CulinaryOS"
+    },
+    {
+      "id": "dominion",
+      "name": "Dominion",
+      "repository": "ShadowWalkerNC/Dominion",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 2,
+      "ecosystem": "Dominion"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "repository": "ShadowWalkerNC/Mercury",
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "priority": null,
+      "ecosystem": "Mercury"
+    },
+    {
+      "id": "muselab",
+      "name": "MuseLab",
+      "repository": "ShadowWalkerNC/MuseLab",
+      "classification": "lab",
+      "lifecycle": "planned-active",
+      "priority": 1,
+      "ecosystem": "MuseLab"
+    },
+    {
+      "id": "shorelineops",
+      "name": "ShorelineOps",
+      "repository": "ShadowWalkerNC/ShorelineOps",
+      "classification": "product",
+      "lifecycle": "supporting",
+      "priority": null,
+      "ecosystem": "CulinaryOS"
+    },
+    {
+      "id": "forgesatchel",
+      "name": "ForgeSatchel",
+      "repository": null,
+      "classification": "platform",
+      "lifecycle": "active",
+      "priority": 1,
+      "ecosystem": "ForgeSatchel"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "PORTFOLIO.yaml"
+}

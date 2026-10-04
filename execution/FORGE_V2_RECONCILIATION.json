@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "product": "ForgeSatchel",
+  "productBlueprintVersion": "2.0",
+  "portfolioBlueprintVersion": "4.0",
+  "canonicalPath": "C:/Users/white/Desktop/ForgeSatchel/docs/FORGE_MASTER_BLUEPRINT_V2.md",
+  "attachmentSha256": "4403CFD664E870B33FE003ED9DEC6ABC7106635710D804AC2280685D60B8C5D8",
+  "canonicalSha256": "1286EF62C82BB997220BABA1953FCB72322A49A7082FCA3C7629D77185005FAD",
+  "currentPortfolioPhase": "P05",
+  "runtimeChanged": false,
+  "sectionCount": 75,
+  "sections": [
+    {
+      "id": 1,
+      "name": "Product Definition",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 2,
+      "name": "Product Philosophy",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 3,
+      "name": "Device Architecture",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 4,
+      "name": "What Forge Desktop Does",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 5,
+      "name": "What Forge Node Does",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 6,
+      "name": "Primary Architecture",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 7,
+      "name": "Forge Core",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 8,
+      "name": "Josh",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 9,
+      "name": "Josh Processing Ladder",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 10,
+      "name": "Josh Personalization",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 11,
+      "name": "Forge Context",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 12,
+      "name": "Context Reduction",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 13,
+      "name": "Forge Task Packet",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 14,
+      "name": "Forge Intelligence Layer",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 15,
+      "name": "Open-Source Harness Strategy",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 16,
+      "name": "ACP",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 17,
+      "name": "Muse",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 18,
+      "name": "MCP",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 19,
+      "name": "Forge Development Suites",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 20,
+      "name": "Forge App & Cloud",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 21,
+      "name": "Forge AI & Agents",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 22,
+      "name": "Forge Systems & Native",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 23,
+      "name": "Forge Hardware & Robotics",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 24,
+      "name": "Forge Game & Spatial",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 25,
+      "name": "Forge Automation & Data",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 26,
+      "name": "Forge Complete Lab",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 27,
+      "name": "Integrations",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 28,
+      "name": "Integration Principle",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 29,
+      "name": "Suite Engine",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 30,
+      "name": "Suites vs Project Environments",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 31,
+      "name": "Workspace Runtime",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 32,
+      "name": "Forge Network",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 33,
+      "name": "Capability Routing",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 34,
+      "name": "Forge Guard",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 35,
+      "name": "Security Zones",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 36,
+      "name": "Identity",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 37,
+      "name": "Permission Classes",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 38,
+      "name": "Security Presets",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 39,
+      "name": "Forge Vault",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 40,
+      "name": "Cloud Context Privacy",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 41,
+      "name": "Hardware Broker",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 42,
+      "name": "Public Exposure",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 43,
+      "name": "Forge Care",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 44,
+      "name": "Desktop Installation",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 45,
+      "name": "First Run",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 46,
+      "name": "Personal Preferences",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 47,
+      "name": "Forge Doctor",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 48,
+      "name": "Self-Repair",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 49,
+      "name": "Updates",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 50,
+      "name": "Rollback",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 51,
+      "name": "Backup",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 52,
+      "name": "Machine Replacement",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 53,
+      "name": "UI Structure",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 54,
+      "name": "Core Interaction",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 55,
+      "name": "Standard Interaction Lifecycle",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 56,
+      "name": "Task UI",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 57,
+      "name": "Explainability",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 58,
+      "name": "Error Design",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 59,
+      "name": "Partial Failure",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 60,
+      "name": "Provider Failure",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 61,
+      "name": "Emergency Stop",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 62,
+      "name": "Recovery Mode",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 63,
+      "name": "Repository Layout",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 64,
+      "name": "Project Structure",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 65,
+      "name": "Forge SDK",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 66,
+      "name": "V1 Scope",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 67,
+      "name": "V1 Definition of Done",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 68,
+      "name": "V2 — Forge Node",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 69,
+      "name": "V3 — Deep Personalization",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 70,
+      "name": "V4 — Forge Network",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 71,
+      "name": "V5 — Ecosystem",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 72,
+      "name": "What Not to Build",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 73,
+      "name": "Critical Metrics",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 74,
+      "name": "Architectural Stress Tests",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    },
+    {
+      "id": 75,
+      "name": "Canonical Product Statement",
+      "status": "target-not-accepted",
+      "evidence": "NOT RUN",
+      "owner": "ForgeSatchel"
+    }
+  ],
+  "conflicts": [
+    "New Forge V1 is broader than original P03 MVP; old P03 acceptance is not new V1 acceptance.",
+    "forge.project.json remains canonical portfolio identity; optional .forge/project.yaml needs synchronization/version migration before adoption.",
+    "New permission display classes need lossless mapping to existing fine-grained permissions; no authority broadening.",
+    "Recommended monorepo layout is a target; no wholesale rewrite or empty directory creation.",
+    "Strands Harness SDK and assembled harness packages are distinct; exact adapter package must be selected at SDK gate."
+  ]
+}

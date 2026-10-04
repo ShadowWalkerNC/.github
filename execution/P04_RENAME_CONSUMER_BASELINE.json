@@ -1,0 +1,99 @@
+{
+  "repository": "ShadowWalkerNC/MuseAiBots",
+  "observedAt": "2026-10-03T22:57:54.233Z",
+  "endpoints": [
+    {
+      "endpoint": "branches?per_page=100",
+      "isError": false,
+      "response": {
+        "content": "[]",
+        "title": "branches",
+        "modified_date": null,
+        "url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/branches?per_page=100",
+        "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/branches?per_page=100",
+        "display_title": "branches",
+        "structuredContent": {
+          "title": "branches",
+          "content": "[]",
+          "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/branches?per_page=100"
+        }
+      }
+    },
+    {
+      "endpoint": "tags?per_page=100",
+      "isError": true,
+      "response": {
+        "error": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+        "error_code": "INVALID_ARGUMENT"
+      }
+    },
+    {
+      "endpoint": "releases?per_page=100",
+      "isError": false,
+      "response": {
+        "content": "[]",
+        "title": "releases",
+        "modified_date": null,
+        "url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/releases?per_page=100",
+        "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/releases?per_page=100",
+        "display_title": "releases",
+        "structuredContent": {
+          "title": "releases",
+          "content": "[]",
+          "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/releases?per_page=100"
+        }
+      }
+    },
+    {
+      "endpoint": "issues?state=open&per_page=100",
+      "isError": false,
+      "response": {
+        "content": "[]",
+        "title": "issues",
+        "modified_date": null,
+        "url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/issues?state=open&per_page=100",
+        "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/issues?state=open&per_page=100",
+        "display_title": "issues",
+        "structuredContent": {
+          "title": "issues",
+          "content": "[]",
+          "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/issues?state=open&per_page=100"
+        }
+      }
+    },
+    {
+      "endpoint": "pulls?state=open&per_page=100",
+      "isError": false,
+      "response": {
+        "content": "[]",
+        "title": "pulls",
+        "modified_date": null,
+        "url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/pulls?state=open&per_page=100",
+        "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/pulls?state=open&per_page=100",
+        "display_title": "pulls",
+        "structuredContent": {
+          "title": "pulls",
+          "content": "[]",
+          "display_url": "https://api.github.com/repos/ShadowWalkerNC/MuseAiBots/pulls?state=open&per_page=100"
+        }
+      }
+    },
+    {
+      "endpoint": "actions/workflows?per_page=100",
+      "isError": true,
+      "response": {
+        "error": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+        "error_code": "INVALID_ARGUMENT"
+      }
+    }
+  ],
+  "gitLsRemote": {
+    "exitCode": 0,
+    "refs": [],
+    "command": "git ls-remote https://github.com/ShadowWalkerNC/MuseAiBots.git"
+  },
+  "unknown": [
+    "workflow listing unsupported by connector",
+    "provider/deployment/Pages consumers not proven absent"
+  ]
+}

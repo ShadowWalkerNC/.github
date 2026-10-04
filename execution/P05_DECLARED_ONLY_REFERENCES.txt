@@ -1,0 +1,9 @@
+packages\shared\src\types\events.ts:22:  | 'pos:order:updated'
+packages\shared\src\types\events.ts:24:  | 'pos:order:paid'
+packages\shared\src\types\events.ts:28:  | 'kds:ticket:recalled'
+packages\shared\src\types\events.ts:34:  | 'recipeos:recipe:created'
+packages\shared\src\types\events.ts:35:  | 'recipeos:recipe:updated'
+packages\shared\src\types\events.ts:37:  | 'culinaryos:tenant:created'
+packages\shared\src\types\events.ts:38:  | 'culinaryos:tenant:suspended'
+packages\shared\src\types\events.ts:39:  | 'culinaryos:service:registered'
+packages\shared\src\types\events.ts:40:  | 'culinaryos:service:deregistered';

@@ -1,0 +1,8 @@
+# P03 operational state incremental plan
+Current: config.json and projects.json use atomic rename writes; sessions are one JSON file per ID; events use append-only JSONL. Canonical project facts remain forge.project.json/Git.
+Target: SQLite owns operational task/session/cache/audit state. Keep user configuration and durable project identity outside this database initially.
+First bounded slice: introduce isolated SQLite task/handoff store behind an interface, with versioned schema, transactions, explicit close, corruption errors and JSON export. Do not replace registry/preferences or import actual user state automatically. Existing JSON readers remain compatible.
+Migration after validation: read-only inventory, pinned backups/hashes, dry-run import report, transactional import into new database, row-count/identity parity, export verification, opt-in switch, rollback to retained JSON. Reject duplicate IDs and malformed records rather than silently accepting them.
+No secrets/token values in task/audit rows; audit method/actor/permission/decision/result only. Data retention, bounded result lengths and backup/recovery need tests.
+Runtime capability: verify installed Node built-in SQLite support before considering a dependency; no SDK/library adoption without a decision. Node engine compatibility must be documented, not raised silently.
+Exit evidence: roundtrip task/handoff state across process restarts, transaction rollback, schema version rejection, no live-state writes, recovery from backup. JSON replacement remains a separate approved migration.

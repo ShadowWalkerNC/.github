@@ -1,0 +1,40 @@
+{
+  "id": "P06",
+  "name": "CulinaryOS migrations",
+  "status": "in_progress",
+  "depends_on": [
+    "P05"
+  ],
+  "repositories": [
+    "ShadowWalkerNC/CulinaryOS",
+    "ShadowWalkerNC/KitchenKit",
+    "ShadowWalkerNC/CulinaryOps",
+    "ShadowWalkerNC/Post-Pilot",
+    "ShadowWalkerNC/Plated"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "plan",
+    "create",
+    "edit",
+    "test"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Each ordered source migration passes parity/contracts/integration checks",
+    "Rollback verified before source retirement"
+  ],
+  "permission_note": "APP-P06-PARITY approved:staging-only calculation harness/fixtures/evidence. Product feature/data migration remains planning only;no implementation changes,DB/provider/permissions/secrets/install/deploy/push/retirement."
+}

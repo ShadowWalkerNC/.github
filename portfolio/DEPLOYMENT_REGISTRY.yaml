@@ -1,0 +1,796 @@
+{
+  "railway": [
+    {
+      "kind": "status",
+      "project": "Cheezies",
+      "data": {
+        "project": {
+          "id": "0d338087-dfce-4a3e-be95-4084afbec3f0",
+          "name": "Cheezies",
+          "workspaceName": "shadowwalkernc's Projects"
+        },
+        "environment": {
+          "id": "b99a57a9-1356-4e27-94ca-0d57e7e933b6",
+          "name": "production",
+          "unmergedChangesCount": null,
+          "stagedChanges": null
+        },
+        "services": [
+          {
+            "id": "5661490a-1578-4e1a-ae92-ffc0dc01ec0f",
+            "name": "cheezies-gourmet",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "d9bb6a32-97b6-4fbb-a8f8-2e2983741175",
+              "status": "SUCCESS",
+              "createdAt": "2026-10-02T21:03:45.547Z",
+              "url": null
+            }
+          },
+          {
+            "id": "602abcbc-a422-4efe-af58-ff969ff6c094",
+            "name": "Postgres",
+            "numReplicas": 1,
+            "cronSchedule": null,
+            "volumes": [
+              {
+                "id": "c330b0a4-af2f-4497-b4d4-71b73ec19697",
+                "name": "postgres-volume",
+                "mountPath": "/var/lib/postgresql/data",
+                "sizeMB": 5000,
+                "region": "sfo"
+              }
+            ],
+            "latestDeployment": {
+              "id": "704c4fcd-7b3e-4b15-ba31-6bbcfb4685b5",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-27T17:46:46.021Z",
+              "url": null
+            }
+          }
+        ],
+        "buckets": [],
+        "pendingWork": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "Cheezies",
+      "data": {
+        "service": {
+          "id": "602abcbc-a422-4efe-af58-ff969ff6c094",
+          "name": "Postgres"
+        },
+        "environment": {
+          "id": "b99a57a9-1356-4e27-94ca-0d57e7e933b6",
+          "name": "production"
+        },
+        "serviceDomains": [],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "Cheezies",
+      "data": {
+        "service": {
+          "id": "5661490a-1578-4e1a-ae92-ffc0dc01ec0f",
+          "name": "cheezies-gourmet"
+        },
+        "environment": {
+          "id": "b99a57a9-1356-4e27-94ca-0d57e7e933b6",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "069c0ff2-bf94-40c9-9ea4-9582ef5296f3",
+            "domain": "cheezies-gourmet-production.up.railway.app",
+            "targetPort": 8080
+          }
+        ],
+        "customDomains": [
+          {
+            "id": "ec27909f-04d7-4d68-ab4c-f6ce7843298f",
+            "domain": "cheeziesgourmetohio.com",
+            "targetPort": 8080
+          },
+          {
+            "id": "da6de1b4-02b6-4be7-95ae-fbafdf36e3df",
+            "domain": "www.cheeziesgourmetohio.com",
+            "targetPort": 8080
+          }
+        ]
+      }
+    },
+    {
+      "kind": "status",
+      "project": "BibleDesk",
+      "data": {
+        "project": {
+          "id": "40310818-9b2b-4eaf-a914-20258fbf1fe9",
+          "name": "BibleDesk",
+          "workspaceName": "shadowwalkernc's Projects"
+        },
+        "environment": {
+          "id": "0c1db9aa-5a80-44ce-bf1f-b33944aff29a",
+          "name": "production",
+          "unmergedChangesCount": null,
+          "stagedChanges": null
+        },
+        "services": [
+          {
+            "id": "1ebe0476-f59a-41b1-a5ed-db021d756892",
+            "name": "BibleDesk",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "ed5e87af-2c23-429e-b447-19dfad2e03a1",
+              "status": "SUCCESS",
+              "createdAt": "2026-10-02T11:15:47.61Z",
+              "url": null
+            }
+          }
+        ],
+        "buckets": [],
+        "pendingWork": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "BibleDesk",
+      "data": {
+        "service": {
+          "id": "1ebe0476-f59a-41b1-a5ed-db021d756892",
+          "name": "BibleDesk"
+        },
+        "environment": {
+          "id": "0c1db9aa-5a80-44ce-bf1f-b33944aff29a",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "e85aefc0-d3a4-4650-947d-88189a56269b",
+            "domain": "bibledesk-production.up.railway.app",
+            "targetPort": 8080
+          }
+        ],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "status",
+      "project": "CulinaryOS",
+      "data": {
+        "project": {
+          "id": "9d7feb1d-d852-4c93-a2a8-75de59bf43a0",
+          "name": "CulinaryOS",
+          "workspaceName": "shadowwalkernc's Projects"
+        },
+        "environment": {
+          "id": "4ae790c9-f85c-43d5-9dfa-394bb6dccfff",
+          "name": "production",
+          "unmergedChangesCount": null,
+          "stagedChanges": null
+        },
+        "services": [
+          {
+            "id": "6c39eaf3-4eea-4ed7-97aa-c8c8017ae679",
+            "name": "culinaryos-api",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "9f62c3cb-38d4-4af7-8352-30ef6f7022c7",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-24T17:50:12.705Z",
+              "url": null
+            }
+          },
+          {
+            "id": "e3aafea5-d836-4cf4-8dd8-e9aeb48fc192",
+            "name": "culinaryos-web",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "3f5f914a-c051-4a4b-85ba-c75b9f915d09",
+              "status": "SUCCESS",
+              "createdAt": "2026-10-02T21:16:50.093Z",
+              "url": null
+            }
+          },
+          {
+            "id": "14aa8552-52a7-4fd3-ac47-a0b2c157b879",
+            "name": "culinaryos-admin",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "2f5a7a52-f561-4ec4-8d81-a82f80d726e2",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-24T17:50:12.706Z",
+              "url": null
+            }
+          },
+          {
+            "id": "7f55a328-0cd7-4a35-9ae2-ecdbfb85de08",
+            "name": "Postgres",
+            "numReplicas": 1,
+            "cronSchedule": null,
+            "volumes": [
+              {
+                "id": "10b1f038-972b-4877-9df6-c6db2c91350c",
+                "name": "postgres-volume",
+                "mountPath": "/var/lib/postgresql/data",
+                "sizeMB": 5000,
+                "region": "sfo"
+              }
+            ],
+            "latestDeployment": {
+              "id": "2e1d7826-c100-4464-a7e1-7ea2490ad295",
+              "status": "SUCCESS",
+              "createdAt": "2026-10-02T13:32:53.707Z",
+              "url": null
+            }
+          }
+        ],
+        "buckets": [],
+        "pendingWork": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "CulinaryOS",
+      "data": {
+        "service": {
+          "id": "7f55a328-0cd7-4a35-9ae2-ecdbfb85de08",
+          "name": "Postgres"
+        },
+        "environment": {
+          "id": "4ae790c9-f85c-43d5-9dfa-394bb6dccfff",
+          "name": "production"
+        },
+        "serviceDomains": [],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "CulinaryOS",
+      "data": {
+        "service": {
+          "id": "14aa8552-52a7-4fd3-ac47-a0b2c157b879",
+          "name": "culinaryos-admin"
+        },
+        "environment": {
+          "id": "4ae790c9-f85c-43d5-9dfa-394bb6dccfff",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "9d29db9d-fbb5-4707-b81d-1beff1c1000b",
+            "domain": "culinaryos-admin-production.up.railway.app",
+            "targetPort": null
+          }
+        ],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "CulinaryOS",
+      "data": {
+        "service": {
+          "id": "e3aafea5-d836-4cf4-8dd8-e9aeb48fc192",
+          "name": "culinaryos-web"
+        },
+        "environment": {
+          "id": "4ae790c9-f85c-43d5-9dfa-394bb6dccfff",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "e7e96973-2b17-48a6-afd0-5df826aaec82",
+            "domain": "culinaryos-web-production.up.railway.app",
+            "targetPort": null
+          }
+        ],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "CulinaryOS",
+      "data": {
+        "service": {
+          "id": "6c39eaf3-4eea-4ed7-97aa-c8c8017ae679",
+          "name": "culinaryos-api"
+        },
+        "environment": {
+          "id": "4ae790c9-f85c-43d5-9dfa-394bb6dccfff",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "ea53ae44-6540-470d-b182-6933f169c311",
+            "domain": "culinaryos-api-production.up.railway.app",
+            "targetPort": null
+          }
+        ],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "status",
+      "project": "shorelineops",
+      "data": {
+        "project": {
+          "id": "4e37430c-048d-49b3-bd4e-ec45d7ed74f8",
+          "name": "shorelineops",
+          "workspaceName": "shadowwalkernc's Projects"
+        },
+        "environment": {
+          "id": "a176701a-8a69-474e-9336-f08c935fd96c",
+          "name": "production",
+          "unmergedChangesCount": null,
+          "stagedChanges": null
+        },
+        "services": [
+          {
+            "id": "b46199d3-20c7-480e-82ff-e78109d62c03",
+            "name": "shoreline-api",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "024db04d-2f54-4348-afb9-4e1174c26fab",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-29T16:03:27.924Z",
+              "url": null
+            }
+          },
+          {
+            "id": "8b04dd06-5f74-4a6b-9b22-9c0c17011974",
+            "name": "shoreline-demo",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "4dd02112-647d-4424-b3af-7eb0f4ab53bd",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-29T16:03:27.924Z",
+              "url": null
+            }
+          },
+          {
+            "id": "2fbfcb7d-cfee-4ad9-be7f-cf5a344e2d9e",
+            "name": "shoreline-marketing",
+            "numReplicas": null,
+            "cronSchedule": null,
+            "volumes": [],
+            "latestDeployment": {
+              "id": "628b70b8-2ec4-463a-935a-ab6d581c2c1d",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-29T16:03:27.924Z",
+              "url": null
+            }
+          },
+          {
+            "id": "a1ce9705-6cd5-4267-aed1-3139ff75cb9a",
+            "name": "shoreline-db",
+            "numReplicas": 1,
+            "cronSchedule": null,
+            "volumes": [
+              {
+                "id": "7b140fa3-cc1a-4e5f-a3b4-abae56470758",
+                "name": "shoreline-db-volume",
+                "mountPath": "/var/lib/postgresql/data",
+                "sizeMB": 5000,
+                "region": "sfo"
+              }
+            ],
+            "latestDeployment": {
+              "id": "88b0a7af-486c-4dfe-a26d-35e4e79a1482",
+              "status": "SUCCESS",
+              "createdAt": "2026-09-20T23:24:23.168Z",
+              "url": null
+            }
+          }
+        ],
+        "buckets": [],
+        "pendingWork": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "shorelineops",
+      "data": {
+        "service": {
+          "id": "2fbfcb7d-cfee-4ad9-be7f-cf5a344e2d9e",
+          "name": "shoreline-marketing"
+        },
+        "environment": {
+          "id": "a176701a-8a69-474e-9336-f08c935fd96c",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "6c86922e-fa6b-4302-af1f-7258027857f1",
+            "domain": "shoreline-marketing-production.up.railway.app",
+            "targetPort": null
+          }
+        ],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "shorelineops",
+      "data": {
+        "service": {
+          "id": "8b04dd06-5f74-4a6b-9b22-9c0c17011974",
+          "name": "shoreline-demo"
+        },
+        "environment": {
+          "id": "a176701a-8a69-474e-9336-f08c935fd96c",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "b1c760c1-c172-4ef1-abba-51e6ef607aea",
+            "domain": "shoreline-demo-production.up.railway.app",
+            "targetPort": null
+          }
+        ],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "shorelineops",
+      "data": {
+        "service": {
+          "id": "a1ce9705-6cd5-4267-aed1-3139ff75cb9a",
+          "name": "shoreline-db"
+        },
+        "environment": {
+          "id": "a176701a-8a69-474e-9336-f08c935fd96c",
+          "name": "production"
+        },
+        "serviceDomains": [],
+        "customDomains": []
+      }
+    },
+    {
+      "kind": "domains",
+      "project": "shorelineops",
+      "data": {
+        "service": {
+          "id": "b46199d3-20c7-480e-82ff-e78109d62c03",
+          "name": "shoreline-api"
+        },
+        "environment": {
+          "id": "a176701a-8a69-474e-9336-f08c935fd96c",
+          "name": "production"
+        },
+        "serviceDomains": [
+          {
+            "id": "2ed1d924-565a-498a-a5e0-dc61f70c8733",
+            "domain": "shoreline-api-production.up.railway.app",
+            "targetPort": null
+          }
+        ],
+        "customDomains": []
+      }
+    }
+  ],
+  "unknowns": [
+    "Applied database schema versions",
+    "Complete Vercel custom domain/linkage mapping",
+    "Runtime health and production functional acceptance"
+  ],
+  "vercel": [
+    {
+      "name": "cheezies-gourmet",
+      "pagination": {
+        "count": 7,
+        "next": 1790964268599,
+        "prev": 1790975026318
+      },
+      "deployments": [
+        {
+          "id": "dpl_8zN1QQVpoF4W2z49hhu4N8pReVxd",
+          "url": "cheezies-gourmet-n8eq52lhr-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790975026318,
+          "commit": "5876fa4f90ef1f2e03e1a77c460b394b3b23a771"
+        },
+        {
+          "id": "dpl_2zxNjg5TsasPDnwUNMoKfdNLMKJw",
+          "url": "cheezies-gourmet-47qdnetzt-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790974646897,
+          "commit": "907d4976fa8cad3193214bbb328ef566d6d1c45a"
+        },
+        {
+          "id": "dpl_GUt4J1XJiwWpiFnvxJB2UD7mbW8h",
+          "url": "cheezies-gourmet-5q0bzi8c4-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790974253656,
+          "commit": "b8d51527687fda8950239f6ffb67ce4a5d7f2d7e"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 7,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "cheezies-gourmet-copy-c728497b",
+      "pagination": {
+        "count": 20,
+        "next": 1788917125855,
+        "prev": 1790975026324
+      },
+      "deployments": [
+        {
+          "id": "dpl_FcaqTTjCtL7UN2kDPtC2K8dBNniB",
+          "url": "cheezies-gourmet-copy-c728497b-57lttae0p-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790975026324,
+          "commit": "5876fa4f90ef1f2e03e1a77c460b394b3b23a771"
+        },
+        {
+          "id": "dpl_FC9aMpYxzBFf5WZsue5WRM2bAvkV",
+          "url": "cheezies-gourmet-copy-c728497b-h4abeska5-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790974646880,
+          "commit": "907d4976fa8cad3193214bbb328ef566d6d1c45a"
+        },
+        {
+          "id": "dpl_7fVyNTdCdm6qjxxqJMVxS52Ve5zm",
+          "url": "cheezies-gourmet-copy-c728497b-fejvz4cv7-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790974253666,
+          "commit": "b8d51527687fda8950239f6ffb67ce4a5d7f2d7e"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 20,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "bible-desk",
+      "pagination": {
+        "count": 20,
+        "next": 1788724909795,
+        "prev": 1790939749138
+      },
+      "deployments": [
+        {
+          "id": "dpl_EnCJBZUVQYPGA2kiZVp7nK23gJ3Y",
+          "url": "bible-desk-fx3z88h8w-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790939749138,
+          "commit": "f414a4dff62d776e100bb4b8cf73701d3daf30f4"
+        },
+        {
+          "id": "dpl_39MqkJpBqhYVfP5Xyi7mgcQGjQfJ",
+          "url": "bible-desk-73pizi2hy-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1789920774541,
+          "commit": "cbc9317c0415fe1b2de731629b33a2f559d0f407"
+        },
+        {
+          "id": "dpl_Fv8DhZ128UKnWQqdRn5ycFDgr7Wx",
+          "url": "bible-desk-38nr7hstr-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1789861913127,
+          "commit": "f09181ee622ed4a373bc2fc69eae0c4d586e7d87"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 20,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "shoreline-care-os",
+      "pagination": {
+        "count": 20,
+        "next": 1789949258016,
+        "prev": 1790697811972
+      },
+      "deployments": [
+        {
+          "id": "dpl_7GiPZ9s6PPdgCDCmsFmeFQLN674E",
+          "url": "shoreline-care-qb2u2y81d-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790697811972,
+          "commit": "1f67e2a1d99d88d5370b05e928bc5ad2c1d4d019"
+        },
+        {
+          "id": "dpl_DwxrNds18AkbDk6dRk9AnX1YX8QV",
+          "url": "shoreline-care-61s58se20-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790551171589,
+          "commit": "e9ba866d30fe2cad6f2434c22fe4da8aa32a475b"
+        },
+        {
+          "id": "dpl_2Xvf8zTpntT72Wuh3KRTj4nM5ASJ",
+          "url": "shoreline-care-91rvr5vsu-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790550918192,
+          "commit": "ac19b6c4da1e6d44f8d3d1335ea5973f412f6935"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 20,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "shoreline-ops-server",
+      "pagination": {
+        "count": 20,
+        "next": 1789949258023,
+        "prev": 1790697811973
+      },
+      "deployments": [
+        {
+          "id": "dpl_9tNptDUpzuCdtiKqMfgjEFcahPfw",
+          "url": "shoreline-ops-server-m421quaj1-culinary-os.vercel.app",
+          "state": "ERROR",
+          "target": "production",
+          "created": 1790697811973,
+          "commit": "1f67e2a1d99d88d5370b05e928bc5ad2c1d4d019"
+        },
+        {
+          "id": "dpl_ERrc66c61Bg9cXK6o6BENZWEBGHG",
+          "url": "shoreline-ops-server-mvovq602m-culinary-os.vercel.app",
+          "state": "ERROR",
+          "target": "production",
+          "created": 1790551171589,
+          "commit": "e9ba866d30fe2cad6f2434c22fe4da8aa32a475b"
+        },
+        {
+          "id": "dpl_9r6HSrMtESkvy7kfHRnU1W6EZUGc",
+          "url": "shoreline-ops-server-ag1az7z3l-culinary-os.vercel.app",
+          "state": "ERROR",
+          "target": "production",
+          "created": 1790550916942,
+          "commit": "ac19b6c4da1e6d44f8d3d1335ea5973f412f6935"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 20,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "culinary-os-web",
+      "pagination": {
+        "count": 20,
+        "next": 1788972010030,
+        "prev": 1790272216168
+      },
+      "deployments": [
+        {
+          "id": "dpl_782b1hiFGXBDhTUrkCLqSY94agwT",
+          "url": "culinary-os-69g2jtv9l-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790272216168,
+          "commit": "40677262afe87905f4b21efa3159c82b67affe48"
+        },
+        {
+          "id": "dpl_7HWXaH1XPUcUBzSwxRUukweJkXhg",
+          "url": "culinary-os-id2vf0acp-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1790272119135,
+          "commit": "a8b64beebd5d1616cc11966368003a2b7eaedbd9"
+        },
+        {
+          "id": "dpl_EijjJvKLx9m1g958uLvh2KRecQm9",
+          "url": "culinary-os-2qmgioyzn-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1789920836835,
+          "commit": "c8ded01ec18e9a2acca968ef1d6248faa3a4628b"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 20,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "portfolio",
+      "pagination": {
+        "count": 7,
+        "next": 1784327803490,
+        "prev": 1788118569583
+      },
+      "deployments": [
+        {
+          "id": "dpl_5TFABKPhW4RvfDMFPeYX3zGoHDBA",
+          "url": "portfolio-6ht2aggwm-culinary-os.vercel.app",
+          "state": "READY",
+          "target": null,
+          "created": 1788118569583,
+          "commit": "13ef6f4ec8d83681a9db4bb7f0ee094bdf9f97b9"
+        },
+        {
+          "id": "dpl_B9S6nU2NMHSVHqs6e5ktn7eDiqsa",
+          "url": "portfolio-8rflaqkdh-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1788118567478,
+          "commit": "13ef6f4ec8d83681a9db4bb7f0ee094bdf9f97b9"
+        },
+        {
+          "id": "dpl_U9vyQpzKqAvEdpA2d5crk9boKviy",
+          "url": "portfolio-3xc9yl3d5-culinary-os.vercel.app",
+          "state": "READY",
+          "target": null,
+          "created": 1788118407788,
+          "commit": "94bc3e100c8372515146ea042d67453ac9e50622"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 7,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    },
+    {
+      "name": "post-pilot",
+      "pagination": {
+        "count": 8,
+        "next": 1782345060184,
+        "prev": 1787523232494
+      },
+      "deployments": [
+        {
+          "id": "dpl_GYEea8idb56jL9tYZd1JeUeK8Wzo",
+          "url": "post-pilot-3ztkuxhi2-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1787523232494,
+          "commit": "c52e14eb61294bbdf2a64cec5a8e4be61c71a354"
+        },
+        {
+          "id": "dpl_CjgS4bCjmw5qkGBpWFzWY9Kb23Si",
+          "url": "post-pilot-kgzj2lmpg-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1787271377522,
+          "commit": "c52e14eb61294bbdf2a64cec5a8e4be61c71a354"
+        },
+        {
+          "id": "dpl_H41cbvyKi8Vmk65PKXdyzAQ4nxSQ",
+          "url": "post-pilot-h8rg57vgw-culinary-os.vercel.app",
+          "state": "READY",
+          "target": "production",
+          "created": 1786392990831,
+          "commit": "c52e14eb61294bbdf2a64cec5a8e4be61c71a354"
+        }
+      ],
+      "scope": "returned history; custom domains not exhaustively inventoried",
+      "returnedCount": 8,
+      "historyStored": "latest 3 only; full deployment history requires paginated capture"
+    }
+  ],
+  "capturedAt": "2026-10-03T10:34:08.124Z",
+  "state": "P00 cached snapshot; not live truth",
+  "schemaVersion": 1
+}

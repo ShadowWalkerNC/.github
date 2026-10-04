@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "github",
+      "category": "scm",
+      "scope": "ForgeSatchel",
+      "status": "baseline-read-observed"
+    },
+    {
+      "id": "railway",
+      "category": "deployment",
+      "scope": "ForgeSatchel",
+      "status": "baseline-read-observed"
+    },
+    {
+      "id": "vercel",
+      "category": "deployment",
+      "scope": "ForgeSatchel",
+      "status": "baseline-read-observed"
+    },
+    {
+      "id": "muse-code",
+      "category": "coding-agent",
+      "scope": "ForgeSatchel source adapter",
+      "status": "source-observed; task execution not validated here"
+    },
+    {
+      "id": "codex",
+      "category": "coding-agent",
+      "scope": "ForgeSatchel source adapter",
+      "status": "source-observed; task execution not validated here"
+    },
+    {
+      "id": "opencode",
+      "category": "coding-agent",
+      "scope": "ForgeSatchel source adapter",
+      "status": "source-observed; task execution not validated here"
+    },
+    {
+      "id": "gemini",
+      "category": "coding-agent",
+      "scope": "ForgeSatchel source adapter",
+      "status": "source-observed; task execution not validated here"
+    },
+    {
+      "id": "claude",
+      "category": "coding-agent",
+      "scope": "ForgeSatchel source adapter",
+      "status": "source-observed; task execution not validated here"
+    },
+    {
+      "id": "antigravity",
+      "category": "coding-agent",
+      "scope": "ForgeSatchel source adapter",
+      "status": "source-observed; task execution not validated here"
+    }
+  ],
+  "productionWrites": "explicit approval required",
+  "cachedState": "timestamped snapshots; never live truth"
+}

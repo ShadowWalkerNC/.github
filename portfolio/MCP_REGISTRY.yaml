@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "culinaryos-mcp-servers",
+      "project": "culinaryos",
+      "status": "source-declaration-observed",
+      "contractVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk",
+      "project": "bibledesk",
+      "status": "documented-source-surface",
+      "contractVerification": "NOT RUN"
+    }
+  ],
+  "targetBoundary": "MCP -> authenticated domain service/API -> data; no privileged bypass."
+}

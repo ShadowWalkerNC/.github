@@ -1,0 +1,391 @@
+{
+  "preservedSpecialistFiles": 16,
+  "appendedInstructions": [
+    "SESSION_START.md",
+    "BOOT.md",
+    "AGENTS.md",
+    "README.md"
+  ],
+  "commitsPushes": "none",
+  "ownership": "released",
+  "date": "2026-10-03",
+  "status": "PASS",
+  "privatePublicationReview": "Required before push; local/private project metadata and paths are present.",
+  "target": "C:\\Users\\white\\Documents\\GitHub\\.github",
+  "created": [
+    {
+      "path": "portfolio\\ACTIVE_PROJECTS.yaml",
+      "sha256": "CA19D97FEE57EF65EAE434EA9B2FEFD273EC6E1433580D6B58D19CBACAF388C1"
+    },
+    {
+      "path": "portfolio\\AGENT_REGISTRY.yaml",
+      "sha256": "593A37A9B0055AE618166F716588ECEE607990A49438AC68350A0780ACCD3F35"
+    },
+    {
+      "path": "portfolio\\ARCHIVE.yaml",
+      "sha256": "BFA93B309004499B539D375BF0A25ECCA2FA9FE2938276A6C323E52796D3B8F5"
+    },
+    {
+      "path": "portfolio\\CAPABILITY_REGISTRY.yaml",
+      "sha256": "E68E033FD3A9D54A7AE9E4CA09A9CFD90CF87AD2E9BDBFE0E7E6D7AB2BCEE313"
+    },
+    {
+      "path": "portfolio\\DATA_OWNERSHIP.yaml",
+      "sha256": "32FAE0012F13FB9D74037B529E022BE9B7B1E19B8094C08F44CCFFF08733494C"
+    },
+    {
+      "path": "portfolio\\DEPENDENCY_GRAPH.yaml",
+      "sha256": "EDCDC2FDEE94FE84023F03A0653ED21FAC12BFAA7A482698921BA3198E7B5AA9"
+    },
+    {
+      "path": "portfolio\\DEPLOYMENT_REGISTRY.yaml",
+      "sha256": "618255936008BE9D9F8826EC4D500BC49D55C6BEBFE39B5FF797802755B67A07"
+    },
+    {
+      "path": "portfolio\\ECOSYSTEMS.yaml",
+      "sha256": "57EFD2A28714CCF8729A2A9D289ACE3D8816BF8D8D98B431EBC0E1F7876059A7"
+    },
+    {
+      "path": "portfolio\\EVENT_CATALOG.yaml",
+      "sha256": "DF17646665525C941F0B318499E1EE323C918A38DFEB5A2C0CF6B4997ED726E7"
+    },
+    {
+      "path": "portfolio\\INTEGRATION_REGISTRY.yaml",
+      "sha256": "4663DDBB15015ABDD77BE461F93DC4F2B28A6B6C2BE905E75560537F83570FD0"
+    },
+    {
+      "path": "portfolio\\MCP_REGISTRY.yaml",
+      "sha256": "FC0A4AA1A2B5D60C6540E8E9B76F86A2AC8FDFFE6C7AA48223D0DCD929E4BB5A"
+    },
+    {
+      "path": "portfolio\\PORTFOLIO.yaml",
+      "sha256": "0FB011F638700C1284849D073DAB4F7B82889D6BCFE016E46CD9DF83AC7E2429"
+    },
+    {
+      "path": "portfolio\\PROVIDER_REGISTRY.yaml",
+      "sha256": "4FB06637B13EEA129E868014B4CE188E9B9E43FCEA268D5292A2D50E29971255"
+    },
+    {
+      "path": "portfolio\\README.md",
+      "sha256": "44E8F9BBB60A8D29B90578AD65CBBB0AABD3CF96F82C48609AF7948B313B7A95"
+    },
+    {
+      "path": "portfolio\\SDK_REGISTRY.yaml",
+      "sha256": "8A9B2A837417D19BBF7252A2ED90B3267F66959D7A867685610F01142178A8A9"
+    },
+    {
+      "path": "migrations\\MIGRATION_MATRIX.yaml",
+      "sha256": "3FFDD2FDF9D8A63A48375A214C5C3F7CDBA33BF8E31721B121E5E8AEF51A1C13"
+    },
+    {
+      "path": "standards\\AGENT_STANDARD.md",
+      "sha256": "DF4E88B696C6FBBAE9C9E677A2C1DD4BAA3B05081E347F4B7287376541C0FB12"
+    },
+    {
+      "path": "standards\\AI_HANDOFF_STANDARD.md",
+      "sha256": "F3DAED7D136011AF4583602B92792B5D0E1971817392A60ED233C8D712BF7B4C"
+    },
+    {
+      "path": "standards\\API_STANDARD.md",
+      "sha256": "B60336325B284362B34183B9EC0F9F354948CCD1271F41FCA88A43C577BC8FD8"
+    },
+    {
+      "path": "standards\\ARCHITECTURE_STANDARD.md",
+      "sha256": "E20E0E7346CDEE596D562596813E571F02A4C0DA78DA157FCDE81346D1F5EF72"
+    },
+    {
+      "path": "standards\\DEPLOYMENT_STANDARD.md",
+      "sha256": "F5C61293C4ADA85C7928D2E6AB008015FD5CFAF961D069A21F97C1691D2E4164"
+    },
+    {
+      "path": "standards\\DOCUMENTATION_STANDARD.md",
+      "sha256": "CF200F83471C8FE756382D0E20CA7F8A4CBBCE32231DDB2A0289204E0960A15E"
+    },
+    {
+      "path": "standards\\EXTENSION_STANDARD.md",
+      "sha256": "89AB2A2042F88A1951469D92C8D39F5180229C1F189600D6F74952282DE03898"
+    },
+    {
+      "path": "standards\\MCP_STANDARD.md",
+      "sha256": "F4AE90D7C869875F04A831FCF85CDB61F8902B0CB9A923617A5D18F7A3EC8245"
+    },
+    {
+      "path": "standards\\MUSE_STANDARD.md",
+      "sha256": "3643423DD990D5BD8238286FB09FDC52C22BCA0AA90671E261CE7E600E8D0720"
+    },
+    {
+      "path": "standards\\PROJECT_STANDARD.md",
+      "sha256": "FB61F8886162E084710A2B08ABA10263E3EA1BC21EFB33DD98C1C8240C584EE8"
+    },
+    {
+      "path": "standards\\REPO_STANDARD.md",
+      "sha256": "A6E99AD0B399303FEA05790D6F5C875BF6E47489095F2E4479025B3A7B0FBE50"
+    },
+    {
+      "path": "standards\\SDK_ADOPTION_STANDARD.md",
+      "sha256": "84B8C08C3FFC9A0F32AEED95270F01DE60CA1C947E4665BAA6302F44E1382356"
+    },
+    {
+      "path": "standards\\SDK_STANDARD.md",
+      "sha256": "972F43835913D6AA15E4E20328FDAF6D4A2C8446D99FFD7981A05CFDD8472FF8"
+    },
+    {
+      "path": "standards\\SECURITY_STANDARD.md",
+      "sha256": "5A2AD1F6EA49DD21CFE95D894D74E45922FE4288DB9F918A79E0B711C144D3C4"
+    },
+    {
+      "path": "standards\\TESTING_STANDARD.md",
+      "sha256": "F3AB43797818FCEC84D1BFC5808E5BD2562E5A7D329939924EA55B567749D297"
+    },
+    {
+      "path": "standards\\VERSIONING_STANDARD.md",
+      "sha256": "520AFB38BD7A340AD8D3003D519CF8163499A5000FDB03576FF8C20A98C1C1A9"
+    },
+    {
+      "path": "security\\APPROVAL_MODEL.md",
+      "sha256": "9E7950D4B0A9C15022A3A57123E1962A5BAEF32266F7875A1F8116293CCF49AE"
+    },
+    {
+      "path": "security\\AUDIT_POLICY.md",
+      "sha256": "FB91A114F5F35FBA97C7C6E276A03430C9219046A47866B6C76E7FA05748BB3F"
+    },
+    {
+      "path": "security\\PERMISSIONS.md",
+      "sha256": "A8B5225215976065498BB812DE9A5D585CF25F9EC4F9ABDF0E5961865BF0C0FD"
+    },
+    {
+      "path": "security\\SECRET_MODEL.md",
+      "sha256": "7537C5FA19C7B29E828F8D300E34EBFE61CCED42DC0A582BE6C95C39D39A0524"
+    },
+    {
+      "path": "security\\THREAT_MODEL.md",
+      "sha256": "E765969FDCF506711ABC1F2EA97F0B174690DE3DA91960894A7AE65E7B370927"
+    },
+    {
+      "path": "decisions\\ADR-0001-forgesatchel-as-control-plane.md",
+      "sha256": "A4EC4CF58A4380D9F7016C67B5FB5ABB2764E9D1C5D2F47D3427A81F882D1031"
+    },
+    {
+      "path": "decisions\\ADR-0002-culinaryos-monorepo.md",
+      "sha256": "A805091FACDB799E418E362CE13849468316D9612D65DBC92E1737213505D2C0"
+    },
+    {
+      "path": "decisions\\ADR-0003-muse-first-r-d-through-muselab.md",
+      "sha256": "2C8C2A2A58EC02EA422A47711F9B3C9A26E65E883E88309743A6BF6776E8A782"
+    },
+    {
+      "path": "decisions\\ADR-0004-local-first-canonical-state.md",
+      "sha256": "77055E09CCD65B3D73F7246364324DFAC9EAAC4E6829D2EA6D6E0EA3314C5055"
+    },
+    {
+      "path": "decisions\\ADR-0005-provider-abstraction-architecture.md",
+      "sha256": "862223249682B03FF5DEB637DBB42C951C936A71FF5159A441D59F68A064C06D"
+    },
+    {
+      "path": "decisions\\ADR-0006-shared-agent-state-and-private-agent-context.md",
+      "sha256": "E19374CBDAF0BCA60075B342A12CA9A5FA846A837C68EC7122DB0F4121E81AA4"
+    },
+    {
+      "path": "decisions\\ADR-0007-culinaryos-data-ownership.md",
+      "sha256": "E3ED064CFCF190E1CF8CD41219AAA1BC0ED63D008131337B36E4344945ED553F"
+    },
+    {
+      "path": "decisions\\ADR-0008-shorelineops-separate-repository.md",
+      "sha256": "0153F4887251D930511BCFBEAA811283B1972078776253AAD31AC07CCD0CA614"
+    },
+    {
+      "path": "decisions\\ADR-0009-sdk-adoption-gate.md",
+      "sha256": "AB978B92B146B5BAF9F910FE1AB305BFA0926AF3C3525622B2C7EC9301B2E540"
+    },
+    {
+      "path": "decisions\\ADR-0010-github-organization-timing.md",
+      "sha256": "700B1A2C50C73DCC8C147E858377421FB8A948D5831FAD148BA96F9C3EEFF670"
+    },
+    {
+      "path": "decisions\\README.md",
+      "sha256": "7E8CF71314CF202E53A57B728FE1CA8B5C042E9DB7441925B13BF91C4931F172"
+    },
+    {
+      "path": "sdk-decisions\\README.md",
+      "sha256": "A7F240DCA932F6FFD14561437225764CFD70E4C206FA870992D95F8E83C2F559"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0001-muse.md",
+      "sha256": "E750066DC18927A42124C6C1BA50AC332397A1A6280F1532E3D5AAB3D78E2D58"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0002-gemini.md",
+      "sha256": "F9F507B282AEF290C1452A8879989E4229434A0BA067E4F1A0622A98703422FC"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0003-opencode.md",
+      "sha256": "90792511D2AF5DC0846EB72C9D7415CFD5308BEB788C612A672ECF79338FE01A"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0004-vercel-platform.md",
+      "sha256": "2C73E85E7133C8207EE2A6927D8C2EE6E9CDBD726FF6A6F3166349A64604B155"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0005-vercel-ai.md",
+      "sha256": "0871F541BA7F0100A00BEBFACDE3B8221E93043D661FBB9D867319395B10D770"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0006-railway.md",
+      "sha256": "782B3BFF6CBE356DD9D26A2BA34593A5B4D9420135FB95CB11434F8246AB2142"
+    },
+    {
+      "path": "sdk-decisions\\SDK-0007-supabase.md",
+      "sha256": "92C6A3F9801CB0D20B430BB2DF0E0926B19E5414953E78197400BCE69BAADB23"
+    },
+    {
+      "path": "schemas\\capability.schema.json",
+      "sha256": "2945B917A01E9DE31F39317D41D4D0CEEB08D47CED37E4B19ED6F2AC395CC47D"
+    },
+    {
+      "path": "schemas\\forge-project.schema.json",
+      "sha256": "51B6214F3A6FF57DB3B67C7C35E5FB3492DD71969F74269D2F51AD2ACB84EA0B"
+    },
+    {
+      "path": "schemas\\integration.schema.json",
+      "sha256": "93DC8D15D24E0AB10794B253869803EB4487383B83F2B5F2B88BE77BC4C062FB"
+    },
+    {
+      "path": "schemas\\migration.schema.json",
+      "sha256": "B9DDB7D84D618377792D36121C5BB75E4785A2D21646C60484B7EC327B69DE4F"
+    },
+    {
+      "path": "schemas\\phase.schema.json",
+      "sha256": "2449E4BB8EA02D97041EADD1B410F0DC81774B71289EBF4689C51E826D767405"
+    },
+    {
+      "path": "schemas\\portfolio.schema.json",
+      "sha256": "9DA3056067F32225DFDBFA2DD97AC36BC758467E51A3E37EFB827B38709F990E"
+    },
+    {
+      "path": "templates\\ADR.template.md",
+      "sha256": "16AC63590C69DF0D530488B130B7DD8A564C4864326FA0F37CDED039BEFD504B"
+    },
+    {
+      "path": "templates\\ARCHITECTURE.template.md",
+      "sha256": "1FAC99C428D5E60A212119FAD11DF5672432E99477CE623794C70CB3E14E5C10"
+    },
+    {
+      "path": "templates\\forge.project.template.json",
+      "sha256": "A5ED4FC837743935CD6CE8306E87FBDF6C230633DCA3DB1EE60E0478C812DBF9"
+    },
+    {
+      "path": "templates\\MIGRATION.template.md",
+      "sha256": "8B0772F04B02CC6F6DCE8D74E88E3F3660611B12ED3C19F87B201CB2A051B9FE"
+    },
+    {
+      "path": "templates\\PHASE.template.yaml",
+      "sha256": "BE27E65633384F0469816585C4D2BC4BAA8F8DBCBD4BC6DDFA59FA6DC7075735"
+    },
+    {
+      "path": "templates\\PROJECT.template.md",
+      "sha256": "ED2CA55295558124235AF87005FF94F181A9043CF9E7A1521125576AA1D400F1"
+    },
+    {
+      "path": "templates\\STATUS.template.md",
+      "sha256": "D4A1AFD76DF2365C83E2F196529145C77633194D35E05BC975118A1551F71D3B"
+    },
+    {
+      "path": "phases\\README.md",
+      "sha256": "201DC7A19773401EB11D5CA00CE1ADC277A1DD731DA5DDC652A8C35E8A3C3C28"
+    },
+    {
+      "path": "phases\\00-baseline\\PHASE.yaml",
+      "sha256": "618614E13A32FAD49D642F002F4AE8D5AD289E83B75236F2919DCDC4ED4CF09A"
+    },
+    {
+      "path": "phases\\01-classification\\PHASE.yaml",
+      "sha256": "688074130BC71A58F2DD088F341D118BFA0F84BE4A443FBD01C6E6B0DA4A7499"
+    },
+    {
+      "path": "phases\\02-governance\\PHASE.yaml",
+      "sha256": "C21A610FD3C24E55785BCF1F26CC08BC389255D70FB1EDC59ABB5980F5350561"
+    },
+    {
+      "path": "phases\\03-forgesatchel\\PHASE.yaml",
+      "sha256": "92750E1454767823524B0878CF394638B3D1A56DF52B563952920459D0F0A9C6"
+    },
+    {
+      "path": "phases\\04-muselab\\PHASE.yaml",
+      "sha256": "5B39EEB0D71C4929073C32E095A24640581C830E1066F202F5ABFBAF94954849"
+    },
+    {
+      "path": "phases\\05-culinary-foundation\\PHASE.yaml",
+      "sha256": "09082E0615F979EEFB1DF0A26F2C4AD3D20959786B700054BE36BCE2D94EAE5C"
+    },
+    {
+      "path": "phases\\06-culinary-migration\\PHASE.yaml",
+      "sha256": "15D5D9F65D181CE8256650FAC83D1601C7042B8A7B0A8A8144E26728062C7045"
+    },
+    {
+      "path": "phases\\07-cleanup\\PHASE.yaml",
+      "sha256": "3E480CFAB93C236E00DECEE00DB4697DCD9D8A21BB0B41AA55CAC90B7B0BF527"
+    },
+    {
+      "path": "phases\\08-providers\\PHASE.yaml",
+      "sha256": "7466E3FB19E79F1203EAD781A4A7246771371A00A009194D65FAAE96C4F8E954"
+    },
+    {
+      "path": "phases\\09-agents\\PHASE.yaml",
+      "sha256": "74C1C4EF38F5DA0180636D639E6160628281FF282A1A308BE394933D58EDAB2A"
+    },
+    {
+      "path": "phases\\10-automation\\PHASE.yaml",
+      "sha256": "5218F6DC31E84F74AC9590277423236C0DC5726E77079125334F1A49130B1087"
+    },
+    {
+      "path": "phases\\11-hardware\\PHASE.yaml",
+      "sha256": "84D3BB76ECA3CA16D879A5EBA3174FA09C86FC3DAA0604404E3A510A0D4CC99C"
+    },
+    {
+      "path": "phases\\12-xr\\PHASE.yaml",
+      "sha256": "578FCDC96CB59BE00E82ADB8B4C34779E51CBD4B1FFE4A892D6F5172A7525260"
+    },
+    {
+      "path": "phases\\13-organizations\\PHASE.yaml",
+      "sha256": "5E1EA3C531669B2D28933ECEEF1DCB9E128140DBE1F3B37809985DFCC1DB6AE7"
+    },
+    {
+      "path": "MASTER_PLAN.md",
+      "sha256": "05F83DC905C728EF2B2A9CDD299EF1551D46697FBC6078449987DE223D0CA7D1"
+    },
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "DEF8595E1EC0241B6B4D4A8C0BF595B5F27A980089D0D7CCA9B8FF48429A9443"
+    },
+    {
+      "path": "AI_SHARED_LEDGER.md",
+      "sha256": "54685D58D99A6DCCC58F00E38F36652F71E7F07C8393C59DCF6EBEA8C54B8C6C"
+    },
+    {
+      "path": "execution/CURRENT_PHASE.yaml",
+      "sha256": "0876887C9A0A9FC0F322F5CD2A6821C137B7A810F1F9BE0616E65E928B6865B6"
+    },
+    {
+      "path": "execution/QUEUE.json",
+      "sha256": "0DBA45C9718172289958AA7FDFC94CD6B633AAAD9FD2F7358F311BC3761C089C"
+    },
+    {
+      "path": "execution/APPROVALS.yaml",
+      "sha256": "97F09E75B198FA3208CFF6DB8339DC3D6BC2EABE135DB7E77B3714BC65A3FA26"
+    },
+    {
+      "path": "execution/HANDOFF.md",
+      "sha256": "5B85BDB3AEA5CD25A2DD4F416DCB7761F9569F8CD0C118629368612C878E088D"
+    },
+    {
+      "path": "execution/P02_DOCUMENTATION_COVERAGE.json",
+      "sha256": "FD7B20AE9BAE4731A758826F9F5139197E26A81E95C267FB2F00DFAF2230D9BB"
+    },
+    {
+      "path": "scripts/Validate-Governance.ps1",
+      "sha256": "4357A70F55AB6D5BC1080B17DEFEFB08A02FAA761162F717D0F8F310C3C080B3"
+    }
+  ],
+  "task": "P02-GOVERNANCE-INSTALL",
+  "actor": "Codex"
+}

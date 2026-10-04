@@ -1,0 +1,95 @@
+▶ agent adapters
+  ✔ ships the blueprint and antigravity adapters (1.7057ms)
+  ✔ resolves aliases and rejects unknowns (0.2398ms)
+  ✔ resolveCommand finds real tools and misses fake ones (579.975ms)
+  ✔ detect() never throws and reports a boolean (13385.6651ms)
+✔ agent adapters (13969.2552ms)
+▶ local API surface
+  ✔ exposes the documented methods with safety levels (2.0598ms)
+  ✔ rejects unknown methods (0.8933ms)
+✔ local API surface (4.5756ms)
+▶ extension SDK and registry
+  ✔ validates manifest schemas accurately (1.554ms)
+  ✔ checks OS compatibility rules (0.4841ms)
+  ✔ discovers all built-in extensions (15.5472ms)
+  ✔ loads active extensions and aggregates contributions (78.473ms)
+✔ extension SDK and registry (98.3475ms)
+✔ documentation search is bounded and ignores generated/code trees (40.0178ms)
+▶ parseManifestYml
+  ✔ parses scalars, commands map, and services list (3.5045ms)
+  ✔ tolerates empty and malformed input (0.3571ms)
+✔ parseManifestYml (5.9579ms)
+▶ loadManifest
+  ✔ prefers yml over legacy project.json (7.7191ms)
+✔ loadManifest (8.0116ms)
+▶ ForgeSatchel Developer Operating Layer
+  ✔ builds project dependency graphs and renders Mermaid & ASCII (8.0534ms)
+  ✔ generates compact token-bounded digests (391.1197ms)
+  ✔ maintains project and portfolio wikis (12.5481ms)
+  ✔ audits project sprawl and deduplication (521.1624ms)
+  ✔ recognizes antigravity adapter and aliases (0.69ms)
+✔ ForgeSatchel Developer Operating Layer (936.6779ms)
+▶ normalizeRemote
+  ✔ unifies https, .git, and ssh forms (2.3479ms)
+✔ normalizeRemote (4.6859ms)
+▶ primaryOwner
+  ✔ picks the most common owner generically (1.1342ms)
+✔ primaryOwner (1.6056ms)
+▶ auditPortfolio
+  ✔ matches local to github by remote (synced) (6.4442ms)
+  ✔ flags github-only, local-only, forks, archives (20.4337ms)
+  ✔ detects duplicates, empties, stale checkouts, superseded, modules, third-party clones (1.3786ms)
+  ✔ generates PORTFOLIO.md with sync map and proposals (2.5197ms)
+✔ auditPortfolio (31.7068ms)
+✔ ProjectWatcher tracks debounced directory events (218.5246ms)
+✔ ForgeServer starts, handles auth and responds to health & rpc (126.2672ms)
+✔ WorkspaceOrchestrator sorts topologically and executes commands (266.6786ms)
+▶ canonical project identity
+  ✔ validates lifecycle identity independently of repository branding (2.3453ms)
+  ✔ rejects unsupported versions, bad enums, repository values, priority and malformed integration lists (2.7558ms)
+  ✔ preserves legacy command/agent overrides while canonical name and ecosystem win (17.8823ms)
+✔ canonical project identity (25.3166ms)
+▶ slugify
+  ✔ lowercases and dashes names (1.3865ms)
+✔ slugify (3.028ms)
+▶ findProject
+  ✔ finds by id and by name, case-insensitive (2.8473ms)
+✔ findProject (3.1217ms)
+▶ mergeScan rebuild rule
+  ✔ keeps user fields, refreshes discovery facts (3.545ms)
+  ✔ marks forks and archives from discovery (17.7693ms)
+  ✔ never drops registry entries the scan no longer sees (0.5078ms)
+✔ mergeScan rebuild rule (22.3176ms)
+▶ syncStates
+  ✔ classifies github-only, fork, dirty, ahead/behind, synced (1.5611ms)
+✔ syncStates (1.8829ms)
+▶ session model
+  ✔ formats IDs as project:agent:index (1.4129ms)
+  ✔ allocates the next free index per project+agent (3.0451ms)
+  ✔ sanitizes mux names for tmux (0.6656ms)
+✔ session model (7.2269ms)
+▶ detectStack
+  ✔ detects node+TS+pnpm and infers script commands (9.3563ms)
+  ✔ detects rust, python, go, dotnet, docker (15.603ms)
+  ✔ returns empty commands for unknown trees (3.5334ms)
+✔ detectStack (30.3485ms)
+▶ mergeCommands
+  ✔ later layers win; blanks never clobber (0.3509ms)
+✔ mergeCommands (0.5869ms)
+▶ windows terminal integration
+  ✔ generates deterministic profile GUIDs (3.94ms)
+  ✔ builds terminal profiles with proper paths and commands (0.6924ms)
+✔ windows terminal integration (7.555ms)
+▶ TUI, Evaluation & Enhanced Terminal Fragments
+  ✔ evaluates project health and computes grade accurately (390.8537ms)
+  ✔ initializes ForgeTui state and filters projects (0.6198ms)
+  ✔ builds terminal fragments with actions, split panes, and color schemes (3.0078ms)
+✔ TUI, Evaluation & Enhanced Terminal Fragments (396.7008ms)
+ℹ tests 49
+ℹ suites 19
+ℹ pass 49
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14782.1422

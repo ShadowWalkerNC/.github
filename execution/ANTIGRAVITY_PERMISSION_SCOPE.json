@@ -1,0 +1,18 @@
+{
+  "previous": "absent",
+  "settings": "C:\\Users\\white\\.gemini\\antigravity-cli\\settings.json",
+  "rules": [
+    "read_file(/Users/white/Desktop/ForgeSatchel)",
+    "read_file(/Users/white/Documents/Codex/2026-10-03/shadowwalker-development-ecosystem-master-blueprint-canonical)",
+    "write_file(/Users/white/Desktop/ForgeSatchel/src/tui.ts)",
+    "write_file(/Users/white/Desktop/ForgeSatchel/test/tui-terminal.test.ts)",
+    "write_file(/Users/white/Documents/Codex/2026-10-03/shadowwalker-development-ecosystem-master-blueprint-canonical/AI_SHARED_LEDGER.md)",
+    "write_file(/Users/white/Documents/Codex/2026-10-03/shadowwalker-development-ecosystem-master-blueprint-canonical/execution/ANTIGRAVITY_P03_TUI_RESULT.md)",
+    "command(pwsh -NoProfile -File C:/Users/white/Documents/Codex/2026-10-03/shadowwalker-development-ecosystem-master-blueprint-canonical/scripts/Verify-AntigravityTui.ps1)"
+  ],
+  "verificationCommand": "pwsh -NoProfile -File C:/Users/white/Documents/Codex/2026-10-03/shadowwalker-development-ecosystem-master-blueprint-canonical/scripts/Verify-AntigravityTui.ps1",
+  "rollback": "Remove only task-added rules or remove settings if otherwise unchanged",
+  "source": "https://antigravity.google/docs/permissions/",
+  "date": "2026-10-03",
+  "userApproval": "Allow scoped CLI permissions"
+}

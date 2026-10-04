@@ -1,0 +1,156 @@
+{
+  "phase": "P06-A",
+  "date": "2026-10-04",
+  "sources": [
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "branch": "main",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "treeCount": 202,
+      "treeTruncated": false,
+      "capturedFiles": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "7E79571D1ADB47748B888A1B42D9182802C9C80583C3EB08EFAD6231B472DEE2"
+        },
+        {
+          "path": "package.json",
+          "sha256": "07B896B98BFDBCA1BD3455043B6D1361F1DA636009E55BB134F675868856D94D"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7656E26DF6529D54B0CEB893D079A0D3B2607BD4C5E8A06497409410EFC82EA4"
+        },
+        {
+          "path": "apps/web/package.json",
+          "sha256": "3CDCB3AC9542E34E7FAC75E4AD1EF69A4709601487915C85BA86F0FC0AB9D2A8"
+        },
+        {
+          "path": "apps/web/src/App.tsx",
+          "sha256": "A63265A38C7FF8AA54B31C365A8C721B8AAD1173579B29FB391D1A3DC569BA2E"
+        },
+        {
+          "path": "apps/web/src/hooks/usePrepPlans.ts",
+          "sha256": "7AAAC835BC047CD112B8681D2EC5884B934810C9B5335512C3657B8290F7CD8B"
+        },
+        {
+          "path": "apps/web/src/hooks/useRecipes.ts",
+          "sha256": "1F13F46683310CE1D948CB890A23E42E06813047D649D825574BEB98E772DA56"
+        },
+        {
+          "path": "mcp/prep-mcp/src/index.ts",
+          "sha256": "EAF7092AE198663BF46828EBA1AA036A30F43CDC17DCFFF81FA1298E074ACE64"
+        },
+        {
+          "path": "mcp/recipe-mcp/src/index.ts",
+          "sha256": "A3F320E18D8049385F0B9F70CE99A5A077E8A243B741A007289E428C45874EB3"
+        },
+        {
+          "path": "packages/prep-engine/package.json",
+          "sha256": "DE78D5DF96A16D188C7DA1BB532650FD814F9217942C7CB4185A327BA91AF6C7"
+        },
+        {
+          "path": "packages/prep-engine/src/index.ts",
+          "sha256": "7B37FD09A24F1BB2D93309C44DBBB3F6BBF384A775D49434F3285F424E0C991B"
+        },
+        {
+          "path": "packages/ratio-engine/package.json",
+          "sha256": "B3167AC6AA5CD6DC6A8BE080007BA97B3E50C484FD5ACBEED40A844882C5CD10"
+        },
+        {
+          "path": "packages/ratio-engine/src/index.ts",
+          "sha256": "1A34E686A4FF56386C20E36302F3468FBC4EDF0F59A3700AEF54DC1D5DE3073D"
+        }
+      ],
+      "apiPaths": [],
+      "sqlPaths": [
+        "supabase/migrations/V001__init_users.sql",
+        "supabase/migrations/V002__recipes.sql",
+        "supabase/migrations/V003__ingredients.sql",
+        "supabase/migrations/V004__par_levels.sql",
+        "supabase/migrations/V005__prep_plans.sql",
+        "supabase/migrations/V006__rpc_helpers.sql",
+        "supabase/migrations/V007__prep_plan_rpc.sql",
+        "supabase/migrations/V008__stock_decrement_trigger.sql",
+        "supabase/migrations/V009__fix_trigger_and_rpc_security.sql"
+      ],
+      "ciPaths": [
+        ".github/workflows/deploy.yml"
+      ],
+      "coverage": "Tree complete, selected contents only; full feature/data/auth/deployment/test inventory incomplete",
+      "appliedDatabase": "unknown",
+      "liveDeployment": "unknown",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "branch": "main",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "treeCount": 241,
+      "treeTruncated": false,
+      "capturedFiles": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "90E77C838CF6EA42E76B3D8C4969BD86F55CC21CE19F8A1CA65D698E3B9FC196"
+        },
+        {
+          "path": "README.md",
+          "sha256": "33104054B29C2C28CA06E8F77725F8A019DB1593BB710589C66D3A6916F17DF1"
+        },
+        {
+          "path": "cli/package.json",
+          "sha256": "7D425E4EB2B02EDAD301BC54BCE5EAD81C8B17EB770BEE8DD0D45B01730010C3"
+        },
+        {
+          "path": "mcp/package.json",
+          "sha256": "8F2F3106BD38115D2C35FB3E0A08CC1F6B99BEF27AD5B2407446293C91042604"
+        },
+        {
+          "path": "mobile/package.json",
+          "sha256": "EE3C14F8AC0B6045DB022C36D0554B1CDF36C1BA118560F3084E523620FF3DE5"
+        },
+        {
+          "path": "web/package.json",
+          "sha256": "ABC90BD2ECF4F1A9769DD7F811B57F87D1BFB7BDE15D1FC2B4BA659AD95F77B7"
+        },
+        {
+          "path": "web/app/api/convert/route.ts",
+          "sha256": "22F7BACAF0192574D5DBB092F3EE4B940BF46B4DA373C8700F282FECF6135F73"
+        },
+        {
+          "path": "web/app/api/recipes/route.ts",
+          "sha256": "720828CFA79C11F727F3D0184398D9BCF941D204B77DE52A5E050FBBFE456AFA"
+        },
+        {
+          "path": "web/app/api/recipes/[id]/scale/route.ts",
+          "sha256": "9376C7244D280F4BEB2FC7F8158A956F0F87A9850328178B1173B8A7AE6FFE49"
+        }
+      ],
+      "apiPaths": [
+        "web/app/api/convert/route.ts",
+        "web/app/api/demo/route.ts",
+        "web/app/api/pantry/[id]/route.ts",
+        "web/app/api/pantry/route.ts",
+        "web/app/api/recipes/[id]/route.ts",
+        "web/app/api/recipes/[id]/scale/route.ts",
+        "web/app/api/recipes/route.ts",
+        "web/app/api/shopping-list/route.ts"
+      ],
+      "sqlPaths": [
+        "supabase/migrations/V1__core_schema.sql",
+        "supabase/migrations/V1__initial_schema.sql",
+        "supabase/migrations/V2__pantry_prep.sql",
+        "supabase/migrations/V2__rls_policies.sql"
+      ],
+      "ciPaths": [
+        ".github/workflows/deploy.yml",
+        ".github/workflows/mobile.yml"
+      ],
+      "coverage": "Tree complete, selected contents only; full feature/data/auth/deployment/test inventory incomplete",
+      "appliedDatabase": "unknown",
+      "liveDeployment": "unknown",
+      "parity": "NOT RUN"
+    }
+  ],
+  "productChanges": 0
+}

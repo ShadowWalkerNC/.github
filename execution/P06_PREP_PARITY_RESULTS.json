@@ -1,0 +1,1012 @@
+{
+  "phase": "P06-A",
+  "status": "evidence-harness-PASS-raw-migration-parity-INCOMPATIBLE",
+  "vectors": 29,
+  "fixtureHash": "6de864f6ebeb2b952417c9159b50374ce986be196e3681cd98a8bf4f7c89023a",
+  "valueEncoding": "Undefined/nonfinite values encoded as tagged objects; property presence preserved",
+  "rawParityPass": 18,
+  "incompatibilities": 11,
+  "provenance": [
+    {
+      "side": "source",
+      "engine": "ratio-engine",
+      "path": "baseline/p06-prep/KitchenKit/packages/ratio-engine/src/index.ts",
+      "sha256": "1a34e686a4ff56386c20e36302f3468fbc4edf0f59a3700aef54dc1d5de3073d",
+      "executedFunctions": [
+        "scaleRecipe",
+        "calculateRatio",
+        "totalFormulaWeight"
+      ],
+      "generatedCodeHash": "16d24ad065ef7f22caf3c088d53292f78defd7b750d57d003cab26571cbb3e67",
+      "adapter": "Prep scaleRecipe import bound to same-side extracted ratio module; bodies unchanged"
+    },
+    {
+      "side": "source",
+      "engine": "prep-engine",
+      "path": "baseline/p06-prep/KitchenKit/packages/prep-engine/src/index.ts",
+      "sha256": "7b37fd09a24f1bb2d93309c44dbbb3f6bbf384a775d49434f3285f424e0c991b",
+      "executedFunctions": [
+        "buildShiftPrep",
+        "getMiseEnPlace",
+        "projectBatchSize"
+      ],
+      "generatedCodeHash": "e3979a3c9fe2e75aed30b8d0a976043d12d8ac4c275dbf4d73c27bb5ef523f3d",
+      "adapter": "Prep scaleRecipe import bound to same-side extracted ratio module; bodies unchanged"
+    },
+    {
+      "side": "target",
+      "engine": "ratio-engine",
+      "path": "C:/Users/white/Documents/GitHub/CulinaryOS/packages/ratio-engine/src/index.ts",
+      "sha256": "c7126757ba16e2a7a1d4c2cc42bb29d7c59c264d97a519b9b9081109095fb90f",
+      "executedFunctions": [
+        "scaleRecipe",
+        "calculateRatio",
+        "totalFormulaWeight"
+      ],
+      "generatedCodeHash": "60f09712336a6dba06ba3a6f70d3c9de86facb427d4b64e6a080b6895ed4810c",
+      "adapter": "Prep scaleRecipe import bound to same-side extracted ratio module; bodies unchanged"
+    },
+    {
+      "side": "target",
+      "engine": "prep-engine",
+      "path": "C:/Users/white/Documents/GitHub/CulinaryOS/packages/prep-engine/src/index.ts",
+      "sha256": "86173a03aae298fe4d604c2451ab1dadee2b7b8e5f76a90426ded1d147f9a49c",
+      "executedFunctions": [
+        "buildShiftPrep",
+        "getMiseEnPlace",
+        "projectBatchSize"
+      ],
+      "generatedCodeHash": "ce3295c0bb90b1cdac2fa5653bdcb132036f50d4e665594968f736a879872ecd",
+      "adapter": "Prep scaleRecipe import bound to same-side extracted ratio module; bodies unchanged"
+    }
+  ],
+  "results": [
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "fraction versus percent",
+      "args": [
+        25,
+        100
+      ],
+      "expectedSource": 0.25,
+      "expectedTarget": 25,
+      "observedSource": 0.25,
+      "observedTarget": 25,
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "identity",
+      "args": [
+        100,
+        100
+      ],
+      "expectedSource": 1,
+      "expectedTarget": 100,
+      "observedSource": 1,
+      "observedTarget": 100,
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "above unity",
+      "args": [
+        200,
+        100
+      ],
+      "expectedSource": 2,
+      "expectedTarget": 200,
+      "observedSource": 2,
+      "observedTarget": 200,
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "zero numerator",
+      "args": [
+        0,
+        100
+      ],
+      "expectedSource": 0,
+      "expectedTarget": 0,
+      "observedSource": 0,
+      "observedTarget": 0,
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "negative numerator",
+      "args": [
+        -25,
+        100
+      ],
+      "expectedSource": -0.25,
+      "expectedTarget": {
+        "error": "ingredientWeight cannot be negative"
+      },
+      "observedSource": -0.25,
+      "observedTarget": {
+        "error": "ingredientWeight cannot be negative"
+      },
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "negative denominator",
+      "args": [
+        25,
+        -100
+      ],
+      "expectedSource": -0.25,
+      "expectedTarget": {
+        "error": "baseWeight must be > 0"
+      },
+      "observedSource": -0.25,
+      "observedTarget": {
+        "error": "baseWeight must be > 0"
+      },
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "zero denominator",
+      "args": [
+        20,
+        0
+      ],
+      "expectedSource": {
+        "error": "Base weight cannot be zero"
+      },
+      "expectedTarget": {
+        "error": "baseWeight must be > 0"
+      },
+      "observedSource": {
+        "error": "Base weight cannot be zero"
+      },
+      "observedTarget": {
+        "error": "baseWeight must be > 0"
+      },
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "fractional precision",
+      "args": [
+        1,
+        3
+      ],
+      "expectedSource": 0.3333333333333333,
+      "expectedTarget": 33.33333333333333,
+      "observedSource": 0.3333333333333333,
+      "observedTarget": 33.33333333333333,
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "infinite denominator",
+      "args": [
+        1,
+        {
+          "$type": "number",
+          "value": "Infinity"
+        }
+      ],
+      "expectedSource": 0,
+      "expectedTarget": 0,
+      "observedSource": 0,
+      "observedTarget": 0,
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "infinite numerator",
+      "args": [
+        {
+          "$type": "number",
+          "value": "Infinity"
+        },
+        100
+      ],
+      "expectedSource": {
+        "$type": "number",
+        "value": "Infinity"
+      },
+      "expectedTarget": {
+        "$type": "number",
+        "value": "Infinity"
+      },
+      "observedSource": {
+        "$type": "number",
+        "value": "Infinity"
+      },
+      "observedTarget": {
+        "$type": "number",
+        "value": "Infinity"
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "calculateRatio",
+      "label": "NaN numerator",
+      "args": [
+        {
+          "$type": "number",
+          "value": "NaN"
+        },
+        100
+      ],
+      "expectedSource": {
+        "$type": "number",
+        "value": "NaN"
+      },
+      "expectedTarget": {
+        "$type": "number",
+        "value": "NaN"
+      },
+      "observedSource": {
+        "$type": "number",
+        "value": "NaN"
+      },
+      "observedTarget": {
+        "$type": "number",
+        "value": "NaN"
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "scaleRecipe",
+      "label": "normal ratio scaling",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        1000
+      ],
+      "expectedSource": {
+        "Flour": 1000,
+        "Water": 500
+      },
+      "expectedTarget": {
+        "Flour": 1000,
+        "Water": 500
+      },
+      "observedSource": {
+        "Flour": 1000,
+        "Water": 500
+      },
+      "observedTarget": {
+        "Flour": 1000,
+        "Water": 500
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "scaleRecipe",
+      "label": "zero target",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        0
+      ],
+      "expectedSource": {
+        "Flour": 0,
+        "Water": 0
+      },
+      "expectedTarget": {
+        "Flour": 0,
+        "Water": 0
+      },
+      "observedSource": {
+        "Flour": 0,
+        "Water": 0
+      },
+      "observedTarget": {
+        "Flour": 0,
+        "Water": 0
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "scaleRecipe",
+      "label": "duplicate name last-write",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5
+            },
+            {
+              "name": "Water",
+              "ratio": 0.25
+            }
+          ]
+        },
+        100
+      ],
+      "expectedSource": {
+        "Flour": 100,
+        "Water": 25
+      },
+      "expectedTarget": {
+        "Flour": 100,
+        "Water": 25
+      },
+      "observedSource": {
+        "Flour": 100,
+        "Water": 25
+      },
+      "observedTarget": {
+        "Flour": 100,
+        "Water": 25
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "totalFormulaWeight",
+      "label": "normal fractional formula",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        1000
+      ],
+      "expectedSource": 1500,
+      "expectedTarget": 1500,
+      "observedSource": 1500,
+      "observedTarget": 1500,
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "totalFormulaWeight",
+      "label": "zero target",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        0
+      ],
+      "expectedSource": 0,
+      "expectedTarget": {
+        "error": "targetBaseWeight must be > 0"
+      },
+      "observedSource": 0,
+      "observedTarget": {
+        "error": "targetBaseWeight must be > 0"
+      },
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "totalFormulaWeight",
+      "label": "negative target",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        -100
+      ],
+      "expectedSource": -150,
+      "expectedTarget": {
+        "error": "targetBaseWeight must be > 0"
+      },
+      "observedSource": -150,
+      "observedTarget": {
+        "error": "targetBaseWeight must be > 0"
+      },
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "totalFormulaWeight",
+      "label": "empty ingredients",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": []
+        },
+        100
+      ],
+      "expectedSource": 0,
+      "expectedTarget": 0,
+      "observedSource": 0,
+      "observedTarget": 0,
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "totalFormulaWeight",
+      "label": "non-unit positive base ratio",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 2
+            },
+            {
+              "name": "Water",
+              "ratio": 1
+            }
+          ]
+        },
+        100
+      ],
+      "expectedSource": 300,
+      "expectedTarget": 150,
+      "observedSource": 300,
+      "observedTarget": 150,
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "ratio-engine",
+      "fn": "totalFormulaWeight",
+      "label": "unmatched base name",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Missing",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        100
+      ],
+      "expectedSource": 150,
+      "expectedTarget": 1.5,
+      "observedSource": 150,
+      "observedTarget": 1.5,
+      "rawParity": "INCOMPATIBLE"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "buildShiftPrep",
+      "label": "below/equal/above par",
+      "args": [
+        [
+          {
+            "ingredient": "Flour",
+            "currentStock": 1,
+            "parLevel": 5,
+            "unit": "kg"
+          },
+          {
+            "ingredient": "Water",
+            "currentStock": 5,
+            "parLevel": 5,
+            "unit": "l"
+          },
+          {
+            "ingredient": "Salt",
+            "currentStock": 6,
+            "parLevel": 5,
+            "unit": "kg"
+          }
+        ],
+        "AM",
+        "2026-10-04"
+      ],
+      "expectedSource": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 4,
+            "unit": "kg"
+          }
+        ]
+      },
+      "expectedTarget": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 4,
+            "unit": "kg"
+          }
+        ]
+      },
+      "observedSource": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 4,
+            "unit": "kg"
+          }
+        ]
+      },
+      "observedTarget": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 4,
+            "unit": "kg"
+          }
+        ]
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "buildShiftPrep",
+      "label": "negative stock",
+      "args": [
+        [
+          {
+            "ingredient": "Flour",
+            "currentStock": -1,
+            "parLevel": 5,
+            "unit": "kg"
+          }
+        ],
+        "PM",
+        "2026-10-04"
+      ],
+      "expectedSource": {
+        "shift": "PM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 6,
+            "unit": "kg"
+          }
+        ]
+      },
+      "expectedTarget": {
+        "shift": "PM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 6,
+            "unit": "kg"
+          }
+        ]
+      },
+      "observedSource": {
+        "shift": "PM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 6,
+            "unit": "kg"
+          }
+        ]
+      },
+      "observedTarget": {
+        "shift": "PM",
+        "date": "2026-10-04",
+        "items": [
+          {
+            "ingredient": "Flour",
+            "prepAmount": 6,
+            "unit": "kg"
+          }
+        ]
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "buildShiftPrep",
+      "label": "empty stock",
+      "args": [
+        [],
+        "AM",
+        "2026-10-04"
+      ],
+      "expectedSource": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": []
+      },
+      "expectedTarget": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": []
+      },
+      "observedSource": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": []
+      },
+      "observedTarget": {
+        "shift": "AM",
+        "date": "2026-10-04",
+        "items": []
+      },
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "getMiseEnPlace",
+      "label": "normal recipe",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5,
+              "unit": "g"
+            }
+          ]
+        },
+        1000
+      ],
+      "expectedSource": [
+        {
+          "ingredient": "Flour",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredient": "Water",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "expectedTarget": [
+        {
+          "ingredient": "Flour",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredient": "Water",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "observedSource": [
+        {
+          "ingredient": "Flour",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredient": "Water",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "observedTarget": [
+        {
+          "ingredient": "Flour",
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "ingredient": "Water",
+          "amount": 500,
+          "unit": "g"
+        }
+      ],
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "getMiseEnPlace",
+      "label": "omitted units",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": [
+            {
+              "name": "Flour",
+              "ratio": 1
+            },
+            {
+              "name": "Water",
+              "ratio": 0.5
+            },
+            {
+              "name": "Water",
+              "ratio": 0.25
+            }
+          ]
+        },
+        100
+      ],
+      "expectedSource": [
+        {
+          "ingredient": "Flour",
+          "amount": 100,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        }
+      ],
+      "expectedTarget": [
+        {
+          "ingredient": "Flour",
+          "amount": 100,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        }
+      ],
+      "observedSource": [
+        {
+          "ingredient": "Flour",
+          "amount": 100,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        }
+      ],
+      "observedTarget": [
+        {
+          "ingredient": "Flour",
+          "amount": 100,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        },
+        {
+          "ingredient": "Water",
+          "amount": 25,
+          "unit": {
+            "$type": "undefined"
+          }
+        }
+      ],
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "getMiseEnPlace",
+      "label": "empty recipe",
+      "args": [
+        {
+          "id": "r1",
+          "name": "Dough",
+          "baseIngredient": "Flour",
+          "ingredients": []
+        },
+        100
+      ],
+      "expectedSource": [],
+      "expectedTarget": [],
+      "observedSource": [],
+      "observedTarget": [],
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "projectBatchSize",
+      "label": "default waste",
+      "args": [
+        100,
+        10
+      ],
+      "expectedSource": 1100,
+      "expectedTarget": 1100,
+      "observedSource": 1100,
+      "observedTarget": 1100,
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "projectBatchSize",
+      "label": "explicit waste",
+      "args": [
+        100,
+        10,
+        1.2
+      ],
+      "expectedSource": 1200,
+      "expectedTarget": 1200,
+      "observedSource": 1200,
+      "observedTarget": 1200,
+      "rawParity": "PASS"
+    },
+    {
+      "engine": "prep-engine",
+      "fn": "projectBatchSize",
+      "label": "zero covers",
+      "args": [
+        100,
+        0
+      ],
+      "expectedSource": 0,
+      "expectedTarget": 0,
+      "observedSource": 0,
+      "observedTarget": 0,
+      "rawParity": "PASS"
+    }
+  ],
+  "limitations": [
+    "Extracted calculation declarations only, not complete package/bundle acceptance",
+    "Transpilation is not a strict typecheck",
+    "Known mismatches recorded, not hidden by conversion",
+    "RecipeOS calculations,labels,network/database/auth/live callers NOT RUN",
+    "No compatibility adapter or product code changed"
+  ],
+  "unitConversionCounterexample": {
+    "input": [
+      1,
+      3
+    ],
+    "sourceFraction": 0.3333333333333333,
+    "targetPercentage": 33.33333333333333,
+    "percentageDividedBy100": 0.33333333333333326,
+    "bitExact": false,
+    "decision": "Dividing target percentage by100 does not generally preserve the original fraction bit-for-bit"
+  }
+}

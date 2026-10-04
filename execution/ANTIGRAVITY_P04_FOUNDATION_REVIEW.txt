@@ -1,0 +1,31 @@
+### Executive Summary & Boundary Classification
+
+* **Test & Verification Status:** `Native10testsPASS` applies strictly to local hermetic unit contracts within synthetic in-memory fixtures.
+* **Operational Classification:** `simulationPASS` $\neq$ `realacceptanceNOTRUN`. Synthetic stubs (`sim://`, mock ESP32) demonstrate zero transport validation, no hardware interface validation, and no production identity/provider verification. Real acceptance remains strictly **NOT RUN**.
+* **Governance & Authorization Boundary:** `validateRegistry` provides **metadata and filesystem structure validation only**. A valid registry entry (including `lifecycle: 'ADOPTED'`) confers **no runtime authorization, execution rights, privilege escalation, or governance grant**.
+
+---
+
+### Concrete Findings Matrix
+
+| Severity | Location | Category | Finding Summary |
+| :--- | :--- | :--- | :--- |
+| **HIGH** | Lines 1–2 & 18–19 | Correctness / Syntax | **Duplicate Identifier Redeclaration:** `denied` and `valid` are declared twice with `const` in top-level scope; causes fatal `SyntaxError` if combined in a single ES module. |
+| **HIGH** | `validateRegistry` (L39, L42) | Correctness / Error Handling | **Uncaught Exceptions on Invalid Envelopes:** If `registry` is `null`/non-object, `registry.schemaVersion` throws an unhandled `TypeError`. If `root` does not exist, `fs.realpathSync(root)` throws an unhandled `ENOENT` prior to error aggregation. |
+| **MEDIUM** | `createReadOnlyConnector` (L4, L10, L12) | Correctness / Type Safety | **Unguarded Service Invocation:** `service` is destructured without null/interface guards. Invoking `handle()` with an undefined service or unhandled promise rejection causes unhandled runtime failures. |
+| **MEDIUM** | `createReadOnlyConnector` vs `createDeviceSimulation` | Architecture / Interface Parity | **Async / Sync Adapter Inconsistency:** `createReadOnlyConnector` returns an `async` function (`Promise<Response>`), while `createDeviceSimulation` returns a synchronous handler. Violates uniform connector calling contracts across consumers. |
+| **MEDIUM** | `createDeviceSimulation` (L26), `createReadOnlyConnector` (L9) | Permission & Access Control | **Coarse-Grained Flat Permission Model:** A single flat permission string (`'read'`) gates all operations. No distinction exists between metadata enumeration (`devices.discover`, `resources.list`) and telemetry/resource payloads (`devices.events`, `resources.read`), nor does it support tenant/device-scoped ACLs. |
+| **LOW** | `validateRegistry` (L44, L47) | Metadata / Registry Integrity | **Weak Evidence Gate & ID Pollution:** `item.approvalEvidence` performs simple truthiness checking (e.g. non-empty string or dummy object passes) without verifying schema or attestor identity. Invalid IDs that fail regex are still added to the `ids` Set, masking downstream duplicate identification. |
+| **LOW** | `createDeviceSimulation` (L30) | Correctness / Simulation State | **Static Non-Dynamic Fixture:** Device state and timestamp are hardcoded; events do not simulate ring buffers, backpressure, or state transitions across subsequent calls. |
+
+---
+
+### Key Systemic Distinctions
+
+#### 1. Registry Validation $\neq$ Authorization Grant
+* **Metadata Hygiene Only:** `validateRegistry()` inspects envelope versioning, ID format constraints, enum validity, and relative path traversal safety (`path.resolve` + `fs.realpathSync`).
+* **Non-Authoritative:** A passing validation check records catalog completeness. It is not an authorization grant, cryptographic signature verification, or role assignment. State transitions to `ADOPTED` cannot bypass runtime execution barriers or administrative approvals.
+
+#### 2. `simulationPASS` vs `realacceptanceNOTRUN`
+* **`simulationPASS` Scope:** Verifies internal control-flow branches, argument validation (`INVALID_REQUEST`, `INVALID_PARAMS`), not-found signaling, and error formatting against synthetic in-memory fixtures.
+* **`realacceptanceNOTRUN` Scope:** No physical ESP32 or serial/TCP connection is engaged, no discovery broadcast or packet framing is verified, and no hardware-level timing, security boundary, or transport handshake exists. Simulated success must never be cited as real protocol acceptance.

@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "inventoryComplete": false,
+  "integrations": [
+    {
+      "id": "forgesatchel:codingAgents:codex",
+      "project": "forgesatchel",
+      "category": "codingAgents",
+      "provider": "codex",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "forgesatchel:codingAgents:muse-code",
+      "project": "forgesatchel",
+      "category": "codingAgents",
+      "provider": "muse-code",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "forgesatchel:codingAgents:gemini",
+      "project": "forgesatchel",
+      "category": "codingAgents",
+      "provider": "gemini",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "forgesatchel:codingAgents:claude",
+      "project": "forgesatchel",
+      "category": "codingAgents",
+      "provider": "claude",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "forgesatchel:codingAgents:opencode",
+      "project": "forgesatchel",
+      "category": "codingAgents",
+      "provider": "opencode",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "forgesatchel:codingAgents:antigravity",
+      "project": "forgesatchel",
+      "category": "codingAgents",
+      "provider": "antigravity",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "forgesatchel:muse:muse-code",
+      "project": "forgesatchel",
+      "category": "muse",
+      "provider": "muse-code",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:deploymentProviders:railway",
+      "project": "culinaryos",
+      "category": "deploymentProviders",
+      "provider": "railway",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:deploymentProviders:vercel",
+      "project": "culinaryos",
+      "category": "deploymentProviders",
+      "provider": "vercel",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:mcp:culinaryos-mcp-servers",
+      "project": "culinaryos",
+      "category": "mcp",
+      "provider": "culinaryos-mcp-servers",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:sdks:@anthropic-ai/sdk",
+      "project": "culinaryos",
+      "category": "sdks",
+      "provider": "@anthropic-ai/sdk",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:sdks:@supabase/supabase-js",
+      "project": "culinaryos",
+      "category": "sdks",
+      "provider": "@supabase/supabase-js",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:sdks:@modelcontextprotocol/sdk",
+      "project": "culinaryos",
+      "category": "sdks",
+      "provider": "@modelcontextprotocol/sdk",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "culinaryos:sdks:stripe",
+      "project": "culinaryos",
+      "category": "sdks",
+      "provider": "stripe",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:models:google-gemini",
+      "project": "bibledesk",
+      "category": "models",
+      "provider": "google-gemini",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:models:anthropic",
+      "project": "bibledesk",
+      "category": "models",
+      "provider": "anthropic",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:models:openai",
+      "project": "bibledesk",
+      "category": "models",
+      "provider": "openai",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:deploymentProviders:railway",
+      "project": "bibledesk",
+      "category": "deploymentProviders",
+      "provider": "railway",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:deploymentProviders:vercel",
+      "project": "bibledesk",
+      "category": "deploymentProviders",
+      "provider": "vercel",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:mcp:bibledesk",
+      "project": "bibledesk",
+      "category": "mcp",
+      "provider": "bibledesk",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:sdks:@google/genai",
+      "project": "bibledesk",
+      "category": "sdks",
+      "provider": "@google/genai",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:sdks:@anthropic-ai/sdk",
+      "project": "bibledesk",
+      "category": "sdks",
+      "provider": "@anthropic-ai/sdk",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:sdks:openai",
+      "project": "bibledesk",
+      "category": "sdks",
+      "provider": "openai",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:sdks:@electric-sql/pglite",
+      "project": "bibledesk",
+      "category": "sdks",
+      "provider": "@electric-sql/pglite",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "bibledesk:sdks:stripe",
+      "project": "bibledesk",
+      "category": "sdks",
+      "provider": "stripe",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "cheezies:deploymentProviders:railway",
+      "project": "cheezies",
+      "category": "deploymentProviders",
+      "provider": "railway",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "cheezies:deploymentProviders:vercel",
+      "project": "cheezies",
+      "category": "deploymentProviders",
+      "provider": "vercel",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "cheezies:sdks:@base44/sdk",
+      "project": "cheezies",
+      "category": "sdks",
+      "provider": "@base44/sdk",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "cheezies:sdks:@supabase/supabase-js",
+      "project": "cheezies",
+      "category": "sdks",
+      "provider": "@supabase/supabase-js",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "cheezies:sdks:@vercel/speed-insights",
+      "project": "cheezies",
+      "category": "sdks",
+      "provider": "@vercel/speed-insights",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "mercury:sdks:livekit-server-sdk",
+      "project": "mercury",
+      "category": "sdks",
+      "provider": "livekit-server-sdk",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "mercury/packages/server/package.json",
+        "mercury/packages/web/package.json",
+        "mercury/packages/server/src/index.ts",
+        "mercury/README.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "mercury:sdks:livekit-client",
+      "project": "mercury",
+      "category": "sdks",
+      "provider": "livekit-client",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "mercury/packages/server/package.json",
+        "mercury/packages/web/package.json",
+        "mercury/packages/server/src/index.ts",
+        "mercury/README.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "shorelineops:deploymentProviders:railway",
+      "project": "shorelineops",
+      "category": "deploymentProviders",
+      "provider": "railway",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "shorelineops/server/package.json",
+        "shorelineops/docs/audits/REMEDIATION_HANDOFF_2026-10-01.md",
+        "shorelineops/docs/audits/DEMO_ROUTING_FIX_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    },
+    {
+      "id": "shorelineops:deploymentProviders:vercel",
+      "project": "shorelineops",
+      "category": "deploymentProviders",
+      "provider": "vercel",
+      "status": "source-or-baseline-observed",
+      "evidence": [
+        "shorelineops/server/package.json",
+        "shorelineops/docs/audits/REMEDIATION_HANDOFF_2026-10-01.md",
+        "shorelineops/docs/audits/DEMO_ROUTING_FIX_2026-10-02.md"
+      ],
+      "operationalVerification": "NOT RUN"
+    }
+  ]
+}

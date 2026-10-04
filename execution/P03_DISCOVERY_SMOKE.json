@@ -1,0 +1,110 @@
+[
+  {
+    "root": "C:\\Users\\white\\Desktop\\ForgeSatchel",
+    "exists": true,
+    "repos": [
+      {
+        "name": "ForgeSatchel",
+        "localPath": "C:\\Users\\white\\Desktop\\ForgeSatchel",
+        "fork": false,
+        "archived": false
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS",
+    "exists": true,
+    "repos": [
+      {
+        "name": "CulinaryOS",
+        "localPath": "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/CulinaryOS",
+        "githubUrl": "https://github.com/ShadowWalkerNC/CulinaryOS"
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Documents\\GitHub\\MuseAiBots",
+    "exists": true,
+    "repos": [
+      {
+        "name": "MuseAiBots",
+        "localPath": "C:\\Users\\white\\Documents\\GitHub\\MuseAiBots",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/MuseAiBots",
+        "githubUrl": "https://github.com/ShadowWalkerNC/MuseAiBots"
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Documents\\GitHub\\BibleDesk",
+    "exists": true,
+    "repos": [
+      {
+        "name": "BibleDesk",
+        "localPath": "C:\\Users\\white\\Documents\\GitHub\\BibleDesk",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/BibleDesk",
+        "githubUrl": "https://github.com/ShadowWalkerNC/BibleDesk"
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Desktop\\Dominion",
+    "exists": true,
+    "repos": [
+      {
+        "name": "Dominion",
+        "localPath": "C:\\Users\\white\\Desktop\\Dominion",
+        "fork": false,
+        "archived": false
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet",
+    "exists": true,
+    "repos": [
+      {
+        "name": "cheezies-gourmet",
+        "localPath": "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/cheezies-gourmet",
+        "githubUrl": "https://github.com/ShadowWalkerNC/cheezies-gourmet"
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Documents\\GitHub\\Mercury",
+    "exists": true,
+    "repos": [
+      {
+        "name": "Mercury",
+        "localPath": "C:\\Users\\white\\Documents\\GitHub\\Mercury",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/Mercury",
+        "githubUrl": "https://github.com/ShadowWalkerNC/Mercury"
+      }
+    ]
+  },
+  {
+    "root": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps",
+    "exists": true,
+    "repos": [
+      {
+        "name": "ShorelineOps",
+        "localPath": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/ShorelineOps",
+        "githubUrl": "https://github.com/ShadowWalkerNC/ShorelineOps"
+      }
+    ]
+  }
+]

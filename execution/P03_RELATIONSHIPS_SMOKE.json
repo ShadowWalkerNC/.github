@@ -1,0 +1,2450 @@
+{
+  "schemaVersion": 1,
+  "declared": [
+    {
+      "projectId": "forgesatchel",
+      "name": "ForgeSatchel",
+      "ecosystem": "ForgeSatchel",
+      "classification": "platform",
+      "lifecycle": "active",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [
+        {
+          "surface": "codingAgents",
+          "target": "codex"
+        },
+        {
+          "surface": "codingAgents",
+          "target": "muse-code"
+        },
+        {
+          "surface": "codingAgents",
+          "target": "gemini"
+        },
+        {
+          "surface": "codingAgents",
+          "target": "claude"
+        },
+        {
+          "surface": "codingAgents",
+          "target": "opencode"
+        },
+        {
+          "surface": "codingAgents",
+          "target": "antigravity"
+        },
+        {
+          "surface": "muse",
+          "target": "muse-code"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "projectId": "culinaryos",
+      "name": "CulinaryOS",
+      "ecosystem": "CulinaryOS",
+      "classification": "product",
+      "lifecycle": "active",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [
+        {
+          "surface": "deploymentProviders",
+          "target": "railway"
+        },
+        {
+          "surface": "deploymentProviders",
+          "target": "vercel"
+        },
+        {
+          "surface": "mcp",
+          "target": "culinaryos-mcp-servers"
+        },
+        {
+          "surface": "sdks",
+          "target": "@anthropic-ai/sdk"
+        },
+        {
+          "surface": "sdks",
+          "target": "@supabase/supabase-js"
+        },
+        {
+          "surface": "sdks",
+          "target": "@modelcontextprotocol/sdk"
+        },
+        {
+          "surface": "sdks",
+          "target": "stripe"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "projectId": "muselab",
+      "name": "MuseLab",
+      "ecosystem": "MuseLab",
+      "classification": "lab",
+      "lifecycle": "planned-active",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [],
+      "issues": []
+    },
+    {
+      "projectId": "bibledesk",
+      "name": "BibleDesk",
+      "ecosystem": "BibleDesk",
+      "classification": "product",
+      "lifecycle": "active",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [
+        {
+          "surface": "models",
+          "target": "google-gemini"
+        },
+        {
+          "surface": "models",
+          "target": "anthropic"
+        },
+        {
+          "surface": "models",
+          "target": "openai"
+        },
+        {
+          "surface": "deploymentProviders",
+          "target": "railway"
+        },
+        {
+          "surface": "deploymentProviders",
+          "target": "vercel"
+        },
+        {
+          "surface": "mcp",
+          "target": "bibledesk"
+        },
+        {
+          "surface": "sdks",
+          "target": "@google/genai"
+        },
+        {
+          "surface": "sdks",
+          "target": "@anthropic-ai/sdk"
+        },
+        {
+          "surface": "sdks",
+          "target": "openai"
+        },
+        {
+          "surface": "sdks",
+          "target": "@electric-sql/pglite"
+        },
+        {
+          "surface": "sdks",
+          "target": "stripe"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "projectId": "dominion",
+      "name": "Dominion",
+      "ecosystem": "Dominion",
+      "classification": "product",
+      "lifecycle": "active",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [],
+      "issues": []
+    },
+    {
+      "projectId": "cheezies",
+      "name": "Cheezies Gourmet",
+      "ecosystem": "Cheezies",
+      "classification": "client",
+      "lifecycle": "active",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [
+        {
+          "surface": "deploymentProviders",
+          "target": "railway"
+        },
+        {
+          "surface": "deploymentProviders",
+          "target": "vercel"
+        },
+        {
+          "surface": "sdks",
+          "target": "@base44/sdk"
+        },
+        {
+          "surface": "sdks",
+          "target": "@supabase/supabase-js"
+        },
+        {
+          "surface": "sdks",
+          "target": "@vercel/speed-insights"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "projectId": "mercury",
+      "name": "Mercury",
+      "ecosystem": "Mercury",
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [
+        {
+          "surface": "sdks",
+          "target": "livekit-server-sdk"
+        },
+        {
+          "surface": "sdks",
+          "target": "livekit-client"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "projectId": "shorelineops",
+      "name": "ShorelineOps",
+      "ecosystem": "CulinaryOS",
+      "classification": "product",
+      "lifecycle": "supporting",
+      "source": "forge.project.json",
+      "evidence": "declared-not-runtime-verified",
+      "integrations": [
+        {
+          "surface": "deploymentProviders",
+          "target": "railway"
+        },
+        {
+          "surface": "deploymentProviders",
+          "target": "vercel"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "observed": {
+    "source": "local-package-manifests",
+    "evidence": "source-observed-not-runtime-verified",
+    "graph": {
+      "projects": {
+        "forgesatchel": {
+          "projectId": "forgesatchel",
+          "projectName": "ForgeSatchel",
+          "nodes": [
+            {
+              "id": "forgesatchel",
+              "name": "ForgeSatchel",
+              "type": "workspace"
+            },
+            {
+              "id": "typescript",
+              "name": "typescript",
+              "version": "^5.9.2",
+              "type": "external"
+            }
+          ],
+          "edges": [
+            {
+              "from": "forgesatchel",
+              "to": "typescript",
+              "scope": "dev"
+            }
+          ],
+          "rawDependencies": {},
+          "rawDevDependencies": {
+            "typescript": "^5.9.2"
+          },
+          "internalLinks": [],
+          "ecosystem": "ForgeSatchel"
+        },
+        "culinaryos": {
+          "projectId": "culinaryos",
+          "projectName": "CulinaryOS",
+          "nodes": [
+            {
+              "id": "culinaryos",
+              "name": "CulinaryOS",
+              "type": "workspace"
+            },
+            {
+              "id": "@swc/helpers",
+              "name": "@swc/helpers",
+              "version": "0.5.11",
+              "type": "external"
+            },
+            {
+              "id": "client-only",
+              "name": "client-only",
+              "version": "^0.0.1",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/auth",
+              "name": "@culinaryos/auth",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/config",
+              "name": "@culinaryos/config",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/db",
+              "name": "@culinaryos/db",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/event-bus",
+              "name": "@culinaryos/event-bus",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/food-cost-engine",
+              "name": "@culinaryos/food-cost-engine",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/labor-engine",
+              "name": "@culinaryos/labor-engine",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/ratio-engine",
+              "name": "@culinaryos/ratio-engine",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/server",
+              "name": "@culinaryos/server",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/shared",
+              "name": "@culinaryos/shared",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@culinaryos/waste-engine",
+              "name": "@culinaryos/waste-engine",
+              "version": "workspace:*",
+              "type": "external"
+            },
+            {
+              "id": "@supabase/supabase-js",
+              "name": "@supabase/supabase-js",
+              "version": "^2.43.0",
+              "type": "external"
+            },
+            {
+              "id": "@types/node",
+              "name": "@types/node",
+              "version": "^20.0.0",
+              "type": "external"
+            },
+            {
+              "id": "@types/pg",
+              "name": "@types/pg",
+              "version": "^8.11.0",
+              "type": "external"
+            },
+            {
+              "id": "caniuse-lite",
+              "name": "caniuse-lite",
+              "version": "^1.0.30001810",
+              "type": "external"
+            },
+            {
+              "id": "dotenv",
+              "name": "dotenv",
+              "version": "^16.4.5",
+              "type": "external"
+            },
+            {
+              "id": "pg",
+              "name": "pg",
+              "version": "^8.11.5",
+              "type": "external"
+            },
+            {
+              "id": "picocolors",
+              "name": "picocolors",
+              "version": "^1.1.1",
+              "type": "external"
+            },
+            {
+              "id": "tsx",
+              "name": "tsx",
+              "version": "^4.7.1",
+              "type": "external"
+            },
+            {
+              "id": "turbo",
+              "name": "turbo",
+              "version": "^2.0.0",
+              "type": "external"
+            },
+            {
+              "id": "typescript",
+              "name": "typescript",
+              "version": "^5.4.0",
+              "type": "external"
+            }
+          ],
+          "edges": [
+            {
+              "from": "culinaryos",
+              "to": "@swc/helpers",
+              "scope": "runtime"
+            },
+            {
+              "from": "culinaryos",
+              "to": "client-only",
+              "scope": "runtime"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/auth",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/config",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/db",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/event-bus",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/food-cost-engine",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/labor-engine",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/ratio-engine",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/server",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/shared",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@culinaryos/waste-engine",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@supabase/supabase-js",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@types/node",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "@types/pg",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "caniuse-lite",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "dotenv",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "pg",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "picocolors",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "tsx",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "turbo",
+              "scope": "dev"
+            },
+            {
+              "from": "culinaryos",
+              "to": "typescript",
+              "scope": "dev"
+            }
+          ],
+          "rawDependencies": {
+            "@swc/helpers": "0.5.11",
+            "client-only": "^0.0.1"
+          },
+          "rawDevDependencies": {
+            "@culinaryos/auth": "workspace:*",
+            "@culinaryos/config": "workspace:*",
+            "@culinaryos/db": "workspace:*",
+            "@culinaryos/event-bus": "workspace:*",
+            "@culinaryos/food-cost-engine": "workspace:*",
+            "@culinaryos/labor-engine": "workspace:*",
+            "@culinaryos/ratio-engine": "workspace:*",
+            "@culinaryos/server": "workspace:*",
+            "@culinaryos/shared": "workspace:*",
+            "@culinaryos/waste-engine": "workspace:*",
+            "@supabase/supabase-js": "^2.43.0",
+            "@types/node": "^20.0.0",
+            "@types/pg": "^8.11.0",
+            "caniuse-lite": "^1.0.30001810",
+            "dotenv": "^16.4.5",
+            "pg": "^8.11.5",
+            "picocolors": "^1.1.1",
+            "tsx": "^4.7.1",
+            "turbo": "^2.0.0",
+            "typescript": "^5.4.0"
+          },
+          "internalLinks": [],
+          "ecosystem": "CulinaryOS"
+        },
+        "muselab": {
+          "projectId": "muselab",
+          "projectName": "MuseLab",
+          "nodes": [
+            {
+              "id": "muselab",
+              "name": "MuseLab",
+              "type": "workspace"
+            }
+          ],
+          "edges": [],
+          "rawDependencies": {},
+          "rawDevDependencies": {},
+          "internalLinks": [],
+          "ecosystem": "MuseLab"
+        },
+        "bibledesk": {
+          "projectId": "bibledesk",
+          "projectName": "BibleDesk",
+          "nodes": [
+            {
+              "id": "bibledesk",
+              "name": "BibleDesk",
+              "type": "workspace"
+            },
+            {
+              "id": "@anthropic-ai/sdk",
+              "name": "@anthropic-ai/sdk",
+              "version": "^0.106.0",
+              "type": "external"
+            },
+            {
+              "id": "@electric-sql/pglite",
+              "name": "@electric-sql/pglite",
+              "version": "^0.5.8",
+              "type": "external"
+            },
+            {
+              "id": "@google/genai",
+              "name": "@google/genai",
+              "version": "^2.12.0",
+              "type": "external"
+            },
+            {
+              "id": "@react-three/drei",
+              "name": "@react-three/drei",
+              "version": "^10.7.8",
+              "type": "external"
+            },
+            {
+              "id": "@react-three/fiber",
+              "name": "@react-three/fiber",
+              "version": "^9.7.0",
+              "type": "external"
+            },
+            {
+              "id": "class-variance-authority",
+              "name": "class-variance-authority",
+              "version": "^0.7.1",
+              "type": "external"
+            },
+            {
+              "id": "clsx",
+              "name": "clsx",
+              "version": "^2.1.1",
+              "type": "external"
+            },
+            {
+              "id": "d3",
+              "name": "d3",
+              "version": "^7.9.0",
+              "type": "external"
+            },
+            {
+              "id": "drizzle-orm",
+              "name": "drizzle-orm",
+              "version": "^0.45.2",
+              "type": "external"
+            },
+            {
+              "id": "jose",
+              "name": "jose",
+              "version": "^5.10.0",
+              "type": "external"
+            },
+            {
+              "id": "lucide-react",
+              "name": "lucide-react",
+              "version": "^1.33.0",
+              "type": "external"
+            },
+            {
+              "id": "next",
+              "name": "next",
+              "version": "16.3.5",
+              "type": "external"
+            },
+            {
+              "id": "openai",
+              "name": "openai",
+              "version": "^4.100.0",
+              "type": "external"
+            },
+            {
+              "id": "pg",
+              "name": "pg",
+              "version": "^8.23.0",
+              "type": "external"
+            },
+            {
+              "id": "react",
+              "name": "react",
+              "version": "19.2.4",
+              "type": "external"
+            },
+            {
+              "id": "react-dom",
+              "name": "react-dom",
+              "version": "19.2.4",
+              "type": "external"
+            },
+            {
+              "id": "stripe",
+              "name": "stripe",
+              "version": "^22.6.2",
+              "type": "external"
+            },
+            {
+              "id": "tailwind-merge",
+              "name": "tailwind-merge",
+              "version": "^3.6.0",
+              "type": "external"
+            },
+            {
+              "id": "three",
+              "name": "three",
+              "version": "^0.185.1",
+              "type": "external"
+            },
+            {
+              "id": "topojson-client",
+              "name": "topojson-client",
+              "version": "^3.1.0",
+              "type": "external"
+            },
+            {
+              "id": "uuid",
+              "name": "uuid",
+              "version": "^14.0.1",
+              "type": "external"
+            },
+            {
+              "id": "zod",
+              "name": "zod",
+              "version": "^3.23.8",
+              "type": "external"
+            },
+            {
+              "id": "@types/d3",
+              "name": "@types/d3",
+              "version": "^7.4.3",
+              "type": "external"
+            },
+            {
+              "id": "@types/node",
+              "name": "@types/node",
+              "version": "^20",
+              "type": "external"
+            },
+            {
+              "id": "@types/pg",
+              "name": "@types/pg",
+              "version": "^8.23.1",
+              "type": "external"
+            },
+            {
+              "id": "@types/react",
+              "name": "@types/react",
+              "version": "^19",
+              "type": "external"
+            },
+            {
+              "id": "@types/react-dom",
+              "name": "@types/react-dom",
+              "version": "^19",
+              "type": "external"
+            },
+            {
+              "id": "drizzle-kit",
+              "name": "drizzle-kit",
+              "version": "^0.31.10",
+              "type": "external"
+            },
+            {
+              "id": "eslint",
+              "name": "eslint",
+              "version": "^9",
+              "type": "external"
+            },
+            {
+              "id": "eslint-config-next",
+              "name": "eslint-config-next",
+              "version": "16.3.5",
+              "type": "external"
+            },
+            {
+              "id": "tsx",
+              "name": "tsx",
+              "version": "^4.23.13",
+              "type": "external"
+            },
+            {
+              "id": "typescript",
+              "name": "typescript",
+              "version": "^5",
+              "type": "external"
+            }
+          ],
+          "edges": [
+            {
+              "from": "bibledesk",
+              "to": "@anthropic-ai/sdk",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@electric-sql/pglite",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@google/genai",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@react-three/drei",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@react-three/fiber",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "class-variance-authority",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "clsx",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "d3",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "drizzle-orm",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "jose",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "lucide-react",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "next",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "openai",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "pg",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "react",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "react-dom",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "stripe",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "tailwind-merge",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "three",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "topojson-client",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "uuid",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "zod",
+              "scope": "runtime"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@types/d3",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@types/node",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@types/pg",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@types/react",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "@types/react-dom",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "drizzle-kit",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "eslint",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "eslint-config-next",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "tsx",
+              "scope": "dev"
+            },
+            {
+              "from": "bibledesk",
+              "to": "typescript",
+              "scope": "dev"
+            }
+          ],
+          "rawDependencies": {
+            "@anthropic-ai/sdk": "^0.106.0",
+            "@electric-sql/pglite": "^0.5.8",
+            "@google/genai": "^2.12.0",
+            "@react-three/drei": "^10.7.8",
+            "@react-three/fiber": "^9.7.0",
+            "class-variance-authority": "^0.7.1",
+            "clsx": "^2.1.1",
+            "d3": "^7.9.0",
+            "drizzle-orm": "^0.45.2",
+            "jose": "^5.10.0",
+            "lucide-react": "^1.33.0",
+            "next": "16.3.5",
+            "openai": "^4.100.0",
+            "pg": "^8.23.0",
+            "react": "19.2.4",
+            "react-dom": "19.2.4",
+            "stripe": "^22.6.2",
+            "tailwind-merge": "^3.6.0",
+            "three": "^0.185.1",
+            "topojson-client": "^3.1.0",
+            "uuid": "^14.0.1",
+            "zod": "^3.23.8"
+          },
+          "rawDevDependencies": {
+            "@types/d3": "^7.4.3",
+            "@types/node": "^20",
+            "@types/pg": "^8.23.1",
+            "@types/react": "^19",
+            "@types/react-dom": "^19",
+            "drizzle-kit": "^0.31.10",
+            "eslint": "^9",
+            "eslint-config-next": "16.3.5",
+            "tsx": "^4.23.13",
+            "typescript": "^5"
+          },
+          "internalLinks": [],
+          "ecosystem": "BibleDesk"
+        },
+        "dominion": {
+          "projectId": "dominion",
+          "projectName": "Dominion",
+          "nodes": [
+            {
+              "id": "dominion",
+              "name": "Dominion",
+              "type": "workspace"
+            }
+          ],
+          "edges": [],
+          "rawDependencies": {},
+          "rawDevDependencies": {},
+          "internalLinks": [],
+          "ecosystem": "Dominion"
+        },
+        "cheezies": {
+          "projectId": "cheezies",
+          "projectName": "Cheezies Gourmet",
+          "nodes": [
+            {
+              "id": "cheezies",
+              "name": "Cheezies Gourmet",
+              "type": "workspace"
+            },
+            {
+              "id": "@base44/sdk",
+              "name": "@base44/sdk",
+              "version": "^0.8.48",
+              "type": "external"
+            },
+            {
+              "id": "@base44/vite-plugin",
+              "name": "@base44/vite-plugin",
+              "version": "^1.0.41",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-dialog",
+              "name": "@radix-ui/react-dialog",
+              "version": "^1.1.6",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-dropdown-menu",
+              "name": "@radix-ui/react-dropdown-menu",
+              "version": "^2.1.6",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-label",
+              "name": "@radix-ui/react-label",
+              "version": "^2.1.2",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-select",
+              "name": "@radix-ui/react-select",
+              "version": "^2.1.6",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-separator",
+              "name": "@radix-ui/react-separator",
+              "version": "^1.1.2",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-slot",
+              "name": "@radix-ui/react-slot",
+              "version": "^1.1.2",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-tabs",
+              "name": "@radix-ui/react-tabs",
+              "version": "^1.1.3",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-toast",
+              "name": "@radix-ui/react-toast",
+              "version": "^1.2.2",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-tooltip",
+              "name": "@radix-ui/react-tooltip",
+              "version": "^1.1.8",
+              "type": "external"
+            },
+            {
+              "id": "@supabase/supabase-js",
+              "name": "@supabase/supabase-js",
+              "version": "^2.49.4",
+              "type": "external"
+            },
+            {
+              "id": "@tanstack/react-query",
+              "name": "@tanstack/react-query",
+              "version": "^5.84.1",
+              "type": "external"
+            },
+            {
+              "id": "@vercel/speed-insights",
+              "name": "@vercel/speed-insights",
+              "version": "^1.0.0",
+              "type": "external"
+            },
+            {
+              "id": "class-variance-authority",
+              "name": "class-variance-authority",
+              "version": "^0.7.1",
+              "type": "external"
+            },
+            {
+              "id": "clsx",
+              "name": "clsx",
+              "version": "^2.1.1",
+              "type": "external"
+            },
+            {
+              "id": "cors",
+              "name": "cors",
+              "version": "^2.8.5",
+              "type": "external"
+            },
+            {
+              "id": "date-fns",
+              "name": "date-fns",
+              "version": "^3.6.0",
+              "type": "external"
+            },
+            {
+              "id": "express",
+              "name": "express",
+              "version": "^4.19.2",
+              "type": "external"
+            },
+            {
+              "id": "framer-motion",
+              "name": "framer-motion",
+              "version": "^11.16.4",
+              "type": "external"
+            },
+            {
+              "id": "input-otp",
+              "name": "input-otp",
+              "version": "^1.4.2",
+              "type": "external"
+            },
+            {
+              "id": "lucide-react",
+              "name": "lucide-react",
+              "version": "^0.475.0",
+              "type": "external"
+            },
+            {
+              "id": "pg",
+              "name": "pg",
+              "version": "^8.23.0",
+              "type": "external"
+            },
+            {
+              "id": "react",
+              "name": "react",
+              "version": "^18.2.0",
+              "type": "external"
+            },
+            {
+              "id": "react-dom",
+              "name": "react-dom",
+              "version": "^18.2.0",
+              "type": "external"
+            },
+            {
+              "id": "react-leaflet",
+              "name": "react-leaflet",
+              "version": "^4.2.1",
+              "type": "external"
+            },
+            {
+              "id": "react-markdown",
+              "name": "react-markdown",
+              "version": "^9.1.0",
+              "type": "external"
+            },
+            {
+              "id": "react-router-dom",
+              "name": "react-router-dom",
+              "version": "^7.18.4",
+              "type": "external"
+            },
+            {
+              "id": "recharts",
+              "name": "recharts",
+              "version": "^2.15.4",
+              "type": "external"
+            },
+            {
+              "id": "tailwind-merge",
+              "name": "tailwind-merge",
+              "version": "^3.0.2",
+              "type": "external"
+            },
+            {
+              "id": "tailwindcss-animate",
+              "name": "tailwindcss-animate",
+              "version": "^1.0.7",
+              "type": "external"
+            },
+            {
+              "id": "three",
+              "name": "three",
+              "version": "^0.169.0",
+              "type": "external"
+            },
+            {
+              "id": "zod",
+              "name": "zod",
+              "version": "^3.24.2",
+              "type": "external"
+            },
+            {
+              "id": "@eslint/js",
+              "name": "@eslint/js",
+              "version": "^9.39.5",
+              "type": "external"
+            },
+            {
+              "id": "@types/node",
+              "name": "@types/node",
+              "version": "^22.13.5",
+              "type": "external"
+            },
+            {
+              "id": "@types/react",
+              "name": "@types/react",
+              "version": "^18.2.66",
+              "type": "external"
+            },
+            {
+              "id": "@types/react-dom",
+              "name": "@types/react-dom",
+              "version": "^18.2.22",
+              "type": "external"
+            },
+            {
+              "id": "@vitejs/plugin-react",
+              "name": "@vitejs/plugin-react",
+              "version": "^4.3.4",
+              "type": "external"
+            },
+            {
+              "id": "autoprefixer",
+              "name": "autoprefixer",
+              "version": "^10.4.20",
+              "type": "external"
+            },
+            {
+              "id": "eslint",
+              "name": "eslint",
+              "version": "^9.39.5",
+              "type": "external"
+            },
+            {
+              "id": "eslint-plugin-react",
+              "name": "eslint-plugin-react",
+              "version": "^7.37.5",
+              "type": "external"
+            },
+            {
+              "id": "eslint-plugin-react-hooks",
+              "name": "eslint-plugin-react-hooks",
+              "version": "^7.1.1",
+              "type": "external"
+            },
+            {
+              "id": "eslint-plugin-unused-imports",
+              "name": "eslint-plugin-unused-imports",
+              "version": "^4.4.1",
+              "type": "external"
+            },
+            {
+              "id": "globals",
+              "name": "globals",
+              "version": "^17.12.0",
+              "type": "external"
+            },
+            {
+              "id": "pg-mem",
+              "name": "pg-mem",
+              "version": "^3.0.14",
+              "type": "external"
+            },
+            {
+              "id": "postcss",
+              "name": "postcss",
+              "version": "^8.5.3",
+              "type": "external"
+            },
+            {
+              "id": "tailwindcss",
+              "name": "tailwindcss",
+              "version": "^3.4.17",
+              "type": "external"
+            },
+            {
+              "id": "vite",
+              "name": "vite",
+              "version": "^6.1.0",
+              "type": "external"
+            }
+          ],
+          "edges": [
+            {
+              "from": "cheezies",
+              "to": "@base44/sdk",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@base44/vite-plugin",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-dialog",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-dropdown-menu",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-label",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-select",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-separator",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-slot",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-tabs",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-toast",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@radix-ui/react-tooltip",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@supabase/supabase-js",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@tanstack/react-query",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@vercel/speed-insights",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "class-variance-authority",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "clsx",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "cors",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "date-fns",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "express",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "framer-motion",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "input-otp",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "lucide-react",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "pg",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "react",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "react-dom",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "react-leaflet",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "react-markdown",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "react-router-dom",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "recharts",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "tailwind-merge",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "tailwindcss-animate",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "three",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "zod",
+              "scope": "runtime"
+            },
+            {
+              "from": "cheezies",
+              "to": "@eslint/js",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "@types/node",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "@types/react",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "@types/react-dom",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "@vitejs/plugin-react",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "autoprefixer",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "eslint",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "eslint-plugin-react",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "eslint-plugin-react-hooks",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "eslint-plugin-unused-imports",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "globals",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "pg-mem",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "postcss",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "tailwindcss",
+              "scope": "dev"
+            },
+            {
+              "from": "cheezies",
+              "to": "vite",
+              "scope": "dev"
+            }
+          ],
+          "rawDependencies": {
+            "@base44/sdk": "^0.8.48",
+            "@base44/vite-plugin": "^1.0.41",
+            "@radix-ui/react-dialog": "^1.1.6",
+            "@radix-ui/react-dropdown-menu": "^2.1.6",
+            "@radix-ui/react-label": "^2.1.2",
+            "@radix-ui/react-select": "^2.1.6",
+            "@radix-ui/react-separator": "^1.1.2",
+            "@radix-ui/react-slot": "^1.1.2",
+            "@radix-ui/react-tabs": "^1.1.3",
+            "@radix-ui/react-toast": "^1.2.2",
+            "@radix-ui/react-tooltip": "^1.1.8",
+            "@supabase/supabase-js": "^2.49.4",
+            "@tanstack/react-query": "^5.84.1",
+            "@vercel/speed-insights": "^1.0.0",
+            "class-variance-authority": "^0.7.1",
+            "clsx": "^2.1.1",
+            "cors": "^2.8.5",
+            "date-fns": "^3.6.0",
+            "express": "^4.19.2",
+            "framer-motion": "^11.16.4",
+            "input-otp": "^1.4.2",
+            "lucide-react": "^0.475.0",
+            "pg": "^8.23.0",
+            "react": "^18.2.0",
+            "react-dom": "^18.2.0",
+            "react-leaflet": "^4.2.1",
+            "react-markdown": "^9.1.0",
+            "react-router-dom": "^7.18.4",
+            "recharts": "^2.15.4",
+            "tailwind-merge": "^3.0.2",
+            "tailwindcss-animate": "^1.0.7",
+            "three": "^0.169.0",
+            "zod": "^3.24.2"
+          },
+          "rawDevDependencies": {
+            "@eslint/js": "^9.39.5",
+            "@types/node": "^22.13.5",
+            "@types/react": "^18.2.66",
+            "@types/react-dom": "^18.2.22",
+            "@vitejs/plugin-react": "^4.3.4",
+            "autoprefixer": "^10.4.20",
+            "eslint": "^9.39.5",
+            "eslint-plugin-react": "^7.37.5",
+            "eslint-plugin-react-hooks": "^7.1.1",
+            "eslint-plugin-unused-imports": "^4.4.1",
+            "globals": "^17.12.0",
+            "pg-mem": "^3.0.14",
+            "postcss": "^8.5.3",
+            "tailwindcss": "^3.4.17",
+            "vite": "^6.1.0"
+          },
+          "internalLinks": [],
+          "ecosystem": "Cheezies"
+        },
+        "mercury": {
+          "projectId": "mercury",
+          "projectName": "Mercury",
+          "nodes": [
+            {
+              "id": "mercury",
+              "name": "Mercury",
+              "type": "workspace"
+            }
+          ],
+          "edges": [],
+          "rawDependencies": {},
+          "rawDevDependencies": {},
+          "internalLinks": [],
+          "ecosystem": "Mercury"
+        },
+        "shorelineops": {
+          "projectId": "shorelineops",
+          "projectName": "ShorelineOps",
+          "nodes": [
+            {
+              "id": "shorelineops",
+              "name": "ShorelineOps",
+              "type": "workspace"
+            },
+            {
+              "id": "@radix-ui/react-avatar",
+              "name": "@radix-ui/react-avatar",
+              "version": "^1.2.6",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-dialog",
+              "name": "@radix-ui/react-dialog",
+              "version": "^1.1.23",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-dropdown-menu",
+              "name": "@radix-ui/react-dropdown-menu",
+              "version": "^2.1.24",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-select",
+              "name": "@radix-ui/react-select",
+              "version": "^2.3.7",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-separator",
+              "name": "@radix-ui/react-separator",
+              "version": "^1.1.15",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-slot",
+              "name": "@radix-ui/react-slot",
+              "version": "^1.3.3",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-switch",
+              "name": "@radix-ui/react-switch",
+              "version": "^1.3.7",
+              "type": "external"
+            },
+            {
+              "id": "@radix-ui/react-tabs",
+              "name": "@radix-ui/react-tabs",
+              "version": "^1.1.21",
+              "type": "external"
+            },
+            {
+              "id": "axios",
+              "name": "axios",
+              "version": "^1.7.2",
+              "type": "external"
+            },
+            {
+              "id": "class-variance-authority",
+              "name": "class-variance-authority",
+              "version": "^0.7.1",
+              "type": "external"
+            },
+            {
+              "id": "clsx",
+              "name": "clsx",
+              "version": "^2.1.1",
+              "type": "external"
+            },
+            {
+              "id": "lucide-react",
+              "name": "lucide-react",
+              "version": "^1.33.0",
+              "type": "external"
+            },
+            {
+              "id": "react",
+              "name": "react",
+              "version": "^18.3.1",
+              "type": "external"
+            },
+            {
+              "id": "react-dom",
+              "name": "react-dom",
+              "version": "^18.3.1",
+              "type": "external"
+            },
+            {
+              "id": "react-router-dom",
+              "name": "react-router-dom",
+              "version": "^7.18.2",
+              "type": "external"
+            },
+            {
+              "id": "tailwind-merge",
+              "name": "tailwind-merge",
+              "version": "^3.6.0",
+              "type": "external"
+            },
+            {
+              "id": "tailwindcss-animate",
+              "name": "tailwindcss-animate",
+              "version": "^1.0.7",
+              "type": "external"
+            },
+            {
+              "id": "zustand",
+              "name": "zustand",
+              "version": "^4.5.2",
+              "type": "external"
+            },
+            {
+              "id": "@types/react",
+              "name": "@types/react",
+              "version": "^18.3.3",
+              "type": "external"
+            },
+            {
+              "id": "@types/react-dom",
+              "name": "@types/react-dom",
+              "version": "^18.3.0",
+              "type": "external"
+            },
+            {
+              "id": "@vitejs/plugin-react",
+              "name": "@vitejs/plugin-react",
+              "version": "^6.1.1",
+              "type": "external"
+            },
+            {
+              "id": "autoprefixer",
+              "name": "autoprefixer",
+              "version": "^10.4.19",
+              "type": "external"
+            },
+            {
+              "id": "concurrently",
+              "name": "concurrently",
+              "version": "^8.2.2",
+              "type": "external"
+            },
+            {
+              "id": "electron",
+              "name": "electron",
+              "version": "^43.3.0",
+              "type": "external"
+            },
+            {
+              "id": "playwright",
+              "name": "playwright",
+              "version": "^1.63.0",
+              "type": "external"
+            },
+            {
+              "id": "postcss",
+              "name": "postcss",
+              "version": "^8.4.38",
+              "type": "external"
+            },
+            {
+              "id": "tailwindcss",
+              "name": "tailwindcss",
+              "version": "^3.4.4",
+              "type": "external"
+            },
+            {
+              "id": "typescript",
+              "name": "typescript",
+              "version": "^5.4.5",
+              "type": "external"
+            },
+            {
+              "id": "vite",
+              "name": "vite",
+              "version": "^8.3.0",
+              "type": "external"
+            },
+            {
+              "id": "vite-plugin-pwa",
+              "name": "vite-plugin-pwa",
+              "version": "^1.3.0",
+              "type": "external"
+            },
+            {
+              "id": "workbox-window",
+              "name": "workbox-window",
+              "version": "^7.1.0",
+              "type": "external"
+            }
+          ],
+          "edges": [
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-avatar",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-dialog",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-dropdown-menu",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-select",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-separator",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-slot",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-switch",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@radix-ui/react-tabs",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "axios",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "class-variance-authority",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "clsx",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "lucide-react",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "react",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "react-dom",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "react-router-dom",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "tailwind-merge",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "tailwindcss-animate",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "zustand",
+              "scope": "runtime"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@types/react",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@types/react-dom",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "@vitejs/plugin-react",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "autoprefixer",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "concurrently",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "electron",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "playwright",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "postcss",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "tailwindcss",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "typescript",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "vite",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "vite-plugin-pwa",
+              "scope": "dev"
+            },
+            {
+              "from": "shorelineops",
+              "to": "workbox-window",
+              "scope": "dev"
+            }
+          ],
+          "rawDependencies": {
+            "@radix-ui/react-avatar": "^1.2.6",
+            "@radix-ui/react-dialog": "^1.1.23",
+            "@radix-ui/react-dropdown-menu": "^2.1.24",
+            "@radix-ui/react-select": "^2.3.7",
+            "@radix-ui/react-separator": "^1.1.15",
+            "@radix-ui/react-slot": "^1.3.3",
+            "@radix-ui/react-switch": "^1.3.7",
+            "@radix-ui/react-tabs": "^1.1.21",
+            "axios": "^1.7.2",
+            "class-variance-authority": "^0.7.1",
+            "clsx": "^2.1.1",
+            "lucide-react": "^1.33.0",
+            "react": "^18.3.1",
+            "react-dom": "^18.3.1",
+            "react-router-dom": "^7.18.2",
+            "tailwind-merge": "^3.6.0",
+            "tailwindcss-animate": "^1.0.7",
+            "zustand": "^4.5.2"
+          },
+          "rawDevDependencies": {
+            "@types/react": "^18.3.3",
+            "@types/react-dom": "^18.3.0",
+            "@vitejs/plugin-react": "^6.1.1",
+            "autoprefixer": "^10.4.19",
+            "concurrently": "^8.2.2",
+            "electron": "^43.3.0",
+            "playwright": "^1.63.0",
+            "postcss": "^8.4.38",
+            "tailwindcss": "^3.4.4",
+            "typescript": "^5.4.5",
+            "vite": "^8.3.0",
+            "vite-plugin-pwa": "^1.3.0",
+            "workbox-window": "^7.1.0"
+          },
+          "internalLinks": [],
+          "ecosystem": "CulinaryOS"
+        }
+      },
+      "sharedPackages": {
+        "@swc/helpers": {
+          "usedBy": [
+            "CulinaryOS"
+          ],
+          "versions": [
+            "0.5.11"
+          ]
+        },
+        "client-only": {
+          "usedBy": [
+            "CulinaryOS"
+          ],
+          "versions": [
+            "^0.0.1"
+          ]
+        },
+        "@anthropic-ai/sdk": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^0.106.0"
+          ]
+        },
+        "@electric-sql/pglite": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^0.5.8"
+          ]
+        },
+        "@google/genai": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^2.12.0"
+          ]
+        },
+        "@react-three/drei": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^10.7.8"
+          ]
+        },
+        "@react-three/fiber": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^9.7.0"
+          ]
+        },
+        "class-variance-authority": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^0.7.1"
+          ]
+        },
+        "clsx": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^2.1.1"
+          ]
+        },
+        "d3": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^7.9.0"
+          ]
+        },
+        "drizzle-orm": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^0.45.2"
+          ]
+        },
+        "jose": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^5.10.0"
+          ]
+        },
+        "lucide-react": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.33.0",
+            "^0.475.0"
+          ]
+        },
+        "next": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "16.3.5"
+          ]
+        },
+        "openai": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^4.100.0"
+          ]
+        },
+        "pg": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^8.23.0"
+          ]
+        },
+        "react": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "19.2.4",
+            "^18.2.0",
+            "^18.3.1"
+          ]
+        },
+        "react-dom": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "19.2.4",
+            "^18.2.0",
+            "^18.3.1"
+          ]
+        },
+        "stripe": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^22.6.2"
+          ]
+        },
+        "tailwind-merge": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^3.6.0",
+            "^3.0.2"
+          ]
+        },
+        "three": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^0.185.1",
+            "^0.169.0"
+          ]
+        },
+        "topojson-client": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^3.1.0"
+          ]
+        },
+        "uuid": {
+          "usedBy": [
+            "BibleDesk"
+          ],
+          "versions": [
+            "^14.0.1"
+          ]
+        },
+        "zod": {
+          "usedBy": [
+            "BibleDesk",
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^3.23.8",
+            "^3.24.2"
+          ]
+        },
+        "@base44/sdk": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^0.8.48"
+          ]
+        },
+        "@base44/vite-plugin": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^1.0.41"
+          ]
+        },
+        "@radix-ui/react-dialog": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.1.6",
+            "^1.1.23"
+          ]
+        },
+        "@radix-ui/react-dropdown-menu": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^2.1.6",
+            "^2.1.24"
+          ]
+        },
+        "@radix-ui/react-label": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^2.1.2"
+          ]
+        },
+        "@radix-ui/react-select": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^2.1.6",
+            "^2.3.7"
+          ]
+        },
+        "@radix-ui/react-separator": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.1.2",
+            "^1.1.15"
+          ]
+        },
+        "@radix-ui/react-slot": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.1.2",
+            "^1.3.3"
+          ]
+        },
+        "@radix-ui/react-tabs": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.1.3",
+            "^1.1.21"
+          ]
+        },
+        "@radix-ui/react-toast": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^1.2.2"
+          ]
+        },
+        "@radix-ui/react-tooltip": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^1.1.8"
+          ]
+        },
+        "@supabase/supabase-js": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^2.49.4"
+          ]
+        },
+        "@tanstack/react-query": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^5.84.1"
+          ]
+        },
+        "@vercel/speed-insights": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^1.0.0"
+          ]
+        },
+        "cors": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^2.8.5"
+          ]
+        },
+        "date-fns": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^3.6.0"
+          ]
+        },
+        "express": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^4.19.2"
+          ]
+        },
+        "framer-motion": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^11.16.4"
+          ]
+        },
+        "input-otp": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^1.4.2"
+          ]
+        },
+        "react-leaflet": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^4.2.1"
+          ]
+        },
+        "react-markdown": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^9.1.0"
+          ]
+        },
+        "react-router-dom": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^7.18.4",
+            "^7.18.2"
+          ]
+        },
+        "recharts": {
+          "usedBy": [
+            "Cheezies Gourmet"
+          ],
+          "versions": [
+            "^2.15.4"
+          ]
+        },
+        "tailwindcss-animate": {
+          "usedBy": [
+            "Cheezies Gourmet",
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.0.7"
+          ]
+        },
+        "@radix-ui/react-avatar": {
+          "usedBy": [
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.2.6"
+          ]
+        },
+        "@radix-ui/react-switch": {
+          "usedBy": [
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.3.7"
+          ]
+        },
+        "axios": {
+          "usedBy": [
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^1.7.2"
+          ]
+        },
+        "zustand": {
+          "usedBy": [
+            "ShorelineOps"
+          ],
+          "versions": [
+            "^4.5.2"
+          ]
+        }
+      },
+      "crossProjectLinks": []
+    }
+  }
+}

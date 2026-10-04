@@ -1,0 +1,6 @@
+# Antigravity next task — MUSE-001 independent acceptance review
+Status: available to claim. Begin once experiments/MUSE-001 implementation/results are ready; do not duplicate implementation or Muse runs.
+
+Read AI_SHARED_LEDGER.md, execution/CURRENT_PHASE.yaml and execution/P04_EXECUTION_PLAN.md. Codex owns harness/fixtures/run outputs in C:/Users/white/Documents/GitHub/MuseAiBots/experiments/MUSE-001.
+
+Claim only execution/ANTIGRAVITY_P04_ACCEPTANCE_REVIEW.md in the ledger. Inspect the completed harness, fixtures and saved results read-only. Check expected baseline failures, successful references, strict compiler checks, allowed-file enforcement, timeouts and truthful metrics. Node type stripping is not typechecking. Disabled web tools alone do not establish network isolation. Backoff caps before jitter according to the agreed formula. Check that unavailable/blocked execution is not reported as rejected coding ability, and three trials are required before VALIDATED. Report concrete defects with paths and evidence; distinguish PASS/FAIL/NOT RUN/BLOCKED. Do not edit product files, execute Muse, install packages, change permissions, rename repositories or promote experiments. Release ownership after the review.

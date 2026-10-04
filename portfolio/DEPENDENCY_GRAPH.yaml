@@ -1,0 +1,61 @@
+{
+  "rule": "Source runtime dependencies require migration-specific mapping; parentage is not an import graph.",
+  "schemaVersion": 1,
+  "edges": [
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "governance-staging-workspace",
+      "to": "governance"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-scriptc-npmpkg",
+      "to": "local-scriptc"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-scriptc-bench-dynamic",
+      "to": "local-scriptc"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-muse-dashboard-packages-shared",
+      "to": "local-path-desktop-muse-dashboard"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-muse-dashboard-packages-providers-muse",
+      "to": "local-path-desktop-muse-dashboard"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-muse-dashboard-packages-providers-core",
+      "to": "local-path-desktop-muse-dashboard"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-muse-dashboard-apps-web",
+      "to": "local-path-desktop-muse-dashboard"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "local-path-desktop-muse-dashboard-apps-server",
+      "to": "local-path-desktop-muse-dashboard"
+    },
+    {
+      "relation": "portfolio-parent",
+      "state": "designated",
+      "from": "culinaryos-intelligence-local",
+      "to": "culinaryos"
+    }
+  ],
+  "inventoryComplete": false
+}

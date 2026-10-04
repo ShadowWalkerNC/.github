@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "ecosystems": [
+    {
+      "name": "Archive",
+      "entities": [
+        "benjamins",
+        "joes-tacos",
+        "unity-mc"
+      ]
+    },
+    {
+      "name": "BedrockOps",
+      "entities": [
+        "bedrockops",
+        "shieldbot"
+      ]
+    },
+    {
+      "name": "BibleDesk",
+      "entities": [
+        "bibledesk",
+        "prayer-atlas-source"
+      ]
+    },
+    {
+      "name": "Cheezies",
+      "entities": [
+        "cheezies"
+      ]
+    },
+    {
+      "name": "CulinaryOS",
+      "entities": [
+        "culinaryos-ops-source",
+        "culinaryos",
+        "culinaryos-prep-source",
+        "culinaryos-web-source",
+        "culinaryos-marketing-source",
+        "recipeos-source",
+        "restrevive-source",
+        "shorelineops",
+        "culinaryos-intelligence-local"
+      ]
+    },
+    {
+      "name": "Dominion",
+      "entities": [
+        "dominion"
+      ]
+    },
+    {
+      "name": "ForgeSatchel",
+      "entities": [
+        "local-josh",
+        "governance-staging-workspace",
+        "local-path-documents-agy-local-tools-rules",
+        "forgesatchel"
+      ]
+    },
+    {
+      "name": "Governance",
+      "entities": [
+        "governance"
+      ]
+    },
+    {
+      "name": "Labs",
+      "entities": [
+        "asciline",
+        "shadowrealm",
+        "local-projects-2",
+        "local-projects",
+        "local-path-desktop-iq-test",
+        "local-path-desktop-financial-tracker"
+      ]
+    },
+    {
+      "name": "Mercury",
+      "entities": [
+        "mercury",
+        "sigil-source"
+      ]
+    },
+    {
+      "name": "Muse Dashboard",
+      "entities": [
+        "local-path-desktop-muse-dashboard",
+        "local-path-desktop-muse-dashboard-packages-shared",
+        "local-path-desktop-muse-dashboard-packages-providers-muse",
+        "local-path-desktop-muse-dashboard-packages-providers-core",
+        "local-path-desktop-muse-dashboard-apps-web",
+        "local-path-desktop-muse-dashboard-apps-server"
+      ]
+    },
+    {
+      "name": "MuseLab",
+      "entities": [
+        "muselab"
+      ]
+    },
+    {
+      "name": "OpenCAD",
+      "entities": [
+        "emergency-cad",
+        "emscad"
+      ]
+    },
+    {
+      "name": "Profile",
+      "entities": [
+        "portfolio-profile",
+        "profile-meta"
+      ]
+    },
+    {
+      "name": "References",
+      "entities": [
+        "cloudflare-os",
+        "node-minecraft-protocol",
+        "open-saas",
+        "opendaw",
+        "openship",
+        "playhtml",
+        "playwright",
+        "local-stitch-skills",
+        "local-google-skills",
+        "local-paperclip",
+        "local-muse-code-sdk",
+        "local-gitingest",
+        "local-gitdiagram",
+        "local-antigravity-skills",
+        "local-antigravity-sdk-python",
+        "local-antigravity-plugin-cc",
+        "local-antigravity-cli",
+        "local-agentic-awesome-skills",
+        "local-scriptc"
+      ]
+    },
+    {
+      "name": "ScriptC",
+      "entities": [
+        "local-path-desktop-scriptc-npmpkg",
+        "local-path-desktop-scriptc-bench-dynamic"
+      ]
+    }
+  ]
+}

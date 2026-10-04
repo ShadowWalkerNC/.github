@@ -1,0 +1,841 @@
+{
+  "actor": "Codex",
+  "scope": "Eight installed manifests and missing canonical documentation only; existing product files preserved.",
+  "projects": [
+    {
+      "gitStatusBefore": [],
+      "path": "C:\\Users\\white\\Desktop\\ForgeSatchel",
+      "canonicalDocs": "PASS",
+      "name": "ForgeSatchel",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Desktop\\ForgeSatchel\\README.md",
+          "hash": "429CD510369C346264ACF26A0A077314657EA14F54727ED1CE1A5EBFE0241061"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": null,
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "F53EF5A7A1841C29F4B9D3E715A704B1712AF5EB080632844CE92637B8A8677F"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "CB1A7A7967356FC60582C35EA52EDA0DA40195860427B136325FE437A79A1A58"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "97B47D3A19D6303531E49907CF0F6371B31A658A9CDF2A9CD13633D47C296F04"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "A05E3FD7E21F468CFF161BFFC46BA84FB3D98BAB6506186FBD2A04BF19618EF6"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "A6304F17D269A429C798D1E9293BD52493485CCFA38A1DA603FE663DED4E66C6"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "BDDB8825E7BD4DB07E3BBB9D010A7DA20F67E507F7B9A833C5C22CA135A0D009"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "A565BE366D5076F487225DE78E36D817C0909956A15A0CA09E6D939553DE7EA5"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "13919B5ABF5400437621F1D206DCAFEE4D810AA32E147E88D49DB80EBBFA86C8"
+        }
+      ],
+      "id": "forgesatchel",
+      "integrationEvidence": [
+        {
+          "path": "src/agents.ts",
+          "sha256": "7D5D4C9DDAF3CBAC6B09F00D91BD1FDC1323E4DF1AFE11900EB5FE4F34A6FF84"
+        },
+        {
+          "path": "src/discovery.ts",
+          "sha256": "83D1372C7EEAA566BB6EACAFE80DBC893B59E025AA96E87B9F377C4051B756C0"
+        },
+        {
+          "path": "src/projects.ts",
+          "sha256": "E00EA7E7DF330871D7F9EEBB105F832AAFA7D8E67731234A747D7C1AEC14402B"
+        },
+        {
+          "path": "src/git.ts",
+          "sha256": "FFC8914515F9828D0B574E67283749175E7FABF73537D941721C813B977C8379"
+        },
+        {
+          "path": "docs/ARCHITECTURE.md",
+          "sha256": "CF40BD9CE9DC8A2348C755866D8793735C08AC3A288C3E587BB80582C5739FF0"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "PORTFOLIO_HANDOFF.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    },
+    {
+      "gitStatusBefore": [
+        " M .env.example",
+        " M apps/kds/src/components/TicketCard.tsx",
+        " M apps/kds/src/pages/Station.tsx",
+        " M apps/pos/src/components/CheckoutDrawer.tsx",
+        " M apps/pos/src/components/ConnectionStatus.tsx",
+        " M apps/pos/src/lib/queries.ts",
+        " M apps/pos/src/views/CheckoutView.tsx",
+        " M apps/pos/src/views/MenuView.tsx",
+        " M apps/server/src/index.ts",
+        " M apps/server/src/lib/rbac.ts",
+        " M apps/server/src/lib/secrets.ts",
+        " M apps/server/src/middleware/auth.ts",
+        " M apps/server/src/routes/auth.ts",
+        " M apps/server/src/routes/payments.ts",
+        " M apps/server/src/routes/pos-sync.ts",
+        " M apps/server/tsconfig.json",
+        " M cli/src/commands/system.ts",
+        " M cli/src/index.ts",
+        " M docs/AI_SHARED_LEDGER.md",
+        " M packages/db/package.json",
+        " M packages/db/src/index.ts",
+        " M packages/db/tsconfig.tsbuildinfo",
+        " M packages/shared/package.json",
+        " M packages/shared/src/index.ts",
+        " M packages/shared/src/offline-sync.ts",
+        " M pnpm-lock.yaml",
+        " M scripts/test-hook.cjs",
+        " M tests/server/auth-middleware.test.ts",
+        " M tests/server/tenant-isolation.test.ts",
+        "?? apps/server/src/postgres/",
+        "?? cli/src/commands/database.ts",
+        "?? docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md",
+        "?? docs/ARCHITECTURE_RESILIENCE_PLAN.md",
+        "?? docs/HARDWARE_SOFTWARE_INTEGRATION_PLAN.md",
+        "?? docs/POSTGRES_TRANSITION_DESIGN.md",
+        "?? docs/POS_PILOT_CORRECTNESS_SPEC.md",
+        "?? docs/RESILIENCE_OPERATIONS.md",
+        "?? docs/audits/codex-muse-design-disposition-2026-09-30.md",
+        "?? docs/audits/muse-pilot-plan-review-2026-09-30.md",
+        "?? docs/audits/postgres-server-integration.md",
+        "?? docs/audits/product-review-council-2026-09-22.md",
+        "?? docs/audits/resilience-r1-verification-2026-09-30.md",
+        "?? packages/db/README.md",
+        "?? packages/db/migrations/",
+        "?? packages/db/src/cli.ts",
+        "?? packages/db/src/migrate.ts",
+        "?? packages/db/src/postgres.ts",
+        "?? packages/db/src/runtime-role.ts",
+        "?? packages/shared/src/offline-pos-commands.ts",
+        "?? packages/shared/src/offline-store.ts",
+        "?? public/",
+        "?? scripts/debug-pg.ps1",
+        "?? scripts/resilience-capacity.ts",
+        "?? scripts/resilience-recovery.ts",
+        "?? scripts/run-db-test.ps1",
+        "?? scripts/start-postgres-verification.ps1",
+        "?? skills-lock.json",
+        "?? tests/cli/database-cli.test.ts",
+        "?? tests/cli/security-evidence.test.ts",
+        "?? tests/db/",
+        "?? tests/server/device-key-boundary.test.ts",
+        "?? tests/server/native-integration-security.test.ts",
+        "?? tests/server/native-startup-readiness.test.ts",
+        "?? tests/server/offline-payment-containment.test.ts",
+        "?? tests/server/postgres-domain.test.ts",
+        "?? tests/server/postgres-native-pg.test.ts",
+        "?? tests/server/postgres-native-unit.test.ts",
+        "?? tests/server/production-auth-boundary.test.ts",
+        "?? tests/server/resilience-operations.test.ts",
+        "?? tests/server/terminal-intent-validation.test.ts",
+        "?? tests/shared/offline-durability.test.ts",
+        "?? tests/shared/offline-pos-commands.test.ts"
+      ],
+      "path": "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS",
+      "canonicalDocs": "PASS",
+      "name": "CulinaryOS",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS\\README.md",
+          "hash": "503D60C59D6C33343FDF97230BBF7F52E37B1B8739F82E8F4F997B5340F9CC87"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS\\AGENTS.md",
+          "hash": "116401762DCDF648FF0EDA0836898F7AEF8B627E6738865F23CDE8EE4E4AE2B2"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS\\CHANGELOG.md",
+          "hash": "F03B839E7340F411D104B7B8227692EB867CF9DFFC490A2E4C029E4EC54B4B62"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": "64e56aba5feca6fc4437ab68f93a30e7c458b09f",
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "44D98CC3CDB22C29E905C5BFE4F9EDC2228D7B176C72D261BA04816EDADD095A"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "C8F0EDFDAC9F84E0769740754CF80E851F345550AF9230FA342399252F6A9E35"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "19855DE7BC394D62EB966328E5414826A7A9319D119155DA9A14C2D4EE5CF4E4"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "C9BC87838EDAAB6A65EDADFE5DFCFD687AF1B91543C3BBFD82CB390114335CD1"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "71108C3ED0380BF2C5B1C9A1663D4A81AE578746F641631D732065D61AFB78F0"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "9B37A6D0F33F4BFD737C43BA1671F5344991094E5C3C26A6EED440B1B25117FA"
+        }
+      ],
+      "id": "culinaryos",
+      "integrationEvidence": [
+        {
+          "path": "apps/server/package.json",
+          "sha256": "5EF6BEBFC347D6EB306F7237E41411662A04C15B026487AACF59EE8BF8F8B772"
+        },
+        {
+          "path": "mcp/package.json",
+          "sha256": "FC4F4E1BD738A2767CE00D27750A1D85899991F90582021E66FD2A87555131D8"
+        },
+        {
+          "path": "docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md",
+          "sha256": "7A3A1028B4DBEDDCC61A4F04ECE21BDF7922D89C53322E8AF0B279EB2569617A"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "ARCHITECTURE.md",
+        "PORTFOLIO_HANDOFF.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    },
+    {
+      "gitStatusBefore": [],
+      "path": "C:\\Users\\white\\Documents\\GitHub\\MuseAiBots",
+      "canonicalDocs": "PASS",
+      "name": "MuseLab",
+      "preservedCanonicalDocuments": [],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": null,
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "C5DE13CD0D18A8AE60D2AE8D99B0A6C74613B00557C67BAAB7F08A07ACE79F32"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "B0AE09FA69E23990FF43DB34BFD435600B3860E6BD46B160D6EF943E24E40588"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "E50D15CD639F56CBE8AD6FCFBF4A04F0339E8DBCC984198028B777A9B8BFCD06"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "95EE7C7C1B524619A7661350AB6997BAEC571F7A5B770C48F48F1BCC0165633C"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "3B95183609ADE79F3116614344CE4F06DF7710DAB81495B52AED5B5027FA33E0"
+        },
+        {
+          "path": "README.md",
+          "sha256": "A6FE4DC7C02ADD2F182924B52B34A60D4F710DB4E12A4EC9258D643B66F66A6F"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "CBE214C2DD521E9A6C4669B96A0EF7495D5B2A28D1BBB71EBB70FBB4196D3332"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "3746DC07E6EF6E9ED4388D950BE7487E811895E328F2758F8AC64EE0A354A725"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "B0DE6A0053B5F75E0252501169D4B34F4618EEA9BD53CB1D7E45541E7209D6DE"
+        }
+      ],
+      "id": "muselab",
+      "integrationEvidence": [],
+      "createdFiles": [
+        "forge.project.json",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "PORTFOLIO_HANDOFF.md",
+        "README.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    },
+    {
+      "gitStatusBefore": [],
+      "path": "C:\\Users\\white\\Documents\\GitHub\\BibleDesk",
+      "canonicalDocs": "PASS",
+      "name": "BibleDesk",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\BibleDesk\\README.md",
+          "hash": "8FAE8E0F533C9D9739E0F806B99F777DAF49537B63C16FD071437CE70DB6189D"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\BibleDesk\\AGENTS.md",
+          "hash": "7D4644679B2870AE1403CA4E6904DD1031D3FC8B68856BB39E5B5A84982675B4"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\BibleDesk\\ARCHITECTURE.md",
+          "hash": "C1A9CEA01B3F49BBBB7E6CE3FF6F38AAA92A044F4799686B56B4B2EDC28C5404"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": "f414a4dff62d776e100bb4b8cf73701d3daf30f4",
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "C798C3CD133A40F786955CE97D19202BA84C95D9419A48A7C3C1188E5F66A676"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "2A99AA468CAC0DC30352BE2B8205137A369C57C90012DF68C2948239095073CF"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "C0E256ED0522F7A0F3AF6883D82481B1A5F47C44933BDB8F84C4FDF3DD5D69AE"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "F6E5045871B8D834D10BB7B7E4CE80C7E5DEEE49D0666BEAC4A5A4989A33F620"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "5091EC8E825D90FE3C4FD04F7C0371AB2ED8636374D2D6E6CE8AEE4524C814F4"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "74403D70216E24E401602C87F7EA6B539CDC51F2071E58A185A9ADEA31A01744"
+        }
+      ],
+      "id": "bibledesk",
+      "integrationEvidence": [
+        {
+          "path": "package.json",
+          "sha256": "5C390556312A5FFDC527C43160B32693EAC95AEF3AAE986D20FDDD62445562F3"
+        },
+        {
+          "path": "src/lib/gemini.ts",
+          "sha256": "171EA59F4C9EED0FCA82DA902B7B198656A34EB13F767A3303E096B23530D37A"
+        },
+        {
+          "path": "src/lib/claude.ts",
+          "sha256": "497EE93209060E321BC765A50303336ACE6BC0EB773AB96102244EF7300D5BCB"
+        },
+        {
+          "path": "src/lib/rag.ts",
+          "sha256": "1C5469777EEF736132DE524F060A9BEF4F6AD166A76A6DF28B2867B847B72D71"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "7D4644679B2870AE1403CA4E6904DD1031D3FC8B68856BB39E5B5A84982675B4"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "CHANGELOG.md",
+        "PORTFOLIO_HANDOFF.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    },
+    {
+      "gitStatusBefore": [
+        " M AI.md",
+        " M Assets/Editor/TableSceneBuilder.cs",
+        " M Assets/Prefabs/CardView.prefab",
+        " M Assets/Scenes/Table.unity",
+        " M Assets/Scripts/Core/EffectResolver.cs",
+        " M Assets/Scripts/Netcode/HostServer.cs",
+        " M Assets/Scripts/Netcode/PlayerCommand.cs",
+        " M Assets/Scripts/Presentation/CardView.cs",
+        " M Assets/Scripts/Presentation/TableView.cs",
+        " M Docs/TODO_CHECKLIST.md",
+        " M Packages/manifest.json",
+        " M Packages/packages-lock.json",
+        "?? .agents/tasks/",
+        "?? .agents/tools/",
+        "?? Assets/Editor/CardAssetGenerator.cs",
+        "?? Assets/Editor/CardAssetGenerator.cs.meta",
+        "?? Assets/Resources/",
+        "?? Assets/Scripts/Presentation/BoardHistory.cs",
+        "?? Assets/Scripts/Presentation/BoardHistory.cs.meta",
+        "?? Assets/Scripts/Presentation/BoardLayout.cs",
+        "?? Assets/Scripts/Presentation/BoardLayout.cs.meta",
+        "?? Assets/Scripts/Presentation/BoardTheme.cs",
+        "?? Assets/Scripts/Presentation/BoardTheme.cs.meta",
+        "?? Assets/Scripts/Presentation/CardVisualRegistry.cs",
+        "?? Assets/Scripts/Presentation/CardVisualRegistry.cs.meta",
+        "?? Assets/Tests/HostTurnCommandTests.cs",
+        "?? Assets/Tests/HostTurnCommandTests.cs.meta",
+        "?? Assets/Tests/RulesChoiceValidationTests.cs",
+        "?? Assets/Tests/RulesChoiceValidationTests.cs.meta",
+        "?? Assets/Textures.meta",
+        "?? Docs/2d-production-plan-20261001.md",
+        "?? Docs/illustrated-assets-20261001.md",
+        "?? Docs/muse-planning-input-20261001.md",
+        "?? Docs/visual-gap-review-2026-09-30.md",
+        "?? generate_assets.log",
+        "?? open_in_unity.bat",
+        "?? play_game.bat"
+      ],
+      "path": "C:\\Users\\white\\Desktop\\Dominion",
+      "canonicalDocs": "PASS",
+      "name": "Dominion",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Desktop\\Dominion\\AGENTS.md",
+          "hash": "131EFC13AC5D5258B9DED8C8DF95CCE60FE99314488440FCFEF5231FDB75BD0B"
+        },
+        {
+          "path": "C:\\Users\\white\\Desktop\\Dominion\\AI.md",
+          "hash": "D75986AB5DF5A66E7342D202B334B870721CD977D621831305188EDC79AF4337"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": "eaaf42b07fb744994757e3ffc4e74b9aea130c74",
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "53E0C1A2DCF2B2864E5324CE1CC85081795AD70CDE2A9F731F32C344736792C2"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "EE5F41BEA5E5A492374E25938564CD7089ED10058C0630FBA95CB7F753D12FA3"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "180C76E4CF58C71C04790499ADD827A75BCF99B9C60CD64D4C89F48A13E03174"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "35F9A76C7826BF1ACFCE120E99C8C86786CBA0348EFA8BBE6DDED777F2102872"
+        },
+        {
+          "path": "README.md",
+          "sha256": "0372C644B96078F9AC1C14426BE806E7C00FAA9B54E229DAA2555BFA26CB1218"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "8F98095036A583E746CE38A4D1F318023E596DFEF54A492B3192476DF20CC2ED"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "9BEF151B86E505C47C63D6FB31D6FC501242C1454C86FE84C83620B685E8206F"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "EFCF0B1AF8319B112E78AFBD2C8D93D6D344A9C20BBDB623B1E0B460BA21CD56"
+        }
+      ],
+      "id": "dominion",
+      "integrationEvidence": [
+        {
+          "path": "AI.md",
+          "sha256": "D75986AB5DF5A66E7342D202B334B870721CD977D621831305188EDC79AF4337"
+        },
+        {
+          "path": "ProjectSettings/ProjectVersion.txt",
+          "sha256": "783F2DE974F75156071DEC6BB0C52E1004FD919A5078F7F84C75A936D3D787C0"
+        },
+        {
+          "path": "Packages/manifest.json",
+          "sha256": "70C4DCE2F16A8ED3E1641CE2ED4CD6342666BCAEFF2ED5B2229AD8E5E77BA331"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "PORTFOLIO_HANDOFF.md",
+        "README.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    },
+    {
+      "gitStatusBefore": [],
+      "path": "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet",
+      "canonicalDocs": "PASS",
+      "name": "Cheezies Gourmet",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet\\README.md",
+          "hash": "199CFB655EB0A3DF011314C37F3ACBB7127DF0265A69F3F0E780B43472596517"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet\\AGENTS.md",
+          "hash": "DF057522DBC51A40D6ECA9A0DA8600B25154256131E7CEAE1063DDF8C24DA2AE"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet\\AI.md",
+          "hash": "33051FF8DF10EABD57A6047EE5EA5F2A0DAB7B0A92A8071667A76A70265133F0"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": "5876fa4f90ef1f2e03e1a77c460b394b3b23a771",
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "2C4FC14D285719CA527EA960613A5CD98DFE36D5A60D9B66B3E884B5D1B8FD19"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "047335437B0E15729EDC3F5CCC25F05DC528E6297822890489C3834CCA87E42E"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "B8128659B577E26D65F8B0C1639F376FE477C0C2F35ACB711B0EFACCF9963039"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "21C65CC0F9C46D2292F210577533A5B05E2A1EDFAB865F9886D71A966D846F42"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "756FE4C6E84D5B708F0F017ED04776A88D6ED59D4DDC8086D9E74D2E80577DC0"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "1999C7EE865517F3AF3A436B02F5621128706F00451A7C90949DA835B9BA3A91"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "0DC0FC309C9FA05DD6539A4F0C271BEB9767C52643CF04DD79E0E25B066D9BD7"
+        }
+      ],
+      "id": "cheezies",
+      "integrationEvidence": [
+        {
+          "path": "package.json",
+          "sha256": "80030FE2ED0D68C72B475557119E5B17AFBF3B36D7D902392354434754625642"
+        },
+        {
+          "path": "AI.md",
+          "sha256": "33051FF8DF10EABD57A6047EE5EA5F2A0DAB7B0A92A8071667A76A70265133F0"
+        },
+        {
+          "path": "docs/OPERATIONS_RESTORATION_HANDOFF.md",
+          "sha256": "65672F296DE06B77A8A32ABD3F587FDF10485EE06B782533A559F117DA55C4E1"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "PORTFOLIO_HANDOFF.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    },
+    {
+      "gitStatusBefore": [],
+      "path": "C:\\Users\\white\\Documents\\GitHub\\Mercury",
+      "canonicalDocs": "PASS",
+      "name": "Mercury",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\Mercury\\README.md",
+          "hash": "A8B2D731ADBA1EA505159C1C01A4B8739BDC33908152BDABA9436CC28339096D"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\Mercury\\AGENTS.md",
+          "hash": "D522C6B32BCD5BC23E7E023D6430040768B6FC3D8B5391EFA9101889F4100752"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": "4458e674a59a39485b9277c12bf08107356cd70f",
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "D3CFC0C47BC0772D08384B1C929448853E10A38588DD9057C98767C32EF81F22"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "1D9ED9032941D40A2993BA7E0020B2D6847938228E131D169378DFA26BF1F111"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "25CEBF5708914240E9ADCA17B17988E4297E887AE8A58F5E2ADD4A11C6F99525"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "1C0AF51748617461A9C4DACB71C3E5613D05BA66E1105CDC363898A5827C8C30"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "65D04E8E3042DF346F505F3C8AC9832BD0607F667788E5EEF98058754D96803D"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "C765DAD3DBC2A8F378EB43404062941E9B93385EA0AB42A80FA7FD780540D45A"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "30F659B9B285AD9FD344F7129AECA9455567DDA99B858B68C6E5E79BAC540AED"
+        }
+      ],
+      "id": "mercury",
+      "integrationEvidence": [
+        {
+          "path": "packages/server/package.json",
+          "sha256": "CC48D5B6EAC003404CD81C7128B39CF7BE27C557AF3EDF41134D40058F1EA045"
+        },
+        {
+          "path": "packages/web/package.json",
+          "sha256": "2FE3F5638D4CAD670379495228DED5ABD663632CE1A50FC001539418827CACE5"
+        },
+        {
+          "path": "packages/server/src/index.ts",
+          "sha256": "53C1E54C1B823C94BE574C1B9DDE4B2B1F96890486AC4A64A041C9E210E09B6C"
+        },
+        {
+          "path": "README.md",
+          "sha256": "A8B2D731ADBA1EA505159C1C01A4B8739BDC33908152BDABA9436CC28339096D"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "ARCHITECTURE.md",
+        "CHANGELOG.md",
+        "PORTFOLIO_HANDOFF.md",
+        "ROADMAP.md",
+        "SECURITY.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS for unchanged docs; Mercury AGENTS template intentionally normalized with retained before-copy",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS",
+      "normalizedInstruction": {
+        "beforeHash": "D522C6B32BCD5BC23E7E023D6430040768B6FC3D8B5391EFA9101889F4100752",
+        "path": "AGENTS.md",
+        "afterHash": "44B1DF20AC7A173BA457F1416AE8E86368B8A9E10FACA07F098D19E364ECC605",
+        "beforeEvidence": "baseline/MERCURY_AGENTS_BEFORE_P02.md"
+      }
+    },
+    {
+      "gitStatusBefore": [
+        " M .dockerignore",
+        " M .gitignore",
+        " M DEMO.md",
+        " M DEPLOYMENT.md",
+        " M Dockerfile",
+        " D dist/app/assets/demoCredentials-B9Vrw34y.js",
+        " M dist/app/index.html",
+        " M dist/app/sw.js",
+        " M dist/demo/index.html",
+        " M dist/demo/sw.js",
+        " M dist/index.html",
+        " M docker-compose.production.yml",
+        " M docker-compose.yml",
+        " M docs/RAILWAY_DEPLOYMENT.md",
+        " M docs/RenderDeployment.md",
+        " M docs/VercelDeployment.md",
+        " M marketing/src/layouts/BaseLayout.astro",
+        " M marketing/src/pages/index.astro",
+        " M nginx.conf",
+        " M railway.json",
+        " M render.yaml",
+        " M scripts/backup.ps1",
+        " M scripts/backup.sh",
+        " M scripts/build_unified_site.mjs",
+        " M server/Dockerfile",
+        " M server/dist/db/pool.js",
+        " M server/dist/index.js",
+        " M server/dist/routes/admin.js",
+        " M server/dist/routes/ehr.js",
+        " M server/dist/routes/enterprise.js",
+        " M server/dist/routes/hardware.js",
+        " M server/dist/routes/kitchen.js",
+        " M server/dist/routes/production.js",
+        " M server/dist/routes/reporting.js",
+        " M server/dist/routes/residents.js",
+        " M server/scripts/generate-openapi.mjs",
+        " M server/shoreline.db",
+        " M server/src/db/pool.ts",
+        " M server/src/docs/openapi.json",
+        " M server/src/idempotency.test.ts",
+        " M server/src/index.ts",
+        " M server/src/middleware/idempotency.ts",
+        " M server/src/routes/admin.ts",
+        " M server/src/routes/ehr.ts",
+        " M server/src/routes/enterprise.ts",
+        " M server/src/routes/hardware.ts",
+        " M server/src/routes/kitchen.ts",
+        " M server/src/routes/production.ts",
+        " M server/src/routes/reporting.ts",
+        " M server/src/routes/residents.ts",
+        " M src/api/client.ts",
+        " M src/components/Layout.tsx",
+        " M src/features/kitchen/TrayCardGeneratorPage.tsx",
+        " M src/features/purchasing/PurchasingPage.tsx",
+        " M src/features/reporting/ReportingPage.tsx",
+        " M src/features/residents/ResidentsPage.tsx",
+        " M src/features/residents/components/ResidentCardList.tsx",
+        " M src/main.tsx",
+        " M src/security/AuthContext.tsx",
+        " M src/security/tokenManager.ts",
+        " M vercel.json",
+        "?? docs/DEMO_NETWORK_BOUNDARY.md",
+        "?? docs/audits/ARCHITECTURE_REASSESSMENT_2026-09-30.md",
+        "?? docs/audits/DEMO_ROUTING_FIX_2026-10-02.md",
+        "?? docs/audits/DEPLOYMENT_IMPLEMENTATION_2026-10-01.md",
+        "?? docs/audits/REMEDIATION_HANDOFF_2026-10-01.md",
+        "?? docs/audits/REMEDIATION_PLAN_2026-09-30.md",
+        "?? docs/audits/REVIEW_FIXES_2026-10-01.md",
+        "?? public/brand/",
+        "?? scripts/backup-tool.mjs",
+        "?? server/src/api-client-policy.test.ts",
+        "?? server/src/apiClientPolicy.ts",
+        "?? server/src/backup-crypto.ts",
+        "?? server/src/backup-encryption.test.ts",
+        "?? server/src/db-params.test.ts",
+        "?? server/src/demo-network-boundary.test.ts",
+        "?? server/src/demo-refresh.test.ts",
+        "?? server/src/deployment-config.test.ts",
+        "?? server/src/middleware/permissions.ts",
+        "?? server/src/postgres-acceptance.test.ts",
+        "?? server/src/recovery-access.test.ts",
+        "?? server/src/render-routing.test.ts",
+        "?? server/src/reporting-canonical.test.ts",
+        "?? server/src/security-remediation.test.ts",
+        "?? server/src/shellRouting.ts",
+        "?? server/src/static-routing.test.ts",
+        "?? server/src/unified-build.test.ts",
+        "?? src/demo/networkBoundary.ts",
+        "?? src/security/capabilities.ts"
+      ],
+      "path": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps",
+      "canonicalDocs": "PASS",
+      "name": "ShorelineOps",
+      "preservedCanonicalDocuments": [
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps\\README.md",
+          "hash": "F0FE201C0B67C4DC84E0FD444D2B9FBC389895DE6C7447218A4582DFF28195DB"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps\\AGENTS.md",
+          "hash": "E160C2560B62DC5AD5BD7D1DA2AB347E2EE34C3EB24C3F6A2F3034A31EF1196B"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps\\ARCHITECTURE.md",
+          "hash": "99971618FD53302442BFFA8BB48345996B93E428F4189734C03DC358800650C7"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps\\CHANGELOG.md",
+          "hash": "B8B0B669A92A47E4E2EA9A315333ED81F434F0398A022E953D58496FB0E98ED8"
+        },
+        {
+          "path": "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps\\SECURITY.md",
+          "hash": "DA154284B77BC63CE078BE25436C5AE3E3BCE32A1BC124E4096286115D57B2B4"
+        }
+      ],
+      "applicationChecks": "NOT RUN",
+      "baselineHead": "1f67e2a1d99d88d5370b05e928bc5ad2c1d4d019",
+      "ownership": "released",
+      "hashes": [
+        {
+          "path": "forge.project.json",
+          "sha256": "D1476FF7093804C0DCC14BA2F51A2AE510C7CC07D19D37893EDD42D8D2472721"
+        },
+        {
+          "path": "PORTFOLIO_HANDOFF.md",
+          "sha256": "EE9ADF96EE45B38C6CBD7C010E0EAE3141274A21A465D7E240AB820CE244FD52"
+        },
+        {
+          "path": "ROADMAP.md",
+          "sha256": "07F2BDAEB88FCBD3E7931D08038E9B436D371D606B6920E60812FBB2903D19E3"
+        },
+        {
+          "path": "STATUS.md",
+          "sha256": "37C92A1A49A4A0E7A505202822A0E09AEDE8A35A73258B63622AB8AD013DEF7B"
+        }
+      ],
+      "id": "shorelineops",
+      "integrationEvidence": [
+        {
+          "path": "server/package.json",
+          "sha256": "F3C2D4427A48FA2721A93CF9091C892FD386F492D15128F5285880D4A1D6C744"
+        },
+        {
+          "path": "docs/audits/REMEDIATION_HANDOFF_2026-10-01.md",
+          "sha256": "91FC95962183275E913E2FB08B5D1D305AA7A1E65221852CFC176319246342D8"
+        },
+        {
+          "path": "docs/audits/DEMO_ROUTING_FIX_2026-10-02.md",
+          "sha256": "282473FE51D5B4433888A7B4F8BEB1A789B502BF58382353139F2FDF0DD8EAB4"
+        }
+      ],
+      "createdFiles": [
+        "forge.project.json",
+        "PORTFOLIO_HANDOFF.md",
+        "ROADMAP.md",
+        "STATUS.md"
+      ],
+      "existingDocumentHashes": "PASS",
+      "manifestValidation": "PASS",
+      "newDocumentationLinks": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "appBuildTestRuntimeDeploy": "NOT RUN",
+  "sdkAdditions": "none",
+  "mercuryCheckout": "Cloned existing public repository; baseline snapshots remain immutable.",
+  "task": "P02-ROLLOUT",
+  "remoteMutations": "none",
+  "date": "2026-10-03"
+}

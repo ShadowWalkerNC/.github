@@ -60,3 +60,7 @@ SECURITY: trust boundaries · DATABASE: lossy migrations · DEVOPS: unsafe
 releases · UX: WCAG 2.1 AA · QA: untested releases · ARCHITECT: system design.
 
 *Author: ShadowWalkerNC · v3.0*
+
+
+## Portfolio governance v4
+Start with [MASTER_PLAN.md](MASTER_PLAN.md), [CURRENT_STATE.md](CURRENT_STATE.md), [current phase](execution/CURRENT_PHASE.yaml), [portfolio](portfolio/PORTFOLIO.yaml), [ADRs](decisions/README.md) and [shared ledger](AI_SHARED_LEDGER.md). Local governance installation is not publication approval; review private project metadata and local paths before any public push.

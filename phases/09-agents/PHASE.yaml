@@ -1,0 +1,33 @@
+{
+  "id": "P09",
+  "name": "Agent layer",
+  "status": "pending",
+  "depends_on": [
+    "P08"
+  ],
+  "repositories": [
+    "ForgeSatchel"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "plan"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Two-agent handoff without reconstructing context",
+    "Cost/provenance/shared state recorded"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}

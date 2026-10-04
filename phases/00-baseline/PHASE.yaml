@@ -1,0 +1,30 @@
+{
+  "id": "P00",
+  "name": "Baseline",
+  "status": "complete",
+  "depends_on": [],
+  "repositories": [],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "document"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Every known repo inventoried",
+    "Active/migrating baseline refs recorded",
+    "Deployment/domain/schema unknowns explicit"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}

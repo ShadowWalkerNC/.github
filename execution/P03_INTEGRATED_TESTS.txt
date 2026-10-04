@@ -1,0 +1,103 @@
+▶ agent adapters
+  ✔ ships the blueprint and antigravity adapters (1.7008ms)
+  ✔ resolves aliases and rejects unknowns (0.1875ms)
+  ✔ resolveCommand finds real tools and misses fake ones (243.6213ms)
+  ✔ detect() never throws and reports a boolean (10817.649ms)
+✔ agent adapters (11066.2779ms)
+▶ local API surface
+  ✔ exposes the documented methods with safety levels (1.3898ms)
+  ✔ rejects unknown methods (0.5428ms)
+✔ local API surface (2.9127ms)
+✔ local discovery finds governed non-Git roots and preserves legacy directory names (758.9466ms)
+▶ extension SDK and registry
+  ✔ validates manifest schemas accurately (0.9332ms)
+  ✔ checks OS compatibility rules (0.3051ms)
+  ✔ discovers all built-in extensions (8.9348ms)
+  ✔ loads active extensions and aggregates contributions (39.6002ms)
+✔ extension SDK and registry (51.0308ms)
+✔ documentation search is bounded and ignores generated/code trees (42.5069ms)
+▶ parseManifestYml
+  ✔ parses scalars, commands map, and services list (2.9619ms)
+  ✔ tolerates empty and malformed input (0.3346ms)
+✔ parseManifestYml (4.5915ms)
+▶ loadManifest
+  ✔ prefers yml over legacy project.json (5.5192ms)
+✔ loadManifest (5.7777ms)
+▶ ForgeSatchel Developer Operating Layer
+  ✔ builds project dependency graphs and renders Mermaid & ASCII (3.6952ms)
+  ✔ generates compact token-bounded digests (155.6485ms)
+  ✔ maintains project and portfolio wikis (6.4122ms)
+  ✔ audits project sprawl and deduplication (163.2135ms)
+  ✔ recognizes antigravity adapter and aliases (0.5604ms)
+✔ ForgeSatchel Developer Operating Layer (331.7862ms)
+▶ normalizeRemote
+  ✔ unifies https, .git, and ssh forms (1.063ms)
+✔ normalizeRemote (2.1395ms)
+▶ primaryOwner
+  ✔ picks the most common owner generically (0.3914ms)
+✔ primaryOwner (0.5165ms)
+▶ auditPortfolio
+  ✔ matches local to github by remote (synced) (3.5698ms)
+  ✔ flags github-only, local-only, forks, archives (11.3875ms)
+  ✔ detects duplicates, empties, stale checkouts, superseded, modules, third-party clones (0.7137ms)
+  ✔ generates PORTFOLIO.md with sync map and proposals (0.9351ms)
+✔ auditPortfolio (17.0421ms)
+✔ ProjectWatcher tracks debounced directory events (218.7715ms)
+✔ ForgeServer starts, handles auth and responds to health & rpc (73.6563ms)
+✔ WorkspaceOrchestrator sorts topologically and executes commands (87.1264ms)
+▶ canonical project identity
+  ✔ validates lifecycle identity independently of repository branding (1.2692ms)
+  ✔ rejects unsupported versions, bad enums, repository values, priority and malformed integration lists (0.4884ms)
+  ✔ preserves legacy command/agent overrides while canonical name and ecosystem win (8.3997ms)
+✔ canonical project identity (11.346ms)
+▶ slugify
+  ✔ lowercases and dashes names (0.768ms)
+✔ slugify (1.6596ms)
+▶ findProject
+  ✔ finds by id and by name, case-insensitive (1.3042ms)
+✔ findProject (1.4513ms)
+▶ mergeScan rebuild rule
+  ✔ keeps user fields, refreshes discovery facts (1.5481ms)
+  ✔ marks forks and archives from discovery (12.0887ms)
+  ✔ never drops registry entries the scan no longer sees (0.3497ms)
+✔ mergeScan rebuild rule (14.279ms)
+▶ syncStates
+  ✔ classifies github-only, fork, dirty, ahead/behind, synced (0.993ms)
+✔ syncStates (1.1839ms)
+✔ relationship views keep declarations separate and preserve IDs for missing manifests (3.2844ms)
+▶ session model
+  ✔ formats IDs as project:agent:index (0.8208ms)
+  ✔ allocates the next free index per project+agent (2.0903ms)
+  ✔ sanitizes mux names for tmux (0.3846ms)
+✔ session model (4.4188ms)
+▶ detectStack
+  ✔ detects node+TS+pnpm and infers script commands (8.7861ms)
+  ✔ detects rust, python, go, dotnet, docker (15.0356ms)
+  ✔ returns empty commands for unknown trees (3.9164ms)
+✔ detectStack (29.6351ms)
+▶ mergeCommands
+  ✔ later layers win; blanks never clobber (0.3978ms)
+✔ mergeCommands (0.6452ms)
+▶ windows terminal integration
+  ✔ generates deterministic profile GUIDs (0.8919ms)
+  ✔ builds terminal profiles with proper paths and commands (1.4416ms)
+✔ windows terminal integration (3.396ms)
+▶ TUI, Evaluation & Enhanced Terminal Fragments
+  ✔ evaluates project health and computes grade accurately (259.2ms)
+  ✔ initializes ForgeTui state and filters projects (0.6768ms)
+  ✔ builds terminal fragments with actions, split panes, and color schemes (2.8269ms)
+  ✔ renders canonical project names and lifecycle badges in project list (636.0619ms)
+  ✔ renders invalid-manifest badge [!] and warnings in Overview tab (827.6345ms)
+  ✔ partitions observed dependencies vs declared integrations in Graph tab with disclaimer (578.8278ms)
+  ✔ executes bounded documentation search and renders hits, issues, and truncation notes (1156.2226ms)
+  ✔ computes lifecycle badge strings across lifecycle variants (3.6151ms)
+  ✔ handles tab switching and state management (1.4612ms)
+✔ TUI, Evaluation & Enhanced Terminal Fragments (3473.2899ms)
+ℹ tests 57
+ℹ suites 19
+ℹ pass 57
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 16677.9622

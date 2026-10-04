@@ -30,3 +30,7 @@ PROJECT: [repo]  SCOPE: [goal]  OUT OF SCOPE: [optional]
 | `onboard` | New repo: build the project cache first |
 
 *Updated for v3.0 — ShadowWalkerNC/.github*
+
+
+## Portfolio startup
+For portfolio work, follow [AGENTS.md](AGENTS.md) and [execution/CURRENT_PHASE.yaml](execution/CURRENT_PHASE.yaml), then [AI_SHARED_LEDGER.md](AI_SHARED_LEDGER.md). The new [MASTER_PLAN.md](MASTER_PLAN.md) execution map sits above existing UPA/agents without replacing them.

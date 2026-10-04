@@ -1,0 +1,94 @@
+▶ agent adapters
+  ✔ ships the blueprint and antigravity adapters (5.4628ms)
+  ✔ resolves aliases and rejects unknowns (0.3248ms)
+  ✔ resolveCommand finds real tools and misses fake ones (967.3193ms)
+  ✔ detect() never throws and reports a boolean (23417.1837ms)
+✔ agent adapters (24395.9624ms)
+▶ local API surface
+  ✔ exposes the documented methods with safety levels (2.4553ms)
+  ✔ rejects unknown methods (2.1293ms)
+✔ local API surface (6.4867ms)
+▶ extension SDK and registry
+  ✔ validates manifest schemas accurately (2.0587ms)
+  ✔ checks OS compatibility rules (0.3185ms)
+  ✔ discovers all built-in extensions (31.2334ms)
+  ✔ loads active extensions and aggregates contributions (75.1711ms)
+✔ extension SDK and registry (111.2547ms)
+▶ parseManifestYml
+  ✔ parses scalars, commands map, and services list (4.5425ms)
+  ✔ tolerates empty and malformed input (0.9887ms)
+✔ parseManifestYml (7.759ms)
+▶ loadManifest
+  ✔ prefers yml over legacy project.json (9.6156ms)
+✔ loadManifest (9.9098ms)
+▶ ForgeSatchel Developer Operating Layer
+  ✔ builds project dependency graphs and renders Mermaid & ASCII (3.1976ms)
+  ✔ generates compact token-bounded digests (450.9682ms)
+  ✔ maintains project and portfolio wikis (15.1905ms)
+  ✔ audits project sprawl and deduplication (597.1675ms)
+  ✔ recognizes antigravity adapter and aliases (1.1699ms)
+✔ ForgeSatchel Developer Operating Layer (1070.4204ms)
+▶ normalizeRemote
+  ✔ unifies https, .git, and ssh forms (3.7502ms)
+✔ normalizeRemote (7.7768ms)
+▶ primaryOwner
+  ✔ picks the most common owner generically (1.5861ms)
+✔ primaryOwner (2.1674ms)
+▶ auditPortfolio
+  ✔ matches local to github by remote (synced) (12.8444ms)
+  ✔ flags github-only, local-only, forks, archives (63.8363ms)
+  ✔ detects duplicates, empties, stale checkouts, superseded, modules, third-party clones (1.484ms)
+  ✔ generates PORTFOLIO.md with sync map and proposals (2.3457ms)
+✔ auditPortfolio (81.6108ms)
+✔ ProjectWatcher tracks debounced directory events (218.6696ms)
+✔ ForgeServer starts, handles auth and responds to health & rpc (226.399ms)
+✔ WorkspaceOrchestrator sorts topologically and executes commands (424.9784ms)
+▶ canonical project identity
+  ✔ validates lifecycle identity independently of repository branding (7.4824ms)
+  ✔ rejects unsupported versions, bad enums, repository values, priority and malformed integration lists (1.5377ms)
+  ✔ preserves legacy command/agent overrides while canonical name and ecosystem win (28.8786ms)
+✔ canonical project identity (41.6397ms)
+▶ slugify
+  ✔ lowercases and dashes names (5.6126ms)
+✔ slugify (9.5781ms)
+▶ findProject
+  ✔ finds by id and by name, case-insensitive (2.4047ms)
+✔ findProject (2.8683ms)
+▶ mergeScan rebuild rule
+  ✔ keeps user fields, refreshes discovery facts (4.6408ms)
+  ✔ marks forks and archives from discovery (32.3627ms)
+  ✔ never drops registry entries the scan no longer sees (2.2121ms)
+✔ mergeScan rebuild rule (40.1737ms)
+▶ syncStates
+  ✔ classifies github-only, fork, dirty, ahead/behind, synced (3.6397ms)
+✔ syncStates (4.5956ms)
+▶ session model
+  ✔ formats IDs as project:agent:index (2.5131ms)
+  ✔ allocates the next free index per project+agent (5.3212ms)
+  ✔ sanitizes mux names for tmux (1.1638ms)
+✔ session model (13.6305ms)
+▶ detectStack
+  ✔ detects node+TS+pnpm and infers script commands (17.0576ms)
+  ✔ detects rust, python, go, dotnet, docker (31.5921ms)
+  ✔ returns empty commands for unknown trees (9.4824ms)
+✔ detectStack (62.8142ms)
+▶ mergeCommands
+  ✔ later layers win; blanks never clobber (1.5173ms)
+✔ mergeCommands (2.4682ms)
+▶ windows terminal integration
+  ✔ generates deterministic profile GUIDs (3.5393ms)
+  ✔ builds terminal profiles with proper paths and commands (4.3062ms)
+✔ windows terminal integration (12.3169ms)
+▶ TUI, Evaluation & Enhanced Terminal Fragments
+  ✔ evaluates project health and computes grade accurately (667.9238ms)
+  ✔ initializes ForgeTui state and filters projects (1.0055ms)
+  ✔ builds terminal fragments with actions, split panes, and color schemes (4.0229ms)
+✔ TUI, Evaluation & Enhanced Terminal Fragments (676.7333ms)
+ℹ tests 48
+ℹ suites 19
+ℹ pass 48
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25832.5424

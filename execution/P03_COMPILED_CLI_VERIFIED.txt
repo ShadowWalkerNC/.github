@@ -1,0 +1,652 @@
+forgesatchel             ForgeSatchel [platform/active] [local-only]
+culinaryos               CulinaryOS [product/active] main [local-only, dirty, ahead]
+muselab                  MuseLab [lab/planned-active] main [local-only, dirty]
+bibledesk                BibleDesk [product/active] main [local-only, dirty]
+dominion                 Dominion [product/active] master [local-only, dirty]
+cheezies                 Cheezies Gourmet [client/active] master [local-only, dirty]
+mercury                  Mercury [infrastructure/supporting] main [local-only, dirty]
+shorelineops             ShorelineOps [product/supporting] main [local-only, dirty]
+[
+  {
+    "id": "forgesatchel",
+    "name": "ForgeSatchel",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "ForgeSatchel",
+      "repository": null,
+      "classification": "platform",
+      "lifecycle": "active",
+      "priority": 1,
+      "ecosystem": "ForgeSatchel",
+      "visibility": "internal",
+      "languages": [
+        "typescript"
+      ],
+      "capabilities": [
+        "project.discovery",
+        "project.registry",
+        "coding.agent.launch",
+        "git.operations"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [
+          "codex",
+          "muse-code",
+          "gemini",
+          "claude",
+          "opencode",
+          "antigravity"
+        ],
+        "muse": [
+          "muse-code"
+        ],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "culinaryos",
+    "name": "CulinaryOS",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "CulinaryOS",
+      "repository": "ShadowWalkerNC/CulinaryOS",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 1,
+      "ecosystem": "CulinaryOS",
+      "visibility": "public",
+      "languages": [
+        "typescript",
+        "sql"
+      ],
+      "capabilities": [
+        "restaurant.operations",
+        "api.domain",
+        "mcp.adapter"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [
+          "culinaryos-mcp-servers"
+        ],
+        "sdks": [
+          "@anthropic-ai/sdk",
+          "@supabase/supabase-js",
+          "@modelcontextprotocol/sdk",
+          "stripe"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "muselab",
+    "name": "MuseLab",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "MuseLab",
+      "repository": "ShadowWalkerNC/MuseAiBots",
+      "classification": "lab",
+      "lifecycle": "planned-active",
+      "priority": 1,
+      "ecosystem": "MuseLab",
+      "visibility": "public",
+      "languages": [],
+      "capabilities": [],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "bibledesk",
+    "name": "BibleDesk",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "BibleDesk",
+      "repository": "ShadowWalkerNC/BibleDesk",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 2,
+      "ecosystem": "BibleDesk",
+      "visibility": "public",
+      "languages": [
+        "typescript",
+        "sql"
+      ],
+      "capabilities": [
+        "scripture.study",
+        "prayer.care",
+        "api.domain",
+        "mcp.adapter"
+      ],
+      "integrations": {
+        "models": [
+          "google-gemini",
+          "anthropic",
+          "openai"
+        ],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [
+          "bibledesk"
+        ],
+        "sdks": [
+          "@google/genai",
+          "@anthropic-ai/sdk",
+          "openai",
+          "@electric-sql/pglite",
+          "stripe"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "dominion",
+    "name": "Dominion",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "Dominion",
+      "repository": "ShadowWalkerNC/Dominion",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 2,
+      "ecosystem": "Dominion",
+      "visibility": "private",
+      "languages": [
+        "csharp"
+      ],
+      "capabilities": [
+        "game.rules",
+        "game.presentation"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "cheezies",
+    "name": "Cheezies Gourmet",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "Cheezies Gourmet",
+      "repository": "ShadowWalkerNC/cheezies-gourmet",
+      "classification": "client",
+      "lifecycle": "active",
+      "priority": 3,
+      "ecosystem": "Cheezies",
+      "visibility": "private",
+      "languages": [
+        "javascript"
+      ],
+      "capabilities": [
+        "restaurant.website",
+        "restaurant.client.operations"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [],
+        "sdks": [
+          "@base44/sdk",
+          "@supabase/supabase-js",
+          "@vercel/speed-insights"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "Mercury",
+      "repository": "ShadowWalkerNC/Mercury",
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "priority": null,
+      "ecosystem": "Mercury",
+      "visibility": "public",
+      "languages": [
+        "typescript"
+      ],
+      "capabilities": [
+        "communications.realtime",
+        "communications.voice"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [
+          "livekit-server-sdk",
+          "livekit-client"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "shorelineops",
+    "name": "ShorelineOps",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "ShorelineOps",
+      "repository": "ShadowWalkerNC/ShorelineOps",
+      "classification": "product",
+      "lifecycle": "supporting",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "visibility": "public",
+      "languages": [
+        "typescript"
+      ],
+      "capabilities": [
+        "clinical.dining",
+        "api.domain"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  }
+]
+{
+  "hits": [
+    {
+      "projectId": "forgesatchel",
+      "path": "AGENTS.md",
+      "line": 1,
+      "text": "# ForgeSatchel AI instructions"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "AGENTS.md",
+      "line": 2,
+      "text": "Read STATUS.md, forge.project.json and PORTFOLIO_HANDOFF.md first. Preserve existing CLI, operational .forgesatchel state, design docs and agent artifacts. Read docs/ARCHITECTURE.md and docs/DECISIONS.md only for the affected scope. Extend existing code before adding services; reconcile earlier fork"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ARCHITECTURE.md",
+      "line": 1,
+      "text": "# ForgeSatchel architecture"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "CHANGELOG.md",
+      "line": 1,
+      "text": "# ForgeSatchel changelog"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 1,
+      "text": "# ForgeSatchel — Architecture"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 5,
+      "text": "inside the CLI agents; ForgeSatchel launches, organizes, and reconnects."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 31,
+      "text": "  config.ts     ~/.forgesatchel layout, per-project .forgesatchel/project.json"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 43,
+      "text": ".forgesatchel/  local registry seed: projects.json + groups.json"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\DECISIONS.md",
+      "line": 1,
+      "text": "# ForgeSatchel — Locked Decisions"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\DECISIONS.md",
+      "line": 8,
+      "text": "Collie is Bun-based; terminal-web is Node-based. ForgeSatchel ships on"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\DECISIONS.md",
+      "line": 50,
+      "text": "titles, and marks to ForgeSatchel on the fork branch before any feature"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 1,
+      "text": "# ForgeSatchel — Collie Fork Procedure (S1)"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 16,
+      "text": "# git clone https://github.com/<you>/forgesatchel-collie upstream-collie"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 20,
+      "text": "git checkout -b forgesatchel/main"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 28,
+      "text": "- Keep Collie's `LICENSE` (MIT) text; add ForgeSatchel copyright line."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 36,
+      "text": "- [ ] PWA manifest name/short_name/icons → ForgeSatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 37,
+      "text": "- [ ] `<title>`, headers, login/pairing screens → ForgeSatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 47,
+      "text": "- [ ] `MUX_CONTRACT.md`: add ForgeSatchel column notes where behavior"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\FORK.md",
+      "line": 62,
+      "text": "Feature work lands on `forgesatchel/main`. Periodically `git fetch"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\STAGES.md",
+      "line": 1,
+      "text": "# ForgeSatchel — Staged Execution Plan"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\STAGES.md",
+      "line": 3,
+      "text": "Source of truth for scope: `ForgeSatchel — AI Build Blueprint.md`."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\STAGES.md",
+      "line": 13,
+      "text": "| S2 rebrand | Phase 2 | Strip Collie trademarks, rename to ForgeSatchel | No Collie marks per `TRADEMARKS.md`; PWA manifest renamed | LATER (needs S1) |"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\STAGES.md",
+      "line": 14,
+      "text": "| S3 registry | Phase 3 | Project registry + rebuild rule | `.forgesatchel/projects.json` + merge-on-scan; survives `scan` without losing favorites/overrides | DONE (CLI core; UI in S5) |"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\STAGES.md",
+      "line": 20,
+      "text": "| S9 commands | Phase 9 | Stack detection + project commands | `package.json`/`Cargo.toml`/`go.mod`/etc. detected; `.forgesatchel/project.json` overrides; Dev/Build/Test/Lint/Typecheck/Deploy run | DONE (CLI core; UI in S5) |"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "docs\\STAGES.md",
+      "line": 27,
+      "text": "1. install ForgeSatchel on PC — CLI now (`npm link` after `npm run build`, or `node src/cli.ts`); PWA installer in S12"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 1,
+      "text": "# ForgeSatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 53,
+      "text": "ForgeSatchel is not another IDE."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 76,
+      "text": "ForgeSatchel launches, organizes and reconnects them."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 82,
+      "text": "Opening ForgeSatchel should show:"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 85,
+      "text": "ForgeSatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 120,
+      "text": "`.forgesatchel/projects.json`"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 356,
+      "text": "ForgeSatchel:"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 448,
+      "text": "Muse must not require special ForgeSatchel support to function."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 571,
+      "text": "`.forgesatchel/project.json`"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 692,
+      "text": "Treat ForgeSatchel as remote shell access."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 747,
+      "text": "ForgeSatchel must work on:"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 762,
+      "text": "~/.forgesatchel/"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 768,
+      "text": "~/.forgesatchel/"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 783,
+      "text": "ForgeSatchel eventually becomes the frontend/controller for a portable dev kit."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 806,
+      "text": "ForgeSatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 835,
+      "text": "ForgeSatchel should expose APIs that Josh can integrate with later."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 848,
+      "text": "ForgeSatchel API"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 949,
+      "text": "1. install ForgeSatchel on my PC"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "ForgeSatchel — AI Build Blueprint.md",
+      "line": 1002,
+      "text": "ForgeSatchel is the **front door to my development environment**."
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "PORTFOLIO_HANDOFF.md",
+      "line": 1,
+      "text": "# ForgeSatchel portfolio handoff"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "PORTFOLIO_HANDOFF.md",
+      "line": 2,
+      "text": "Task: P02-ROLLOUT-forgesatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "PORTFOLIO_HANDOFF.md",
+      "line": 18,
+      "text": "Codex changed src/project-identity.ts, manifest.ts, types.ts, projects.ts, cli.ts and new test/project-identity.test.ts. Before-state source exists in the central baseline/snapshots/forgesatchel-p03-identity-before folder. 12 targeted tests and final focused strict typecheck PASS; eight-project CLI "
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "README.md",
+      "line": 1,
+      "text": "# ForgeSatchel"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "README.md",
+      "line": 6,
+      "text": "(Codex, Muse, Gemini, Claude, OpenCode, shell) — ForgeSatchel launches,"
+    },
+    {
+      "projectId": "forgesatchel",
+      "path": "README.md",
+      "line": 9,
+      "text": "Full scope: `ForgeSatchel — AI Build Blueprint.md`."
+    }
+  ],
+  "issues": [],
+  "truncated": true
+}
+graph TD
+  classDef internal fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff;
+  classDef external fill:#1f2937,stroke:#4b5563,stroke-width:1px,color:#9ca3af;
+  classDef root fill:#065f46,stroke:#10b981,stroke-width:2px,color:#fff;
+  forgesatchel["📦 ForgeSatchel"]:::root
+  typescript["typescript @ ^5.9.2"]:::external
+  forgesatchel -.->|dev| typescript

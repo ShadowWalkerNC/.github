@@ -1,0 +1,2246 @@
+{
+  "capturedAt": "2026-10-03T12:24:48.0969516Z",
+  "entities": [
+    {
+      "id": "governance",
+      "name": "Governance",
+      "sourceName": ".github",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/.github",
+      "classification": "platform",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Governance",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Supporting",
+      "observed": {
+        "baselineCommit": "39c59a735f9f0e7063c4df31a6599641c281f8f5",
+        "license": null,
+        "localHeads": [
+          "39c59a735f9f0e7063c4df31a6599641c281f8f5"
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\.github"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "asciline",
+      "name": "ASCILINE",
+      "sourceName": "ASCILINE-2.0",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/ASCILINE-2.0",
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Labs",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Labs",
+      "observed": {
+        "baselineCommit": "907b77a0629bb38816e03b63ee1f716b2edab938",
+        "license": "NOASSERTION",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "Python",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "YusufB5/ASCILINE",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "bedrockops",
+      "name": "BedrockOps",
+      "sourceName": "BedrockOps",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/BedrockOps",
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "BedrockOps",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Labs",
+      "observed": {
+        "baselineCommit": "7ebecdbba81bf53d027be0dedfb841918dbcfc7b",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "benjamins",
+      "name": "Benjamins",
+      "sourceName": "Benjamins",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Benjamins",
+      "classification": "archive",
+      "lifecycle": "deprecated",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Archive",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Archive",
+      "observed": {
+        "baselineCommit": "7a33c125c0d8b27752f9339ac6d5edb9eee9d8e7",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P07",
+        "parityVerified": false,
+        "condition": null,
+        "target": "archive",
+        "strategy": "archive",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "bibledesk",
+      "name": "BibleDesk",
+      "sourceName": "BibleDesk",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/BibleDesk",
+      "classification": "product",
+      "lifecycle": "active",
+      "stateKind": "portfolio-designation",
+      "priority": 2,
+      "ecosystem": "BibleDesk",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": "f414a4dff62d776e100bb4b8cf73701d3daf30f4",
+        "license": "MIT",
+        "localHeads": [
+          "f414a4dff62d776e100bb4b8cf73701d3daf30f4"
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\BibleDesk"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "cheezies",
+      "name": "Cheezies Gourmet",
+      "sourceName": "cheezies-gourmet",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/cheezies-gourmet",
+      "classification": "client",
+      "lifecycle": "active",
+      "stateKind": "portfolio-designation",
+      "priority": 3,
+      "ecosystem": "Cheezies",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "private",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": "5876fa4f90ef1f2e03e1a77c460b394b3b23a771",
+        "license": null,
+        "localHeads": [
+          "5876fa4f90ef1f2e03e1a77c460b394b3b23a771"
+        ],
+        "githubPrimaryLanguage": "JavaScript",
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\cheezies-gourmet"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "cloudflare-os",
+      "name": "cloudflare-os",
+      "sourceName": "cloudflare-os",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/cloudflare-os",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "aedcda8b3066ff666f57ae28ecef7341d6c2dee7",
+        "license": "Apache-2.0",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "cloudflare/cloudflare-os",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "culinaryos-ops-source",
+      "name": "CulinaryOS Ops source",
+      "sourceName": "CulinaryOps",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/CulinaryOps",
+      "classification": "migration-source",
+      "lifecycle": "migrating",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Migrations",
+      "observed": {
+        "baselineCommit": "81bcf6c753a28f4ed4573f4eca1b98c9c27d2913",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P06-B",
+        "parityVerified": false,
+        "condition": null,
+        "target": "CulinaryOS/modules/ops",
+        "strategy": "gradual",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "culinaryos",
+      "name": "CulinaryOS",
+      "sourceName": "CulinaryOS",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/CulinaryOS",
+      "classification": "product",
+      "lifecycle": "active",
+      "stateKind": "portfolio-designation",
+      "priority": 1,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": "40677262afe87905f4b21efa3159c82b67affe48",
+        "license": "MIT",
+        "localHeads": [
+          "64e56aba5feca6fc4437ab68f93a30e7c458b09f"
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\CulinaryOS"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "dominion",
+      "name": "Dominion",
+      "sourceName": "Dominion",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Dominion",
+      "classification": "product",
+      "lifecycle": "active",
+      "stateKind": "portfolio-designation",
+      "priority": 2,
+      "ecosystem": "Dominion",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "private",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": "492f51d754aa800f53457f60ae01a2b7d3dba6bc",
+        "license": null,
+        "localHeads": [
+          "eaaf42b07fb744994757e3ffc4e74b9aea130c74"
+        ],
+        "githubPrimaryLanguage": "Wolfram Language",
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Dominion"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ],
+      "note": "Canonical local Unity/C# project differs from remote default ref; GitHub primary language is not its authoritative stack."
+    },
+    {
+      "id": "emergency-cad",
+      "name": "Emergency-CAD",
+      "sourceName": "Emergency-CAD",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Emergency-CAD",
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "OpenCAD",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Labs",
+      "observed": {
+        "baselineCommit": "de0da9238fdae9786c506f829bd889b2695f2913",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "emscad",
+      "name": "EMSCAD",
+      "sourceName": "EMSCAD",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/EMSCAD",
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "OpenCAD",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Labs",
+      "observed": {
+        "baselineCommit": "2194fe6e02bfaa6553b43dcbe4abc3de584304dd",
+        "license": "GPL-2.0",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "PHP",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "openises/tickets",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "joes-tacos",
+      "name": "Joe's Tacos",
+      "sourceName": "Joes-Tacos",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Joes-Tacos",
+      "classification": "archive",
+      "lifecycle": "deprecated",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Archive",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Archive",
+      "observed": {
+        "baselineCommit": "ddb1aef7d141227d0fa152d376d137e36248b59b",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P07",
+        "parityVerified": false,
+        "condition": null,
+        "target": "archive",
+        "strategy": "archive",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "culinaryos-prep-source",
+      "name": "CulinaryOS Prep source",
+      "sourceName": "KitchenKit",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "classification": "migration-source",
+      "lifecycle": "migrating",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Migrations",
+      "observed": {
+        "baselineCommit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P06-A",
+        "parityVerified": false,
+        "condition": null,
+        "target": "CulinaryOS/modules/prep",
+        "strategy": "gradual",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "sourceName": "Mercury",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Mercury",
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Mercury",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": "4458e674a59a39485b9277c12bf08107356cd70f",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "muselab",
+      "name": "MuseLab",
+      "sourceName": "MuseAiBots",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/MuseLab",
+      "classification": "lab",
+      "lifecycle": "planned-active",
+      "stateKind": "portfolio-designation",
+      "priority": 1,
+      "ecosystem": "MuseLab",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": null,
+        "license": null,
+        "localHeads": [
+          ""
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\MuseAiBots"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false,
+        "baselineState": "confirmed_empty_repository"
+      },
+      "migration": {
+        "finalState": "active",
+        "phase": "P04",
+        "parityVerified": false,
+        "condition": null,
+        "target": "MuseLab",
+        "strategy": "rename",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "repository_rename"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ],
+      "note": "MuseLab is canonical target name; remote repository has not been renamed."
+    },
+    {
+      "id": "node-minecraft-protocol",
+      "name": "node-minecraft-protocol",
+      "sourceName": "node-minecraft-protocol",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/node-minecraft-protocol",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "4437cc090c1c0cf5da4f27a2b6a72cf19503f9c1",
+        "license": "BSD-3-Clause",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "JavaScript",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "PrismarineJS/node-minecraft-protocol",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "open-saas",
+      "name": "open-saas",
+      "sourceName": "open-saas",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/open-saas",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "1970519a3d07fa78c159de985a457c07cdf3e5c9",
+        "license": "MIT",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "wasp-lang/open-saas",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "opendaw",
+      "name": "openDAW",
+      "sourceName": "openDAW",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/openDAW",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "a0f314a655f2e56c7681f77f9036f88f1d0823e7",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "andremichelle/openDAW",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "openship",
+      "name": "openship",
+      "sourceName": "openship",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/openship",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "13661391a69004b4ba3b27ccb7af5ed11ada4f8b",
+        "license": "Apache-2.0",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "oblien/openship",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "culinaryos-web-source",
+      "name": "CulinaryOS Web source",
+      "sourceName": "Plated",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Plated",
+      "classification": "migration-source",
+      "lifecycle": "migrating",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Migrations",
+      "observed": {
+        "baselineCommit": "630ee36584c8b92048cf8199b823782d6ba86701",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P06-D",
+        "parityVerified": false,
+        "condition": null,
+        "target": "CulinaryOS/modules/web",
+        "strategy": "gradual",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "playhtml",
+      "name": "playhtml",
+      "sourceName": "playhtml",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/playhtml",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "c479495abdd4ea7805a53e12383b55d6464c9c1c",
+        "license": "NOASSERTION",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "spencerc99/playhtml",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "playwright",
+      "name": "playwright",
+      "sourceName": "playwright",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/playwright",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "References",
+      "observed": {
+        "baselineCommit": "5f58876dc84d69008907e75d818baf55b0f78dc1",
+        "license": "Apache-2.0",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "microsoft/playwright",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "portfolio-profile",
+      "name": "Portfolio profile",
+      "sourceName": "portfolio",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/portfolio",
+      "classification": "product",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Profile",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Supporting",
+      "observed": {
+        "baselineCommit": "13ef6f4ec8d83681a9db4bb7f0ee094bdf9f97b9",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "Astro",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "culinaryos-marketing-source",
+      "name": "CulinaryOS Marketing source",
+      "sourceName": "Post-Pilot",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Post-Pilot",
+      "classification": "migration-source",
+      "lifecycle": "migrating",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Migrations",
+      "observed": {
+        "baselineCommit": "2e5204b20bee1aacd2a5402a4fcd43f87428c3a2",
+        "license": null,
+        "localHeads": [
+          "add413cd1e75584323b09db939f9911d79c94152"
+        ],
+        "githubPrimaryLanguage": "Python",
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\Post-Pilot"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P06-C",
+        "parityVerified": false,
+        "condition": null,
+        "target": "CulinaryOS/modules/marketing",
+        "strategy": "gradual-polyglot",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "prayer-atlas-source",
+      "name": "Prayer Atlas source",
+      "sourceName": "prayer-atlas",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/prayer-atlas",
+      "classification": "absorbed",
+      "lifecycle": "deprecated",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "BibleDesk",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Archive",
+      "observed": {
+        "baselineCommit": "81f6026924a532e61b2f537ac323fa0773960e79",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P07",
+        "parityVerified": false,
+        "condition": null,
+        "target": "BibleDesk",
+        "strategy": "absorbed",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "recipeos-source",
+      "name": "RecipeOS source",
+      "sourceName": "RecipeOS",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "classification": "absorbed",
+      "lifecycle": "archived",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Archive",
+      "observed": {
+        "baselineCommit": "419040f6479802127e875845ecde5cf144486a99",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": true
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P06-A",
+        "parityVerified": false,
+        "condition": null,
+        "target": "CulinaryOS/modules/prep",
+        "strategy": "absorbed",
+        "execution": "source_already_archived_parity_unknown",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "restrevive-source",
+      "name": "RestRevive-AI source",
+      "sourceName": "RestRevive-AI",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/RestRevive-AI",
+      "classification": "absorbed",
+      "lifecycle": "archived",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Archive",
+      "observed": {
+        "baselineCommit": "1a83e8c26fadef82d588ede08bbaa0f45c038c6f",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": true
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P06-E",
+        "parityVerified": false,
+        "condition": null,
+        "target": "CulinaryOS/modules/intelligence",
+        "strategy": "concepts-only",
+        "execution": "source_already_archived_parity_unknown",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "shadowrealm",
+      "name": "ShadowRealm",
+      "sourceName": "ShadowRealm",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/ShadowRealm",
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Labs",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Labs",
+      "observed": {
+        "baselineCommit": "cb7bcdb71eb3de3925b32a00f162a0a321552115",
+        "license": "AGPL-3.0",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "Python",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "arcahyadi/odysseus",
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "profile-meta",
+      "name": "ShadowWalkerNC profile",
+      "sourceName": "ShadowWalkerNC",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/ShadowWalkerNC",
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Profile",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Supporting",
+      "observed": {
+        "baselineCommit": "77f599869c9481797c71b1afaa1548f19cd465bd",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": null,
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "shieldbot",
+      "name": "ShieldBot",
+      "sourceName": "ShieldBot",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/ShieldBot",
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "BedrockOps",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Labs",
+      "observed": {
+        "baselineCommit": "2f3a367f307650d584ac1d8f9cd573e0844afec6",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "shorelineops",
+      "name": "ShorelineOps",
+      "sourceName": "ShorelineOps",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/ShorelineOps",
+      "classification": "product",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Active",
+      "observed": {
+        "baselineCommit": "1f67e2a1d99d88d5370b05e928bc5ad2c1d4d019",
+        "license": "NOASSERTION",
+        "localHeads": [
+          "1f67e2a1d99d88d5370b05e928bc5ad2c1d4d019"
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\ShorelineOps"
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ],
+      "note": "CulinaryOS Healthcare / Senior Living; remains separate; clinical boundaries must be preserved."
+    },
+    {
+      "id": "sigil-source",
+      "name": "Sigil source",
+      "sourceName": "Sigil",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Sigil",
+      "classification": "migration-source",
+      "lifecycle": "migrating",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Mercury",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Migrations",
+      "observed": {
+        "baselineCommit": "963a61e15180417c16cd2b0842007022c10e3460",
+        "license": "MIT",
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "JavaScript",
+        "localPaths": [
+          null
+        ],
+        "fork": true,
+        "upstream": "NoVa-Gh0ul/Discord-Icon-Gen",
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P07",
+        "parityVerified": false,
+        "condition": null,
+        "target": "Mercury",
+        "strategy": "selective",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "unity-mc",
+      "name": "Unity-MC",
+      "sourceName": "Unity-MC",
+      "entityKind": "repository",
+      "repository": "ShadowWalkerNC/Unity-MC",
+      "classification": "archive",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Archive",
+      "ownership": "ShadowWalkerNC",
+      "repositoryOwner": "ShadowWalkerNC",
+      "visibility": "public",
+      "defaultView": "Archive",
+      "observed": {
+        "baselineCommit": "a8eee2b55f374894eb20de7ee127acc6b507b197",
+        "license": null,
+        "localHeads": [
+          null
+        ],
+        "githubPrimaryLanguage": "TypeScript",
+        "localPaths": [
+          null
+        ],
+        "fork": false,
+        "upstream": null,
+        "archived": false
+      },
+      "migration": {
+        "finalState": "archived",
+        "phase": "P07",
+        "parityVerified": false,
+        "condition": "Verify no active dependency remains",
+        "target": "archive-if-unneeded",
+        "strategy": "conditional-archive",
+        "execution": "not_started",
+        "approvalRequiredBefore": [
+          "source_read_only",
+          "source_archive",
+          "production_change"
+        ]
+      },
+      "evidence": [
+        "baseline/github-metadata-v2.json",
+        "baseline/portfolio-reconciliation.json"
+      ]
+    },
+    {
+      "id": "local-stitch-skills",
+      "name": "stitch-skills",
+      "sourceName": "stitch-skills",
+      "entityKind": "repository",
+      "repository": "google-labs-code/stitch-skills",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\stitch-skills"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "0337446dadde6f8c94210444e2aa9d546126480f"
+        ],
+        "upstream": "google-labs-code/stitch-skills"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-google-skills",
+      "name": "google-skills",
+      "sourceName": "google-skills",
+      "entityKind": "repository",
+      "repository": "google/skills",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\google-skills"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "18152e0d310e4d7047e9c2ec25a37b0d22d6893e"
+        ],
+        "upstream": "google/skills"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-paperclip",
+      "name": "paperclip",
+      "sourceName": "paperclip",
+      "entityKind": "repository",
+      "repository": "paperclipai/paperclip",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\paperclip"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 39,
+        "localHeads": [
+          "0f14d261233c545aa6a8a38ec253c498a5130fff"
+        ],
+        "upstream": "paperclipai/paperclip"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-muse-code-sdk",
+      "name": "muse-code-sdk",
+      "sourceName": "muse-code-sdk",
+      "entityKind": "repository",
+      "repository": "meta-models/muse-code-sdk",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\muse-code-sdk"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 1,
+        "localHeads": [
+          "a7c10c5dd3f66be412077d29f9d11111af70317b"
+        ],
+        "upstream": "meta-models/muse-code-sdk"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-gitingest",
+      "name": "gitingest",
+      "sourceName": "gitingest",
+      "entityKind": "repository",
+      "repository": "coderamp-labs/gitingest",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\gitingest"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "4e259a02fe72115bee538271622f1234a81c8e1a"
+        ],
+        "upstream": "coderamp-labs/gitingest"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-gitdiagram",
+      "name": "gitdiagram",
+      "sourceName": "gitdiagram",
+      "entityKind": "repository",
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\GitHub\\gitdiagram"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "450bf9d8d7d8fc160f02e0544451c691f619a230"
+        ],
+        "upstream": "ahmedkhaleel2004/gitdiagram"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-projects-2",
+      "name": "Projects 2",
+      "sourceName": "Projects 2",
+      "entityKind": "repository",
+      "repository": null,
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Labs",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Labs",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\ChatGPT\\Projects 2"
+        ],
+        "hasCommit": false,
+        "localChangeEntries": 0,
+        "localHeads": [
+          ""
+        ],
+        "upstream": null
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Local unborn scratch repository; no archive action authorized."
+    },
+    {
+      "id": "local-projects",
+      "name": "Projects",
+      "sourceName": "Projects",
+      "entityKind": "repository",
+      "repository": null,
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Labs",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Labs",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\ChatGPT\\Projects"
+        ],
+        "hasCommit": false,
+        "localChangeEntries": 0,
+        "localHeads": [
+          ""
+        ],
+        "upstream": null
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Local unborn scratch repository; no archive action authorized."
+    },
+    {
+      "id": "local-antigravity-skills",
+      "name": "antigravity-skills",
+      "sourceName": "antigravity-skills",
+      "entityKind": "repository",
+      "repository": "rmyndharis/antigravity-skills",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\antigravity-skills"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "3eff4af253b3a15e2ba6edf2c2b743b53fd81211"
+        ],
+        "upstream": "rmyndharis/antigravity-skills"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-antigravity-sdk-python",
+      "name": "antigravity-sdk-python",
+      "sourceName": "antigravity-sdk-python",
+      "entityKind": "repository",
+      "repository": "google-antigravity/antigravity-sdk-python",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\antigravity-sdk-python"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 29,
+        "localHeads": [
+          "7f19db07e7c6c5038102b45a8a7a5da7eecc8b11"
+        ],
+        "upstream": "google-antigravity/antigravity-sdk-python"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-antigravity-plugin-cc",
+      "name": "antigravity-plugin-cc",
+      "sourceName": "antigravity-plugin-cc",
+      "entityKind": "repository",
+      "repository": "simplybychris/antigravity-plugin-cc",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\antigravity-plugin-cc"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "50d32eaef297d9bd5bdbfbb60a4c1a2b4bb8ed01"
+        ],
+        "upstream": "simplybychris/antigravity-plugin-cc"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-antigravity-cli",
+      "name": "antigravity-cli",
+      "sourceName": "antigravity-cli",
+      "entityKind": "repository",
+      "repository": "google-antigravity/antigravity-cli",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\antigravity-cli"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "d39491f6f98a62aaf29af76964aa4fe75bc044d4"
+        ],
+        "upstream": "google-antigravity/antigravity-cli"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-agentic-awesome-skills",
+      "name": "agentic-awesome-skills",
+      "sourceName": "agentic-awesome-skills",
+      "entityKind": "repository",
+      "repository": "sickn33/agentic-awesome-skills",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\agentic-awesome-skills"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 0,
+        "localHeads": [
+          "b6299bc7505a40194bc7793d382ab805097a692f"
+        ],
+        "upstream": "sickn33/agentic-awesome-skills"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-scriptc",
+      "name": "scriptc",
+      "sourceName": "scriptc",
+      "entityKind": "repository",
+      "repository": "vercel-labs/scriptc",
+      "classification": "reference",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "References",
+      "ownership": "external/upstream",
+      "defaultView": "References",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\ScriptC\\scriptc"
+        ],
+        "hasCommit": true,
+        "localChangeEntries": 4,
+        "localHeads": [
+          "d51aa96290d0d76099347f0a6c8f0cb63a53a810"
+        ],
+        "upstream": "vercel-labs/scriptc"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Upstream local clone; preserve local modifications and review dependencies before removal."
+    },
+    {
+      "id": "local-josh",
+      "name": "Josh",
+      "sourceName": "Josh",
+      "entityKind": "repository",
+      "repository": null,
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "ForgeSatchel",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Josh"
+        ],
+        "hasCommit": false,
+        "localChangeEntries": 24,
+        "localHeads": [
+          ""
+        ],
+        "upstream": null
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json"
+      ],
+      "note": "Supporting local router; not a default active product."
+    },
+    {
+      "id": "governance-staging-workspace",
+      "name": "Governance staging workspace",
+      "entityKind": "workspace",
+      "repository": null,
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "ForgeSatchel",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "governance",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\Codex\\2026-10-03\\shadowwalker-development-ecosystem-master-blueprint-canonical"
+        ],
+        "markers": [
+          "AGENTS.md"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "local-path-documents-agy-local-tools-rules",
+      "name": "rules",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "ForgeSatchel",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": null,
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Documents\\agy-local-tools\\rules"
+        ],
+        "markers": [
+          "AGENTS.md"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "local-path-desktop-scriptc-npmpkg",
+      "name": "npmpkg",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "ScriptC",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-scriptc",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\ScriptC\\npmpkg"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "local-path-desktop-scriptc-bench-dynamic",
+      "name": "dynamic",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "supporting",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "ScriptC",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-scriptc",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\ScriptC\\bench\\dynamic"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "local-path-desktop-muse-dashboard",
+      "name": "Muse Dashboard",
+      "entityKind": "project",
+      "repository": null,
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Muse Dashboard",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Labs",
+      "parentId": null,
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Muse Dashboard"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "local-path-desktop-muse-dashboard-packages-shared",
+      "name": "shared",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Muse Dashboard",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-path-desktop-muse-dashboard",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Muse Dashboard\\packages\\shared"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Child package, not an independent repository or product."
+    },
+    {
+      "id": "local-path-desktop-muse-dashboard-packages-providers-muse",
+      "name": "muse",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Muse Dashboard",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-path-desktop-muse-dashboard",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Muse Dashboard\\packages\\providers\\muse"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Child package, not an independent repository or product."
+    },
+    {
+      "id": "local-path-desktop-muse-dashboard-packages-providers-core",
+      "name": "core",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Muse Dashboard",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-path-desktop-muse-dashboard",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Muse Dashboard\\packages\\providers\\core"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Child package, not an independent repository or product."
+    },
+    {
+      "id": "local-path-desktop-muse-dashboard-apps-web",
+      "name": "web",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Muse Dashboard",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-path-desktop-muse-dashboard",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Muse Dashboard\\apps\\web"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Child package, not an independent repository or product."
+    },
+    {
+      "id": "local-path-desktop-muse-dashboard-apps-server",
+      "name": "server",
+      "entityKind": "package",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Muse Dashboard",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "local-path-desktop-muse-dashboard",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Muse Dashboard\\apps\\server"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Child package, not an independent repository or product."
+    },
+    {
+      "id": "local-path-desktop-iq-test",
+      "name": "iq_test",
+      "entityKind": "project",
+      "repository": null,
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Labs",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Labs",
+      "parentId": null,
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\iq_test"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "forgesatchel",
+      "name": "ForgeSatchel",
+      "entityKind": "project",
+      "repository": null,
+      "classification": "platform",
+      "lifecycle": "active",
+      "stateKind": "portfolio-designation",
+      "priority": 1,
+      "ecosystem": "ForgeSatchel",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Active",
+      "parentId": null,
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\ForgeSatchel"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": {
+        "evidence": "baseline/forgesatchel-source-snapshot.json",
+        "approval": "APP-2026-10-03-P00-SNAPSHOT",
+        "kind": "verified_source_snapshot"
+      },
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Existing source must be reused. No remote repository was created."
+    },
+    {
+      "id": "local-path-desktop-financial-tracker",
+      "name": "Financial Tracker",
+      "entityKind": "project",
+      "repository": null,
+      "classification": "lab",
+      "lifecycle": "paused",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "Labs",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Labs",
+      "parentId": null,
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\Financial Tracker"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Local inventory entity; classification does not authorize moving, archiving, or creating a repository."
+    },
+    {
+      "id": "culinaryos-intelligence-local",
+      "name": "CulinaryOS Intelligence local source",
+      "entityKind": "project",
+      "repository": null,
+      "classification": "module",
+      "lifecycle": "planned-active",
+      "stateKind": "portfolio-designation",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "ownership": "ShadowWalkerNC",
+      "defaultView": "Supporting",
+      "parentId": "culinaryos",
+      "observed": {
+        "localPaths": [
+          "C:\\Users\\white\\Desktop\\CulinaryOS Addons\\culinaryos-intelligence"
+        ],
+        "markers": [
+          "package.json"
+        ],
+        "hasGit": false
+      },
+      "baseline": null,
+      "migration": null,
+      "evidence": [
+        "baseline/local-discovery-full.json",
+        "baseline/dependency-migration-inventory.json"
+      ],
+      "note": "Existing implementation must be inventoried before P05/P06-E; do not create a duplicate module."
+    }
+  ],
+  "unlocatedLabIdeas": [
+    "JARVIS",
+    "Experimental OS"
+  ],
+  "activeProjectIds": [
+    "forgesatchel",
+    "culinaryos",
+    "muselab",
+    "bibledesk",
+    "dominion",
+    "cheezies",
+    "mercury",
+    "shorelineops"
+  ],
+  "schemaVersion": 1,
+  "owner": "ShadowWalkerNC",
+  "blueprintVersion": "4.0",
+  "stateSemantics": "classification/lifecycle are portfolio designations; observed fields retain provider/filesystem truth. Migration execution is separate."
+}
+

@@ -1,0 +1,20 @@
+{
+  "id": "PXX",
+  "name": "Phase name",
+  "status": "pending",
+  "depends_on": [],
+  "repositories": [],
+  "allowed_actions": [
+    "read",
+    "inspect"
+  ],
+  "requires_approval": [
+    "production_deploy",
+    "secret_change",
+    "archive_repository",
+    "destructive_migration"
+  ],
+  "exit_criteria": [
+    "Document measurable evidence before phase advance"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "packages/*/src only: packages must not import apps",
+  "parserVersion": "5.9.3",
+  "files": 146,
+  "imports": 340,
+  "violations": [],
+  "unknowns": [],
+  "coverage": [
+    "static imports/exports",
+    "import equals",
+    "literal dynamic import/require"
+  ],
+  "excluded": [
+    "generated output",
+    "symlink directories",
+    "non-source assets",
+    "app-to-module and cross-domain layering"
+  ],
+  "status": "PASS"
+}

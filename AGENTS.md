@@ -160,3 +160,7 @@ dashboards, random icons, whitespace bloat. Respect each project's stack.
 | `templates/` | new project setup (`AGENTS.md`, `PROJECT_CACHE.md`) |
 
 *Version: 3.0 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/AGENTS.md`*
+
+
+## Governance v4 execution layer
+The owner's Master Blueprint v4.0 adds an execution layer above the preserved v3 UPA/specialist system. Read execution/CURRENT_PHASE.yaml, AI_SHARED_LEDGER.md, portfolio/PORTFOLIO.yaml, then the target manifest, local AGENTS/status and affected files. Load relevant standards only. Current phase permissions and approval gates govern portfolio work; future phase contracts grant inspection/planning until activated. Preserve other agents' changes and update shared evidence/handoffs.

@@ -1,0 +1,67 @@
+src/cli.ts(655,7): error TS2412: Type 'string | undefined' is not assignable to type 'string' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'string'.
+src/cli.ts(723,11): error TS2375: Type '{ name: string; githubRepo: string | undefined; githubUrl: string; fork: boolean; archived: boolean; }' is not assignable to type 'DiscoveredRepo' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'githubRepo' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/cli.ts(955,23): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(984,21): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(986,21): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(1012,25): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(1026,23): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(1028,23): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(1036,9): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(1041,23): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/cli.ts(1092,23): error TS2322: Type 'Exit' is not assignable to type 'number'.
+src/digest.ts(141,5): error TS2412: Type 'string | undefined' is not assignable to type 'string' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'string'.
+src/digest.ts(142,5): error TS2412: Type 'boolean | undefined' is not assignable to type 'boolean' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'boolean'.
+src/extensions/registry.ts(245,21): error TS2774: This condition will always return true since this function is always defined. Did you mean to call it instead?
+src/extensions/types.ts(4,15): error TS2303: Circular definition of import alias 'ActionLevel'.
+src/extensions/types.ts(4,15): error TS2459: Module '"./types.ts"' declares 'ActionLevel' locally, but it is not exported.
+src/extensions/types.ts(4,28): error TS2303: Circular definition of import alias 'Project'.
+src/extensions/types.ts(4,28): error TS2459: Module '"./types.ts"' declares 'Project' locally, but it is not exported.
+src/extensions/types.ts(4,37): error TS2303: Circular definition of import alias 'Session'.
+src/extensions/types.ts(4,37): error TS2459: Module '"./types.ts"' declares 'Session' locally, but it is not exported.
+src/extensions/types.ts(74,59): error TS2694: Namespace '"C:/Users/white/Desktop/ForgeSatchel/src/extensions/types"' has no exported member 'DiscoveredRepo'.
+src/extensions/types.ts(74,100): error TS2694: Namespace '"C:/Users/white/Desktop/ForgeSatchel/src/extensions/types"' has no exported member 'DiscoveredRepo'.
+src/extensions/types.ts(134,40): error TS2694: Namespace '"C:/Users/white/Desktop/ForgeSatchel/src/extensions/types"' has no exported member 'AgentAdapter'.
+src/git.ts(55,7): error TS2412: Type 'number | undefined' is not assignable to type 'number' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'number'.
+src/git.ts(56,7): error TS2412: Type 'number | undefined' is not assignable to type 'number' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'number'.
+src/health.ts(75,7): error TS2412: Type 'string | undefined' is not assignable to type 'string' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'string'.
+src/health.ts(76,7): error TS2412: Type 'boolean | undefined' is not assignable to type 'boolean' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'boolean'.
+src/health.ts(77,7): error TS2412: Type 'number | undefined' is not assignable to type 'number' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'number'.
+src/health.ts(78,7): error TS2412: Type 'number | undefined' is not assignable to type 'number' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'number'.
+src/health.ts(79,7): error TS2412: Type 'string | undefined' is not assignable to type 'string' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'string'.
+src/health.ts(89,3): error TS2412: Type 'LastTest | undefined' is not assignable to type 'LastTest' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the type of the target.
+  Type 'undefined' is not assignable to type 'LastTest'.
+src/server.ts(71,14): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/server.ts(72,14): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/server.ts(72,36): error TS7006: Parameter 'evt' implicitly has an 'any' type.
+src/server.ts(75,14): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/server.ts(75,40): error TS7006: Parameter 'evt' implicitly has an 'any' type.
+src/server.ts(78,14): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/server.ts(208,14): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/server.ts(209,12): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/server.ts(210,12): error TS2339: Property 'watcher' does not exist on type 'ForgeServer'.
+src/watcher.ts(200,28): error TS2532: Object is possibly 'undefined'.
+src/watcher.ts(204,42): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/watcher.ts(207,44): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+test/portfolio.test.ts(83,15): error TS2379: Argument of type '{ name: string; hasCommits: false; lastCommitDate: undefined; }' is not assignable to parameter of type 'Partial<LocalFact> & { name: string; }' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Type '{ name: string; hasCommits: false; lastCommitDate: undefined; }' is not assignable to type 'Partial<LocalFact>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+    Types of property 'lastCommitDate' are incompatible.
+      Type 'undefined' is not assignable to type 'string'.
+test/production_daemon.test.ts(51,16): error TS18046: 'healthJson' is of type 'unknown'.
+test/production_daemon.test.ts(72,27): error TS18046: 'rpcJson' is of type 'unknown'.
+test/production_daemon.test.ts(110,16): error TS2532: Object is possibly 'undefined'.
+test/production_daemon.test.ts(111,13): error TS2532: Object is possibly 'undefined'.

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Integration registry v1",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "inventoryComplete": {
+      "type": "boolean"
+    },
+    "integrations": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "Integration",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "project": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "enum": [
+              "models",
+              "codingAgents",
+              "muse",
+              "xr",
+              "deploymentProviders",
+              "mcp",
+              "sdks",
+              "extensions"
+            ]
+          },
+          "provider": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "source-or-baseline-observed",
+              "planned",
+              "validated"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "operationalVerification": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "NOT RUN",
+              "BLOCKED"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "project",
+          "category",
+          "provider",
+          "status",
+          "evidence",
+          "operationalVerification"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "inventoryComplete",
+    "integrations"
+  ],
+  "additionalProperties": false
+}

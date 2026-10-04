@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "state": "canonical-target; current schemas require mapping before migration",
+  "domains": [
+    {
+      "domain": "orders",
+      "owner": "CulinaryOS-Core"
+    },
+    {
+      "domain": "payments",
+      "owner": "CulinaryOS-Core"
+    },
+    {
+      "domain": "restaurant_configuration",
+      "owner": "CulinaryOS-Core"
+    },
+    {
+      "domain": "inventory",
+      "owner": "CulinaryOS-Core"
+    },
+    {
+      "domain": "recipes",
+      "owner": "CulinaryOS-Prep"
+    },
+    {
+      "domain": "prep_tasks",
+      "owner": "CulinaryOS-Prep"
+    },
+    {
+      "domain": "labor",
+      "owner": "CulinaryOS-Ops"
+    },
+    {
+      "domain": "vendors",
+      "owner": "CulinaryOS-Ops"
+    },
+    {
+      "domain": "purchasing",
+      "owner": "CulinaryOS-Ops"
+    },
+    {
+      "domain": "waste",
+      "owner": "CulinaryOS-Ops"
+    },
+    {
+      "domain": "campaigns",
+      "owner": "CulinaryOS-Marketing"
+    },
+    {
+      "domain": "social_publishing",
+      "owner": "CulinaryOS-Marketing"
+    },
+    {
+      "domain": "website_content",
+      "owner": "CulinaryOS-Web"
+    },
+    {
+      "domain": "website_themes",
+      "owner": "CulinaryOS-Web"
+    },
+    {
+      "domain": "recommendations",
+      "owner": "CulinaryOS-Intelligence"
+    },
+    {
+      "domain": "resident_clinical_dining",
+      "owner": "ShorelineOps"
+    }
+  ],
+  "rule": "No silent cross-module ownership; use contracts/events and documented authorization."
+}

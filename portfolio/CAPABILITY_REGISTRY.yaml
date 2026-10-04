@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "inventoryComplete": false,
+  "capabilities": [
+    {
+      "id": "project.discovery",
+      "description": "Observed source surface: project.discovery",
+      "owner": "forgesatchel",
+      "status": "source-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ]
+    },
+    {
+      "id": "project.registry",
+      "description": "Observed source surface: project.registry",
+      "owner": "forgesatchel",
+      "status": "source-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ]
+    },
+    {
+      "id": "coding.agent.launch",
+      "description": "Observed source surface: coding.agent.launch",
+      "owner": "forgesatchel",
+      "status": "source-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ]
+    },
+    {
+      "id": "git.operations",
+      "description": "Observed source surface: git.operations",
+      "owner": "forgesatchel",
+      "status": "source-observed",
+      "evidence": [
+        "forgesatchel/src/agents.ts",
+        "forgesatchel/src/discovery.ts",
+        "forgesatchel/src/projects.ts",
+        "forgesatchel/src/git.ts",
+        "forgesatchel/docs/ARCHITECTURE.md"
+      ]
+    },
+    {
+      "id": "restaurant.operations",
+      "description": "Observed source surface: restaurant.operations",
+      "owner": "culinaryos",
+      "status": "source-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ]
+    },
+    {
+      "id": "api.domain",
+      "description": "Observed source surface: api.domain",
+      "owner": "culinaryos",
+      "status": "source-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ]
+    },
+    {
+      "id": "mcp.adapter",
+      "description": "Observed source surface: mcp.adapter",
+      "owner": "culinaryos",
+      "status": "source-observed",
+      "evidence": [
+        "culinaryos/apps/server/package.json",
+        "culinaryos/mcp/package.json",
+        "culinaryos/docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md"
+      ]
+    },
+    {
+      "id": "scripture.study",
+      "description": "Observed source surface: scripture.study",
+      "owner": "bibledesk",
+      "status": "source-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ]
+    },
+    {
+      "id": "prayer.care",
+      "description": "Observed source surface: prayer.care",
+      "owner": "bibledesk",
+      "status": "source-observed",
+      "evidence": [
+        "bibledesk/package.json",
+        "bibledesk/src/lib/gemini.ts",
+        "bibledesk/src/lib/claude.ts",
+        "bibledesk/src/lib/rag.ts",
+        "bibledesk/AGENTS.md"
+      ]
+    },
+    {
+      "id": "game.rules",
+      "description": "Observed source surface: game.rules",
+      "owner": "dominion",
+      "status": "source-observed",
+      "evidence": [
+        "dominion/AI.md",
+        "dominion/ProjectSettings/ProjectVersion.txt",
+        "dominion/Packages/manifest.json"
+      ]
+    },
+    {
+      "id": "game.presentation",
+      "description": "Observed source surface: game.presentation",
+      "owner": "dominion",
+      "status": "source-observed",
+      "evidence": [
+        "dominion/AI.md",
+        "dominion/ProjectSettings/ProjectVersion.txt",
+        "dominion/Packages/manifest.json"
+      ]
+    },
+    {
+      "id": "restaurant.website",
+      "description": "Observed source surface: restaurant.website",
+      "owner": "cheezies",
+      "status": "source-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ]
+    },
+    {
+      "id": "restaurant.client.operations",
+      "description": "Observed source surface: restaurant.client.operations",
+      "owner": "cheezies",
+      "status": "source-observed",
+      "evidence": [
+        "cheezies/package.json",
+        "cheezies/AI.md",
+        "cheezies/docs/OPERATIONS_RESTORATION_HANDOFF.md"
+      ]
+    },
+    {
+      "id": "communications.realtime",
+      "description": "Observed source surface: communications.realtime",
+      "owner": "mercury",
+      "status": "source-observed",
+      "evidence": [
+        "mercury/packages/server/package.json",
+        "mercury/packages/web/package.json",
+        "mercury/packages/server/src/index.ts",
+        "mercury/README.md"
+      ]
+    },
+    {
+      "id": "communications.voice",
+      "description": "Observed source surface: communications.voice",
+      "owner": "mercury",
+      "status": "source-observed",
+      "evidence": [
+        "mercury/packages/server/package.json",
+        "mercury/packages/web/package.json",
+        "mercury/packages/server/src/index.ts",
+        "mercury/README.md"
+      ]
+    },
+    {
+      "id": "clinical.dining",
+      "description": "Observed source surface: clinical.dining",
+      "owner": "shorelineops",
+      "status": "source-observed",
+      "evidence": [
+        "shorelineops/server/package.json",
+        "shorelineops/docs/audits/REMEDIATION_HANDOFF_2026-10-01.md",
+        "shorelineops/docs/audits/DEMO_ROUTING_FIX_2026-10-02.md"
+      ]
+    }
+  ]
+}

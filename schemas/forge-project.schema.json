@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:shadowwalker:forge-project:v1",
+  "title": "Forge project manifest v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "name",
+    "repository",
+    "classification",
+    "lifecycle",
+    "priority",
+    "ecosystem",
+    "visibility",
+    "languages",
+    "capabilities",
+    "integrations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repository": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^(?!\\.{1,2}/)[A-Za-z0-9_.-]+/(?!\\.{1,2}$)[A-Za-z0-9_.-]+$"
+    },
+    "classification": {
+      "enum": [
+        "platform",
+        "product",
+        "module",
+        "infrastructure",
+        "client",
+        "lab",
+        "reference",
+        "migration-source",
+        "absorbed",
+        "archive"
+      ]
+    },
+    "lifecycle": {
+      "enum": [
+        "planned-active",
+        "active",
+        "supporting",
+        "migrating",
+        "paused",
+        "deprecated",
+        "read-only",
+        "archived"
+      ]
+    },
+    "priority": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 3
+    },
+    "ecosystem": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visibility": {
+      "enum": [
+        "public",
+        "private",
+        "internal"
+      ]
+    },
+    "languages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9+#.-]+$"
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "integrations": {
+      "type": "object",
+      "required": [
+        "models",
+        "codingAgents",
+        "muse",
+        "xr",
+        "deploymentProviders",
+        "mcp",
+        "sdks",
+        "extensions"
+      ],
+      "properties": {
+        "models": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "codingAgents": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "muse": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "xr": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "deploymentProviders": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "mcp": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "sdks": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "extensions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sourceRepositoryName": {
+      "type": "string"
+    },
+    "targetVisibility": {
+      "enum": [
+        "public",
+        "private",
+        "internal"
+      ]
+    },
+    "baseline": {
+      "type": "object"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "SDK-0001",
+      "name": "Muse",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0001-muse.md"
+    },
+    {
+      "id": "SDK-0002",
+      "name": "Gemini",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0002-gemini.md"
+    },
+    {
+      "id": "SDK-0003",
+      "name": "OpenCode",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0003-opencode.md"
+    },
+    {
+      "id": "SDK-0004",
+      "name": "Vercel Platform",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0004-vercel-platform.md"
+    },
+    {
+      "id": "SDK-0005",
+      "name": "Vercel AI",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0005-vercel-ai.md"
+    },
+    {
+      "id": "SDK-0006",
+      "name": "Railway",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0006-railway.md"
+    },
+    {
+      "id": "SDK-0007",
+      "name": "Supabase",
+      "disposition": "REVISIT",
+      "record": "../sdk-decisions/SDK-0007-supabase.md"
+    }
+  ],
+  "existingDeclarations": "See INTEGRATION_REGISTRY.yaml; existing usage is not new adoption approval."
+}

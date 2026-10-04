@@ -1,0 +1,27 @@
+{
+  "afterErrorCount": 48,
+  "task": "P03-IDENTITY",
+  "comparison": "Saved pre-change source restored in isolated tree; new reader/test excluded from baseline compilation. Diagnostics matched by file, code, column and source text.",
+  "runtimeSuite": "Full run interrupted after existing daemon test stalled; targeted suite rerun separately.",
+  "focusedStrictTypecheck": "PASS",
+  "beforeErrorCount": 52,
+  "newDiagnosticFingerprints": [],
+  "wholeProjectTypecheck": "FAIL",
+  "targetedTests": {
+    "result": "PASS",
+    "failures": 0,
+    "tests": 12
+  },
+  "cliSmoke": "PASS: eight installed identities displayed with classification/lifecycle; isolated operational home",
+  "finalAliasValidation": "12 targeted tests and focused strict typecheck PASS after canonical-name lookup addition",
+  "changedFiles": [
+    "src/project-identity.ts",
+    "src/manifest.ts",
+    "src/types.ts",
+    "src/projects.ts",
+    "src/cli.ts",
+    "test/project-identity.test.ts"
+  ],
+  "ownership": "released",
+  "build": "NOT RUN: whole-project compilation remains failing"
+}

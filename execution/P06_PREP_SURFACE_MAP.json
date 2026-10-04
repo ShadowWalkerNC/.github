@@ -1,0 +1,404 @@
+{
+  "phase": "P06-A",
+  "status": "source-backed-proposed-contract-map",
+  "routesAndTools": [
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/prep-mcp/src/index.ts",
+      "line": 91,
+      "identity": "build_shift_prep",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/prep-mcp/src/index.ts",
+      "line": 179,
+      "identity": "save_prep_plan",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/prep-mcp/src/index.ts",
+      "line": 255,
+      "identity": "complete_prep_item",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/prep-mcp/src/index.ts",
+      "line": 317,
+      "identity": "get_mise_en_place",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/prep-mcp/src/index.ts",
+      "line": 395,
+      "identity": "project_batch_size",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/prep-mcp/src/index.ts",
+      "line": 437,
+      "identity": "update_stock",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/recipe-mcp/src/index.ts",
+      "line": 42,
+      "identity": "scale_recipe",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/recipe-mcp/src/index.ts",
+      "line": 139,
+      "identity": "get_ratio",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/recipe-mcp/src/index.ts",
+      "line": 202,
+      "identity": "list_recipes",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "commit": "adf48ac99e48d25c21ec47dfe0409cfd56548227",
+      "surface": "MCP",
+      "path": "mcp/recipe-mcp/src/index.ts",
+      "line": 260,
+      "identity": "generate_prep_list",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/convert.ts",
+      "line": 17,
+      "identity": "convert_units",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/pantry.ts",
+      "line": 17,
+      "identity": "get_pantry",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/pantry.ts",
+      "line": 27,
+      "identity": "update_pantry",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/pantry.ts",
+      "line": 39,
+      "identity": "get_shopping_list",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/prep.ts",
+      "line": 17,
+      "identity": "generate_prep_list",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/recipes.ts",
+      "line": 17,
+      "identity": "get_recipe",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/recipes.ts",
+      "line": 29,
+      "identity": "add_recipe",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/recipes.ts",
+      "line": 47,
+      "identity": "scale_recipe",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "MCP",
+      "path": "mcp/tools/recipes.ts",
+      "line": 60,
+      "identity": "search_by_ingredient",
+      "proposedOwner": "Prep",
+      "acceptance": "Preserve tool schema/result/errors; authenticated owning API; no direct privileged DB bypass",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/convert/route.ts",
+      "line": 4,
+      "identity": "POST",
+      "proposedOwner": "Prep",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/demo/route.ts",
+      "line": 6,
+      "identity": "GET",
+      "proposedOwner": "Supporting demo; no production adoption",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/pantry/[id]/route.ts",
+      "line": 4,
+      "identity": "PATCH",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/pantry/[id]/route.ts",
+      "line": 24,
+      "identity": "DELETE",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/pantry/route.ts",
+      "line": 4,
+      "identity": "GET",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/pantry/route.ts",
+      "line": 30,
+      "identity": "POST",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/recipes/[id]/route.ts",
+      "line": 4,
+      "identity": "GET",
+      "proposedOwner": "Prep",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/recipes/[id]/route.ts",
+      "line": 18,
+      "identity": "DELETE",
+      "proposedOwner": "Prep",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/recipes/[id]/scale/route.ts",
+      "line": 5,
+      "identity": "GET",
+      "proposedOwner": "Prep",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/recipes/route.ts",
+      "line": 4,
+      "identity": "GET",
+      "proposedOwner": "Prep",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/recipes/route.ts",
+      "line": 27,
+      "identity": "POST",
+      "proposedOwner": "Prep",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/api/shopping-list/route.ts",
+      "line": 4,
+      "identity": "GET",
+      "proposedOwner": "Core inventory",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/auth/callback/route.ts",
+      "line": 6,
+      "identity": "GET",
+      "proposedOwner": "Core identity",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    },
+    {
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "commit": "419040f6479802127e875845ecde5cf144486a99",
+      "surface": "HTTP",
+      "path": "web/app/auth/signout/route.ts",
+      "line": 4,
+      "identity": "POST",
+      "proposedOwner": "Core identity",
+      "acceptance": "Request/response/errors, actor/tenant negatives, mutation idempotency where applicable",
+      "parity": "NOT RUN"
+    }
+  ],
+  "nameCollisions": [
+    {
+      "name": "generate_prep_list",
+      "sources": [
+        {
+          "repository": "ShadowWalkerNC/KitchenKit",
+          "path": "mcp/recipe-mcp/src/index.ts"
+        },
+        {
+          "repository": "ShadowWalkerNC/RecipeOS",
+          "path": "mcp/tools/prep.ts"
+        }
+      ],
+      "resolution": "Compare input/output/units/errors;explicit compatibility alias/version before consolidation"
+    },
+    {
+      "name": "scale_recipe",
+      "sources": [
+        {
+          "repository": "ShadowWalkerNC/KitchenKit",
+          "path": "mcp/recipe-mcp/src/index.ts"
+        },
+        {
+          "repository": "ShadowWalkerNC/RecipeOS",
+          "path": "mcp/tools/recipes.ts"
+        }
+      ],
+      "resolution": "Compare input/output/units/errors;explicit compatibility alias/version before consolidation"
+    }
+  ],
+  "limitations": [
+    "Literal source descriptors/exported functions only; dynamic registration not proven",
+    "Proposed owner does not grant runtime authorization",
+    "No contracts executed or target endpoints certified"
+  ]
+}

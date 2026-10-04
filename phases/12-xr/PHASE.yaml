@@ -1,0 +1,33 @@
+{
+  "id": "P12",
+  "name": "XR and wearables",
+  "status": "pending",
+  "depends_on": [
+    "P11"
+  ],
+  "repositories": [
+    "ShadowWalkerNC/MuseAiBots",
+    "ShadowWalkerNC/Dominion"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "plan"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "MuseLab evidence precedes production XR adoption"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}
