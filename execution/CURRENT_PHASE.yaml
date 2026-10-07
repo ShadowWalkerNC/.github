@@ -1,9 +1,9 @@
 {
   "id": "P06",
-  "name": "CulinaryOS migration planning",
+  "name": "Forge Vertical Slice 0 + CulinaryOS compatibility preparation",
   "status": "in_progress",
   "owner": "ShadowWalkerNC",
-  "blueprintVersion": "4.0",
+  "blueprintVersion": "6.2",
   "dependsOn": [
     "P05"
   ],
@@ -26,7 +26,8 @@
     "archive",
     "destructive_migration"
   ],
-  "executionScope": "APP-P06-PARITY approved by owner proceed:staging-only calculation parity harness/fixtures/evidence. No product implementation edits,source moves,DB/provider/permission/secret/install/deploy/push/retirement. Other P06 migration remains planning only.",
+  "executionScope": "Owner 2026-10-07 v6.2: implement minimal shadowwalker.project/v1 schema/reader/manifests in dedicated worktrees, then prove Task -> Worktree -> JOSH request -> Forge authorization -> declared command -> verification -> ActionReceipt. CulinaryOS compatibility only; no broad absorption, production, secrets, grants or destructive operations.",
   "previousPhaseEvidence": "execution/P05_EXIT_DECISION.json",
-  "sharedLedger": "AI_SHARED_LEDGER.md"
+  "sharedLedger": "AI_SHARED_LEDGER.md",
+  "ecosystemObjective": "ShadowWalker Vertical Slice 0"
 }
