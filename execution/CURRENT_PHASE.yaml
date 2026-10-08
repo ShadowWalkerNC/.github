@@ -3,7 +3,7 @@
   "name": "Forge Vertical Slice 0 + CulinaryOS compatibility preparation",
   "status": "in_progress",
   "owner": "ShadowWalkerNC",
-  "blueprintVersion": "6.2",
+  "blueprintVersion": "6.2.1",
   "dependsOn": [
     "P05"
   ],

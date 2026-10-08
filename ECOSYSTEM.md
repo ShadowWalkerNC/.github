@@ -6,8 +6,8 @@ This replaces **v6.1 and the separate v6.2 amendment**. It is now one canonical 
 
 **Human name:** The ShadowWalker Bible  
 **Canonical file:** `.github/ECOSYSTEM.md`  
-**Version:** 6.2  
-**Canonical date:** October 7, 2026  
+**Version:** 6.2.1 (reference amendment to integrated v6.2)
+**Canonical date:** October 8, 2026
 **Owner:** ShadowWalkerNC  
 **Architecture confidence:** ~97–98%  
 **Current phase:** P06 — Forge Foundation + CulinaryOS Compatibility/Migration Preparation  
@@ -3352,6 +3352,37 @@ Task
 That is ShadowWalker Vertical Slice 0.
 
 Do not widen the scope until it works.
+
+---
+
+# 106. EXTERNAL ARCHITECTURAL REFERENCES — TYPESAFE AI / JEV
+
+Amendment 6.2.1, October 8, 2026. Owner supplied this refinement; it preserves Vertical Slice 0 and adds no core infrastructure or mandatory vendor dependency.
+
+Classification: **REFERENCE + OPTIONAL PROVIDER**. Primary relevance: **JOSH**.
+
+JOSH's model is a fast path engine, typed judgment kernel, classifier, router, policy evaluator, context broker and deterministic workflow composer. Choice selects a closed-set option; Noul estimates a condition's probability; Score evaluates an ordered rubric. These concepts belong on JOSH's existing typed Decide surface. Deterministic commands, aliases, IDs, rules and cached mappings remain the first path.
+
+TypeSafe documents atomic typed judgments composed by code, independent questions sharing one state, and speculative fan-out. Those are architectural references, not measured JOSH performance guarantees. Batch independent intent/project/risk/tool/capability questions when they do not depend on one another; code consumes only relevant, validated answers. Dependent questions wait for their prerequisites. Generate routing questions from registered capabilities and actual closed-set parameter contracts; model output supplies an ActionRequest, never a direct function-call authority. [TypeSafe introduction](https://docs.typesafe.ai/introduction), [patterns](https://docs.typesafe.ai/patterns), [typed JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js).
+
+Keep known facts distinct from inferred judgments and retain per-question provenance and probabilities. Choice/Score confidence summarizes a distribution; it is not automatically a calibrated probability of correctness. Noul exposes a probability without a separate vendor confidence field. A weakest-required-judgment statistic may guide escalation after domain validation; it is not a joint correctness probability. Thresholds require measured domain/risk-specific calibration. Unknown, unavailable, abstained and timed-out results stay explicit. **Confidence never grants permission or bypasses R3/R4 approval.** [TypeSafe confidence](https://docs.typesafe.ai/confidence).
+
+JOSH owns vendor-neutral request/result contracts. Rule/local scorers, an optional TypeSafe provider, optional local models and System-2 providers remain replaceable implementations. Provider-specific SDK/API shapes stay inside adapters. No TypeSafe installation, credential setup, hosted-service dependency, provider call, fixed universal threshold or model pin is adopted by this amendment.
+
+The authority path remains:
+
+```text
+state -> fast path -> typed judgments -> deterministic policy/composition
+-> DecisionResult -> ActionRequest -> Forge authorization/execution -> ActionReceipt
+```
+
+## JOSH Evals — first JOSH-specific follow-up after Slice 0
+
+Borrow WorkflowEvals' persisted/resumable cases and comparable workflow runs. It reports agreement with reference answers; model agreement must not be relabeled ground-truth accuracy. Use human/domain-reviewed labels where accuracy or false-execution risk is claimed. Pin dataset, policy, code, provider/model settings and reference versions; keep missing cost/latency/token measurements unknown. [WorkflowEvals](https://github.com/typesafe-ai/WorkflowEvals).
+
+Planned workflows: intent/project routing, tool/agent/provider selection, risk classification, command parsing, permission escalation and context selection. Compare deterministic rules and local scoring first; optional JEV and System-2 comparisons require separate bounded provider evidence. Metrics include labeled accuracy, exact route/arguments, false-execution risk, latency, tokens, known cost, confidence calibration and escalation rate. In particular, high-confidence malformed, denied or destructive requests must still result in no unauthorized execution.
+
+This is a specification/evaluation direction, not an evaluation implementation or benchmark result. Do not create another framework, expand providers or run external evaluations before the current Task -> Worktree -> JOSH -> Forge -> verification -> ActionReceipt acceptance closes.
 
 ---
 
