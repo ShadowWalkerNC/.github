@@ -434,3 +434,17 @@ Additional claimed evidence path for omitted-surface capture: execution/P06_ADDI
 ## 2026-10-04 P06 omitted surfaces captured — claims released
 Captured49 missing pinned source files; inventory now64KitchenKit +112RecipeOS, all Git blob checks PASS. Added P06_ADDITIONAL_SURFACES.md: Android7destinations/Roomv4sevenentities/destructive-upgrade declaration, Expo7screens, OCR auth/provider chain and web middleware. No product edit/DB execution/provider integration/retirement. Governance validation PASS. P06-A inventory remains in progress because feature/platform/applied-data parity is unverified. Codex paths released.
 
+
+2026-10-04 Codex CLAIM P06 local auth containment: five existing paths AuthContext.tsx, RequireAuth.tsx, lib/supabase.ts, lib/auth.ts, AuthCallbackPage.tsx; new lib/auth-state.ts and tests/kitchenkit/auth-state.test.ts; STATUS.md and docs/AI_SHARED_LEDGER.md append. Preserves active UI owner paths and all unrelated dirty changes. Snapshot central baseline/snapshots/p06-auth-before. Owner standing change authorization activates this local fail-closed repair; no backend role/grant/provider/env/production changes or push.
+
+
+## 2026-10-07 requirements workflow — Codex claim
+Owner requested feature PRD -> technical requirements -> diagrammed app flow -> backend schema -> implementation plan using Van Clief concept and updated Josh. Scope maintained Forge checkout docs/planning/*.md, AGENTS.md, STATUS.md, PORTFOLIO_HANDOFF.md. Documentation/traceability only; preserve runtime and canonical full product blueprint. Josh README/GATEWAY-ACTIONS/FILE-WORKFLOWS inspected; no live provider or kernel acceptance implied.
+
+
+Requirements workflow claim extended to standards/REQUIREMENTS_WORKFLOW.md and standards/PROJECT_STANDARD.md; shared portfolio rule only, not product phase activation.
+
+
+## 2026-10-07 requirements workflow complete — claims released
+Published Forge documentation commit78880f79106202990338493c9b60f4a3e34ff815. Six planning files map nine V1 groups through technical/flow/data/implementation stages; AGENTS/status/handoff point to them. Shared REQUIREMENTS_WORKFLOW standard added. Local planning links and governance validation PASS. Josh inspected documentation only; live integration NOT RUN. No runtime/db/provider/SDK changes. Antigravity: use this stage sequence and preserve feature IDs; claim exact implementation paths before work. All claimed paths released.
+
