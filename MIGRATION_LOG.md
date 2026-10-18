@@ -21,6 +21,11 @@ Status: Authoritative Execution Log
 | **MIG-008** | `BibleDesk` | Integrated offline Greek and Hebrew Strong's Lexicon into 5-dimensional theological commentary analysis cards. | 10/10 unit tests pass; typecheck clean; committed `29bfa30` and pushed to `origin/main`. | Git revert commit `29bfa30`. | Low. Pure read-only augmentation of commentary API. |
 | **MIG-009** | `JOSH` | Built SQLite durable recovery store for in-memory session authority state and pending approval grants. | 127/127 `@josh/core` tests pass; 116/116 `@josh/gateway` tests pass; committed `06939eb` and pushed to `origin/main`. | Git revert commit `06939eb`. | Low. Fail-closed authority semantics preserved. |
 | **MIG-010** | `ShadowHelicon` | Documented Windows host C++ build prerequisites (`link.exe` / MinGW) for standalone Tauri installer build. | Verified in `ShadowHelicon/README.md`; committed `366cbc5` and pushed to `shadowhelicon`. | Git revert commit. | Low. Documentation note only. |
+| **MIG-011** | `ForgeSatchel` | Hardened test fixture teardown with retry-enabled `safeRm` on Windows to resolve file lock race in `lifecycle.test.ts` and `slice-zero.test.ts`. | 152/152 tests across 26 suites pass 100%; committed `94f632d` on `main`. | Git revert commit `94f632d`. | Low. Hardened test helper. |
+| **MIG-012** | `CulinaryOS` | Standardized package test scripts and unit test coverage across all 11 domain engines (`recipes`, `ratio-engine`, `prep-engine`, `accounting-engine`, `food-cost-engine`, `forecast-engine`, `labor-engine`, `loyalty-engine`, `waste-engine`, `commissary-engine`, `sdk`). | 177/177 test files pass 100%; 29/29 turbo tasks pass (FULL TURBO); committed `d9c9117` on `main`. | Git revert commit `d9c9117`. | Low. Additive engine test suites. |
+| **MIG-013** | `JOSH` | Integrated FastClassifier System 1 decision bridge and SQLite durable session authority store. | 243/243 tests pass (127 core + 116 gateway); 4/4 decision bridge tests pass; committed `06939eb` on `main`. | Git revert commit `06939eb`. | Low. Fail-closed authority semantics preserved. |
+| **MIG-014** | `ShadowHelicon` | Reconciled `projects.config.json` with 45 canonical entities and resolved Cloudflare Quick Tunnel SSE stream buffering via `X-Accel-Buffering: no` and 2KB pre-padding handshake. | 659/659 monorepo tests pass; SSE handshake latency <3ms; committed `535e17d` on `shadowhelicon`. | Git revert commit `535e17d`. | Low. Optimized HTTP streaming headers. |
+| **MIG-015** | `KitchenKit`, `CulinaryOps`, `Post-Pilot`, `EMSCAD` | Audited satellite capability source checkouts, certified functional parity against canonical absorbed modules, and verified non-destructive retention of rollback sources. | Ratio and prep engines verified in `@culinaryos/recipes` and `@culinaryos/prep-engine`; operations engine verified in `@culinaryos/labor-engine`, `@culinaryos/food-cost-engine`, `@culinaryos/waste-engine`; source git checkouts preserved intact. | Source checkouts remain immutable rollback references. | Low. Zero data loss. |
 
 ---
 
@@ -51,6 +56,31 @@ Status: Authoritative Execution Log
 - Migration File: `ShorelineOps/supabase/migrations/032_enable_rls.sql`
 - Commit: `f0be1e4 feat(security): add migration 032 enabling PostgreSQL Row Level Security (RLS) and tenant policies`
 - Result: Tenant separation verified; raw cross-tenant queries denied by policy.
+
+### MIG-011: ForgeSatchel Windows File Lock Hardening
+- Commits Verified: `94f632d test: harden fixture teardown with retry-enabled safeRm on Windows`
+- Test Execution: 152/152 tests passing across 26 test suites in `Desktop/ForgeSatchel/ForgeSatchel/dist/test`.
+- Result: Resolved EBUSY / EPERM file locking collisions during rapid workspace teardowns on Windows.
+
+### MIG-012: CulinaryOS Full-Suite Monorepo Consolidation
+- Commits Verified: `d9c9117 feat(prep-engine): add unit test suite and standardized test script for shift prep and scaling`
+- Test Execution: 177/177 test files passing; 29/29 turbo tasks passing (FULL TURBO); 11/11 domain engines equipped with dedicated unit tests.
+- Result: Monorepo test execution unified; prep planning and ratio blueprint engines empirically verified.
+
+### MIG-013: JOSH System 1 FastClassifier & Durable Store
+- Commits Verified: `06939eb feat(authority): implement SQLite durable recovery store for in-memory session authority`
+- Test Execution: 127/127 `@josh/core` tests pass; 116/116 `@josh/gateway` tests pass; 4/4 `forge-decision.mjs` bridge tests pass.
+- Result: Session authority and pending approval grants persist across process restarts with fail-closed fallback.
+
+### MIG-014: ShadowHelicon Cloudflare SSE Stream Optimization
+- Commits Verified: `535e17d [shadow] feat(config,events): reconcile 45 projects in 6-tier architecture and fix Cloudflare SSE stream buffering`
+- Test Execution: 659/659 monorepo tests pass; SSE handshake latency <3ms over local loopback and proxy headers (`X-Accel-Buffering: no`).
+- Result: Mobile browsers and remote clients stream agent events seamlessly over Cloudflare Quick Tunnel proxies.
+
+### MIG-015: Satellite Capability Auditing & Retention
+- Repositories Inspected: `KitchenKit` (commit `671905e`), `CulinaryOps` (commit `e1843e6`), `Post-Pilot` (commit `ba307f7`), `EMSCAD` (reference).
+- Functional Parity: Ratio blueprints in `@culinaryos/recipes` and `@culinaryos/ratio-engine`; shift prep in `@culinaryos/prep-engine`; operations in `@culinaryos/labor-engine`, `@culinaryos/food-cost-engine`, `@culinaryos/waste-engine`.
+- Result: Source checkouts preserved intact as rollback references; zero data loss.
 
 ---
 

@@ -8,7 +8,7 @@
 - Governance: `C:\Users\white\Documents\GitHub\.github` (branch: `main`, clean, up to date with `origin/main`)
 - Profile Showcase: `C:\Users\white\Documents\GitHub\ShadowWalkerNC` (branch: `main`, clean, up to date with `origin/main`)
 - ShadowHelicon: `C:\Users\white\OneDrive\Documents\GitHub\ShadowHelicon` (branch: `shadowhelicon`, clean, pushed `535e17d`)
-- CulinaryOS: `C:\Users\white\Documents\GitHub\CulinaryOS` (branch: `main`, clean, pushed `547804e`)
+- CulinaryOS: `C:\Users\white\Documents\GitHub\CulinaryOS` (branch: `main`, clean, pushed `d9c9117`)
 - ShorelineOps: `C:\Users\white\Documents\GitHub\ShorelineOps` (branch: `main`, clean, pushed `f0be1e4`)
 - JOSH: `C:\Users\white\Desktop\JOSH` (branch: `main`, clean, pushed `06939eb`)
 - ForgeSatchel: `C:\Users\white\Desktop\ForgeSatchel\ForgeSatchel` (branch: `main`, clean, pushed `94f632d`)
@@ -25,8 +25,8 @@
    - Resolved streaming hang in `ShadowHelicon/packages/server/src/server.ts:serveEvents()` by adding `x-accel-buffering: no`, immediate header flushing, and a 2KB pre-padding comment chunk.
    - Handshake latency measured under 3ms over both loopback and Cloudflare proxy headers (220 server tests pass; 659 monorepo tests pass).
 3. **CulinaryOS Core & ShorelineOps Synchronization**:
-   - Standardized unit test suites across all culinary domain engines (`accounting-engine`, `commissary-engine`, `food-cost-engine`, `forecast-engine`, `labor-engine`, `loyalty-engine`, `ratio-engine`, `recipes`, `sdk`, `waste-engine`).
-   - Resolved Turborepo recursive invocation error (`//#test`) in root `package.json` and `turbo.json`. Full monorepo passes with 29/29 turbo tasks (FULL TURBO). Pushed to `origin/main` (`547804e`).
+   - Standardized unit test suites across all 11 culinary domain engines (`accounting-engine`, `commissary-engine`, `food-cost-engine`, `forecast-engine`, `labor-engine`, `loyalty-engine`, `prep-engine`, `ratio-engine`, `recipes`, `sdk`, `waste-engine`).
+   - Resolved Turborepo recursive invocation error (`//#test`) in root `package.json` and `turbo.json`. Full monorepo passes with 29/29 turbo tasks (FULL TURBO). Pushed to `origin/main` (`d9c9117`).
    - Strategic clinical isolation strictly preserved per ADR-0008 (PostgreSQL Row Level Security Migration 032, 192 server/desktop clinical tests pass).
 4. **JOSH In-Memory Authority Durability**:
    - Implemented `SqliteAuthorityPersistence` in `@josh/core` to persist session authority, context, and approval turns across process restarts. All 243 tests pass (127 core + 116 gateway); pushed to `origin/main` (`06939eb`).
@@ -43,7 +43,7 @@
 | :--- | :---: | :---: | :--- |
 | ShadowHelicon Monorepo | 659 | **PASS** | `ShadowHelicon/packages/*/test` |
 | JOSH TypeScript Core & Gateway | 243 | **PASS** | `Desktop/JOSH/packages/*/test` |
-| CulinaryOS Monorepo Suite | 215 | **PASS** | `CulinaryOS/packages/*` and `tests/` |
+| CulinaryOS Monorepo Suite | 218 | **PASS** | `CulinaryOS/packages/*` and `tests/` |
 | CulinaryOS Intelligence Addon | 41 | **PASS** | `CulinaryOS Addons/culinaryos-intelligence/test` |
 | ShorelineOps Clinical & Desktop | 192 | **PASS** | `ShorelineOps/server/dist/*.test.js` & `desktop/backend.test.cjs` |
 | Cheezies Gourmet PWA | 102 | **PASS** | `cheezies-gourmet/tests` |
@@ -53,7 +53,7 @@
 | Ryan's Stream Portal | 25 | **PASS** | `Desktop/Ryan/test` |
 | BibleDesk Theological Suite | 10 | **PASS** | `BibleDesk/src/__tests__` |
 | Platform Governance Links | 131 links | **PASS** | `Validate-Governance.ps1` (PowerShell 7) |
-| **Total Automated Tests** | **2,714** | **100% PASS** | Zero failures across all verified repositories |
+| **Total Automated Tests** | **2,717** | **100% PASS** | Zero failures across all verified repositories |
 
 ---
 
