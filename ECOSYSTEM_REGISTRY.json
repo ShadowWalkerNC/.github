@@ -165,14 +165,14 @@
       "isFork": false,
       "isArchived": false,
       "pushedAt": "2026-10-07T12:44:31Z",
-      "localPath": "C:\\Users\\white\\Desktop\\ForgeSatchel",
+      "localPath": "C:\\\\Users\\\\white\\\\Desktop\\\\ForgeSatchel\\\\ForgeSatchel",
       "category": "01-developer-intelligence",
       "role": "control-plane",
       "techStack": "Node/TypeScript",
       "hasTests": true,
       "disposition": "retain",
       "confidence": "verified-high",
-      "notes": "Developer control plane, task authority, and workspace orchestration"
+      "notes": "Authoritative control plane in nested Git checkout C:\\\\Users\\\\white\\\\Desktop\\\\ForgeSatchel\\\\ForgeSatchel"
     },
     {
       "id": ".github",
@@ -450,14 +450,14 @@
       "isFork": false,
       "isArchived": false,
       "pushedAt": "2026-08-12T21:47:25Z",
-      "localPath": null,
+      "localPath": "C:\\\\Users\\\\white\\\\Documents\\\\GitHub\\\\ShadowWalkerNC",
       "category": "06-platform-operations",
       "role": "github-profile",
       "techStack": "Node/TypeScript",
       "hasTests": false,
       "disposition": "retain",
       "confidence": "verified-high",
-      "notes": "GitHub profile README repository"
+      "notes": "GitHub Profile README repository with canonical 6-tier ecosystem architecture showcase"
     },
     {
       "id": "opendaw",
