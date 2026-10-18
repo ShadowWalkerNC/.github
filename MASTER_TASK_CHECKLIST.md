@@ -107,3 +107,18 @@ Status Standard: [ ] Pending | [-] In Progress | [x] Completed | [!] Blocked
 - [ ] **CLI-004**: Assist Ryan with Twitch EventSub and YouTube WebSub token authorization via `/admin` console.
   - Dependencies: CLI-002
   - Acceptance Criteria: Access and refresh tokens stored securely in Railway private environment variables.
+
+---
+
+## 6. Release Readiness & Final Verification Tasks (REL)
+
+- [x] **REL-001**: Authoritative Project Completion Matrix (`PROJECT_COMPLETION_MATRIX.md`).
+  - Dependencies: None
+  - Acceptance Criteria: Machine-readable lifecycle classification (Production-Ready, Release Review, Testing, In Development, Maintenance, Paused, Archive) and definitions of done established for all 45 registered ecosystem projects.
+- [x] **REL-002**: Standardized domain engine test coverage across CulinaryOS monorepo.
+  - Dependencies: CUL-004
+  - Acceptance Criteria: All 11 domain engines (`recipes`, `ratio-engine`, `prep-engine`, `accounting-engine`, `food-cost-engine`, `forecast-engine`, `labor-engine`, `loyalty-engine`, `waste-engine`, `commissary-engine`, `sdk`) pass with dedicated unit test suites (2,717 tests passing ecosystem-wide).
+- [x] **REL-003**: Independent Phase 13 Final System Audit and verification sign-off.
+  - Dependencies: None
+  - Acceptance Criteria: `FINAL_VERIFICATION_REPORT.md` certified with 100% pass rate, zero circular dependencies, ADR-0008 clinical data isolation, and clean git working trees.
+
