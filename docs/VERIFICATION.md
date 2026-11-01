@@ -4,14 +4,14 @@ Date: 2026-11-01 · Owner: ShadowWalkerNC · Library: 1.0.0.
 Applies to this restructuring; not product runtime acceptance.
 
 - PASS: `npm ci --ignore-scripts` on Node.js 24 / Linux.
-- PASS: `npm test`: 24 behavioral and negative tests. Covers fresh/repeat adoption,
+- PASS: `npm test`: 25 behavioral and negative tests. Covers fresh/repeat adoption,
   read-only preview, offline integrity versus pinned-source verification, upgrade
   selection/override preservation, explicit preset removal, modified managed
   files, malformed locks, symlinks, concurrent edits, missing inputs/source,
   incorrect source/target origins, permissions, dirty targets, and default-branch
   protection in proposal requests.
 - PASS: real committed-source CLI smoke against an isolated fixture: preview
-  made no target writes, apply installed six files, check verified pinned source,
+  made no target writes, apply installed seven files, check verified pinned source,
   and repeat upgrade produced zero changes.
 - PASS: `npm run validate`: 34 public repository observations, all 108 historical
   rows reconciled, 30 selectable policies, and 240 sanitized archived files.
@@ -27,7 +27,9 @@ Applies to this restructuring; not product runtime acceptance.
 - PASS: initial hosted Linux checks. Initial Windows checks exposed short-path
   spelling differences; target-root validation now compares filesystem identity
   (device/inode), retaining rejection of nested checkout paths. A fresh hosted
-  Linux/Windows run verifies the fix on the PR.
+  Linux/Windows run verifies the fix on the PR. Bundle-local Git attributes and
+  managed-block newline normalization also protect integrity across CRLF
+  checkouts; the regression test checks preservation of project-local CRLF text.
 - PASS: `npm audit` after pinning AJV 8.20.0: no reported vulnerabilities at
   verification time. The affected older dependency is no longer installed.
 - NOT RUN: live cross-repository adoption workflow or real project rollout.

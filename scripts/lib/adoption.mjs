@@ -83,7 +83,7 @@ function installed(target, repo) {
     if (content === null || sha256(content) !== f.sha256) throw new Error(`Locally modified/missing managed file: ${f.path}`);
   }
   const block = getBlock(agents);
-  if (!block || sha256(block) !== lock.integrationSha256 || block !== integration(lock)) throw new Error('Locally modified/missing managed AGENTS block');
+  if (!block || sha256(block.replaceAll('\r\n', '\n')) !== lock.integrationSha256 || block.replaceAll('\r\n', '\n') !== integration(lock)) throw new Error('Locally modified/missing managed AGENTS block');
   for (const p of lock.overrides) if (!existsSync(checkedPath(target, p)) || !lstatSync(join(target, p)).isFile()) throw new Error(`Missing override: ${p}`);
   return { lock, agents };
 }
@@ -117,6 +117,7 @@ function bundle(src, s, overrides, repo, scope) {
   const selected = [...s.core, ...s.standards.map(x => src.catalog.standards[x]), ...s.playbooks.map(x => src.catalog.playbooks[x])];
   if (s.preset) selected.push(src.catalog.standards.DESIGN_AND_CODE_BIBLE, src.catalog.presets[s.preset]);
   const paths = [...new Set(selected)].sort(); const files = new Map();
+  files.set('.standards/.gitattributes', { content: '* text eol=lf\n', sourcePath: null });
   for (const path of paths) {
     let content = src.read(path);
     content = content.replace(/\]\(([^)]+)\)/g, (match, href) => {
@@ -146,7 +147,9 @@ export function plan(opts) {
   lock.integrationSha256 = sha256(integration(lock)); validateLock(lock);
   for (const p of overrides) if (!existsSync(checkedPath(target, p)) || !lstatSync(join(target, p)).isFile()) throw new Error(`Missing override: ${p}`);
   const block = getBlock(old.agents);
-  const agents = block ? old.agents.replace(block, integration(lock)) : old.agents + (old.agents && !old.agents.endsWith('\n') ? '\n' : '') + '\n' + integration(lock) + '\n';
+  const newline = old.agents.includes('\r\n') ? '\r\n' : '\n';
+  const nextBlock = integration(lock).replaceAll('\n', newline);
+  const agents = block ? old.agents.replace(block, nextBlock) : old.agents + (old.agents && !old.agents.endsWith('\n') ? newline : '') + newline + nextBlock + newline;
   files.set(LOCK, { content: JSON.stringify(lock, null, 2)+'\n', sourcePath: null });
   files.set('AGENTS.md', { content: agents, sourcePath: null });
   const oldPaths = new Set([...(old.lock?.managedFiles.map(f => f.path) ?? []), ...(old.lock ? [LOCK] : [])]);

@@ -31,8 +31,9 @@ Both library and target must be Git checkouts with matching GitHub origins.
 The target must match the exact named repository.
 Preview prints proposed file additions/removals and unified diffs without writing
 in the target. Apply is an explicit local action. It adds a managed link block to
-AGENTS.md, preserving existing content. Selected Markdown is copied under
-`.standards/`; the lock records source commit, scope, selections, and checksums. Symlink
+AGENTS.md, preserving existing content and newline style. Selected Markdown is copied under
+`.standards/`; the lock records source commit, scope, selections, and checksums. Bundle-local Git attributes
+keep managed content at LF across operating systems. Symlink
 paths and edited/untracked conflicting managed files are rejected before writing.
 
 Select design with `--preset operational`, `reading`, `hospitality`, or `creative`.

@@ -119,3 +119,12 @@ test('nested checkout directories remain invalid targets',t=>{
  const opts=fixture(t);const nested=join(opts.target,'nested');mkdirSync(nested);const before=snapshot(opts.target);
  assert.throws(()=>plan({...opts,target:nested}),/checkout root/);assert.deepEqual(snapshot(opts.target),before);
 });
+test('bundle remains intact after a Git checkout with Windows-style line ending conversion',t=>{
+ const opts=fixture(t);const agents=join(opts.target,'AGENTS.md');writeFileSync(agents,'# My project\r\n\r\nKeep local CRLF.\r\n');
+ apply(plan(opts));assert.equal(plan(opts).changes.length,0);commit(opts.target);
+ git(opts.target,'-c','core.autocrlf=true','checkout-index','--force','--all');
+ assert.ok(readFileSync(agents,'utf8').includes('\r\n'));
+ assert.equal(readFileSync(join(opts.target,'.standards/core/WORKING_AGREEMENTS.md'),'utf8').includes('\r\n'),false);
+ assert.equal(check(opts).sourceVerified,true);assert.equal(plan(opts).changes.length,0);
+ const next=advance(opts);apply(plan(next));assert.ok(readFileSync(agents,'utf8').includes('\r\n'));assert.equal(check(next).sourceVerified,true);
+});
