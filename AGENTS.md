@@ -158,6 +158,7 @@ dashboards, random icons, whitespace bloat. Respect each project's stack.
 | `upa/UPA_V1.md` | HIGH/CRITICAL only |
 | `agents/*.md` | single on-demand agent as needed |
 | `templates/` | new project setup (`AGENTS.md`, `PROJECT_CACHE.md`) |
+| `standards/DESIGN_AND_CODE_BIBLE.md` | any UI or design work (load matching sections only; preset library, applies only to projects the owner names) |
 
 *Version: 3.0 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/AGENTS.md`*
 
