@@ -1,0 +1,110 @@
+[
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "[private-identity-redacted]",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "CulinaryOS",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/CulinaryOS",
+        "githubUrl": "http[local-path-redacted]"
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "MuseAiBots",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/MuseAiBots",
+        "githubUrl": "http[local-path-redacted]"
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "BibleDesk",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/BibleDesk",
+        "githubUrl": "http[local-path-redacted]"
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "[private-identity-redacted]",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "[private-identity-redacted]",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "[private-identity-redacted]",
+        "githubUrl": "http[local-path-redacted]"
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "Mercury",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/Mercury",
+        "githubUrl": "http[local-path-redacted]"
+      }
+    ]
+  },
+  {
+    "root": "[local-path-redacted]",
+    "exists": true,
+    "repos": [
+      {
+        "name": "ShorelineOps",
+        "localPath": "[redacted]",
+        "fork": false,
+        "archived": false,
+        "githubRepo": "ShadowWalkerNC/ShorelineOps",
+        "githubUrl": "http[local-path-redacted]"
+      }
+    ]
+  }
+]

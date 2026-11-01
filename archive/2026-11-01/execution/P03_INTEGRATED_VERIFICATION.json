@@ -1,0 +1,11 @@
+{
+  "strictBuild": "PASS after fixture correction",
+  "compiledRelationships": "8 projects PASS",
+  "phase": "P03 in_progress",
+  "interactiveTTY": "NOT RUN",
+  "status": "accepted-local",
+  "task": "P03 integrated TUI/relationships",
+  "finalTargetedTest": "PASS",
+  "tests": "57 PASS before fixture-only correction",
+  "ownership": "released"
+}

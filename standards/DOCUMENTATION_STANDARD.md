@@ -1,4 +1,8 @@
-# Documentation standard
+# Documentation Standard
+
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: explicitly adopted project scope.
+Canonical location: `standards/DOCUMENTATION_STANDARD.md`.
+
 README explains the project; ARCHITECTURE explains implementation; STATUS records current verified state; ROADMAP holds future work; CHANGELOG records changes; AGENTS defines AI work boundaries; SECURITY defines the applicable security policy.
 Manifests hold machine identity/state. ADRs hold decision rationale. Migration docs hold movement/rollback history. Runbooks hold operation/recovery procedures.
 Each fact has one canonical home. Link existing docs instead of rewriting or duplicating them. Distinguish implemented, planned, verified, unknown and blocked.

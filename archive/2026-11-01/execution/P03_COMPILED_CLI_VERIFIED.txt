@@ -1,0 +1,652 @@
+[private-identity-redacted]             [private-identity-redacted] [platform/active] [local-only]
+culinaryos               CulinaryOS [product/active] main [local-only, dirty, ahead]
+muselab                  MuseLab [lab/planned-active] main [local-only, dirty]
+bibledesk                BibleDesk [product/active] main [local-only, dirty]
+[private-identity-redacted]                 [private-identity-redacted] [product/active] master [local-only, dirty]
+[private-identity-redacted]                 [private-identity-redacted] [client/active] master [local-only, dirty]
+mercury                  Mercury [infrastructure/supporting] main [local-only, dirty]
+shorelineops             ShorelineOps [product/supporting] main [local-only, dirty]
+[
+  {
+    "id": "[private-identity-redacted]",
+    "name": "[private-identity-redacted]",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "[private-identity-redacted]",
+      "repository": null,
+      "classification": "platform",
+      "lifecycle": "active",
+      "priority": 1,
+      "ecosystem": "[private-identity-redacted]",
+      "visibility": "internal",
+      "languages": [
+        "typescript"
+      ],
+      "capabilities": [
+        "project.discovery",
+        "project.registry",
+        "coding.agent.launch",
+        "git.operations"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [
+          "codex",
+          "muse-code",
+          "gemini",
+          "claude",
+          "opencode",
+          "antigravity"
+        ],
+        "muse": [
+          "muse-code"
+        ],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "culinaryos",
+    "name": "CulinaryOS",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "CulinaryOS",
+      "repository": "ShadowWalkerNC/CulinaryOS",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 1,
+      "ecosystem": "CulinaryOS",
+      "visibility": "public",
+      "languages": [
+        "typescript",
+        "sql"
+      ],
+      "capabilities": [
+        "restaurant.operations",
+        "api.domain",
+        "mcp.adapter"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [
+          "culinaryos-mcp-servers"
+        ],
+        "sdks": [
+          "@anthropic-ai/sdk",
+          "@supabase/supabase-js",
+          "@modelcontextprotocol/sdk",
+          "stripe"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "muselab",
+    "name": "MuseLab",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "MuseLab",
+      "repository": "ShadowWalkerNC/MuseAiBots",
+      "classification": "lab",
+      "lifecycle": "planned-active",
+      "priority": 1,
+      "ecosystem": "MuseLab",
+      "visibility": "public",
+      "languages": [],
+      "capabilities": [],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "bibledesk",
+    "name": "BibleDesk",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "BibleDesk",
+      "repository": "ShadowWalkerNC/BibleDesk",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 2,
+      "ecosystem": "BibleDesk",
+      "visibility": "public",
+      "languages": [
+        "typescript",
+        "sql"
+      ],
+      "capabilities": [
+        "scripture.study",
+        "prayer.care",
+        "api.domain",
+        "mcp.adapter"
+      ],
+      "integrations": {
+        "models": [
+          "google-gemini",
+          "anthropic",
+          "openai"
+        ],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [
+          "bibledesk"
+        ],
+        "sdks": [
+          "@google/genai",
+          "@anthropic-ai/sdk",
+          "openai",
+          "@electric-sql/pglite",
+          "stripe"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "[private-identity-redacted]",
+    "name": "[private-identity-redacted]",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "[private-identity-redacted]",
+      "repository": "[private-identity-redacted]",
+      "classification": "product",
+      "lifecycle": "active",
+      "priority": 2,
+      "ecosystem": "[private-identity-redacted]",
+      "visibility": "private",
+      "languages": [
+        "csharp"
+      ],
+      "capabilities": [
+        "game.rules",
+        "game.presentation"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "[private-identity-redacted]",
+    "name": "[private-identity-redacted]",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "[private-identity-redacted]",
+      "repository": "[private-identity-redacted]",
+      "classification": "client",
+      "lifecycle": "active",
+      "priority": 3,
+      "ecosystem": "[private-identity-redacted]",
+      "visibility": "private",
+      "languages": [
+        "javascript"
+      ],
+      "capabilities": [
+        "restaurant.website",
+        "restaurant.client.operations"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [],
+        "sdks": [
+          "@base44/sdk",
+          "@supabase/supabase-js",
+          "@vercel/speed-insights"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "Mercury",
+      "repository": "ShadowWalkerNC/Mercury",
+      "classification": "infrastructure",
+      "lifecycle": "supporting",
+      "priority": null,
+      "ecosystem": "Mercury",
+      "visibility": "public",
+      "languages": [
+        "typescript"
+      ],
+      "capabilities": [
+        "communications.realtime",
+        "communications.voice"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [],
+        "mcp": [],
+        "sdks": [
+          "livekit-server-sdk",
+          "livekit-client"
+        ],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  },
+  {
+    "id": "shorelineops",
+    "name": "ShorelineOps",
+    "category": "product",
+    "cloned": true,
+    "favorite": false,
+    "portfolio": {
+      "schemaVersion": 1,
+      "name": "ShorelineOps",
+      "repository": "ShadowWalkerNC/ShorelineOps",
+      "classification": "product",
+      "lifecycle": "supporting",
+      "priority": null,
+      "ecosystem": "CulinaryOS",
+      "visibility": "public",
+      "languages": [
+        "typescript"
+      ],
+      "capabilities": [
+        "clinical.dining",
+        "api.domain"
+      ],
+      "integrations": {
+        "models": [],
+        "codingAgents": [],
+        "muse": [],
+        "xr": [],
+        "deploymentProviders": [
+          "railway",
+          "vercel"
+        ],
+        "mcp": [],
+        "sdks": [],
+        "extensions": []
+      }
+    },
+    "manifestIssues": []
+  }
+]
+{
+  "hits": [
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "AGENTS.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] AI instructions"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "AGENTS.md",
+      "line": 2,
+      "text": "Read STATUS.md, forge.project.json and PORTFOLIO_HANDOFF.md first. Preserve existing CLI, operational .[private-identity-redacted] state, design docs and agent artifacts. Read docs/ARCHITECTURE.md and docs/DECISIONS.md only for the affected scope. Extend existing code before adding services; reconcile earlier fork"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "ARCHITECTURE.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] architecture"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "CHANGELOG.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] changelog"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] — Architecture"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 5,
+      "text": "inside the CLI agents; [private-identity-redacted] launches, organizes, and reconnects."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 31,
+      "text": "  config.ts     ~/.[private-identity-redacted] layout, per-project .[private-identity-redacted]/project.json"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\ARCHITECTURE.md",
+      "line": 43,
+      "text": ".[private-identity-redacted]/  local registry seed: projects.json + groups.json"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\DECISIONS.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] — Locked Decisions"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\DECISIONS.md",
+      "line": 8,
+      "text": "Collie is Bun-based; terminal-web is Node-based. [private-identity-redacted] ships on"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\DECISIONS.md",
+      "line": 50,
+      "text": "titles, and marks to [private-identity-redacted] on the fork branch before any feature"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] — Collie Fork Procedure (S1)"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 16,
+      "text": "# git clone http[local-path-redacted]<you>/[private-identity-redacted]-collie upstream-collie"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 20,
+      "text": "git checkout -b [private-identity-redacted]/main"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 28,
+      "text": "- Keep Collie's `LICENSE` (MIT) text; add [private-identity-redacted] copyright line."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 36,
+      "text": "- [ ] PWA manifest name/short_name/icons → [private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 37,
+      "text": "- [ ] `<title>`, headers, login/pairing screens → [private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 47,
+      "text": "- [ ] `MUX_CONTRACT.md`: add [private-identity-redacted] column notes where behavior"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\FORK.md",
+      "line": 62,
+      "text": "Feature work lands on `[private-identity-redacted]/main`. Periodically `git fetch"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\STAGES.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] — Staged Execution Plan"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\STAGES.md",
+      "line": 3,
+      "text": "Source of truth for scope: `[private-identity-redacted] — AI Build Blueprint.md`."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\STAGES.md",
+      "line": 13,
+      "text": "| S2 rebrand | Phase 2 | Strip Collie trademarks, rename to [private-identity-redacted] | No Collie marks per `TRADEMARKS.md`; PWA manifest renamed | LATER (needs S1) |"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\STAGES.md",
+      "line": 14,
+      "text": "| S3 registry | Phase 3 | Project registry + rebuild rule | `.[private-identity-redacted]/projects.json` + merge-on-scan; survives `scan` without losing favorites/overrides | DONE (CLI core; UI in S5) |"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\STAGES.md",
+      "line": 20,
+      "text": "| S9 commands | Phase 9 | Stack detection + project commands | `package.json`/`Cargo.toml`/`go.mod`/etc. detected; `.[private-identity-redacted]/project.json` overrides; Dev/Build/Test/Lint/Typecheck/Deploy run | DONE (CLI core; UI in S5) |"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "docs\\STAGES.md",
+      "line": 27,
+      "text": "1. install [private-identity-redacted] on PC — CLI now (`npm link` after `npm run build`, or `node src/cli.ts`); PWA installer in S12"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 1,
+      "text": "# [private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 53,
+      "text": "[private-identity-redacted] is not another IDE."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 76,
+      "text": "[private-identity-redacted] launches, organizes and reconnects them."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 82,
+      "text": "Opening [private-identity-redacted] should show:"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 85,
+      "text": "[private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 120,
+      "text": "`.[private-identity-redacted]/projects.json`"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 356,
+      "text": "[private-identity-redacted]:"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 448,
+      "text": "Muse must not require special [private-identity-redacted] support to function."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 571,
+      "text": "`.[private-identity-redacted]/project.json`"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 692,
+      "text": "Treat [private-identity-redacted] as remote shell access."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 747,
+      "text": "[private-identity-redacted] must work on:"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 762,
+      "text": "~/.[private-identity-redacted]/"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 768,
+      "text": "~/.[private-identity-redacted]/"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 783,
+      "text": "[private-identity-redacted] eventually becomes the frontend/controller for a portable dev kit."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 806,
+      "text": "[private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 835,
+      "text": "[private-identity-redacted] should expose APIs that [private-identity-redacted] can integrate with later."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 848,
+      "text": "[private-identity-redacted] API"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 949,
+      "text": "1. install [private-identity-redacted] on my PC"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "[private-identity-redacted] — AI Build Blueprint.md",
+      "line": 1002,
+      "text": "[private-identity-redacted] is the **front door to my development environment**."
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "PORTFOLIO_HANDOFF.md",
+      "line": 1,
+      "text": "# [private-identity-redacted] portfolio handoff"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "PORTFOLIO_HANDOFF.md",
+      "line": 2,
+      "text": "Task: P02-ROLLOUT-[private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "PORTFOLIO_HANDOFF.md",
+      "line": 18,
+      "text": "Codex changed src/project-identity.ts, manifest.ts, types.ts, projects.ts, cli.ts and new test/project-identity.test.ts. Before-state source exists in the central baseline/snapshots/[private-identity-redacted]-p03-identity-before folder. 12 targeted tests and final focused strict typecheck PASS; eight-project CLI "
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "README.md",
+      "line": 1,
+      "text": "# [private-identity-redacted]"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "README.md",
+      "line": 6,
+      "text": "(Codex, Muse, Gemini, Claude, OpenCode, shell) — [private-identity-redacted] launches,"
+    },
+    {
+      "projectId": "[private-identity-redacted]",
+      "path": "README.md",
+      "line": 9,
+      "text": "Full scope: `[private-identity-redacted] — AI Build Blueprint.md`."
+    }
+  ],
+  "issues": [],
+  "truncated": true
+}
+graph TD
+  classDef internal fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff;
+  classDef external fill:#1f2937,stroke:#4b5563,stroke-width:1px,color:#9ca3af;
+  classDef root fill:#065f46,stroke:#10b981,stroke-width:2px,color:#fff;
+  [private-identity-redacted]["📦 [private-identity-redacted]"]:::root
+  typescript["typescript @ ^5.9.2"]:::external
+  [private-identity-redacted] -.->|dev| typescript

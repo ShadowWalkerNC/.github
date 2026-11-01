@@ -1,11 +1,5 @@
 {
-  "strictBuild": "PASS after fixture correction",
-  "compiledRelationships": "8 projects PASS",
-  "phase": "P03 in_progress",
-  "interactiveTTY": "NOT RUN",
-  "status": "accepted-local",
-  "task": "P03 integrated TUI/relationships",
-  "finalTargetedTest": "PASS",
-  "tests": "57 PASS before fixture-only correction",
-  "ownership": "released"
+  "historical": true,
+  "archive": "archive/2026-11-01/execution/P03_INTEGRATED_VERIFICATION.json",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

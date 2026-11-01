@@ -1,11 +1,5 @@
 {
-  "productionAcceptance": "NOT RUN",
-  "existingStateMigrated": false,
-  "task": "P03 foundation extensions",
-  "strictBuild": "PASS",
-  "runtimePolicyWired": false,
-  "tests": "61 PASS / 20 suites",
-  "approvalPending": "HTTP read-only containment",
-  "ownership": "released",
-  "sqliteRuntime": "Node 24.19.0 / SQLite 3.53.3"
+  "historical": true,
+  "archive": "archive/2026-11-01/execution/P03_FOUNDATION_EXTENSIONS_VERIFICATION.json",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

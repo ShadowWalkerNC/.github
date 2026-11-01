@@ -1,33 +1,5 @@
 {
-  "id": "P06",
-  "name": "Forge Vertical Slice 0 + CulinaryOS compatibility preparation",
-  "status": "in_progress",
-  "owner": "ShadowWalkerNC",
-  "blueprintVersion": "6.2.1",
-  "dependsOn": [
-    "P05"
-  ],
-  "allowedActions": [
-    "read",
-    "inspect",
-    "plan",
-    "create",
-    "edit",
-    "test",
-    "execute"
-  ],
-  "approvalRequiredBefore": [
-    "repository_rename",
-    "permission_change",
-    "push",
-    "sdk_adoption",
-    "production_deploy",
-    "secret_change",
-    "archive",
-    "destructive_migration"
-  ],
-  "executionScope": "Owner 2026-10-07 v6.2: implement minimal shadowwalker.project/v1 schema/reader/manifests in dedicated worktrees, then prove Task -> Worktree -> JOSH request -> Forge authorization -> declared command -> verification -> ActionReceipt. CulinaryOS compatibility only; no broad absorption, production, secrets, grants or destructive operations.",
-  "previousPhaseEvidence": "execution/P05_EXIT_DECISION.json",
-  "sharedLedger": "AI_SHARED_LEDGER.md",
-  "ecosystemObjective": "ShadowWalker Vertical Slice 0"
+  "historical": true,
+  "archive": "archive/2026-11-01/execution/CURRENT_PHASE.yaml",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

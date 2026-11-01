@@ -1,0 +1,46 @@
+[
+  {
+    "repository": "ShadowWalkerNC/KitchenKit",
+    "repositoryId": 1283201164,
+    "visibility": "public",
+    "defaultBranch": "main",
+    "archived": false,
+    "licenseMetadata": null,
+    "tags": [],
+    "releaseCount": 0,
+    "openIssues": [],
+    "openPullRequests": [
+      1
+    ],
+    "pagination": "First100 each; exhaustion requires count below100",
+    "deployment": "Source declarations only; live resources unknown",
+    "appliedDatabase": "unknown"
+  },
+  {
+    "repository": "ShadowWalkerNC/RecipeOS",
+    "repositoryId": 1250755919,
+    "visibility": "public",
+    "defaultBranch": "main",
+    "archived": true,
+    "licenseMetadata": null,
+    "tags": [],
+    "releaseCount": 0,
+    "openIssues": [
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "openPullRequests": [],
+    "pagination": "First100 each; exhaustion requires count below100",
+    "deployment": "Source declarations only; live resources unknown",
+    "appliedDatabase": "unknown"
+  }
+]

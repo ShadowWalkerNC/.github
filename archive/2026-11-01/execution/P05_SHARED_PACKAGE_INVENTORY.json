@@ -1,0 +1,289 @@
+[
+  {
+    "path": "packages/accounting-engine/package.json",
+    "name": "@culinaryos/accounting-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/asset-tools/package.json",
+    "name": "@culinaryos/asset-tools",
+    "version": "0.1.0",
+    "dependencies": {
+      "@culinaryos/types": "workspace:*",
+      "sharp": "^0.33.0",
+      "satori": "^0.10.0"
+    },
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit",
+      "type-check": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/auth/package.json",
+    "name": "@culinaryos/auth",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/commissary-engine/package.json",
+    "name": "@culinaryos/commissary-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/config/package.json",
+    "name": "@culinaryos/config",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/db/package.json",
+    "name": "@culinaryos/db",
+    "version": "0.1.0",
+    "dependencies": {
+      "@supabase/supabase-js": "^2.43.0",
+      "pg": "^8.23.0"
+    },
+    "scripts": {
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/event-bus/package.json",
+    "name": "@culinaryos/event-bus",
+    "version": "0.1.0",
+    "dependencies": {
+      "@culinaryos/shared": "workspace:*",
+      "@supabase/supabase-js": "^2.43.0",
+      "uuid": "^10.0.0"
+    },
+    "scripts": {
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/food-cost-engine/package.json",
+    "name": "@culinaryos/food-cost-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/forecast-engine/package.json",
+    "name": "@culinaryos/forecast-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/labor-engine/package.json",
+    "name": "@culinaryos/labor-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/loyalty-engine/package.json",
+    "name": "@culinaryos/loyalty-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/pdf-tools/package.json",
+    "name": "@culinaryos/pdf-tools",
+    "version": "0.1.0",
+    "dependencies": {
+      "@culinaryos/types": "workspace:*",
+      "jspdf": "^2.5.1",
+      "qrcode": "^1.5.3"
+    },
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit",
+      "type-check": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/prep-engine/package.json",
+    "name": "@culinaryos/prep-engine",
+    "version": "0.1.0",
+    "dependencies": {
+      "@culinaryos/ratio-engine": "workspace:*"
+    },
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/ratio-engine/package.json",
+    "name": "@culinaryos/ratio-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/sdk/package.json",
+    "name": "@culinaryos/sdk",
+    "version": "1.0.0",
+    "dependencies": {
+      "@culinaryos/shared": "workspace:*"
+    },
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  },
+  {
+    "path": "packages/seo-tools/package.json",
+    "name": "@culinaryos/seo-tools",
+    "version": "0.1.0",
+    "dependencies": {
+      "@culinaryos/types": "workspace:*"
+    },
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit",
+      "type-check": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/shared/package.json",
+    "name": "@culinaryos/shared",
+    "version": "0.1.0",
+    "dependencies": {
+      "@supabase/supabase-js": "^2.43.0",
+      "uuid": "^10.0.0"
+    },
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/template-engine/package.json",
+    "name": "@culinaryos/template-engine",
+    "version": "0.1.0",
+    "dependencies": {
+      "@culinaryos/types": "workspace:*"
+    },
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit",
+      "type-check": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/types/package.json",
+    "name": "@culinaryos/types",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit",
+      "type-check": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/ui/package.json",
+    "name": "@culinaryos/ui",
+    "version": "0.1.0",
+    "dependencies": {
+      "@radix-ui/react-alert-dialog": "^1.1.23",
+      "@radix-ui/react-checkbox": "^1.3.11",
+      "@radix-ui/react-dialog": "^1.1.23",
+      "@radix-ui/react-dropdown-menu": "^2.1.24",
+      "@radix-ui/react-label": "^2.1.15",
+      "@radix-ui/react-popover": "^1.1.23",
+      "@radix-ui/react-select": "^2.3.7",
+      "@radix-ui/react-separator": "^1.1.15",
+      "@radix-ui/react-slot": "^1.3.3",
+      "@radix-ui/react-switch": "^1.3.7",
+      "@radix-ui/react-tabs": "^1.1.21",
+      "@radix-ui/react-tooltip": "^1.2.16",
+      "class-variance-authority": "^0.7.1",
+      "clsx": "^2.1.1",
+      "lucide-react": "^1.34.0",
+      "react": "^18.3.0",
+      "react-dom": "^18.3.0",
+      "tailwind-merge": "^3.6.0",
+      "three": "^0.185.1"
+    },
+    "scripts": {
+      "build": "tsc",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  {
+    "path": "packages/waste-engine/package.json",
+    "name": "@culinaryos/waste-engine",
+    "version": "0.1.0",
+    "dependencies": null,
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest run",
+      "clean": "rm -rf dist"
+    }
+  }
+]

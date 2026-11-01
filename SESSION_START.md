@@ -1,45 +1,10 @@
-# SESSION_START — Lightweight Handshake v3.0
+# Task start and handoff
 
-> Canonical location: `ShadowWalkerNC/.github/SESSION_START.md`
-> Load order: `AGENTS.md` → `AGENT_DISPATCH.md` → this file → Tier 1/2 context
-> as classified. Do NOT preload UPA or agent files.
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: optional task communication.
+Canonical location: `SESSION_START.md`.
 
-## Start (no ceremony)
-
-State two lines and begin — do not wait for confirmation:
-
-```
-PROJECT: [repo] · SCOPE: [1 sentence] · RISK: [LOW/MEDIUM/HIGH/CRITICAL]
-CACHE: [loaded|missing — assumptions: …] · AGENTS: [none|list] · PLAN: [skip|short|full]
-```
-
-Optional context the user may paste (all fields optional):
-
-```
-PROJECT: [repo name]  SCOPE: [goal, 1–2 sentences]  OUT OF SCOPE: [optional]
-```
-
-Derive the rest from repo + cache + `git status`. Ask only blocking
-product/business questions.
-
-## Standing rules
-
-1. Plan by risk (skip / short / full). No mandatory written plan for trivial work.
-2. One logical change per commit. Show the message; wait for approval before
-   **pushing**. Never push on silence. Never expose secrets/PII.
-3. Docs follow code by relevance: update the doc entry that describes the
-   changed behavior, not a fixed list of files.
-4. Destructive DB/infra work needs a migration/rollback plan first.
-
-## Close (3–6 lines, plus handoff when switching agents)
-
-```
-DONE: [bullets]  VERIFIED: [checks run]  DECISIONS: [durable, if any]
-OPEN/NEXT: [items]  CACHE: [updated PROJECT_CACHE.md | no durable change]
-```
-
-*Version: 3.0 | Author: ShadowWalkerNC*
-
-
-## Portfolio session context
-Read current phase and shared ledger before target work. Record task, actor, exact paths and acceptance evidence before concurrent edits. Consult target manifest/status/instructions; avoid repeated broad scans. Release ownership and record actual checks, blockers and next action after material work.
+State the named project, requested scope, and immediate next step. At completion,
+report changed behavior, checks/evidence, material limitations, and next action.
+No ceremony, mandatory document set, or agent panel is required. Authorization
+comes from applicable instructions, not this template. See the
+[handoff playbook](playbooks/handoff.md).

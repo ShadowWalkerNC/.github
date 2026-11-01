@@ -1,6 +1,6 @@
 # ShadowWalkerNC Design and Code Bible
 
-Version: **1.0.0** · Updated: **2026-11-01** · Owner: **ShadowWalkerNC**
+Version: **1.1.0** · Updated: **2026-11-01** · Owner: **ShadowWalkerNC**
 
 Status: reusable preset library; adoption is explicit and project-specific.
 Canonical source: `ShadowWalkerNC/.github/standards/DESIGN_AND_CODE_BIBLE.md`.
@@ -36,7 +36,7 @@ it. These fields are documentation, not additions to any machine manifest schema
 ```yaml
 design_code_bible:
   source: https://github.com/ShadowWalkerNC/.github/blob/main/standards/DESIGN_AND_CODE_BIBLE.md
-  version: 1.0.0
+  version: 1.1.0
   project: <exact owner-named project>
   scope: <feature, surface, or whole-project scope explicitly requested>
   preset: <operational | reading | hospitality | creative>
@@ -75,14 +75,14 @@ queues; prose for reading. Choose a layout because it serves the task.
 ## 3. Selectable presets
 
 These are starting points, not declarations about current product implementations.
-Project associations below are suggestions only; none activates adoption.
+Choose a preset for the named scope; none activates adoption automatically.
 
 | Preset | Suitable work | Visual and interaction direction | Watch for |
 | --- | --- | --- | --- |
-| Operational | ForgeSatchel, CulinaryOS, ShorelineOps; tools, queues, admin | Calm neutral surfaces, high legibility, clear status, compact tables on large screens, direct actions, persistent task context | Overloaded dashboards, hidden critical actions, ambiguous freshness |
-| Reading | BibleDesk; research, reference, long-form study | Quiet canvas, generous reading measure, durable navigation, optional restrained serif for reading, accessible annotation/search | Tiny text, weak hierarchy, decoration that interrupts reading |
-| Hospitality | Cheezies Gourmet; menus, food, client-facing commerce | Warm brand-led palette, authentic food photography, clear menus/prices, appetite and trust, simple ordering/contact paths | Decorative type in body copy, image-heavy slow pages, unclear allergens/pricing |
-| Creative | MuseLab, Dominion; creative tools and immersive products | Expressive art direction, task-specific canvas, controlled motion, platform-aware input and interaction | Effects that obscure controls, inaccessible custom widgets, forced web patterns on native/game UI |
+| Operational | Tools, queues, admin | Calm neutral surfaces, high legibility, clear status, compact tables on large screens, direct actions, persistent task context | Overloaded dashboards, hidden critical actions, ambiguous freshness |
+| Reading | Research, reference, long-form study | Quiet canvas, generous reading measure, durable navigation, optional restrained serif for reading, accessible annotation/search | Tiny text, weak hierarchy, decoration that interrupts reading |
+| Hospitality | Menus, food, client-facing commerce | Warm brand-led palette, authentic food photography, clear menus/prices, appetite and trust, simple ordering/contact paths | Decorative type in body copy, image-heavy slow pages, unclear allergens/pricing |
+| Creative | Creative tools and immersive products | Expressive art direction, task-specific canvas, controlled motion, platform-aware input and interaction | Effects that obscure controls, inaccessible custom widgets, forced web patterns on native/game UI |
 
 Keep each preset's core interaction principles in light and dark themes. A dark
 theme is a product choice, not an assumed preference. Native and game interfaces
@@ -316,6 +316,9 @@ Do not weaken checks to get a pass or claim that documentation proves runtime.
 
 ## 11. Maintenance and versioning
 
+Use the library README for pinned local bundles, selection, integrity checks, and
+upgrade PRs. The library version and this document's version are independent.
+
 Keep one canonical library and project-local adoption/override records. Change it
 on a branch and review through a PR. Do not merge or enable auto-merge unless the
 owner explicitly requests it. Review adopted projects individually before any
@@ -331,6 +334,7 @@ version is independent of governance/blueprint and product release versions.
 
 | Version | Date | Change |
 | --- | --- | --- |
+| 1.1.0 | 2026-11-01 | Adds pinned bundle adoption through the library README and selectable preset files. Replaces named project suggestions with task descriptions; project-only activation is unchanged. |
 | 1.0.0 | 2026-11-01 | Initial owner-tailored library: explicit project-only activation, four selectable presets, tokens, UX/accessibility contracts, engineering rules, verification, and versioned adoption. No previous Bible exists on the base branch; this establishes the first version. |
 
 ## 12. Related canonical guidance

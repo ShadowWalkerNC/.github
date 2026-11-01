@@ -1,20 +1,5 @@
 {
-  "id": "PXX",
-  "name": "Phase name",
-  "status": "pending",
-  "depends_on": [],
-  "repositories": [],
-  "allowed_actions": [
-    "read",
-    "inspect"
-  ],
-  "requires_approval": [
-    "production_deploy",
-    "secret_change",
-    "archive_repository",
-    "destructive_migration"
-  ],
-  "exit_criteria": [
-    "Document measurable evidence before phase advance"
-  ]
+  "historical": true,
+  "archive": "archive/2026-11-01/templates/PHASE.template.yaml",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

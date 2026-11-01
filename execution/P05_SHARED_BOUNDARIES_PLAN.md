@@ -1,3 +1,4 @@
-# P05 shared boundaries and testing plan
-Requirement: section96 requires shared package boundaries/contracts/test strategy. Add docs/architecture/shared-package-boundaries.md, docs/contracts/integration-boundaries.md, docs/testing/strategy.md and scripts/run-foundation-tests.mjs. Source inventory and existing runners are evidence, not live certification. Dedicated runner resolves an existing TypeScript parser or explicit FOUNDATION_TYPESCRIPT and runs only native architecture tests; no packages installed, no modification to dirty test-hook or root pipeline. Existing runner's .test.ts-only discovery is an explicit integration gap, not hidden by the dedicated command.
-Inspect package manifests and API/MCP source before documenting. Record direct MCP DB and credential/default tenant deviations for separate risk-reviewed remediation; no live permission/authorization changes in this slice. Antigravity independently reviews layout validator/test strategy as pasted source only. Rollback removes new docs/runner; source runtime and existing pipeline unchanged. Bounded context4k–6k tokens estimated.
+# Historical entry point
+
+This document is superseded. [Historical snapshot](../archive/2026-11-01/execution/P05_SHARED_BOUNDARIES_PLAN.md) (sanitized, 2026-11-01).
+This is not current policy or product acceptance evidence. See the [active library](../README.md).

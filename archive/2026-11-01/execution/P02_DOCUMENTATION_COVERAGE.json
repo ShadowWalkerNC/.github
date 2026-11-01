@@ -1,0 +1,212 @@
+{
+  "scope": "P02 installed identity/docs coverage; application acceptance separate",
+  "exitGate": "All active project manifests installed and docs complete or an explicit accepted exception before P03",
+  "capturedAt": "2026-10-03T13:04:34.2828009Z",
+  "activeProjects": [
+    {
+      "missingCanonicalDocs": [],
+      "name": "[private-identity-redacted]",
+      "repository": null,
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/[private-identity-redacted]/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [
+        "docs/ARCHITECTURE.md",
+        "Docs/ARCHITECTURE.md",
+        "docs/STAGES.md",
+        "Docs",
+        "docs"
+      ],
+      "installedManifest": true,
+      "id": "[private-identity-redacted]",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "CulinaryOS",
+      "repository": "ShadowWalkerNC/CulinaryOS",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/culinaryos/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [
+        "docs/ARCHITECTURE.md",
+        "Docs/ARCHITECTURE.md",
+        "Docs",
+        "docs"
+      ],
+      "installedManifest": true,
+      "id": "culinaryos",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "MuseLab",
+      "repository": "ShadowWalkerNC/MuseAiBots",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/muselab/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [],
+      "installedManifest": true,
+      "id": "muselab",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "BibleDesk",
+      "repository": "ShadowWalkerNC/BibleDesk",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/bibledesk/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [
+        "docs/ARCHITECTURE.md",
+        "Docs/ARCHITECTURE.md",
+        "Docs",
+        "docs"
+      ],
+      "installedManifest": true,
+      "id": "bibledesk",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "[private-identity-redacted]",
+      "repository": "[private-identity-redacted]",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/[private-identity-redacted]/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [
+        "AI.md",
+        "Docs",
+        "docs"
+      ],
+      "installedManifest": true,
+      "id": "[private-identity-redacted]",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "[private-identity-redacted]",
+      "repository": "[private-identity-redacted]",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/[private-identity-redacted]/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [
+        "AI.md",
+        "Docs",
+        "docs"
+      ],
+      "installedManifest": true,
+      "id": "[private-identity-redacted]",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "Mercury",
+      "repository": "ShadowWalkerNC/Mercury",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/mercury/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [],
+      "installedManifest": true,
+      "id": "mercury",
+      "rolloutStatus": "installed_and_validated"
+    },
+    {
+      "missingCanonicalDocs": [],
+      "name": "ShorelineOps",
+      "repository": "ShadowWalkerNC/ShorelineOps",
+      "localPaths": "[redacted]",
+      "next": "Reuse current STATUS/handoffs; complete central governance registries/standards and cross-link validation before P03.",
+      "existingCanonicalDocs": [
+        "README.md",
+        "AGENTS.md",
+        "ARCHITECTURE.md",
+        "STATUS.md",
+        "ROADMAP.md",
+        "CHANGELOG.md",
+        "SECURITY.md"
+      ],
+      "stagedManifest": "staged-manifests/shorelineops/forge.project.json",
+      "exceptions": [],
+      "reusableExistingLocations": [
+        "docs/ARCHITECTURE.md",
+        "Docs/ARCHITECTURE.md",
+        "Docs",
+        "docs"
+      ],
+      "installedManifest": true,
+      "id": "shorelineops",
+      "rolloutStatus": "installed_and_validated"
+    }
+  ]
+}

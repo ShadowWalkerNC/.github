@@ -1,0 +1,11 @@
+{
+  "productionAcceptance": "NOT RUN",
+  "existingStateMigrated": false,
+  "task": "P03 foundation extensions",
+  "strictBuild": "PASS",
+  "runtimePolicyWired": false,
+  "tests": "61 PASS / 20 suites",
+  "approvalPending": "HTTP read-only containment",
+  "ownership": "released",
+  "sqliteRuntime": "Node 24.19.0 / SQLite 3.53.3"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "P07",
+  "name": "Portfolio cleanup",
+  "status": "pending",
+  "depends_on": [
+    "P06"
+  ],
+  "repositories": [
+    "ShadowWalkerNC/BibleDesk",
+    "ShadowWalkerNC/Mercury"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "plan"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Useful absorbed functionality verified",
+    "No unapproved retirement"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}

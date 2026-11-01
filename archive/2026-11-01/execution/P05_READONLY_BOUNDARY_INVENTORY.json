@@ -1,0 +1,770 @@
+{
+  "packages": [
+    {
+      "dependencies": {
+        "@culinaryos/config": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "@culinaryos/ratio-engine": "workspace:*",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "react-router-dom": "^6.23.0",
+        "@culinaryos/shared": "workspace:*"
+      },
+      "scripts": {
+        "dev": "vite --port 5174",
+        "build": "pnpm --filter @culinaryos/config build && tsc && vite build",
+        "preview": "vite preview --port 5174",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/admin",
+      "path": "apps/admin",
+      "devDependencies": {
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.0",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.4.0",
+        "vite": "^5.2.0",
+        "picocolors": "^1.1.1"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/shared": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "react-router-dom": "^6.23.0"
+      },
+      "scripts": {
+        "dev": "vite --port 5180",
+        "build": "tsc && vite build",
+        "preview": "vite preview --port 5180",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-desktop",
+      "path": "apps/desktop",
+      "devDependencies": {
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.0",
+        "autoprefixer": "^10.4.19",
+        "picocolors": "^1.0.1",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.4.0",
+        "vite": "^5.2.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/auth": "workspace:*",
+        "@culinaryos/db": "workspace:*",
+        "@culinaryos/shared": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "@supabase/supabase-js": "^2.43.0",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "react-router-dom": "^6.23.0"
+      },
+      "scripts": {
+        "dev": "vite --port 5173",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint src --ext .ts,.tsx",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-kds",
+      "path": "apps/kds",
+      "devDependencies": {
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.0",
+        "autoprefixer": "^10.4.19",
+        "picocolors": "^1.1.1",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.4.0",
+        "vite": "^5.2.0",
+        "vite-plugin-pwa": "^1.3.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/ratio-engine": "workspace:*",
+        "@culinaryos/prep-engine": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "@culinaryos/shared": "workspace:*",
+        "@culinaryos/auth": "workspace:*",
+        "@supabase/supabase-js": "^2.43.0",
+        "@tanstack/react-query": "^5.40.0",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.395.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-hot-toast": "^2.4.1",
+        "react-router-dom": "^6.23.1",
+        "tailwind-merge": "^2.3.0"
+      },
+      "scripts": {
+        "dev": "vite --port 5175",
+        "build": "tsc && vite build",
+        "preview": "vite preview --port 5175",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-kitchenkit",
+      "path": "apps/kitchenkit",
+      "devDependencies": {
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.1",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.4",
+        "typescript": "^5.4.0",
+        "vite": "^5.3.1",
+        "picocolors": "^1.1.1"
+      }
+    },
+    {
+      "dependencies": {
+        "client-only": "^0.0.1",
+        "clsx": "^2.1.1",
+        "next": "15.5.24",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "styled-jsx": "^5.1.7",
+        "tailwind-merge": "^2.5.0"
+      },
+      "scripts": {
+        "dev": "next dev --port 5179",
+        "build": "next build",
+        "start": "next start --port 5179",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-marketing",
+      "path": "apps/marketing",
+      "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "autoprefixer": "^10",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/food-cost-engine": "workspace:*",
+        "@culinaryos/labor-engine": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "@culinaryos/waste-engine": "workspace:*",
+        "@supabase/supabase-js": "^2.43.0",
+        "@tanstack/react-query": "^5.40.0",
+        "lucide-react": "^0.378.0",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "react-router-dom": "^6.23.0"
+      },
+      "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint src"
+      },
+      "name": "@culinaryos/app-ops",
+      "path": "apps/ops",
+      "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.0",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.4.0",
+        "vite": "^5.3.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/accounting-engine": "workspace:*",
+        "@culinaryos/auth": "workspace:*",
+        "@culinaryos/shared": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "@stripe/react-stripe-js": "^2.7.0",
+        "@stripe/stripe-js": "^3.5.0",
+        "@supabase/supabase-js": "^2.43.0",
+        "@tanstack/react-query": "^5.40.0",
+        "date-fns": "^3.6.0",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "zustand": "^4.5.0"
+      },
+      "scripts": {
+        "dev": "vite --port 5172",
+        "build": "tsc && vite build",
+        "preview": "vite preview --port 5172",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-pos",
+      "path": "apps/pos",
+      "devDependencies": {
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.0",
+        "autoprefixer": "^10.4.19",
+        "picocolors": "^1.1.1",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.4.0",
+        "vite": "^5.2.0",
+        "vite-plugin-pwa": "^1.3.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@supabase/ssr": "^0.6.0",
+        "@supabase/supabase-js": "^2.49.0",
+        "@tanstack/react-query": "^5.62.0",
+        "clsx": "^2.1.1",
+        "next": "15.5.24",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tailwind-merge": "^2.5.0",
+        "zustand": "^5.0.0"
+      },
+      "scripts": {
+        "dev": "next dev --port 5178",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-recipeos",
+      "path": "apps/recipeos",
+      "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18.3.31",
+        "@types/react-dom": "^18.3.7",
+        "autoprefixer": "^10",
+        "eslint": "^9",
+        "eslint-config-next": "15.5.24",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5"
+      }
+    },
+    {
+      "dependencies": {
+        "@anthropic-ai/sdk": "^0.36.0",
+        "@culinaryos/auth": "workspace:*",
+        "@culinaryos/commissary-engine": "workspace:^",
+        "@culinaryos/config": "workspace:*",
+        "@culinaryos/db": "workspace:*",
+        "@culinaryos/event-bus": "workspace:*",
+        "@culinaryos/food-cost-engine": "workspace:*",
+        "@culinaryos/forecast-engine": "workspace:^",
+        "@culinaryos/labor-engine": "workspace:*",
+        "@culinaryos/pdf-tools": "workspace:^",
+        "@culinaryos/shared": "workspace:*",
+        "@culinaryos/waste-engine": "workspace:*",
+        "@hono/node-server": "^1.12.0",
+        "@supabase/supabase-js": "^2.43.0",
+        "dotenv": "^16.4.5",
+        "hono": "^4.4.0",
+        "stripe": "^15.12.0",
+        "tsx": "^4.0.0",
+        "uuid": "^10.0.0"
+      },
+      "scripts": {
+        "dev": "tsx watch --env-file=../../.env src/index.ts",
+        "dev:bun": "bun run --watch src/index.ts",
+        "start": "tsx src/index.ts",
+        "build": "pnpm --filter @culinaryos/config build && tsc --noEmit",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/server",
+      "path": "apps/server",
+      "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/uuid": "^10.0.0",
+        "bun-types": "latest",
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/config": "workspace:*",
+        "@culinaryos/shared": "workspace:*",
+        "@culinaryos/ui": "workspace:*",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "react-router-dom": "^6.23.0"
+      },
+      "scripts": {
+        "dev": "vite --port 5176",
+        "build": "pnpm --filter @culinaryos/config build && tsc && vite build",
+        "preview": "vite preview --port 5176",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/app-web",
+      "path": "apps/web",
+      "devDependencies": {
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.0",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.4.0",
+        "vite": "^5.2.0",
+        "picocolors": "^1.1.1"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/accounting-engine",
+      "path": "packages/accounting-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/types": "workspace:*",
+        "sharp": "^0.33.0",
+        "satori": "^0.10.0"
+      },
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "type-check": "tsc --noEmit"
+      },
+      "name": "@culinaryos/asset-tools",
+      "path": "packages/asset-tools",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "@types/node": "^20.0.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/auth",
+      "path": "packages/auth",
+      "devDependencies": {
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/commissary-engine",
+      "path": "packages/commissary-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/config",
+      "path": "packages/config",
+      "devDependencies": {
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@supabase/supabase-js": "^2.43.0",
+        "pg": "^8.23.0"
+      },
+      "scripts": {
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/db",
+      "path": "packages/db",
+      "devDependencies": {
+        "@types/pg": "^8.11.0",
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/shared": "workspace:*",
+        "@supabase/supabase-js": "^2.43.0",
+        "uuid": "^10.0.0"
+      },
+      "scripts": {
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/event-bus",
+      "path": "packages/event-bus",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "@types/uuid": "^10.0.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/food-cost-engine",
+      "path": "packages/food-cost-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/forecast-engine",
+      "path": "packages/forecast-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/labor-engine",
+      "path": "packages/labor-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/loyalty-engine",
+      "path": "packages/loyalty-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/types": "workspace:*",
+        "jspdf": "^2.5.1",
+        "qrcode": "^1.5.3"
+      },
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "type-check": "tsc --noEmit"
+      },
+      "name": "@culinaryos/pdf-tools",
+      "path": "packages/pdf-tools",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "@types/node": "^20.0.0",
+        "@types/qrcode": "^1.5.5"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/ratio-engine": "workspace:*"
+      },
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/prep-engine",
+      "path": "packages/prep-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/ratio-engine",
+      "path": "packages/ratio-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/shared": "workspace:*"
+      },
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/sdk",
+      "path": "packages/sdk",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/types": "workspace:*"
+      },
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "type-check": "tsc --noEmit"
+      },
+      "name": "@culinaryos/seo-tools",
+      "path": "packages/seo-tools",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "@types/node": "^20.0.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@supabase/supabase-js": "^2.43.0",
+        "uuid": "^10.0.0"
+      },
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/shared",
+      "path": "packages/shared",
+      "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/react": "^18.3.0",
+        "@types/uuid": "^10.0.0",
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@culinaryos/types": "workspace:*"
+      },
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "type-check": "tsc --noEmit"
+      },
+      "name": "@culinaryos/template-engine",
+      "path": "packages/template-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "@types/node": "^20.0.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "type-check": "tsc --noEmit"
+      },
+      "name": "@culinaryos/types",
+      "path": "packages/types",
+      "devDependencies": {
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": {
+        "@radix-ui/react-alert-dialog": "^1.1.23",
+        "@radix-ui/react-checkbox": "^1.3.11",
+        "@radix-ui/react-dialog": "^1.1.23",
+        "@radix-ui/react-dropdown-menu": "^2.1.24",
+        "@radix-ui/react-label": "^2.1.15",
+        "@radix-ui/react-popover": "^1.1.23",
+        "@radix-ui/react-select": "^2.3.7",
+        "@radix-ui/react-separator": "^1.1.15",
+        "@radix-ui/react-slot": "^1.3.3",
+        "@radix-ui/react-switch": "^1.3.7",
+        "@radix-ui/react-tabs": "^1.1.21",
+        "@radix-ui/react-tooltip": "^1.2.16",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "lucide-react": "^1.34.0",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "tailwind-merge": "^3.6.0",
+        "three": "^0.185.1"
+      },
+      "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit"
+      },
+      "name": "@culinaryos/ui",
+      "path": "packages/ui",
+      "devDependencies": {
+        "@types/react": "^18.3.0",
+        "@types/react-dom": "^18.3.0",
+        "@types/three": "^0.185.4",
+        "typescript": "^5.4.0"
+      }
+    },
+    {
+      "dependencies": null,
+      "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "clean": "rm -rf dist"
+      },
+      "name": "@culinaryos/waste-engine",
+      "path": "packages/waste-engine",
+      "devDependencies": {
+        "typescript": "^5.4.0",
+        "vitest": "^1.6.0"
+      }
+    }
+  ],
+  "head": "64e56aba5feca6fc4437ab68f93a30e7c458b09f",
+  "workspace": "packages:\r\n  - 'apps/*'\r\n  - 'packages/*'\r\n  - 'mcp'\r\n  - 'cli'\r\n  - 'mobile'\r\n",
+  "repository": "ShadowWalkerNC/CulinaryOS",
+  "unknown": [
+    "actual live schema parity",
+    "package feature completeness",
+    "cross-module import enforcement",
+    "production acceptance"
+  ],
+  "mode": "read-only preflight planning; P04 remains current",
+  "changeState": [
+    " M .env.example",
+    " M apps/kds/src/components/TicketCard.tsx",
+    " M apps/kds/src/pages/Station.tsx",
+    " M apps/pos/src/components/CheckoutDrawer.tsx",
+    " M apps/pos/src/components/ConnectionStatus.tsx",
+    " M apps/pos/src/lib/queries.ts",
+    " M apps/pos/src/views/CheckoutView.tsx",
+    " M apps/pos/src/views/MenuView.tsx",
+    " M apps/server/src/index.ts",
+    " M apps/server/src/lib/rbac.ts",
+    " M apps/server/src/lib/secrets.ts",
+    " M apps/server/src/middleware/auth.ts",
+    " M apps/server/src/routes/auth.ts",
+    " M apps/server/src/routes/payments.ts",
+    " M apps/server/src/routes/pos-sync.ts",
+    " M apps/server/tsconfig.json",
+    " M cli/src/commands/system.ts",
+    " M cli/src/index.ts",
+    " M docs/AI_SHARED_LEDGER.md",
+    " M packages/db/package.json",
+    " M packages/db/src/index.ts",
+    " M packages/shared/package.json",
+    " M packages/shared/src/index.ts",
+    " M packages/shared/src/offline-sync.ts",
+    " M pnpm-lock.yaml",
+    " M scripts/test-hook.cjs",
+    " M tests/server/auth-middleware.test.ts",
+    " M tests/server/tenant-isolation.test.ts",
+    "?? ARCHITECTURE.md",
+    "?? PORTFOLIO_HANDOFF.md",
+    "?? ROADMAP.md",
+    "?? SECURITY.md",
+    "?? STATUS.md",
+    "?? apps/server/src/postgres/",
+    "?? cli/src/commands/database.ts",
+    "?? docs/ANTIGRAVITY_MUSE_HANDOFF_2026-10-02.md",
+    "?? docs/ARCHITECTURE_RESILIENCE_PLAN.md",
+    "?? docs/HARDWARE_SOFTWARE_INTEGRATION_PLAN.md",
+    "?? docs/POSTGRES_TRANSITION_DESIGN.md",
+    "?? docs/POS_PILOT_CORRECTNESS_SPEC.md",
+    "?? docs/RESILIENCE_OPERATIONS.md",
+    "?? docs/audits/codex-muse-design-disposition-2026-09-30.md",
+    "?? docs/audits/muse-pilot-plan-review-2026-09-30.md",
+    "?? docs/audits/postgres-server-integration.md",
+    "?? docs/audits/product-review-council-2026-09-22.md",
+    "?? docs/audits/resilience-r1-verification-2026-09-30.md",
+    "?? forge.project.json",
+    "?? packages/db/README.md",
+    "?? packages/db/migrations/",
+    "?? packages/db/src/cli.ts",
+    "?? packages/db/src/migrate.ts",
+    "?? packages/db/src/postgres.ts",
+    "?? packages/db/src/runtime-role.ts",
+    "?? packages/shared/src/offline-pos-commands.ts",
+    "?? packages/shared/src/offline-store.ts",
+    "?? public/",
+    "?? scripts/debug-pg.ps1",
+    "?? scripts/resilience-capacity.ts",
+    "?? scripts/resilience-recovery.ts",
+    "?? scripts/run-db-test.ps1",
+    "?? scripts/start-postgres-verification.ps1",
+    "?? skills-lock.json",
+    "?? tests/cli/database-cli.test.ts",
+    "?? tests/cli/security-evidence.test.ts",
+    "?? tests/db/",
+    "?? tests/server/device-key-boundary.test.ts",
+    "?? tests/server/native-integration-security.test.ts",
+    "?? tests/server/native-startup-readiness.test.ts",
+    "?? tests/server/offline-payment-containment.test.ts",
+    "?? tests/server/postgres-domain.test.ts",
+    "?? tests/server/postgres-native-pg.test.ts",
+    "?? tests/server/postgres-native-unit.test.ts",
+    "?? tests/server/production-auth-boundary.test.ts",
+    "?? tests/server/resilience-operations.test.ts",
+    "?? tests/server/terminal-intent-validation.test.ts",
+    "?? tests/shared/offline-durability.test.ts",
+    "?? tests/shared/offline-pos-commands.test.ts"
+  ],
+  "branch": "main"
+}

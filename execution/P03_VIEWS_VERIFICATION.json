@@ -1,16 +1,5 @@
 {
-  "status": "complete",
-  "task": "P03-VIEWS",
-  "strictBuild": "PASS",
-  "sourceBefore": "baseline/snapshots/forgesatchel-p03-views-before",
-  "compiledCliSmoke": "PASS status/search/graph/API, isolated eight-project registry",
-  "ownership": "released",
-  "phase": "P03 in_progress",
-  "limitations": [
-    "No persistent/semantic index",
-    "Runtime dependencies only; declared portfolio relationships pending",
-    "Non-Git scanner support pending",
-    "No hosted/release/provider acceptance"
-  ],
-  "tests": "49 PASS / 19 suites"
+  "historical": true,
+  "archive": "archive/2026-11-01/execution/P03_VIEWS_VERIFICATION.json",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

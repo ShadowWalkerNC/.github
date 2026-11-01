@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-11-01",
+  "baseCommit": "0dd5da9cfc77eba70473bd3e69f80a380a0de432",
+  "files": [
+    {
+      "original": ".github/scripts/bootstrap-repos.js",
+      "snapshot": "archive/2026-11-01/.github/scripts/bootstrap-repos.js"
+    },
+    {
+      "original": ".github/workflows/auto-bootstrap.yml",
+      "snapshot": "archive/2026-11-01/.github/workflows/auto-bootstrap.yml"
+    },
+    {
+      "original": "AGENTS.md",
+      "snapshot": "archive/2026-11-01/AGENTS.md"
+    },
+    {
+      "original": "AGENT_DISPATCH.md",
+      "snapshot": "archive/2026-11-01/AGENT_DISPATCH.md"
+    },
+    {
+      "original": "AI_SHARED_LEDGER.md",
+      "snapshot": "archive/2026-11-01/AI_SHARED_LEDGER.md"
+    },
+    {
+      "original": "BOOT.md",
+      "snapshot": "archive/2026-11-01/BOOT.md"
+    },
+    {
+      "original": "CHANGELOG.md",
+      "snapshot": "archive/2026-11-01/CHANGELOG.md"
+    },
+    {
+      "original": "CONSOLIDATION_PLAN.md",
+      "snapshot": "archive/2026-11-01/CONSOLIDATION_PLAN.md"
+    },
+    {
+      "original": "CULINARYOS_SUITE.md",
+      "snapshot": "archive/2026-11-01/CULINARYOS_SUITE.md"
+    },
+    {
+      "original": "CURRENT_STATE.md",
+      "snapshot": "archive/2026-11-01/CURRENT_STATE.md"
+    },
+    {
+      "original": "DECISION_LOG.md",
+      "snapshot": "archive/2026-11-01/DECISION_LOG.md"
+    },
+    {
+      "original": "DEVELOPER_ECOSYSTEM.md",
+      "snapshot": "archive/2026-11-01/DEVELOPER_ECOSYSTEM.md"
+    },
+    {
+      "original": "ECOSYSTEM.md",
+      "snapshot": "archive/2026-11-01/ECOSYSTEM.md"
+    },
+    {
+      "original": "ECOSYSTEM_ARCHITECTURE.md",
+      "snapshot": "archive/2026-11-01/ECOSYSTEM_ARCHITECTURE.md"
+    },
+    {
+      "original": "ECOSYSTEM_REGISTRY.json",
+      "snapshot": "archive/2026-11-01/ECOSYSTEM_REGISTRY.json"
+    },
+    {
+      "original": "FINAL_VERIFICATION_REPORT.md",
+      "snapshot": "archive/2026-11-01/FINAL_VERIFICATION_REPORT.md"
+    },
+    {
+      "original": "IMPLEMENTATION_COMPLIANCE.md",
+      "snapshot": "archive/2026-11-01/IMPLEMENTATION_COMPLIANCE.md"
+    },
+    {
+      "original": "MASTER_PLAN.md",
+      "snapshot": "archive/2026-11-01/MASTER_PLAN.md"
+    },
+    {
+      "original": "MASTER_TASK_CHECKLIST.md",
+      "snapshot": "archive/2026-11-01/MASTER_TASK_CHECKLIST.md"
+    },
+    {
+      "original": "MIGRATION_LOG.md",
+      "snapshot": "archive/2026-11-01/MIGRATION_LOG.md"
+    },
+    {
+      "original": "PROJECT_COMPLETION_MATRIX.md",
+      "snapshot": "archive/2026-11-01/PROJECT_COMPLETION_MATRIX.md"
+    },
+    {
+      "original": "PROJECT_STATE.md",
+      "snapshot": "archive/2026-11-01/PROJECT_STATE.md"
+    },
+    {
+      "original": "PROJECT_STATUS.md",
+      "snapshot": "archive/2026-11-01/PROJECT_STATUS.md"
+    },
+    {
+      "original": "README.md",
+      "snapshot": "archive/2026-11-01/README.md"
+    },
+    {
+      "original": "REPOSITORY_AUDIT.md",
+      "snapshot": "archive/2026-11-01/REPOSITORY_AUDIT.md"
+    },
+    {
+      "original": "SESSION_START.md",
+      "snapshot": "archive/2026-11-01/SESSION_START.md"
+    },
+    {
+      "original": "SHARED_FOUNDATION.md",
+      "snapshot": "archive/2026-11-01/SHARED_FOUNDATION.md"
+    },
+    {
+      "original": "agents/AGENT_AI.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_AI.md"
+    },
+    {
+      "original": "agents/AGENT_ARCHITECT.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_ARCHITECT.md"
+    },
+    {
+      "original": "agents/AGENT_BUSINESS.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_BUSINESS.md"
+    },
+    {
+      "original": "agents/AGENT_COHERENCE.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_COHERENCE.md"
+    },
+    {
+      "original": "agents/AGENT_DATABASE.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_DATABASE.md"
+    },
+    {
+      "original": "agents/AGENT_DEVOPS.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_DEVOPS.md"
+    },
+    {
+      "original": "agents/AGENT_DOCS.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_DOCS.md"
+    },
+    {
+      "original": "agents/AGENT_ENGINEER.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_ENGINEER.md"
+    },
+    {
+      "original": "agents/AGENT_PRODUCT.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_PRODUCT.md"
+    },
+    {
+      "original": "agents/AGENT_QA.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_QA.md"
+    },
+    {
+      "original": "agents/AGENT_SECURITY.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_SECURITY.md"
+    },
+    {
+      "original": "agents/AGENT_UX.md",
+      "snapshot": "archive/2026-11-01/agents/AGENT_UX.md"
+    },
+    {
+      "original": "withheld/be604dcd1d6ae046424cafe08f42f792a9bcf4f0c05c0dec0992da102a30f05d.md",
+      "snapshot": "archive/2026-11-01/withheld/be604dcd1d6ae046424cafe08f42f792a9bcf4f0c05c0dec0992da102a30f05d.md",
+      "originalPathSha256": "be604dcd1d6ae046424cafe08f42f792a9bcf4f0c05c0dec0992da102a30f05d",
+      "notice": "Original path withheld because it identifies a private repository. Recover from the base Git commit only."
+    },
+    {
+      "original": "decisions/ADR-0002-culinaryos-monorepo.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0002-culinaryos-monorepo.md"
+    },
+    {
+      "original": "decisions/ADR-0003-muse-first-r-d-through-muselab.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0003-muse-first-r-d-through-muselab.md"
+    },
+    {
+      "original": "decisions/ADR-0004-local-first-canonical-state.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0004-local-first-canonical-state.md"
+    },
+    {
+      "original": "decisions/ADR-0005-provider-abstraction-architecture.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0005-provider-abstraction-architecture.md"
+    },
+    {
+      "original": "decisions/ADR-0006-shared-agent-state-and-private-agent-context.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0006-shared-agent-state-and-private-agent-context.md"
+    },
+    {
+      "original": "decisions/ADR-0007-culinaryos-data-ownership.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0007-culinaryos-data-ownership.md"
+    },
+    {
+      "original": "decisions/ADR-0008-shorelineops-separate-repository.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0008-shorelineops-separate-repository.md"
+    },
+    {
+      "original": "decisions/ADR-0009-sdk-adoption-gate.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0009-sdk-adoption-gate.md"
+    },
+    {
+      "original": "decisions/ADR-0010-github-organization-timing.md",
+      "snapshot": "archive/2026-11-01/decisions/ADR-0010-github-organization-timing.md"
+    },
+    {
+      "original": "withheld/ebe947a78be664dc5b846b77d920511ef06ba985e1afb59afd01c8b5ac6f4fa8.md",
+      "snapshot": "archive/2026-11-01/withheld/ebe947a78be664dc5b846b77d920511ef06ba985e1afb59afd01c8b5ac6f4fa8.md",
+      "originalPathSha256": "ebe947a78be664dc5b846b77d920511ef06ba985e1afb59afd01c8b5ac6f4fa8",
+      "notice": "Original path withheld because it identifies a private repository. Recover from the base Git commit only."
+    },
+    {
+      "original": "decisions/README.md",
+      "snapshot": "archive/2026-11-01/decisions/README.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_ASSIGNMENT.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_ASSIGNMENT.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_AUTHORIZATION_REVIEW.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_AUTHORIZATION_REVIEW.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_FORGE_V2_ASSIGNMENT.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_FORGE_V2_ASSIGNMENT.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_NEXT_TASK.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_NEXT_TASK.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P03_DASHBOARD_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P03_DASHBOARD_PLAN.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P03_REVIEW.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P03_REVIEW.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P03_TUI_RESULT.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P03_TUI_RESULT.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P04_ACCEPTANCE_ASSIGNMENT.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P04_ACCEPTANCE_ASSIGNMENT.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P04_ASSIGNMENT.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P04_ASSIGNMENT.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P04_FOUNDATION_REVIEW.txt",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P04_FOUNDATION_REVIEW.txt"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P05_ASSIGNMENT.md",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P05_ASSIGNMENT.md"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P06_PREP_REVIEW.txt",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P06_PREP_REVIEW.txt"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_P06_RATIO_REVIEW.txt",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_P06_RATIO_REVIEW.txt"
+    },
+    {
+      "original": "execution/ANTIGRAVITY_PERMISSION_SCOPE.json",
+      "snapshot": "archive/2026-11-01/execution/ANTIGRAVITY_PERMISSION_SCOPE.json"
+    },
+    {
+      "original": "execution/APPROVALS.yaml",
+      "snapshot": "archive/2026-11-01/execution/APPROVALS.yaml"
+    },
+    {
+      "original": "execution/CURRENT_PHASE.yaml",
+      "snapshot": "archive/2026-11-01/execution/CURRENT_PHASE.yaml"
+    },
+    {
+      "original": "execution/FORGE_SOURCE_RECOVERY.md",
+      "snapshot": "archive/2026-11-01/execution/FORGE_SOURCE_RECOVERY.md"
+    },
+    {
+      "original": "execution/FORGE_V2_IMPLEMENTATION_DELTA.md",
+      "snapshot": "archive/2026-11-01/execution/FORGE_V2_IMPLEMENTATION_DELTA.md"
+    },
+    {
+      "original": "execution/FORGE_V2_RECONCILIATION.json",
+      "snapshot": "archive/2026-11-01/execution/FORGE_V2_RECONCILIATION.json"
+    },
+    {
+      "original": "execution/FORGE_V2_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/FORGE_V2_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/HANDOFF.md",
+      "snapshot": "archive/2026-11-01/execution/HANDOFF.md"
+    },
+    {
+      "original": "execution/P02_DOCUMENTATION_COVERAGE.json",
+      "snapshot": "archive/2026-11-01/execution/P02_DOCUMENTATION_COVERAGE.json"
+    },
+    {
+      "original": "execution/P02_EXIT_AUDIT.md",
+      "snapshot": "archive/2026-11-01/execution/P02_EXIT_AUDIT.md"
+    },
+    {
+      "original": "execution/P02_GOVERNANCE_INSTALLATION.json",
+      "snapshot": "archive/2026-11-01/execution/P02_GOVERNANCE_INSTALLATION.json"
+    },
+    {
+      "original": "execution/P02_INSTALLATION_REPORT.json",
+      "snapshot": "archive/2026-11-01/execution/P02_INSTALLATION_REPORT.json"
+    },
+    {
+      "original": "execution/P03_AUTHORIZATION_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P03_AUTHORIZATION_PLAN.md"
+    },
+    {
+      "original": "execution/P03_CLI_SMOKE.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_CLI_SMOKE.txt"
+    },
+    {
+      "original": "execution/P03_COMPILED_CLI_VERIFIED.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_COMPILED_CLI_VERIFIED.txt"
+    },
+    {
+      "original": "execution/P03_DISCOVERY_SMOKE.json",
+      "snapshot": "archive/2026-11-01/execution/P03_DISCOVERY_SMOKE.json"
+    },
+    {
+      "original": "execution/P03_DISCOVERY_TESTS.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_DISCOVERY_TESTS.txt"
+    },
+    {
+      "original": "execution/P03_DISCOVERY_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P03_DISCOVERY_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P03_EXIT_AUDIT.md",
+      "snapshot": "archive/2026-11-01/execution/P03_EXIT_AUDIT.md"
+    },
+    {
+      "original": "execution/P03_FOUNDATION_EXTENSIONS_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P03_FOUNDATION_EXTENSIONS_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P03_FOUNDATION_EXTENSION_TESTS.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_FOUNDATION_EXTENSION_TESTS.txt"
+    },
+    {
+      "original": "execution/P03_FOUNDATION_GAP_AUDIT.md",
+      "snapshot": "archive/2026-11-01/execution/P03_FOUNDATION_GAP_AUDIT.md"
+    },
+    {
+      "original": "execution/P03_INTEGRATED_TESTS.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_INTEGRATED_TESTS.txt"
+    },
+    {
+      "original": "execution/P03_INTEGRATED_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P03_INTEGRATED_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P03_OPERATIONAL_STATE_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P03_OPERATIONAL_STATE_PLAN.md"
+    },
+    {
+      "original": "execution/P03_RECOVERY_BUILD.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_RECOVERY_BUILD.txt"
+    },
+    {
+      "original": "execution/P03_RECOVERY_TESTS.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_RECOVERY_TESTS.txt"
+    },
+    {
+      "original": "execution/P03_RECOVERY_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P03_RECOVERY_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P03_RELATIONSHIPS_SMOKE.json",
+      "snapshot": "archive/2026-11-01/execution/P03_RELATIONSHIPS_SMOKE.json"
+    },
+    {
+      "original": "execution/P03_TASK_CLI_SMOKE.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_TASK_CLI_SMOKE.txt"
+    },
+    {
+      "original": "execution/P03_TASK_CLI_TESTS.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_TASK_CLI_TESTS.txt"
+    },
+    {
+      "original": "execution/P03_TUI_TTY_SMOKE.md",
+      "snapshot": "archive/2026-11-01/execution/P03_TUI_TTY_SMOKE.md"
+    },
+    {
+      "original": "execution/P03_TYPECHECK_AFTER.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_TYPECHECK_AFTER.txt"
+    },
+    {
+      "original": "execution/P03_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P03_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P03_VIEWS_CLI_SMOKE.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_VIEWS_CLI_SMOKE.txt"
+    },
+    {
+      "original": "execution/P03_VIEWS_TESTS.txt",
+      "snapshot": "archive/2026-11-01/execution/P03_VIEWS_TESTS.txt"
+    },
+    {
+      "original": "execution/P03_VIEWS_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P03_VIEWS_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P04_CHECKPOINT_DECISION.md",
+      "snapshot": "archive/2026-11-01/execution/P04_CHECKPOINT_DECISION.md"
+    },
+    {
+      "original": "execution/P04_EXECUTION_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P04_EXECUTION_PLAN.md"
+    },
+    {
+      "original": "execution/P04_EXIT_AUDIT.md",
+      "snapshot": "archive/2026-11-01/execution/P04_EXIT_AUDIT.md"
+    },
+    {
+      "original": "execution/P04_FOUNDATION_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P04_FOUNDATION_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P04_REMAINING_EXECUTION_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P04_REMAINING_EXECUTION_PLAN.md"
+    },
+    {
+      "original": "execution/P04_RENAME_CONSUMER_BASELINE.json",
+      "snapshot": "archive/2026-11-01/execution/P04_RENAME_CONSUMER_BASELINE.json"
+    },
+    {
+      "original": "execution/P04_RENAME_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P04_RENAME_PLAN.md"
+    },
+    {
+      "original": "execution/P04_RENAME_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P04_RENAME_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P04_REVIEW_DISPOSITION.md",
+      "snapshot": "archive/2026-11-01/execution/P04_REVIEW_DISPOSITION.md"
+    },
+    {
+      "original": "execution/P05_CONTRACT_BOUNDARY_MAP.md",
+      "snapshot": "archive/2026-11-01/execution/P05_CONTRACT_BOUNDARY_MAP.md"
+    },
+    {
+      "original": "execution/P05_DECLARED_ONLY_REFERENCES.txt",
+      "snapshot": "archive/2026-11-01/execution/P05_DECLARED_ONLY_REFERENCES.txt"
+    },
+    {
+      "original": "execution/P05_DEPENDENCY_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P05_DEPENDENCY_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P05_EVENT_CATALOG_PROPOSAL.json",
+      "snapshot": "archive/2026-11-01/execution/P05_EVENT_CATALOG_PROPOSAL.json"
+    },
+    {
+      "original": "execution/P05_EVENT_CONTRACT_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P05_EVENT_CONTRACT_PLAN.md"
+    },
+    {
+      "original": "execution/P05_EVENT_CONTRACT_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P05_EVENT_CONTRACT_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P05_EVENT_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/P05_EVENT_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/P05_EXIT_AUDIT.md",
+      "snapshot": "archive/2026-11-01/execution/P05_EXIT_AUDIT.md"
+    },
+    {
+      "original": "execution/P05_EXIT_DECISION.json",
+      "snapshot": "archive/2026-11-01/execution/P05_EXIT_DECISION.json"
+    },
+    {
+      "original": "execution/P05_FOUNDATION_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P05_FOUNDATION_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P05_LAYOUT_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P05_LAYOUT_PLAN.md"
+    },
+    {
+      "original": "execution/P05_LAYOUT_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/P05_LAYOUT_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/P05_OUTBOX_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/P05_OUTBOX_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/P05_READONLY_BOUNDARY_INVENTORY.json",
+      "snapshot": "archive/2026-11-01/execution/P05_READONLY_BOUNDARY_INVENTORY.json"
+    },
+    {
+      "original": "execution/P05_READONLY_PREFLIGHT.md",
+      "snapshot": "archive/2026-11-01/execution/P05_READONLY_PREFLIGHT.md"
+    },
+    {
+      "original": "execution/P05_REMAINING_EVENT_CONTRACTS.json",
+      "snapshot": "archive/2026-11-01/execution/P05_REMAINING_EVENT_CONTRACTS.json"
+    },
+    {
+      "original": "execution/P05_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/P05_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/P05_ROUTE_CONTRACT_VERIFICATION.json",
+      "snapshot": "archive/2026-11-01/execution/P05_ROUTE_CONTRACT_VERIFICATION.json"
+    },
+    {
+      "original": "execution/P05_ROUTE_EVENT_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P05_ROUTE_EVENT_PLAN.md"
+    },
+    {
+      "original": "execution/P05_ROUTE_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/P05_ROUTE_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/P05_SHARED_BOUNDARIES_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P05_SHARED_BOUNDARIES_PLAN.md"
+    },
+    {
+      "original": "execution/P05_SHARED_PACKAGE_INVENTORY.json",
+      "snapshot": "archive/2026-11-01/execution/P05_SHARED_PACKAGE_INVENTORY.json"
+    },
+    {
+      "original": "execution/P06_ADDITIONAL_SURFACES.md",
+      "snapshot": "archive/2026-11-01/execution/P06_ADDITIONAL_SURFACES.md"
+    },
+    {
+      "original": "execution/P06_AUTH_CONTAINMENT_PROPOSAL.md",
+      "snapshot": "archive/2026-11-01/execution/P06_AUTH_CONTAINMENT_PROPOSAL.md"
+    },
+    {
+      "original": "execution/P06_CONVERGENCE_DECISION.md",
+      "snapshot": "archive/2026-11-01/execution/P06_CONVERGENCE_DECISION.md"
+    },
+    {
+      "original": "execution/P06_ENGINE_STATIC_COMPARISON.json",
+      "snapshot": "archive/2026-11-01/execution/P06_ENGINE_STATIC_COMPARISON.json"
+    },
+    {
+      "original": "execution/P06_KITCHENKIT_OPEN_PR.json",
+      "snapshot": "archive/2026-11-01/execution/P06_KITCHENKIT_OPEN_PR.json"
+    },
+    {
+      "original": "execution/P06_KITCHENKIT_UI_AST_COMPARISON.json",
+      "snapshot": "archive/2026-11-01/execution/P06_KITCHENKIT_UI_AST_COMPARISON.json"
+    },
+    {
+      "original": "execution/P06_KITCHENKIT_UI_FILE_MAP.json",
+      "snapshot": "archive/2026-11-01/execution/P06_KITCHENKIT_UI_FILE_MAP.json"
+    },
+    {
+      "original": "execution/P06_OMITTED_SOURCE_CAPTURE.json",
+      "snapshot": "archive/2026-11-01/execution/P06_OMITTED_SOURCE_CAPTURE.json"
+    },
+    {
+      "original": "execution/P06_PARITY_REVIEW_RESOLUTION.md",
+      "snapshot": "archive/2026-11-01/execution/P06_PARITY_REVIEW_RESOLUTION.md"
+    },
+    {
+      "original": "execution/P06_PARITY_STRICT_RESULTS.json",
+      "snapshot": "archive/2026-11-01/execution/P06_PARITY_STRICT_RESULTS.json"
+    },
+    {
+      "original": "execution/P06_PREP_BOUNDARY_MAP.md",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_BOUNDARY_MAP.md"
+    },
+    {
+      "original": "execution/P06_PREP_EXECUTION_PROPOSAL.md",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_EXECUTION_PROPOSAL.md"
+    },
+    {
+      "original": "execution/P06_PREP_INITIAL_FINDINGS.md",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_INITIAL_FINDINGS.md"
+    },
+    {
+      "original": "execution/P06_PREP_INITIAL_INVENTORY.json",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_INITIAL_INVENTORY.json"
+    },
+    {
+      "original": "execution/P06_PREP_PARITY_HANDOFF.md",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_PARITY_HANDOFF.md"
+    },
+    {
+      "original": "execution/P06_PREP_PARITY_RESULTS.json",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_PARITY_RESULTS.json"
+    },
+    {
+      "original": "execution/P06_PREP_SOURCE_INVENTORY.json",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_SOURCE_INVENTORY.json"
+    },
+    {
+      "original": "execution/P06_PREP_SURFACE_MAP.json",
+      "snapshot": "archive/2026-11-01/execution/P06_PREP_SURFACE_MAP.json"
+    },
+    {
+      "original": "execution/P06_RATIO_COMPATIBILITY_PLAN.md",
+      "snapshot": "archive/2026-11-01/execution/P06_RATIO_COMPATIBILITY_PLAN.md"
+    },
+    {
+      "original": "execution/P06_SOURCE_EXTERNAL_METADATA.json",
+      "snapshot": "archive/2026-11-01/execution/P06_SOURCE_EXTERNAL_METADATA.json"
+    },
+    {
+      "original": "execution/P06_SOURCE_READINESS.md",
+      "snapshot": "archive/2026-11-01/execution/P06_SOURCE_READINESS.md"
+    },
+    {
+      "original": "execution/QUEUE.json",
+      "snapshot": "archive/2026-11-01/execution/QUEUE.json"
+    },
+    {
+      "original": "execution/V6_2_PROJECT_CONTRACT_HANDOFF.md",
+      "snapshot": "archive/2026-11-01/execution/V6_2_PROJECT_CONTRACT_HANDOFF.md"
+    },
+    {
+      "original": "migrations/MIGRATION_MATRIX.yaml",
+      "snapshot": "archive/2026-11-01/migrations/MIGRATION_MATRIX.yaml"
+    },
+    {
+      "original": "phases/00-baseline/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/00-baseline/PHASE.yaml"
+    },
+    {
+      "original": "phases/01-classification/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/01-classification/PHASE.yaml"
+    },
+    {
+      "original": "phases/02-governance/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/02-governance/PHASE.yaml"
+    },
+    {
+      "original": "withheld/8397eaa966c80483cc551471ecf143ccf4789176a5c994e7fa7b8b1ac9dbca56.yaml",
+      "snapshot": "archive/2026-11-01/withheld/8397eaa966c80483cc551471ecf143ccf4789176a5c994e7fa7b8b1ac9dbca56.yaml",
+      "originalPathSha256": "8397eaa966c80483cc551471ecf143ccf4789176a5c994e7fa7b8b1ac9dbca56",
+      "notice": "Original path withheld because it identifies a private repository. Recover from the base Git commit only."
+    },
+    {
+      "original": "phases/04-muselab/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/04-muselab/PHASE.yaml"
+    },
+    {
+      "original": "phases/05-culinary-foundation/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/05-culinary-foundation/PHASE.yaml"
+    },
+    {
+      "original": "phases/06-culinary-migration/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/06-culinary-migration/PHASE.yaml"
+    },
+    {
+      "original": "phases/07-cleanup/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/07-cleanup/PHASE.yaml"
+    },
+    {
+      "original": "phases/08-providers/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/08-providers/PHASE.yaml"
+    },
+    {
+      "original": "phases/09-agents/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/09-agents/PHASE.yaml"
+    },
+    {
+      "original": "phases/10-automation/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/10-automation/PHASE.yaml"
+    },
+    {
+      "original": "phases/11-hardware/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/11-hardware/PHASE.yaml"
+    },
+    {
+      "original": "phases/12-xr/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/12-xr/PHASE.yaml"
+    },
+    {
+      "original": "phases/13-organizations/PHASE.yaml",
+      "snapshot": "archive/2026-11-01/phases/13-organizations/PHASE.yaml"
+    },
+    {
+      "original": "phases/README.md",
+      "snapshot": "archive/2026-11-01/phases/README.md"
+    },
+    {
+      "original": "portfolio/ACTIVE_PROJECTS.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/ACTIVE_PROJECTS.yaml"
+    },
+    {
+      "original": "portfolio/AGENT_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/AGENT_REGISTRY.yaml"
+    },
+    {
+      "original": "portfolio/ARCHIVE.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/ARCHIVE.yaml"
+    },
+    {
+      "original": "portfolio/CAPABILITY_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/CAPABILITY_REGISTRY.yaml"
+    },
+    {
+      "original": "portfolio/DATA_OWNERSHIP.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/DATA_OWNERSHIP.yaml"
+    },
+    {
+      "original": "portfolio/DEPENDENCY_GRAPH.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/DEPENDENCY_GRAPH.yaml"
+    },
+    {
+      "original": "portfolio/DEPLOYMENT_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/DEPLOYMENT_REGISTRY.yaml"
+    },
+    {
+      "original": "portfolio/ECOSYSTEMS.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/ECOSYSTEMS.yaml"
+    },
+    {
+      "original": "portfolio/EVENT_CATALOG.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/EVENT_CATALOG.yaml"
+    },
+    {
+      "original": "portfolio/INTEGRATION_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/INTEGRATION_REGISTRY.yaml"
+    },
+    {
+      "original": "portfolio/MCP_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/MCP_REGISTRY.yaml"
+    },
+    {
+      "original": "portfolio/PORTFOLIO.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/PORTFOLIO.yaml"
+    },
+    {
+      "original": "portfolio/PROVIDER_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/PROVIDER_REGISTRY.yaml"
+    },
+    {
+      "original": "portfolio/README.md",
+      "snapshot": "archive/2026-11-01/portfolio/README.md"
+    },
+    {
+      "original": "portfolio/SDK_REGISTRY.yaml",
+      "snapshot": "archive/2026-11-01/portfolio/SDK_REGISTRY.yaml"
+    },
+    {
+      "original": "profile/README.md",
+      "snapshot": "archive/2026-11-01/profile/README.md"
+    },
+    {
+      "original": "schemas/capability.schema.json",
+      "snapshot": "archive/2026-11-01/schemas/capability.schema.json"
+    },
+    {
+      "original": "schemas/forge-project.schema.json",
+      "snapshot": "archive/2026-11-01/schemas/forge-project.schema.json"
+    },
+    {
+      "original": "schemas/integration.schema.json",
+      "snapshot": "archive/2026-11-01/schemas/integration.schema.json"
+    },
+    {
+      "original": "schemas/migration.schema.json",
+      "snapshot": "archive/2026-11-01/schemas/migration.schema.json"
+    },
+    {
+      "original": "schemas/phase.schema.json",
+      "snapshot": "archive/2026-11-01/schemas/phase.schema.json"
+    },
+    {
+      "original": "schemas/portfolio.schema.json",
+      "snapshot": "archive/2026-11-01/schemas/portfolio.schema.json"
+    },
+    {
+      "original": "scripts/Validate-Governance.ps1",
+      "snapshot": "archive/2026-11-01/scripts/Validate-Governance.ps1"
+    },
+    {
+      "original": "sdk-decisions/README.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/README.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0001-muse.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0001-muse.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0002-gemini.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0002-gemini.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0003-opencode.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0003-opencode.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0004-vercel-platform.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0004-vercel-platform.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0005-vercel-ai.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0005-vercel-ai.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0006-railway.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0006-railway.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0007-supabase.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0007-supabase.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0008-strands.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0008-strands.md"
+    },
+    {
+      "original": "sdk-decisions/SDK-0009-acp.md",
+      "snapshot": "archive/2026-11-01/sdk-decisions/SDK-0009-acp.md"
+    },
+    {
+      "original": "security/APPROVAL_MODEL.md",
+      "snapshot": "archive/2026-11-01/security/APPROVAL_MODEL.md"
+    },
+    {
+      "original": "security/AUDIT_POLICY.md",
+      "snapshot": "archive/2026-11-01/security/AUDIT_POLICY.md"
+    },
+    {
+      "original": "security/PERMISSIONS.md",
+      "snapshot": "archive/2026-11-01/security/PERMISSIONS.md"
+    },
+    {
+      "original": "security/SECRET_MODEL.md",
+      "snapshot": "archive/2026-11-01/security/SECRET_MODEL.md"
+    },
+    {
+      "original": "security/THREAT_MODEL.md",
+      "snapshot": "archive/2026-11-01/security/THREAT_MODEL.md"
+    },
+    {
+      "original": "standards/AGENT_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/AGENT_STANDARD.md"
+    },
+    {
+      "original": "standards/AI_HANDOFF_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/AI_HANDOFF_STANDARD.md"
+    },
+    {
+      "original": "standards/API_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/API_STANDARD.md"
+    },
+    {
+      "original": "standards/ARCHITECTURE_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/ARCHITECTURE_STANDARD.md"
+    },
+    {
+      "original": "standards/DEPLOYMENT_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/DEPLOYMENT_STANDARD.md"
+    },
+    {
+      "original": "standards/DOCUMENTATION_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/DOCUMENTATION_STANDARD.md"
+    },
+    {
+      "original": "standards/EXTENSION_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/EXTENSION_STANDARD.md"
+    },
+    {
+      "original": "standards/MCP_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/MCP_STANDARD.md"
+    },
+    {
+      "original": "standards/MUSE_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/MUSE_STANDARD.md"
+    },
+    {
+      "original": "standards/PROJECT_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/PROJECT_STANDARD.md"
+    },
+    {
+      "original": "standards/REPO_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/REPO_STANDARD.md"
+    },
+    {
+      "original": "standards/REQUIREMENTS_WORKFLOW.md",
+      "snapshot": "archive/2026-11-01/standards/REQUIREMENTS_WORKFLOW.md"
+    },
+    {
+      "original": "standards/SDK_ADOPTION_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/SDK_ADOPTION_STANDARD.md"
+    },
+    {
+      "original": "standards/SDK_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/SDK_STANDARD.md"
+    },
+    {
+      "original": "standards/SECURITY_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/SECURITY_STANDARD.md"
+    },
+    {
+      "original": "standards/TESTING_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/TESTING_STANDARD.md"
+    },
+    {
+      "original": "standards/VERSIONING_STANDARD.md",
+      "snapshot": "archive/2026-11-01/standards/VERSIONING_STANDARD.md"
+    },
+    {
+      "original": "templates/ADR.template.md",
+      "snapshot": "archive/2026-11-01/templates/ADR.template.md"
+    },
+    {
+      "original": "templates/AGENTS.md",
+      "snapshot": "archive/2026-11-01/templates/AGENTS.md"
+    },
+    {
+      "original": "templates/ARCHITECTURE.template.md",
+      "snapshot": "archive/2026-11-01/templates/ARCHITECTURE.template.md"
+    },
+    {
+      "original": "templates/MIGRATION.template.md",
+      "snapshot": "archive/2026-11-01/templates/MIGRATION.template.md"
+    },
+    {
+      "original": "templates/PHASE.template.yaml",
+      "snapshot": "archive/2026-11-01/templates/PHASE.template.yaml"
+    },
+    {
+      "original": "templates/PROJECT.template.md",
+      "snapshot": "archive/2026-11-01/templates/PROJECT.template.md"
+    },
+    {
+      "original": "templates/PROJECT_CACHE.md",
+      "snapshot": "archive/2026-11-01/templates/PROJECT_CACHE.md"
+    },
+    {
+      "original": "templates/SESSION_CONTEXT.md",
+      "snapshot": "archive/2026-11-01/templates/SESSION_CONTEXT.md"
+    },
+    {
+      "original": "templates/STATUS.template.md",
+      "snapshot": "archive/2026-11-01/templates/STATUS.template.md"
+    },
+    {
+      "original": "templates/forge.project.template.json",
+      "snapshot": "archive/2026-11-01/templates/forge.project.template.json"
+    },
+    {
+      "original": "upa/UPA_ESCALATION_CHECKLIST.md",
+      "snapshot": "archive/2026-11-01/upa/UPA_ESCALATION_CHECKLIST.md"
+    },
+    {
+      "original": "upa/UPA_LIGHT_MODE.md",
+      "snapshot": "archive/2026-11-01/upa/UPA_LIGHT_MODE.md"
+    },
+    {
+      "original": "upa/UPA_V1.md",
+      "snapshot": "archive/2026-11-01/upa/UPA_V1.md"
+    },
+    {
+      "original": "upa/upa.skill",
+      "snapshot": "archive/2026-11-01/upa/upa.skill"
+    }
+  ]
+}
