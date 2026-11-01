@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync, lstatSync, realpathSync, mkdirSync, renameSync, unlinkSync, rmdirSync, mkdtempSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, lstatSync, statSync, realpathSync, mkdirSync, renameSync, unlinkSync, rmdirSync, mkdtempSync, rmSync } from 'node:fs';
 import { resolve, dirname, relative, join, posix, isAbsolute } from 'node:path';
 import { tmpdir } from 'node:os';
 import { execFileSync, spawnSync } from 'node:child_process';
@@ -43,7 +43,11 @@ function checkedPath(target, p) {
 function targetInfo(target, repo) {
   if (!target || !repo || !/^[A-Za-z0-9][A-Za-z0-9_.-]*\/[A-Za-z0-9_.-]+$/.test(repo)) throw new Error('Explicit --target and --repo owner/name are required');
   const path = realpathSync(resolve(target));
-  if (realpathSync(git(path, 'rev-parse', '--show-toplevel').trim()) !== path) throw new Error('Target must be the checkout root');
+  // Windows short aliases, drive-letter case, and Git path spelling may differ.
+  // Compare the resolved directory's filesystem identity instead of its spelling.
+  const requested = statSync(path, { bigint: true });
+  const checkout = statSync(git(path, 'rev-parse', '--show-toplevel').trim(), { bigint: true });
+  if (requested.dev !== checkout.dev || requested.ino !== checkout.ino) throw new Error('Target must be the checkout root');
   if (normalizeRepository(git(path, 'remote', 'get-url', 'origin')) !== repo.toLowerCase()) throw new Error('Unauthorized repository: target origin does not match --repo');
   checkedPath(path, LOCK); checkedPath(path, 'AGENTS.md');
   return path;

@@ -4,7 +4,7 @@ Date: 2026-11-01 · Owner: ShadowWalkerNC · Library: 1.0.0.
 Applies to this restructuring; not product runtime acceptance.
 
 - PASS: `npm ci --ignore-scripts` on Node.js 24 / Linux.
-- PASS: `npm test`: 23 behavioral and negative tests. Covers fresh/repeat adoption,
+- PASS: `npm test`: 24 behavioral and negative tests. Covers fresh/repeat adoption,
   read-only preview, offline integrity versus pinned-source verification, upgrade
   selection/override preservation, explicit preset removal, modified managed
   files, malformed locks, symlinks, concurrent edits, missing inputs/source,
@@ -24,7 +24,12 @@ Applies to this restructuring; not product runtime acceptance.
   publication review is still necessary. Prior Git history remains unchanged.
 - PASS: existing product manifest schema and legacy manifest template preserved
   byte-for-byte. No product repository or external consumer was migrated.
-- NOT RUN locally: Windows execution. Linux/Windows CI is configured on the PR.
+- PASS: initial hosted Linux checks. Initial Windows checks exposed short-path
+  spelling differences; target-root validation now compares filesystem identity
+  (device/inode), retaining rejection of nested checkout paths. A fresh hosted
+  Linux/Windows run verifies the fix on the PR.
+- PASS: `npm audit` after pinning AJV 8.20.0: no reported vulnerabilities at
+  verification time. The affected older dependency is no longer installed.
 - NOT RUN: live cross-repository adoption workflow or real project rollout.
   Proposal behavior is exercised against fixture checkouts and mocked GitHub
   responses; a scoped token and a named project are needed for a real proposal.

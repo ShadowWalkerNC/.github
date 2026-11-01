@@ -115,3 +115,7 @@ test('proposal base mismatch and dirty target cannot create branches or writes',
  writeFileSync(join(opts.target,'local.txt'),'My work.');const dirty=snapshot(opts.target);
  await assert.rejects(()=>propose(opts,{api}),/clean target/);assert.deepEqual(snapshot(opts.target),dirty);
 });
+test('nested checkout directories remain invalid targets',t=>{
+ const opts=fixture(t);const nested=join(opts.target,'nested');mkdirSync(nested);const before=snapshot(opts.target);
+ assert.throws(()=>plan({...opts,target:nested}),/checkout root/);assert.deepEqual(snapshot(opts.target),before);
+});
