@@ -1,10 +1,10 @@
 # Design and Code Bible, agent edition
 
-Agent-readable Markdown edition of Nate's Design and Code Bible (the Master Design File), Version 2.2, November 1, 2026. Same content as the PDF edition. For Codex, Antigravity, and any coding agent: treat this file as a preset library of design and coding rules. Standing rule from the owner: nothing in this file is applied to a project until Nate names that project.
+Agent-readable Markdown edition of Nate's Design and Code Bible (the Master Design File), Version 2.3, November 1, 2026. Same content as the PDF edition. For Codex, Antigravity, and any coding agent: treat this file as a preset library of design and coding rules. Standing rule from the owner: nothing in this file is applied to a project until Nate names that project.
 
 ---
 
-Master Design File - Version 2.2 - November 1, 2026
+Master Design File - Version 2.3 - November 1, 2026
 
 # Design rules and presets for any application
 
@@ -26,7 +26,7 @@ Every pattern from the source videos and reference repos, turned into tokens, co
 | Apple-style navbar | UI, MX | Glassmorphism reference look, React and Framer Motion |
 | Make a button pop | UI, UX | CTA hierarchy, hover halo, win-framed copy |
 | Premium buttons | UI | Four-shadow lit-from-above depth model |
-| Dark streaming sidebar | UI, UX, MX | Grouped sections, badges, collapse to icons |
+| Dark streaming sidebar | UI, UX, MX | Grouped sections, badges, collapse, dashboard variant |
 | Logo design process | PX, Brand | Noun list, 100 to 300 sketches, modular mark system |
 | Effortless search flow (Airbnb) | UX, UI | Steps not forms, live result count on the button |
 | Blank page that never feels empty (Notion) | UX, UI | Cursor first, hidden chrome, starters that vanish |
@@ -43,7 +43,7 @@ Every pattern from the source videos and reference repos, turned into tokens, co
 
 **Standing rule:** Nothing in this file is applied to a project until Nate names that project. This file is the preset library, not a work order.
 
-**Version 2 (Oct 30, 2026):** adds Spec 05 and 06 (pages 10 to 11), three source rows, one UX rule, a ship-gate check. **Version 2.1 (same day):** four Karpathy techniques into the AIX rules (page 14). **Version 2.2 (Nov 1, 2026):** adds Spec 07 (page 12), the DESIGN.md format and the browser verification loop. The Oct 26 ruleset assessment was measured against v1 and needs a refresh.
+**Version 2 (Oct 30, 2026):** adds Spec 05 and 06 (pages 10 to 11) and a ship-gate check. **Version 2.1 (same day):** four Karpathy techniques into the AIX rules (page 14). **Version 2.2 (Nov 1, 2026):** adds Spec 07 (page 12), the DESIGN.md format and the browser verification loop. **Version 2.3 (same day):** dashboard sidebar variant inside Spec 03 (page 8), presets marked DERIVED, the demo's purple gradient excluded. The Oct 26 ruleset assessment was measured against v1 and needs a refresh.
 
 Foundation
 
@@ -281,31 +281,42 @@ Component Spec 03 - Sidebar
 
 UI - UX - MX
 
-**The pattern:** a dark translucent panel over an abstract background. Identity at the top, search under it, grouped navigation in the middle, collapse as a first-class control.
+**The pattern:** a dark translucent panel. Identity at top, search under it, grouped navigation in the middle, collapse as a first-class control.
 
 ### Structure, top to bottom
 
-1. **Identity row:** user avatar plus name (source example: "Dorian"), with a **search field** directly under it.
-2. **Sections:** MENU (Home, Continue watching, My List, Series, Movies, Games), DISCOVERY (Releases, Popular), GENERAL (Settings, Log out).
-3. **Collapse button:** shrinks the sidebar to a narrow icon-only strip; clicking again expands it back to full width.
+1. **Identity row:** user avatar plus name (source: "Dorian"), with a **search field** directly under it.
+2. **Sections:** MENU, DISCOVERY, GENERAL groups (Home, Continue watching, My List, Series, Movies, Games, Releases, Popular, Settings, Log out).
+3. **Collapse button:** shrinks the sidebar to an icon-only strip; clicking again expands it back.
 
 ### State and formatting rules
 
 | Element | Rule |
 | --- | --- |
-| Active item | Exactly one. Home is active in the source, highlighted in red. Use the project accent; the rule is one clear active state, never two. |
-| Badge | Count badge on items with pending items (source: My List shows "7"). Hide at zero, never show "0". |
-| Section labels and panel | Labels uppercase, small, muted, in MENU, DISCOVERY, GENERAL order. Panel is a dark translucent surface (--glass-bg-dark with blur) over the app background. |
+| Active item | Exactly one (Home in the source, in red). Use the project accent; one clear active state, never two. |
+| Badge | Count badge on items with pending items (source: My List shows "7"). Hide at zero. |
+| Section labels and panel | Labels uppercase, small, muted, in MENU, DISCOVERY, GENERAL order. Panel is a dark translucent surface (--glass-bg-dark with blur). |
 | Widths | Expanded 240 to 260px; collapsed 64 to 72px, icons only, labels hidden (DERIVED presets). |
-| Collapse motion | Width animates at --motion-med with --ease-out. Labels fade before the width closes, so text never gets crushed mid-animation. The motion is the communication: the panel visibly becomes the strip, so the user learns where everything went. |
+| Collapse motion | Width animates at --motion-med with --ease-out. Labels fade before the width closes, so text never gets crushed. The motion is the communication: the panel visibly becomes the strip. |
+
+### Dashboard variant: tooltips, submenus, one action per parent
+
+From a basic-vs-premium dashboard demo (Design & Code With AV, Oct 22, 2026): the premium upgrade is behavioral, not visual.
+
+1. **Collapsed icons keep their labels:** tooltip on hover and keyboard focus, plus a real accessible name. On touch it still navigates or expands; a tooltip is never the only label.
+2. **One action per parent:** a parent with children carries a trailing chevron and only toggles its submenu on click. Navigation lives on the children (the Spec 06 one-action rule).
+3. **One submenu open at a time** expanded; in the rail, children fly out beside it. **The toggle points where the panel goes next** and stays reachable in both states; logo-click expand is a shortcut, never the only path.
+4. **Presets (DERIVED, the Reel publishes no numbers):** expanded 256px, rail 72px; rows 40px, icons 18px, stroke 1.5, radius 8px; collapse 240ms, submenu 200ms, tooltip after 300ms. All inside the MX cap.
+5. **Theme:** the single accent marks the active row, chrome stays neutral. The demo's purple gradient is a skin, not a preset; hue gradients are a slop tell.
 
 ### Acceptance checks
 
-- [ ] Sections in order with uppercase muted labels; every item in exactly one section; one active item only; badge shows a real count and disappears at zero.
-- [ ] Collapse reaches icon-only width and expands back; collapsed icons keep tooltips or accessible labels; collapse state is remembered per user where the stack allows it.
-- [ ] Search and identity stay reachable in both widths, or collapse hides them deliberately and consistently.
+- [ ] Sections in order, uppercase muted labels; one section per item; one active item; badge shows a real count, gone at zero.
+- [ ] Dashboard variant: all destinations reachable in both states; collapsed icons have tooltips and accessible names; toggle points at the next action; parents toggle only; motion inside 300ms.
+- [ ] Collapse reaches icon-only width and expands back; state is remembered per user where the stack allows it.
+- [ ] Search and identity stay reachable in both widths, or are hidden consistently.
 
-Source: Code XR, dark streaming sidebar UI, Sept 30, 2026. The Reel carried no caption or transcript; this spec rests on the visual description supplied with it.
+Sources: Code XR, Sept 30, 2026 (no caption or transcript; rests on the supplied visual description); Design & Code With AV, Oct 22, 2026 (values DERIVED). Source index, page 15.
 
 Process Spec 04 - Logo and Brand
 
@@ -548,6 +559,7 @@ Checklists passed (UI / UX / MX / PX / AIX):   Open exceptions:
 | Five design plugins roundup | hayder.developer | Oct 30, 2026 | facebook.com/reel/1780228483203385/ |
 | DESIGN.md collection (84 files) | VoltAgent | Repo, read Nov 1, 2026 | github.com/VoltAgent/awesome-design-md |
 | Playwright MCP | Microsoft | Repo, read Nov 1, 2026 | github.com/microsoft/playwright-mcp |
+| Collapsible sidebar, basic vs premium | Design & Code With AV | Oct 22, 2026 | facebook.com/reel/3078166305859283/ |
 
 Caveats: the sidebar Reel had no caption or transcript; its spec rests on the supplied visual description only. The Code XR "Code" offer, the UX Engine pitch, and the roundup Reel's comment gate are promos, not rules.
 
