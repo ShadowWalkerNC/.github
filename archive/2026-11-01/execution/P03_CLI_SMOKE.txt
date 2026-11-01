@@ -1,0 +1,8 @@
+[private-identity-redacted]             [private-identity-redacted]  [  local platform active]
+culinaryos               CulinaryOS  [  local product active]
+muselab                  MuseLab  [  local lab planned-active]
+bibledesk                BibleDesk  [  local product active]
+[private-identity-redacted]                 [private-identity-redacted]  [  local product active]
+[private-identity-redacted]                 [private-identity-redacted]  [  local client active]
+mercury                  Mercury  [  local infrastructure supporting]
+shorelineops             ShorelineOps  [  local product supporting]

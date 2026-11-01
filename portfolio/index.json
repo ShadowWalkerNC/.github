@@ -1,0 +1,978 @@
+{
+  "schemaVersion": 1,
+  "owner": "ShadowWalkerNC",
+  "entries": [
+    {
+      "id": "shadowwalkernc--dotgithub",
+      "name": "Governance",
+      "repository": "ShadowWalkerNC/.github",
+      "url": "https://github.com/ShadowWalkerNC/.github",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/.github"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "governance",
+          "observedAt": "2026-10-03",
+          "category": "platform",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": ".github",
+          "observedAt": "2026-10-17",
+          "category": "06-platform-operations",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--asciline-2dot0",
+      "name": "ASCILINE",
+      "repository": "ShadowWalkerNC/ASCILINE-2.0",
+      "url": "https://github.com/ShadowWalkerNC/ASCILINE-2.0",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/ASCILINE-2.0"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "asciline",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "asciline-2.0",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--bedrockops",
+      "name": "BedrockOps",
+      "repository": "ShadowWalkerNC/BedrockOps",
+      "url": "https://github.com/ShadowWalkerNC/BedrockOps",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/BedrockOps"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "bedrockops",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "bedrockops",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--benjamins",
+      "name": "Benjamins",
+      "repository": "ShadowWalkerNC/Benjamins",
+      "url": "https://github.com/ShadowWalkerNC/Benjamins",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Benjamins"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "benjamins",
+          "observedAt": "2026-10-03",
+          "category": "archive",
+          "intendedLifecycle": "deprecated"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "benjamins",
+          "observedAt": "2026-10-17",
+          "category": "04-client-and-business-projects",
+          "intendedLifecycle": "archive"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--bibledesk",
+      "name": "BibleDesk",
+      "repository": "ShadowWalkerNC/BibleDesk",
+      "url": "https://github.com/ShadowWalkerNC/BibleDesk",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/BibleDesk"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "bibledesk",
+          "observedAt": "2026-10-03",
+          "category": "product",
+          "intendedLifecycle": "active"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "bibledesk",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--cloudflare-os",
+      "name": "cloudflare-os",
+      "repository": "ShadowWalkerNC/cloudflare-os",
+      "url": "https://github.com/ShadowWalkerNC/cloudflare-os",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/cloudflare-os"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "cloudflare-os",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "cloudflare-os",
+          "observedAt": "2026-10-17",
+          "category": "01-developer-intelligence",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--culinaryops",
+      "name": "CulinaryOS Ops source",
+      "repository": "ShadowWalkerNC/CulinaryOps",
+      "url": "https://github.com/ShadowWalkerNC/CulinaryOps",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/CulinaryOps"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "culinaryos-ops-source",
+          "observedAt": "2026-10-03",
+          "category": "migration-source",
+          "intendedLifecycle": "migrating"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "culinaryops",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--culinaryos",
+      "name": "CulinaryOS",
+      "repository": "ShadowWalkerNC/CulinaryOS",
+      "url": "https://github.com/ShadowWalkerNC/CulinaryOS",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/CulinaryOS"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "culinaryos",
+          "observedAt": "2026-10-03",
+          "category": "product",
+          "intendedLifecycle": "active"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "culinaryos",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--dark-phoneix-clips",
+      "name": "dark-phoneix-clips",
+      "repository": "ShadowWalkerNC/dark-phoneix-clips",
+      "url": "https://github.com/ShadowWalkerNC/dark-phoneix-clips",
+      "category": "04-client-and-business-projects",
+      "intendedLifecycle": "retain",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/dark-phoneix-clips"
+      ],
+      "observations": [
+        {
+          "source": "ecosystem",
+          "sourceId": "dark-phoneix-clips",
+          "observedAt": "2026-10-17",
+          "category": "04-client-and-business-projects",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--emergency-cad",
+      "name": "Emergency-CAD",
+      "repository": "ShadowWalkerNC/Emergency-CAD",
+      "url": "https://github.com/ShadowWalkerNC/Emergency-CAD",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Emergency-CAD"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "emergency-cad",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "emergency-cad",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--emscad",
+      "name": "EMSCAD",
+      "repository": "ShadowWalkerNC/EMSCAD",
+      "url": "https://github.com/ShadowWalkerNC/EMSCAD",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/EMSCAD"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "emscad",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "emscad",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--joes-tacos",
+      "name": "Joe's Tacos",
+      "repository": "ShadowWalkerNC/Joes-Tacos",
+      "url": "https://github.com/ShadowWalkerNC/Joes-Tacos",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Joes-Tacos"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "joes-tacos",
+          "observedAt": "2026-10-03",
+          "category": "archive",
+          "intendedLifecycle": "deprecated"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "joes-tacos",
+          "observedAt": "2026-10-17",
+          "category": "04-client-and-business-projects",
+          "intendedLifecycle": "archive"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--kitchenkit",
+      "name": "CulinaryOS Prep source",
+      "repository": "ShadowWalkerNC/KitchenKit",
+      "url": "https://github.com/ShadowWalkerNC/KitchenKit",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/KitchenKit"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "culinaryos-prep-source",
+          "observedAt": "2026-10-03",
+          "category": "migration-source",
+          "intendedLifecycle": "migrating"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "kitchenkit",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--mercury",
+      "name": "Mercury",
+      "repository": "ShadowWalkerNC/Mercury",
+      "url": "https://github.com/ShadowWalkerNC/Mercury",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Mercury"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "mercury",
+          "observedAt": "2026-10-03",
+          "category": "infrastructure",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "mercury",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--muselab",
+      "name": "MuseLab",
+      "repository": "ShadowWalkerNC/MuseLab",
+      "url": "https://github.com/ShadowWalkerNC/MuseLab",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/MuseLab"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "muselab",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "planned-active"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "muselab",
+          "observedAt": "2026-10-17",
+          "category": "01-developer-intelligence",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--node-minecraft-protocol",
+      "name": "node-minecraft-protocol",
+      "repository": "ShadowWalkerNC/node-minecraft-protocol",
+      "url": "https://github.com/ShadowWalkerNC/node-minecraft-protocol",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/node-minecraft-protocol"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "node-minecraft-protocol",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "node-minecraft-protocol",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--open-saas",
+      "name": "open-saas",
+      "repository": "ShadowWalkerNC/open-saas",
+      "url": "https://github.com/ShadowWalkerNC/open-saas",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/open-saas"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "open-saas",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "open-saas",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--opendaw",
+      "name": "openDAW",
+      "repository": "ShadowWalkerNC/openDAW",
+      "url": "https://github.com/ShadowWalkerNC/openDAW",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/openDAW"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "opendaw",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "opendaw",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--openship",
+      "name": "openship",
+      "repository": "ShadowWalkerNC/openship",
+      "url": "https://github.com/ShadowWalkerNC/openship",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/openship"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "openship",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "openship",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--plated",
+      "name": "CulinaryOS Web source",
+      "repository": "ShadowWalkerNC/Plated",
+      "url": "https://github.com/ShadowWalkerNC/Plated",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Plated"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "culinaryos-web-source",
+          "observedAt": "2026-10-03",
+          "category": "migration-source",
+          "intendedLifecycle": "migrating"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "plated",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--playhtml",
+      "name": "playhtml",
+      "repository": "ShadowWalkerNC/playhtml",
+      "url": "https://github.com/ShadowWalkerNC/playhtml",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/playhtml"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "playhtml",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "playhtml",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--playwright",
+      "name": "playwright",
+      "repository": "ShadowWalkerNC/playwright",
+      "url": "https://github.com/ShadowWalkerNC/playwright",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/playwright"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "playwright",
+          "observedAt": "2026-10-03",
+          "category": "reference",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "playwright",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--portfolio",
+      "name": "Portfolio profile",
+      "repository": "ShadowWalkerNC/portfolio",
+      "url": "https://github.com/ShadowWalkerNC/portfolio",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/portfolio"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "portfolio-profile",
+          "observedAt": "2026-10-03",
+          "category": "product",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "portfolio",
+          "observedAt": "2026-10-17",
+          "category": "06-platform-operations",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--post-pilot",
+      "name": "CulinaryOS Marketing source",
+      "repository": "ShadowWalkerNC/Post-Pilot",
+      "url": "https://github.com/ShadowWalkerNC/Post-Pilot",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Post-Pilot"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "culinaryos-marketing-source",
+          "observedAt": "2026-10-03",
+          "category": "migration-source",
+          "intendedLifecycle": "migrating"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "post-pilot",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--prayer-atlas",
+      "name": "Prayer Atlas source",
+      "repository": "ShadowWalkerNC/prayer-atlas",
+      "url": "https://github.com/ShadowWalkerNC/prayer-atlas",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/prayer-atlas"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "prayer-atlas-source",
+          "observedAt": "2026-10-03",
+          "category": "absorbed",
+          "intendedLifecycle": "deprecated"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "prayer-atlas",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--recipeos",
+      "name": "RecipeOS source",
+      "repository": "ShadowWalkerNC/RecipeOS",
+      "url": "https://github.com/ShadowWalkerNC/RecipeOS",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/RecipeOS"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "recipeos-source",
+          "observedAt": "2026-10-03",
+          "category": "absorbed",
+          "intendedLifecycle": "archived"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "recipeos",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "absorbed"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--restrevive-ai",
+      "name": "RestRevive-AI source",
+      "repository": "ShadowWalkerNC/RestRevive-AI",
+      "url": "https://github.com/ShadowWalkerNC/RestRevive-AI",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/RestRevive-AI"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "restrevive-source",
+          "observedAt": "2026-10-03",
+          "category": "absorbed",
+          "intendedLifecycle": "archived"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "restrevive-ai",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "absorbed"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--shadowhelicon",
+      "name": "ShadowHelicon",
+      "repository": "ShadowWalkerNC/ShadowHelicon",
+      "url": "https://github.com/ShadowWalkerNC/ShadowHelicon",
+      "category": "01-developer-intelligence",
+      "intendedLifecycle": "retain",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/ShadowHelicon"
+      ],
+      "observations": [
+        {
+          "source": "ecosystem",
+          "sourceId": "shadowhelicon",
+          "observedAt": "2026-10-17",
+          "category": "01-developer-intelligence",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--shadowrealm",
+      "name": "ShadowRealm",
+      "repository": "ShadowWalkerNC/ShadowRealm",
+      "url": "https://github.com/ShadowWalkerNC/ShadowRealm",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/ShadowRealm"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "shadowrealm",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "shadowrealm",
+          "observedAt": "2026-10-17",
+          "category": "01-developer-intelligence",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--shadowwalkernc",
+      "name": "ShadowWalkerNC profile",
+      "repository": "ShadowWalkerNC/ShadowWalkerNC",
+      "url": "https://github.com/ShadowWalkerNC/ShadowWalkerNC",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/ShadowWalkerNC"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "profile-meta",
+          "observedAt": "2026-10-03",
+          "category": "infrastructure",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "shadowwalkernc",
+          "observedAt": "2026-10-17",
+          "category": "06-platform-operations",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--shieldbot",
+      "name": "ShieldBot",
+      "repository": "ShadowWalkerNC/ShieldBot",
+      "url": "https://github.com/ShadowWalkerNC/ShieldBot",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/ShieldBot"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "shieldbot",
+          "observedAt": "2026-10-03",
+          "category": "lab",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "shieldbot",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--shorelineops",
+      "name": "ShorelineOps",
+      "repository": "ShadowWalkerNC/ShorelineOps",
+      "url": "https://github.com/ShadowWalkerNC/ShorelineOps",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/ShorelineOps"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "shorelineops",
+          "observedAt": "2026-10-03",
+          "category": "product",
+          "intendedLifecycle": "supporting"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "shorelineops",
+          "observedAt": "2026-10-17",
+          "category": "02-culinaryos-suite",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--sigil",
+      "name": "Sigil source",
+      "repository": "ShadowWalkerNC/Sigil",
+      "url": "https://github.com/ShadowWalkerNC/Sigil",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Sigil"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "sigil-source",
+          "observedAt": "2026-10-03",
+          "category": "migration-source",
+          "intendedLifecycle": "migrating"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "sigil",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "retain"
+        }
+      ],
+      "verification": "historical-observations-only"
+    },
+    {
+      "id": "shadowwalkernc--unity-mc",
+      "name": "Unity-MC",
+      "repository": "ShadowWalkerNC/Unity-MC",
+      "url": "https://github.com/ShadowWalkerNC/Unity-MC",
+      "category": "unverified",
+      "intendedLifecycle": "unverified",
+      "observedAt": "2026-10-17",
+      "evidence": [
+        "https://github.com/ShadowWalkerNC/Unity-MC"
+      ],
+      "observations": [
+        {
+          "source": "inventory",
+          "sourceId": "unity-mc",
+          "observedAt": "2026-10-03",
+          "category": "archive",
+          "intendedLifecycle": "paused"
+        },
+        {
+          "source": "ecosystem",
+          "sourceId": "unity-mc",
+          "observedAt": "2026-10-17",
+          "category": "03-independent-products",
+          "intendedLifecycle": "support"
+        }
+      ],
+      "verification": "historical-observations-only"
+    }
+  ]
+}

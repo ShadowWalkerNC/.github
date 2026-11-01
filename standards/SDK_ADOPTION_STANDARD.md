@@ -1,4 +1,8 @@
-# SDK adoption standard
+# Sdk Adoption Standard
+
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: explicitly adopted project scope.
+Canonical location: `standards/SDK_ADOPTION_STANDARD.md`.
+
 Requirement -> capability -> existing internal solution -> existing dependency -> SDK/API -> custom implementation only if necessary.
 Record ADOPT, OPTIONAL, REJECT or REVISIT before a significant SDK addition.
 Assess requirement fit, custom-code replacement, reliability/security/performance, reusable capability, removal path, license/commercial restrictions, pricing, lock-in, offline support and maintenance cost.

@@ -1,66 +1,74 @@
-# ShadowWalkerNC/.github
+# ShadowWalkerNC Standards Library
 
-Classifier-first universal AI system for all ShadowWalkerNC repos.
-Portable across Codex, Gemini/Antigravity, Claude, Copilot, Cursor, Windsurf.
+Reusable engineering guidance, optional design presets, and a public-safe
+portfolio index. **Version 1.0.0** · Owner: ShadowWalkerNC.
 
-## How it works
+## Use the library
 
-```
-INTENT → NORMALIZE → CLASSIFY → LOAD MINIMUM CONTEXT → ANALYZE
-  → PLAN (by risk) → EXECUTE → VERIFY → AUDIT (changed scope) → CACHE
-```
+Start with [working agreements](core/WORKING_AGREEMENTS.md), then choose the
+[standards](standards/README.md) and [playbook](playbooks/README.md) needed for the
+actual task. The [Design and Code Bible](standards/DESIGN_AND_CODE_BIBLE.md)
+retains its canonical URL. Design applies only to the project and scope the owner
+names. Neither a library update nor a merge adopts anything across the portfolio.
 
-- LOW + LOCAL + confident → fast path: inspect → change → verify. No UPA,
-  no extra agents, no written plan.
-- HIGH/CRITICAL (arch, auth, security, migration, deploy, breaking API,
-  cross-system, destructive) → escalates to `upa/UPA_V1.md` + routed experts
-  + rollback planning + heavy audit.
+The [portfolio index](portfolio/README.md) holds identities and evidence links.
+Product instructions, permissions, task state, and verification belong in each
+product repo. The [historical archive](archive/README.md) is for reference only.
 
-## Files
+## Adopt in a project
 
-```
-AGENTS.md                 ← START HERE — compact control plane (Tier 0)
-AGENT_DISPATCH.md         ← risk-based router (no always-active agents)
-SESSION_START.md          ← 2-line start, short close (no ceremony)
-BOOT.md                   ← manual bootstrap for agents without auto-load
-upa/UPA_V1.md             ← deep/escalation framework (HIGH/CRITICAL only)
-upa/UPA_LIGHT_MODE.md     ← optional helper, not a gate
-upa/UPA_ESCALATION_CHECKLIST.md ← optional helper, not a gate
-agents/                   ← 12 specialists, all on-demand (ENGINEER UX DATABASE
-│                           DEVOPS SECURITY QA ARCHITECT AI PRODUCT BUSINESS
-│                           DOCS COHERENCE)
-templates/AGENTS.md       ← project AGENTS.md (identity + rules + cache pointer)
-templates/PROJECT_CACHE.md← durable project facts (stack, map, decisions, issues)
-templates/SESSION_CONTEXT.md ← optional paste-in bootstrap
+Use Node.js 24 LTS. In a local checkout of this library, run `npm ci`.
+Select a reviewed library Git commit and its matching version; no release tag is
+created by this restructuring. A later tag may be used through `--ref v1.0.0`.
+
+```sh
+node scripts/standards.mjs preview --source . --ref <full-commit-sha> --version 1.0.0 --target /path/to/project --repo owner/project --scope "Named feature" --standards ARCHITECTURE_STANDARD,TESTING_STANDARD --playbooks bug-fix
+node scripts/standards.mjs apply --source . --ref <full-commit-sha> --version 1.0.0 --target /path/to/project --repo owner/project --scope "Named feature" --standards ARCHITECTURE_STANDARD,TESTING_STANDARD --playbooks bug-fix
+node scripts/standards.mjs check --target /path/to/project --repo owner/project
 ```
 
-Context tiers: 0 = AGENTS.md + request · 1 = project cache + `git status` ·
-2 = affected files/tests · 3 = deps/logs/history · 4 = broad analysis (rare).
+Both library and target must be Git checkouts with matching GitHub origins.
+The target must match the exact named repository.
+Preview prints proposed file additions/removals and unified diffs without writing
+in the target. Apply is an explicit local action. It adds a managed link block to
+AGENTS.md, preserving existing content. Selected Markdown is copied under
+`.standards/`; the lock records source commit, scope, selections, and checksums. Symlink
+paths and edited/untracked conflicting managed files are rejected before writing.
 
-## New project setup
+Select design with `--preset operational`, `reading`, `hospitality`, or `creative`.
+No preset is selected by default. Use `--overrides docs/project-design.md` to
+reference an existing project-local document; the tool never edits overrides.
 
-1. Copy `templates/AGENTS.md` → repo root, fill in identity/commands/map/rules.
-2. Copy `templates/PROJECT_CACHE.md` → repo root, fill in stack/decisions/issues.
-3. Agents auto-load the project `AGENTS.md`, which extends this system.
+Upgrade uses the same options as apply, with `upgrade` as the command. When
+selection flags are omitted it preserves the installed selections and overrides;
+explicit empty values clear a selection. Review the diff and commit in the target.
+Do not edit managed files directly; use overrides and upgrades instead.
 
-## Token savings (estimate)
+Offline `check` verifies bundle integrity and pin format. Add `--source <library-checkout>`
+to verify every bundled file against the pinned Git object. Checksums alone do not
+prove source authenticity; review the source commit before adoption. Missing or
+inaccessible source objects fail without target writes. Existing Forge/product
+manifests are neither read nor changed by adoption.
 
-Old boot forced ~12 files every session (AGENTS + SESSION_START + DISPATCH +
-UPA_V1 ~19KB + COHERENCE/SECURITY/DOCS + LIGHT + ESCALATION + ARCH + TODO):
-roughly 45–60KB of context before any work. New boot for a LOW task is
-AGENTS.md (~8KB) + DISPATCH (~3KB) + project cache (~1–2KB) + affected files —
-roughly 12–15KB, a ~70% reduction. MEDIUM adds one agent file (~5KB).
-HIGH/CRITICAL loads UPA (~19KB) + ≤3 agents — i.e. the old cost, but only when
-justified. Output savings come from no ceremony blocks, no mandatory multi-agent
-panels, no fixed 4-file doc updates, and audits scoped to changed code.
+For remote proposals, manually dispatch **Propose standards adoption** with an
+explicit owned target repository, scope, version and source ref. It opens a branch/PR,
+never writes to a default branch, never merges, and never enrolls other projects.
+The workflow needs `ORG_BOOTSTRAP_TOKEN` scoped to the selected target with contents
+and pull-request write permission. Missing credentials/permissions fail the run.
 
-## Vetoes (only when that agent is loaded)
+## Maintain the library
 
-SECURITY: trust boundaries · DATABASE: lossy migrations · DEVOPS: unsafe
-releases · UX: WCAG 2.1 AA · QA: untested releases · ARCHITECT: system design.
+```sh
+npm ci
+npm test
+npm run validate
+```
 
-*Author: ShadowWalkerNC · v3.0*
+See [verification evidence](docs/VERIFICATION.md) and
+[maintenance and migration](docs/MAINTENANCE.md) for authority, release rules,
+compatibility, and historical reconciliation. Catalog selections are defined by
+`library.json`; add guides there so adoption and validation share one source.
+PR checks run read-only on Linux and Windows. Dependencies are locked.
 
-
-## Portfolio governance v4
-Start with [MASTER_PLAN.md](MASTER_PLAN.md), [CURRENT_STATE.md](CURRENT_STATE.md), [current phase](execution/CURRENT_PHASE.yaml), [portfolio](portfolio/PORTFOLIO.yaml), [ADRs](decisions/README.md) and [shared ledger](AI_SHARED_LEDGER.md). Local governance installation is not publication approval; review private project metadata and local paths before any public push.
+No real product rollout, runtime policy engine, history rewrite, release tag,
+production operation, or retrospective product certification is part of this change.

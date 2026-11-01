@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 1,
+  "sourceCounts": {
+    "inventory": 63,
+    "ecosystem": 45
+  },
+  "rows": [
+    {
+      "source": "inventory",
+      "sourceId": "governance",
+      "targetId": "shadowwalkernc--dotgithub",
+      "disposition": "included-public",
+      "sourcePosition": 1
+    },
+    {
+      "source": "inventory",
+      "sourceId": "asciline",
+      "targetId": "shadowwalkernc--asciline-2dot0",
+      "disposition": "included-public",
+      "sourcePosition": 2
+    },
+    {
+      "source": "inventory",
+      "sourceId": "bedrockops",
+      "targetId": "shadowwalkernc--bedrockops",
+      "disposition": "included-public",
+      "sourcePosition": 3
+    },
+    {
+      "source": "inventory",
+      "sourceId": "benjamins",
+      "targetId": "shadowwalkernc--benjamins",
+      "disposition": "included-public",
+      "sourcePosition": 4
+    },
+    {
+      "source": "inventory",
+      "sourceId": "bibledesk",
+      "targetId": "shadowwalkernc--bibledesk",
+      "disposition": "included-public",
+      "sourcePosition": 5
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-001",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 6
+    },
+    {
+      "source": "inventory",
+      "sourceId": "cloudflare-os",
+      "targetId": "shadowwalkernc--cloudflare-os",
+      "disposition": "included-public",
+      "sourcePosition": 7
+    },
+    {
+      "source": "inventory",
+      "sourceId": "culinaryos-ops-source",
+      "targetId": "shadowwalkernc--culinaryops",
+      "disposition": "included-public",
+      "sourcePosition": 8
+    },
+    {
+      "source": "inventory",
+      "sourceId": "culinaryos",
+      "targetId": "shadowwalkernc--culinaryos",
+      "disposition": "included-public",
+      "sourcePosition": 9
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-002",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 10
+    },
+    {
+      "source": "inventory",
+      "sourceId": "emergency-cad",
+      "targetId": "shadowwalkernc--emergency-cad",
+      "disposition": "included-public",
+      "sourcePosition": 11
+    },
+    {
+      "source": "inventory",
+      "sourceId": "emscad",
+      "targetId": "shadowwalkernc--emscad",
+      "disposition": "included-public",
+      "sourcePosition": 12
+    },
+    {
+      "source": "inventory",
+      "sourceId": "joes-tacos",
+      "targetId": "shadowwalkernc--joes-tacos",
+      "disposition": "included-public",
+      "sourcePosition": 13
+    },
+    {
+      "source": "inventory",
+      "sourceId": "culinaryos-prep-source",
+      "targetId": "shadowwalkernc--kitchenkit",
+      "disposition": "included-public",
+      "sourcePosition": 14
+    },
+    {
+      "source": "inventory",
+      "sourceId": "mercury",
+      "targetId": "shadowwalkernc--mercury",
+      "disposition": "included-public",
+      "sourcePosition": 15
+    },
+    {
+      "source": "inventory",
+      "sourceId": "muselab",
+      "targetId": "shadowwalkernc--muselab",
+      "disposition": "included-public",
+      "sourcePosition": 16
+    },
+    {
+      "source": "inventory",
+      "sourceId": "node-minecraft-protocol",
+      "targetId": "shadowwalkernc--node-minecraft-protocol",
+      "disposition": "included-public",
+      "sourcePosition": 17
+    },
+    {
+      "source": "inventory",
+      "sourceId": "open-saas",
+      "targetId": "shadowwalkernc--open-saas",
+      "disposition": "included-public",
+      "sourcePosition": 18
+    },
+    {
+      "source": "inventory",
+      "sourceId": "opendaw",
+      "targetId": "shadowwalkernc--opendaw",
+      "disposition": "included-public",
+      "sourcePosition": 19
+    },
+    {
+      "source": "inventory",
+      "sourceId": "openship",
+      "targetId": "shadowwalkernc--openship",
+      "disposition": "included-public",
+      "sourcePosition": 20
+    },
+    {
+      "source": "inventory",
+      "sourceId": "culinaryos-web-source",
+      "targetId": "shadowwalkernc--plated",
+      "disposition": "included-public",
+      "sourcePosition": 21
+    },
+    {
+      "source": "inventory",
+      "sourceId": "playhtml",
+      "targetId": "shadowwalkernc--playhtml",
+      "disposition": "included-public",
+      "sourcePosition": 22
+    },
+    {
+      "source": "inventory",
+      "sourceId": "playwright",
+      "targetId": "shadowwalkernc--playwright",
+      "disposition": "included-public",
+      "sourcePosition": 23
+    },
+    {
+      "source": "inventory",
+      "sourceId": "portfolio-profile",
+      "targetId": "shadowwalkernc--portfolio",
+      "disposition": "included-public",
+      "sourcePosition": 24
+    },
+    {
+      "source": "inventory",
+      "sourceId": "culinaryos-marketing-source",
+      "targetId": "shadowwalkernc--post-pilot",
+      "disposition": "included-public",
+      "sourcePosition": 25
+    },
+    {
+      "source": "inventory",
+      "sourceId": "prayer-atlas-source",
+      "targetId": "shadowwalkernc--prayer-atlas",
+      "disposition": "included-public",
+      "sourcePosition": 26
+    },
+    {
+      "source": "inventory",
+      "sourceId": "recipeos-source",
+      "targetId": "shadowwalkernc--recipeos",
+      "disposition": "included-public",
+      "sourcePosition": 27
+    },
+    {
+      "source": "inventory",
+      "sourceId": "restrevive-source",
+      "targetId": "shadowwalkernc--restrevive-ai",
+      "disposition": "included-public",
+      "sourcePosition": 28
+    },
+    {
+      "source": "inventory",
+      "sourceId": "shadowrealm",
+      "targetId": "shadowwalkernc--shadowrealm",
+      "disposition": "included-public",
+      "sourcePosition": 29
+    },
+    {
+      "source": "inventory",
+      "sourceId": "profile-meta",
+      "targetId": "shadowwalkernc--shadowwalkernc",
+      "disposition": "included-public",
+      "sourcePosition": 30
+    },
+    {
+      "source": "inventory",
+      "sourceId": "shieldbot",
+      "targetId": "shadowwalkernc--shieldbot",
+      "disposition": "included-public",
+      "sourcePosition": 31
+    },
+    {
+      "source": "inventory",
+      "sourceId": "shorelineops",
+      "targetId": "shadowwalkernc--shorelineops",
+      "disposition": "included-public",
+      "sourcePosition": 32
+    },
+    {
+      "source": "inventory",
+      "sourceId": "sigil-source",
+      "targetId": "shadowwalkernc--sigil",
+      "disposition": "included-public",
+      "sourcePosition": 33
+    },
+    {
+      "source": "inventory",
+      "sourceId": "unity-mc",
+      "targetId": "shadowwalkernc--unity-mc",
+      "disposition": "included-public",
+      "sourcePosition": 34
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-003",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 35
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-004",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 36
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-005",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 37
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-006",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 38
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-007",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 39
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-008",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 40
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-009",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 41
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-010",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 42
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-011",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 43
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-012",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 44
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-013",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 45
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-014",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 46
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-015",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 47
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-016",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 48
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-017",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 49
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-018",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 50
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-019",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 51
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-020",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 52
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-021",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 53
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-022",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 54
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-023",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 55
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-024",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 56
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-025",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 57
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-026",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 58
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-027",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 59
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-028",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 60
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-029",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 61
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-030",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 62
+    },
+    {
+      "source": "inventory",
+      "sourceId": "withheld-031",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 63
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "shadowhelicon",
+      "targetId": "shadowwalkernc--shadowhelicon",
+      "disposition": "included-public",
+      "sourcePosition": 1
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-032",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 2
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "dark-phoneix-clips",
+      "targetId": "shadowwalkernc--dark-phoneix-clips",
+      "disposition": "included-public",
+      "sourcePosition": 3
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "shorelineops",
+      "targetId": "shadowwalkernc--shorelineops",
+      "disposition": "included-public",
+      "sourcePosition": 4
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-033",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 5
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "culinaryos",
+      "targetId": "shadowwalkernc--culinaryos",
+      "disposition": "included-public",
+      "sourcePosition": 6
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-034",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 7
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-035",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 8
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": ".github",
+      "targetId": "shadowwalkernc--dotgithub",
+      "disposition": "included-public",
+      "sourcePosition": 9
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "muselab",
+      "targetId": "shadowwalkernc--muselab",
+      "disposition": "included-public",
+      "sourcePosition": 10
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "bibledesk",
+      "targetId": "shadowwalkernc--bibledesk",
+      "disposition": "included-public",
+      "sourcePosition": 11
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "post-pilot",
+      "targetId": "shadowwalkernc--post-pilot",
+      "disposition": "included-public",
+      "sourcePosition": 12
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-036",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 13
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "mercury",
+      "targetId": "shadowwalkernc--mercury",
+      "disposition": "included-public",
+      "sourcePosition": 14
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "emergency-cad",
+      "targetId": "shadowwalkernc--emergency-cad",
+      "disposition": "included-public",
+      "sourcePosition": 15
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "kitchenkit",
+      "targetId": "shadowwalkernc--kitchenkit",
+      "disposition": "included-public",
+      "sourcePosition": 16
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "plated",
+      "targetId": "shadowwalkernc--plated",
+      "disposition": "included-public",
+      "sourcePosition": 17
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "joes-tacos",
+      "targetId": "shadowwalkernc--joes-tacos",
+      "disposition": "included-public",
+      "sourcePosition": 18
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "benjamins",
+      "targetId": "shadowwalkernc--benjamins",
+      "disposition": "included-public",
+      "sourcePosition": 19
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "portfolio",
+      "targetId": "shadowwalkernc--portfolio",
+      "disposition": "included-public",
+      "sourcePosition": 20
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "shadowrealm",
+      "targetId": "shadowwalkernc--shadowrealm",
+      "disposition": "included-public",
+      "sourcePosition": 21
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "bedrockops",
+      "targetId": "shadowwalkernc--bedrockops",
+      "disposition": "included-public",
+      "sourcePosition": 22
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "shadowwalkernc",
+      "targetId": "shadowwalkernc--shadowwalkernc",
+      "disposition": "included-public",
+      "sourcePosition": 23
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "opendaw",
+      "targetId": "shadowwalkernc--opendaw",
+      "disposition": "included-public",
+      "sourcePosition": 24
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "culinaryops",
+      "targetId": "shadowwalkernc--culinaryops",
+      "disposition": "included-public",
+      "sourcePosition": 25
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "cloudflare-os",
+      "targetId": "shadowwalkernc--cloudflare-os",
+      "disposition": "included-public",
+      "sourcePosition": 26
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "playwright",
+      "targetId": "shadowwalkernc--playwright",
+      "disposition": "included-public",
+      "sourcePosition": 27
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "node-minecraft-protocol",
+      "targetId": "shadowwalkernc--node-minecraft-protocol",
+      "disposition": "included-public",
+      "sourcePosition": 28
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "openship",
+      "targetId": "shadowwalkernc--openship",
+      "disposition": "included-public",
+      "sourcePosition": 29
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "playhtml",
+      "targetId": "shadowwalkernc--playhtml",
+      "disposition": "included-public",
+      "sourcePosition": 30
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "shieldbot",
+      "targetId": "shadowwalkernc--shieldbot",
+      "disposition": "included-public",
+      "sourcePosition": 31
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "unity-mc",
+      "targetId": "shadowwalkernc--unity-mc",
+      "disposition": "included-public",
+      "sourcePosition": 32
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "open-saas",
+      "targetId": "shadowwalkernc--open-saas",
+      "disposition": "included-public",
+      "sourcePosition": 33
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "emscad",
+      "targetId": "shadowwalkernc--emscad",
+      "disposition": "included-public",
+      "sourcePosition": 34
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "sigil",
+      "targetId": "shadowwalkernc--sigil",
+      "disposition": "included-public",
+      "sourcePosition": 35
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "prayer-atlas",
+      "targetId": "shadowwalkernc--prayer-atlas",
+      "disposition": "included-public",
+      "sourcePosition": 36
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "asciline-2.0",
+      "targetId": "shadowwalkernc--asciline-2dot0",
+      "disposition": "included-public",
+      "sourcePosition": 37
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "recipeos",
+      "targetId": "shadowwalkernc--recipeos",
+      "disposition": "included-public",
+      "sourcePosition": 38
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "restrevive-ai",
+      "targetId": "shadowwalkernc--restrevive-ai",
+      "disposition": "included-public",
+      "sourcePosition": 39
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-037",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 40
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-038",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 41
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-039",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 42
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-040",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 43
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-041",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 44
+    },
+    {
+      "source": "ecosystem",
+      "sourceId": "withheld-042",
+      "targetId": null,
+      "disposition": "withheld-no-public-approval",
+      "sourcePosition": 45
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "side": "source",
+    "compiler": "TypeScript5.9.3 existing BibleDesk compiler",
+    "arguments": [
+      "execution/p06-parity/source-ratio-engine-strict.ts",
+      "execution/p06-parity/source-prep-engine-strict.ts",
+      "--noEmit",
+      "--strict",
+      "--noUncheckedIndexedAccess",
+      "--exactOptionalPropertyTypes",
+      "--target",
+      "ES2022",
+      "--module",
+      "ESNext",
+      "--moduleResolution",
+      "Bundler",
+      "--skipLibCheck"
+    ],
+    "exitCode": 2,
+    "log": "execution/P06_PARITY_source_STRICT.txt"
+  },
+  {
+    "side": "target",
+    "compiler": "TypeScript5.9.3 existing BibleDesk compiler",
+    "arguments": [
+      "execution/p06-parity/target-ratio-engine-strict.ts",
+      "execution/p06-parity/target-prep-engine-strict.ts",
+      "--noEmit",
+      "--strict",
+      "--noUncheckedIndexedAccess",
+      "--exactOptionalPropertyTypes",
+      "--target",
+      "ES2022",
+      "--module",
+      "ESNext",
+      "--moduleResolution",
+      "Bundler",
+      "--skipLibCheck"
+    ],
+    "exitCode": 0,
+    "log": "execution/P06_PARITY_target_STRICT.txt"
+  }
+]

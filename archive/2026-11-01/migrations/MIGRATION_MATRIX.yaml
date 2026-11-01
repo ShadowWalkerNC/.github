@@ -1,0 +1,105 @@
+{
+  "status": "in_progress",
+  "globalGates": [
+    "source_baseline",
+    "feature_inventory",
+    "data_ownership",
+    "contract_tests",
+    "integration_tests",
+    "parity_review",
+    "rollback_window",
+    "owner_approval_for_archive"
+  ],
+  "source": "Master Blueprint v4.0",
+  "sources": {
+    "KitchenKit": {
+      "target": "CulinaryOS/modules/prep",
+      "name": "CulinaryOS Prep",
+      "strategy": "gradual",
+      "finalState": "archived",
+      "phase": "P06-A",
+      "order": 1
+    },
+    "CulinaryOps": {
+      "target": "CulinaryOS/modules/ops",
+      "name": "CulinaryOS Ops",
+      "strategy": "gradual",
+      "finalState": "archived",
+      "phase": "P06-B",
+      "order": 2
+    },
+    "Post-Pilot": {
+      "target": "CulinaryOS/modules/marketing",
+      "name": "CulinaryOS Marketing",
+      "strategy": "gradual-polyglot",
+      "finalState": "archived",
+      "phase": "P06-C",
+      "order": 3
+    },
+    "Plated": {
+      "target": "CulinaryOS/modules/web",
+      "name": "CulinaryOS Web",
+      "strategy": "gradual",
+      "finalState": "archived",
+      "phase": "P06-D",
+      "order": 4
+    },
+    "RecipeOS": {
+      "target": "CulinaryOS/modules/prep",
+      "strategy": "absorbed",
+      "finalState": "archived",
+      "phase": "P06-A",
+      "order": 1
+    },
+    "RestRevive-AI": {
+      "target": "CulinaryOS/modules/intelligence",
+      "strategy": "concepts-only",
+      "finalState": "archived",
+      "phase": "P06-E",
+      "order": 5
+    },
+    "prayer-atlas": {
+      "target": "BibleDesk",
+      "strategy": "absorbed",
+      "finalState": "archived",
+      "phase": "P07"
+    },
+    "Sigil": {
+      "target": "Mercury",
+      "strategy": "selective",
+      "finalState": "archived",
+      "phase": "P07"
+    },
+    "MuseAiBots": {
+      "target": "MuseLab",
+      "strategy": "rename",
+      "finalState": "active",
+      "phase": "P04",
+      "requiresApproval": [
+        "repository_rename"
+      ],
+      "status": "complete",
+      "evidence": "execution/P04_RENAME_VERIFICATION.json"
+    },
+    "Joes-Tacos": {
+      "target": "archive",
+      "strategy": "archive",
+      "finalState": "archived",
+      "phase": "P07"
+    },
+    "Benjamins": {
+      "target": "archive",
+      "strategy": "archive",
+      "finalState": "archived",
+      "phase": "P07"
+    },
+    "Unity-MC": {
+      "target": "archive-if-unneeded",
+      "strategy": "conditional-archive",
+      "finalState": "archived",
+      "phase": "P07",
+      "condition": "Verify no active dependency remains"
+    }
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,127 @@
+{
+  "supportedContracts": 11,
+  "pendingContracts": [
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 40,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "culinaryos:service:deregistered",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 39,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "culinaryos:service:registered",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 37,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "culinaryos:tenant:created",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 38,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "culinaryos:tenant:suspended",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/event-bus/src/handlers/pos-order-created.ts",
+          "line": 91,
+          "kind": "event-bus-observation"
+        }
+      ],
+      "next": "Define legacy transport shape; plan version adapter without changing live wire",
+      "wireName": "kds:ticket:held",
+      "classification": "outbox-transport-not-domain-envelope"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 28,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "kds:ticket:recalled",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 24,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "pos:order:paid",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 22,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "pos:order:updated",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 34,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "recipeos:recipe:created",
+      "classification": "declared-wire-without-payload-interface"
+    },
+    {
+      "sourceProof": [
+        {
+          "path": "packages/shared/src/types/events.ts",
+          "line": 35,
+          "kind": "canonical-type"
+        }
+      ],
+      "next": "Explicit declared-only disposition; no payload implementation found in bounded literal scan",
+      "wireName": "recipeos:recipe:updated",
+      "classification": "declared-wire-without-payload-interface"
+    }
+  ],
+  "scope": "Literal-reference scan apps/packages/cli/mcp/mobile TS/JS sources excluding node_modules/dist/build/generated; only declarations found for nine wires. Dynamic producer/consumer absence is not proven.",
+  "phase": "P05"
+}

@@ -1,37 +1,5 @@
 {
-  "schemaVersion": 1,
-  "state": "canonical-target; existing event compatibility not verified",
-  "events": [
-    {
-      "name": "order.created",
-      "version": 1,
-      "owner": "CulinaryOS-Core",
-      "status": "planned-contract"
-    },
-    {
-      "name": "inventory.updated",
-      "version": 1,
-      "owner": "CulinaryOS-Core",
-      "status": "planned-contract"
-    },
-    {
-      "name": "prep.completed",
-      "version": 1,
-      "owner": "CulinaryOS-Prep",
-      "status": "planned-contract"
-    },
-    {
-      "name": "labor.shift.updated",
-      "version": 1,
-      "owner": "CulinaryOS-Ops",
-      "status": "planned-contract"
-    },
-    {
-      "name": "campaign.published",
-      "version": 1,
-      "owner": "CulinaryOS-Marketing",
-      "status": "planned-contract"
-    }
-  ],
-  "migrationRule": "Map existing event consumers before introducing or renaming events."
+  "historical": true,
+  "archive": "archive/2026-11-01/portfolio/EVENT_CATALOG.yaml",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

@@ -1,16 +1,10 @@
-# ADR-NNNN — Decision title
-Status: proposed | accepted | superseded
-Owner: OWNER
-Date: DATE
+# Decision record template
 
-## Requirement and context
-Explain the concrete requirement and verified current state.
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: explicitly selected project documentation.
+Canonical location: `templates/ADR.template.md`.
 
-## Decision
-Record the chosen boundary or contract.
-
-## Alternatives and consequences
-Describe relevant rejected choices, costs and removal/rollback path.
-
-## Evidence
-Link source, tests and approval evidence. Do not claim implementation from acceptance.
+Decision: <specific accepted choice or clearly proposed choice>.
+Context: <problem, constraints, and evidence>.
+Alternatives: <relevant tradeoffs>.
+Consequences: <compatibility, risks, and affected consumers>.
+Status and owner: <proposed/accepted/superseded, date, owner>.

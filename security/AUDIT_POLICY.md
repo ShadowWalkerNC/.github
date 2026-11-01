@@ -1,4 +1,4 @@
-# audit policy
-Record request, actor/agent, project, provider, capability, permission, approval, action, result and timestamp for durable actions. Keep provenance task/files/checks/commit identifiers when available. Audit changed scope, not private reasoning. Define retention and access controls before collecting sensitive operational records.
+# Historical entry point
 
-Related: [security standard](../standards/SECURITY_STANDARD.md) and [current approvals](../execution/APPROVALS.yaml).
+This document is superseded. [Historical snapshot](../archive/2026-11-01/security/AUDIT_POLICY.md) (sanitized, 2026-11-01).
+This is not current policy or product acceptance evidence. See the [active library](../README.md).

@@ -1,16 +1,10 @@
-# PROJECT_NAME status
-Updated: DATE
-Current phase: PHASE_ID
-Owner: OWNER
+# Project status template
 
-## Current implementation
-Describe source-verified behavior and link evidence.
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: explicitly selected project documentation.
+Canonical location: `templates/STATUS.template.md`.
 
-## Verification
-List checks actually run and their results; distinguish unrun or blocked checks.
-
-## Constraints and blockers
-Record applicable limitations and approval boundaries.
-
-## Next
-Name the next scoped action and owner. Link the shared ledger.
+Observed at: <date and commit>.
+Changed behavior: <current verified state>.
+Checks: <PASS/FAIL/NOT RUN/BLOCKED plus scope and evidence>.
+Limitations: <unresolved facts, not inferred completion>.
+Next action: <bounded follow-up and owner>.

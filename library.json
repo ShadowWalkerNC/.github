@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "repository": "ShadowWalkerNC/.github",
+  "core": [
+    "core/WORKING_AGREEMENTS.md",
+    "core/TASK_CLASSIFICATION.md"
+  ],
+  "standards": {
+    "AGENT_STANDARD": "standards/AGENT_STANDARD.md",
+    "AI_HANDOFF_STANDARD": "standards/AI_HANDOFF_STANDARD.md",
+    "API_STANDARD": "standards/API_STANDARD.md",
+    "ARCHITECTURE_STANDARD": "standards/ARCHITECTURE_STANDARD.md",
+    "DEPLOYMENT_STANDARD": "standards/DEPLOYMENT_STANDARD.md",
+    "DESIGN_AND_CODE_BIBLE": "standards/DESIGN_AND_CODE_BIBLE.md",
+    "DOCUMENTATION_STANDARD": "standards/DOCUMENTATION_STANDARD.md",
+    "EXTENSION_STANDARD": "standards/EXTENSION_STANDARD.md",
+    "MCP_STANDARD": "standards/MCP_STANDARD.md",
+    "MUSE_STANDARD": "standards/MUSE_STANDARD.md",
+    "PROJECT_STANDARD": "standards/PROJECT_STANDARD.md",
+    "REPO_STANDARD": "standards/REPO_STANDARD.md",
+    "REQUIREMENTS_WORKFLOW": "standards/REQUIREMENTS_WORKFLOW.md",
+    "SDK_ADOPTION_STANDARD": "standards/SDK_ADOPTION_STANDARD.md",
+    "SDK_STANDARD": "standards/SDK_STANDARD.md",
+    "SECURITY_STANDARD": "standards/SECURITY_STANDARD.md",
+    "TESTING_STANDARD": "standards/TESTING_STANDARD.md",
+    "VERSIONING_STANDARD": "standards/VERSIONING_STANDARD.md"
+  },
+  "playbooks": {
+    "project-discovery": "playbooks/project-discovery.md",
+    "feature-planning": "playbooks/feature-planning.md",
+    "ui-work": "playbooks/ui-work.md",
+    "bug-fix": "playbooks/bug-fix.md",
+    "verification": "playbooks/verification.md",
+    "handoff": "playbooks/handoff.md"
+  },
+  "presets": {
+    "operational": "presets/operational.md",
+    "reading": "presets/reading.md",
+    "hospitality": "presets/hospitality.md",
+    "creative": "presets/creative.md"
+  }
+}

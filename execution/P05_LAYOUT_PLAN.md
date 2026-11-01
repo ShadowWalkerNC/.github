@@ -1,3 +1,4 @@
-# P05 target layout preparation
-Requirement: blueprint sections60/96 require content-bearing target boundaries before migration. Add foundation.boundary.json at33 target paths and one canonical registry, plus a native validator and negative tests. Descriptors reference unchanged implementations and canonical ownership; no package manifests, workspace activation, runtime entrypoints, feature migration or installations. Missing Python/provider capabilities remain planned. Existing modules/packages are reused through source references, never copied.
-Validation: exact target coverage, contained paths, real references, owner/data-domain agreement and no runtime activation; existing foundation checks. Rollback removes only these additive files/directories when empty. Estimated bounded context4k–6k tokens, not measured usage. Plan audit: thin metadata supplies actual target architecture without duplicated business logic or empty placeholder directories.
+# Historical entry point
+
+This document is superseded. [Historical snapshot](../archive/2026-11-01/execution/P05_LAYOUT_PLAN.md) (sanitized, 2026-11-01).
+This is not current policy or product acceptance evidence. See the [active library](../README.md).

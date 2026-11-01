@@ -1,0 +1,32 @@
+{
+  "id": "P11",
+  "name": "Hardware simulation",
+  "status": "pending",
+  "depends_on": [
+    "P10"
+  ],
+  "repositories": [
+    "ShadowWalkerNC/MuseAiBots"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "plan"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Simulated device contracts validated before hardware purchase"
+  ],
+  "permission_note": "Pending phases authorize planning/inspection only; activate a bounded execution contract before product mutations."
+}

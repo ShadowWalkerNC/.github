@@ -1,16 +1,10 @@
-# Source -> Target migration
-Status: planned
-Owner: OWNER
-Phase: PHASE_ID
+# Migration plan template
 
-## Baseline
-Repository, branch, commit/source snapshot, tags, releases, issues/PRs, deployments, domains, env names, DB version, license and package versions. Unknowns stay explicit.
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: explicitly selected project documentation.
+Canonical location: `templates/MIGRATION.template.md`.
 
-## Feature and boundary map
-Routes/features, data ownership, APIs/MCP, contracts, auth assumptions, dependencies and existing target implementation.
-
-## Sequence and acceptance
-Incremental movement -> contract/integration tests -> parity review -> docs -> deprecation -> read-only -> archive after rollback window and approval.
-
-## Rollback
-Trigger, procedure, source state, data restoration and deployment restoration. Do not archive while rollback depends on the source.
+Source and target: <named boundaries>.
+Compatibility: <contracts, data, and behavior to preserve>.
+Authorization: <actual applicable permission, never inferred>.
+Steps: <bounded ordered changes and verification>.
+Recovery: <rollback/forward-recovery and acceptance evidence>.

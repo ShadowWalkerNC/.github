@@ -1,129 +1,88 @@
-name: Auto-Bootstrap New Repos
-
+name: Propose standards adoption
 on:
-  schedule:
-    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: 'Dry run (list only, no push)'
-        required: false
-        default: 'false'
-        type: boolean
-
+      target_repository:
+        description: 'Exact owned repository (ShadowWalkerNC/name); explicit adoption only'
+        type: string
+        required: true
+      scope:
+        description: 'Named adoption scope, such as documentation or checkout UI'
+        type: string
+        required: true
+      source_ref:
+        description: 'Reviewed immutable library commit or release tag'
+        type: string
+        required: true
+      version:
+        description: 'Library version matching that source'
+        type: string
+        required: true
+      standards:
+        description: 'Comma-separated standard IDs; blank preserves installed selection'
+        type: string
+        default: ''
+      playbooks:
+        description: 'Comma-separated playbook IDs; blank preserves installed selection'
+        type: string
+        default: ''
+      preset:
+        description: 'Optional: operational, reading, hospitality, creative; blank preserves installed selection'
+        type: string
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: standards-proposal-${{ inputs.target_repository }}
+  cancel-in-progress: false
 jobs:
-  bootstrap:
-    name: Detect and Bootstrap New Repos
+  propose:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Validate selected target
+        env:
+          TARGET_REPOSITORY: ${{ inputs.target_repository }}
+          PROPOSAL_TOKEN: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
+        run: |
+          [[ "$TARGET_REPOSITORY" =~ ^ShadowWalkerNC/[A-Za-z0-9_.-]+$ ]] || exit 1
+          [[ "$TARGET_REPOSITORY" != 'ShadowWalkerNC/.github' ]] || exit 1
+          [[ -n "$PROPOSAL_TOKEN" ]] || { echo 'Missing proposal credentials'; exit 1; }
+      - uses: actions/checkout@v4
         with:
-          node-version: '22'
-
-      - name: Install Octokit
-        run: npm install @octokit/rest
-
-      - name: Run bootstrap script
+          path: tooling
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          path: library-source
+          ref: ${{ inputs.source_ref }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ inputs.target_repository }}
+          token: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
+          path: target
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: tooling/package-lock.json
+      - run: npm ci --ignore-scripts
+        working-directory: tooling
+      - name: Configure GitHub Git authentication
+        env:
+          GH_TOKEN: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
+        run: gh auth setup-git
+      - name: Propose selected bundle
         env:
           ORG_BOOTSTRAP_TOKEN: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
-          DRY_RUN: ${{ inputs.dry_run || 'false' }}
-        run: |
-          cat << 'SCRIPT' > bootstrap.js
-          const { Octokit } = require('@octokit/rest');
-          const ORG = 'ShadowWalkerNC';
-          const DRY_RUN = process.env.DRY_RUN === 'true';
-          const TOKEN = process.env.ORG_BOOTSTRAP_TOKEN;
-          const SKIP_REPOS = ['.github'];
-
-          if (!TOKEN) { console.error('ERROR: ORG_BOOTSTRAP_TOKEN not set.'); process.exit(1); }
-
-          const octokit = new Octokit({ auth: TOKEN });
-
-          async function getAllRepos() {
-            const repos = [];
-            let page = 1;
-            while (true) {
-              const { data } = await octokit.repos.listForUser({ username: ORG, type: 'owner', per_page: 100, page });
-              if (!data.length) break;
-              repos.push(...data);
-              if (data.length < 100) break;
-              page++;
-            }
-            return repos;
-          }
-
-          async function hasAgentsMd(repo, branch) {
-            try {
-              await octokit.repos.getContent({ owner: ORG, repo, path: 'AGENTS.md', ref: branch });
-              return true;
-            } catch(e) { if (e.status === 404) return false; throw e; }
-          }
-
-          async function getTemplate() {
-            const { data } = await octokit.repos.getContent({ owner: ORG, repo: '.github', path: 'templates/AGENTS.md' });
-            return Buffer.from(data.content, 'base64').toString('utf8');
-          }
-
-          async function detectStack(repo, branch) {
-            const checks = [
-              ['package.json','Node.js/TypeScript'],['pnpm-workspace.yaml','pnpm monorepo'],
-              ['turbo.json','Turborepo'],['build.gradle.kts','Kotlin/Android'],
-              ['Cargo.toml','Rust'],['go.mod','Go'],['pyproject.toml','Python'],
-              ['docker-compose.yml','Docker'],['next.config.ts','Next.js'],
-              ['next.config.js','Next.js'],
-            ];
-            const found = [];
-            for (const [path, hint] of checks) {
-              try {
-                await octokit.repos.getContent({ owner: ORG, repo, path, ref: branch });
-                if (!found.includes(hint)) found.push(hint);
-              } catch {}
-            }
-            return found.length ? found.join(' · ') : 'Unknown — update manually';
-          }
-
-          function fillTemplate(template, name, desc, stack, url, branch) {
-            const date = new Date().toISOString().split('T')[0];
-            return template
-              .replace(/\[PROJECT NAME\]/g, name)
-              .replace(/\[project name\]/g, name)
-              .replace(/\[one sentence — what this is and what problem it solves\]/g,
-                (desc || 'No description — update this.').substring(0, 200))
-              .replace(/\[e\.g\. TypeScript, Kotlin, Python\]/g, 'Detected: ' + stack)
-              .replace(/\[current phase number and name\]/g, '0 — Initial setup')
-              .replace(/\[planning \| in development \| in production \| paused\]/g, 'planning')
-              .replace(/\[active \| maintenance \| low\]/g, 'active')
-              + `\n\n---\n*Auto-generated: ${date} | Extends: ShadowWalkerNC/.github/AGENTS.md | Repo: [${name}](${url})*\n*Action required: Fill in all placeholder fields before using this repo in a session.*\n`;
-          }
-
-          async function main() {
-            console.log(`Bootstrap — Org: ${ORG} | Dry run: ${DRY_RUN}`);
-            const [repos, template] = await Promise.all([getAllRepos(), getTemplate()]);
-            console.log(`Found ${repos.length} repos`);
-            let pushed = 0;
-            for (const repo of repos) {
-              const { name, default_branch: branch, archived, disabled, description, html_url } = repo;
-              if (SKIP_REPOS.includes(name) || archived || disabled) { console.log(`SKIP: ${name}`); continue; }
-              if (await hasAgentsMd(name, branch)) { console.log(`OK:   ${name}`); continue; }
-              const stack = await detectStack(name, branch);
-              console.log(`NEED: ${name} (${stack})`);
-              if (!DRY_RUN) {
-                const filled = fillTemplate(template, name, description, stack, html_url, branch);
-                const content = Buffer.from(filled).toString('base64');
-                await octokit.repos.createOrUpdateFileContents({
-                  owner: ORG, repo: name, path: 'AGENTS.md', branch,
-                  message: 'feat(agents): auto-bootstrap AGENTS.md from canonical template — fill in placeholders before use',
-                  content,
-                });
-                console.log(`DONE: ${name}`);
-                pushed++;
-              }
-            }
-            console.log(`\nPushed: ${pushed}`);
-          }
-
-          main().catch(e => { console.error(e); process.exit(1); });
-          SCRIPT
-          node bootstrap.js
+          GH_TOKEN: ${{ secrets.ORG_BOOTSTRAP_TOKEN }}
+          TARGET_REPOSITORY: ${{ inputs.target_repository }}
+          ADOPTION_SCOPE: ${{ inputs.scope }}
+          LIBRARY_VERSION: ${{ inputs.version }}
+          LIBRARY_REF: ${{ inputs.source_ref }}
+          SELECTED_STANDARDS: ${{ inputs.standards }}
+          SELECTED_PLAYBOOKS: ${{ inputs.playbooks }}
+          SELECTED_PRESET: ${{ inputs.preset }}
+        run: node tooling/scripts/propose-inputs.mjs

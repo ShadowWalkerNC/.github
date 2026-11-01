@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/forge-project.schema.json",
+  "schemaVersion": 1,
+  "name": "PROJECT_NAME",
+  "repository": null,
+  "classification": "product",
+  "lifecycle": "planned-active",
+  "priority": null,
+  "ecosystem": "ECOSYSTEM_NAME",
+  "visibility": "internal",
+  "languages": [],
+  "capabilities": [],
+  "integrations": {
+    "models": [],
+    "codingAgents": [],
+    "muse": [],
+    "xr": [],
+    "deploymentProviders": [],
+    "mcp": [],
+    "sdks": [],
+    "extensions": []
+  },
+  "notes": [
+    "Template only; empty capabilities/integrations are unverified, not evidence of absence."
+  ]
+}

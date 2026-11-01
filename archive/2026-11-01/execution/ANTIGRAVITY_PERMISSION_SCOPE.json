@@ -1,0 +1,18 @@
+{
+  "previous": "absent",
+  "settings": "[local-path-redacted]",
+  "rules": [
+    "read_file([local-path-redacted]",
+    "read_file([local-path-redacted]",
+    "write_file([local-path-redacted]",
+    "write_file([local-path-redacted]",
+    "write_file([local-path-redacted]",
+    "write_file([local-path-redacted]",
+    "command(pwsh -NoProfile -File [local-path-redacted]"
+  ],
+  "verificationCommand": "pwsh -NoProfile -File [local-path-redacted]",
+  "rollback": "Remove only task-added rules or remove settings if otherwise unchanged",
+  "source": "http[local-path-redacted]",
+  "date": "2026-10-03",
+  "userApproval": "Allow scoped CLI permissions"
+}

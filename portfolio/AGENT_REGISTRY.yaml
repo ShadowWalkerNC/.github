@@ -1,50 +1,5 @@
 {
-  "schemaVersion": 1,
-  "entries": [
-    {
-      "id": "muse-code",
-      "role": "coding-agent",
-      "owner": "ShadowWalkerNC",
-      "adapter": "ForgeSatchel/src/agents.ts",
-      "runtimeCompatibility": "NOT RUN"
-    },
-    {
-      "id": "codex",
-      "role": "coding-agent",
-      "owner": "ShadowWalkerNC",
-      "adapter": "ForgeSatchel/src/agents.ts",
-      "runtimeCompatibility": "NOT RUN"
-    },
-    {
-      "id": "opencode",
-      "role": "coding-agent",
-      "owner": "ShadowWalkerNC",
-      "adapter": "ForgeSatchel/src/agents.ts",
-      "runtimeCompatibility": "NOT RUN"
-    },
-    {
-      "id": "gemini",
-      "role": "coding-agent",
-      "owner": "ShadowWalkerNC",
-      "adapter": "ForgeSatchel/src/agents.ts",
-      "runtimeCompatibility": "NOT RUN"
-    },
-    {
-      "id": "claude",
-      "role": "coding-agent",
-      "owner": "ShadowWalkerNC",
-      "adapter": "ForgeSatchel/src/agents.ts",
-      "runtimeCompatibility": "NOT RUN"
-    },
-    {
-      "id": "antigravity",
-      "role": "coding-agent",
-      "owner": "ShadowWalkerNC",
-      "adapter": "ForgeSatchel/src/agents.ts",
-      "runtimeCompatibility": "NOT RUN"
-    }
-  ],
-  "dispatch": "approval and non-overlapping ownership required",
-  "sharedState": "../AI_SHARED_LEDGER.md",
-  "privateReasoning": "never stored"
+  "historical": true,
+  "archive": "archive/2026-11-01/portfolio/AGENT_REGISTRY.yaml",
+  "notice": "Superseded export; use portfolio/index.json for the active public index. No product contract migration is implied."
 }

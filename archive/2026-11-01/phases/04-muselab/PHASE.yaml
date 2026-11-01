@@ -1,0 +1,37 @@
+{
+  "id": "P04",
+  "name": "MuseLab",
+  "status": "in_progress",
+  "depends_on": [
+    "P03"
+  ],
+  "repositories": [
+    "ShadowWalkerNC/MuseAiBots"
+  ],
+  "allowed_actions": [
+    "read",
+    "inspect",
+    "plan",
+    "document",
+    "create",
+    "edit",
+    "test",
+    "execute"
+  ],
+  "requires_approval": [
+    "push",
+    "production_deploy",
+    "production_rollback",
+    "secret_change",
+    "permission_change",
+    "repository_rename",
+    "archive_repository",
+    "organization_migration",
+    "destructive_migration",
+    "muse_production_promotion"
+  ],
+  "exit_criteria": [
+    "Experiments record hypothesis, implementation, results and decision"
+  ],
+  "permission_note": "APP-P04-FOUNDATION approved: existing MuseLab local lifecycle registry/templates, NOT RUN comparison catalog, simulated read-only MCP/device contracts and XR checklist. No installs/provider calls/hardware/permission changes/push/promotion."
+}

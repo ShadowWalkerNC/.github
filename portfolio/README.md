@@ -1,11 +1,20 @@
-# Portfolio registry
-[PORTFOLIO.yaml](PORTFOLIO.yaml) is the canonical registry of 63 discovered entities.
-The file uses JSON syntax, which is valid YAML 1.2. PowerShell can parse and validate it without installing a YAML dependency.
+# Public portfolio index
 
-classification and lifecycle are governance designations. observed contains captured GitHub/filesystem truth. migration.execution records actual migration progress separately.
-Only the eight activeProjectIds belong in the default Active dashboard. Governance/profile/tooling entries live in Supporting; migration sources live in Migrations; Labs and References have separate views.
-A local package, workspace, or experiment is an inventory entity rather than an automatic top-level repository.
+Owner: ShadowWalkerNC · Version: 1.0.0 · Applies to: public identity and evidence references.
+Canonical data: [index.json](index.json). No runtime health or completion authority.
 
-Regeneration: scripts/Build-PortfolioClassification.ps1 uses the baseline and approved blueprint mappings. It must not be rerun blindly after new portfolio decisions; update its rules together with the registry.
-Validation: scripts/Validate-Portfolio.ps1 checks semantic integrity; add -Schema after P02 schemas are present.
-Future manifests and standards live in schemas/, templates/ and standards/. [Migration targets](../migrations/MIGRATION_MATRIX.yaml) are plans with approval/rollback gates, not proof of implementation.
+The index unions explicitly public repository observations from the historical
+63-entity inventory and 45-entry ecosystem registry. Conflicting categories or
+lifecycle designations are `unverified`, not resolved by recency alone. Observation
+dates are historical, not live GitHub verification. Evidence links point to the
+product repositories, which own current instructions, status, and acceptance.
+
+[reconciliation.json](reconciliation.json) accounts for all 108 source rows.
+Private identities and non-repository entities without publication approval are
+withheld using opaque references; none is silently asserted absent or completed.
+The union is not a new claim of current repository visibility. New entries require
+public evidence or explicit private-identity publication approval. Such approval
+must be documented before inclusion; no private identity is approved by this PR.
+
+Old exports are historical pointers. Existing product manifests and consumers
+are unchanged; do not substitute this public index for an operational contract.
