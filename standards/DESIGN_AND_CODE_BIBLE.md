@@ -1,16 +1,16 @@
 # Design and Code Bible, agent edition
 
-Agent-readable Markdown edition of Nate's Design and Code Bible (the Master Design File), Version 2.1, October 30, 2026. Same content as the PDF edition. For Codex, Antigravity, and any coding agent: treat this file as a preset library of design and coding rules. Standing rule from the owner: nothing in this file is applied to a project until Nate names that project.
+Agent-readable Markdown edition of Nate's Design and Code Bible (the Master Design File), Version 2.2, November 1, 2026. Same content as the PDF edition. For Codex, Antigravity, and any coding agent: treat this file as a preset library of design and coding rules. Standing rule from the owner: nothing in this file is applied to a project until Nate names that project.
 
 ---
 
-Master Design File - Version 2.1 - October 30, 2026
+Master Design File - Version 2.2 - November 1, 2026
 
 # Design rules and presets for any application
 
-Every pattern from the ten source videos, turned into tokens, component specs, code, and checklists. A builder who has never seen the videos can apply the whole system from this file alone.
+Every pattern from the source videos and reference repos, turned into tokens, component specs, code, and checklists, usable by a builder who never saw them.
 
-### How agents use and update this file
+## How agents use and update this file
 
 - **Use:** when a task involves UI or design work in any ShadowWalkerNC project, load the sections of this file that match the task (tokens first, then the component or pattern spec, then the discipline checklists). Do not load the whole file for non-design work.
 - **Standing rule:** nothing in this file is applied to a project until the owner, Nate, names that project. This file is a preset library, not a work order.
@@ -18,7 +18,7 @@ Every pattern from the ten source videos, turned into tokens, component specs, c
 
 ---
 
-## What is inside
+### What is inside
 
 | Pattern | Discipline | Page focus |
 | --- | --- | --- |
@@ -31,18 +31,19 @@ Every pattern from the ten source videos, turned into tokens, component specs, c
 | Effortless search flow (Airbnb) | UX, UI | Steps not forms, live result count on the button |
 | Blank page that never feels empty (Notion) | UX, UI | Cursor first, hidden chrome, starters that vanish |
 | Honest controls: checkbox, switch, radio | UI, UX | Act now or on save, 44px rows, three-state parent |
+| One file carries the look (DESIGN.md) | AIX, PX | DESIGN.md format, own-system rule, browser check loop |
 | Five-discipline rule sets | UI, UX, MX, PX, AIX | Checkable rules for every project |
 
 ### How to use this file
 
 1. **Start with tokens (page 3).** Set the variables first. Never style a component with a one-off value when a token exists.
-2. **Build components from their spec pages.** Each spec gives structure, exact values, states, code, and acceptance checks.
-3. **Run the discipline checklists (pages 12 to 14)** before calling any screen or flow done.
-4. **Values marked DERIVED** are implementation values worked out from the source idea (for example, a blur radius where the video named the effect but not the number). They are starting presets, free to tune per project. Values with no mark come straight from the source.
+2. **Build components from their spec pages.** Each spec gives structure, values, states, code, and acceptance checks.
+3. **Run the discipline checklists (pages 13 to 15)** before calling any screen or flow done.
+4. **Values marked DERIVED** are implementation values worked out from the source idea (a blur radius where the video named the effect, not the number). Starting presets, free to tune per project. Unmarked values come straight from the source.
 
 **Standing rule:** Nothing in this file is applied to a project until Nate names that project. This file is the preset library, not a work order.
 
-**Version 2 (Oct 30, 2026):** adds the three Design Motion teardowns as Spec 05 and 06 (pages 10 to 11), three source rows, one UX rule, and a ship-gate check. **Version 2.1 (same day):** four Karpathy prompting techniques folded into the AIX rules (page 13), with a source row. The Oct 26 ruleset assessment was measured against v1; it needs a refresh before it counts as current.
+**Version 2 (Oct 30, 2026):** adds Spec 05 and 06 (pages 10 to 11), three source rows, one UX rule, a ship-gate check. **Version 2.1 (same day):** four Karpathy techniques into the AIX rules (page 14). **Version 2.2 (Nov 1, 2026):** adds Spec 07 (page 12), the DESIGN.md format and the browser verification loop. The Oct 26 ruleset assessment was measured against v1 and needs a refresh.
 
 Foundation
 
@@ -63,7 +64,7 @@ Build order matters. Tokens first, then components, then pages, then flows, then
 - **UI sits inside UX.** A beautiful screen on a five-step task that should take two is still bad UX.
 - **UX sits inside PX.** A smooth flow inside a product that breaks its promise at billing or support still fails.
 - **MX cuts across UI and UX.** Motion explains state changes inside a screen and carries the user between steps in a flow.
-- **AIX touches all of them.** Anywhere AI acts, suggests, or generates, the AIX rules on page 13 apply on top of the other four.
+- **AIX touches all of them.** Anywhere AI acts, suggests, or generates, the AIX rules on page 14 apply on top of the other four.
 
 **Decision test:** When two rules conflict, the outer layer wins. A PX promise (for example, no surprise charges) overrides a UI preference (for example, hiding the price to clean up the layout).
 
@@ -186,7 +187,7 @@ Component Spec 01 - Continued
 - [ ] Reduced motion: with prefers-reduced-motion set, menu appears without animation.
 - [ ] Mobile: bar remains usable at 360px wide, no overlapping items.
 
-Sources: Omar Farook (@buildwithomar), floating nav bar, posted Oct 23, 2026. Code XR, Apple-style navbar, posted Sept 21, 2026. Full links in the source index, page 14.
+Sources: Omar Farook (@buildwithomar), floating nav bar, posted Oct 23, 2026. Code XR, Apple-style navbar, posted Sept 21, 2026. Full links in the source index, page 15.
 
 Component Spec 02 - Buttons
 
@@ -382,7 +383,7 @@ The move: an empty create surface that teaches itself in one glance, then gets o
 - [ ] Create surfaces open with the cursor in the primary field; zero clicks before typing.
 - [ ] Help is one disappearing hint line, never a paragraph; starters vanish after the first character and never return for that item.
 
-Sources: Design Motion, Airbnb search teardown, posted Oct 25, 2026. Design Motion, Notion blank page teardown, posted Oct 26, 2026. Full links in the source index, page 14.
+Sources: Design Motion, Airbnb search teardown, posted Oct 25, 2026. Design Motion, Notion blank page teardown, posted Oct 26, 2026. Full links in the source index, page 15.
 
 Component Spec 06 - Controls
 
@@ -411,7 +412,46 @@ UI - UX
 
 **Promo flag:** all three Design Motion teardowns (pages 10 to 11) also pitch the creator's UX Engine tool, linked in the video bio. The specs in this file rest on the teardown content. The pitch is a tactic, not a design rule.
 
-Source: Design Motion, checkbox, switch, radio teardown, posted Oct 8, 2026. Full link in the source index, page 14.
+Source: Design Motion, checkbox, switch, radio teardown, posted Oct 8, 2026. Full link in the source index, page 15.
+
+Pattern Spec 07 - Agent Workflow
+
+## The look in one file, checked in a real browser
+
+AIX - PX
+
+**The governing idea:** AGENTS.md tells the agent how to build. DESIGN.md tells it how the product should look. A real browser tells it whether the build worked. Verify in the browser, never by reading code alone.
+
+### Part 1: DESIGN.md, the look in one file
+
+DESIGN.md is a plain-text markdown file holding a whole design system (a format introduced by Google Stitch), sitting at the project root where any coding agent can read it.
+
+| Part | Contents |
+| --- | --- |
+| **YAML front matter** | The tokens as data: exact color hex values, and type roles with family, size, weight, line height, and letter spacing. These mirror the tokens on page 3. |
+| **Written sections** | Overview, colors, typography, layout and spacing, elevation and depth, shapes and radius, components, do's and don'ts, responsive behavior, and an iteration guide. |
+
+1. **Write your own, from your own direction.** The file encodes this product's tokens and specs, generated from the direction work or captured from the built system (Impeccable's document command writes one).
+2. **Collections are study material, not a wardrobe.** VoltAgent's awesome-design-md holds 84 files analyzed from real sites (Stripe's runs 487 lines). They teach the format; dropping one in whole borrows another brand's identity and fails the template check.
+3. **One file, project root, named DESIGN.md,** next to AGENTS.md. A look scattered across chat history is a look that drifts.
+
+### Part 2: verify in a real browser
+
+1. **The loop:** build, open it in a real browser, click the main flow end to end, read console and network output, fix the top problems, recheck. Repeat until clean.
+2. **Check at three widths** (phone, tablet, desktop) before calling any screen done.
+3. **Read the page as structure, not pixels:** accessibility-tree snapshots with stable element references let the agent act deterministically, no vision model needed (the Playwright approach).
+4. **The wiring is a project choice, the loop is the rule.** Microsoft's Playwright MCP server exposes the browser as agent tools; Microsoft itself steers coding agents to Playwright CLI plus skills for token efficiency, keeping MCP for persistent-state loops.
+
+### Acceptance checks
+
+- [ ] The project root carries a DESIGN.md written from this project's own direction, tokens matching page 3.
+- [ ] No borrowed DESIGN.md ships whole; studied files are adapted, not copied, and credited in project notes.
+- [ ] The build was opened in a real browser, the main flow clicked end to end, console errors at zero.
+- [ ] Layout checked at three widths; top problems fixed and rechecked after the fix.
+
+**Source flag:** the roundup Reel gates its links behind a comment ("Comment DESIGN and I'll DM you all five"); the repos were read directly instead. Reel numbers trail the repos (73 files and 59 rules claimed; 84 and 62 read).
+
+Sources: hayder.developer, five design plugins roundup, Oct 30, 2026. VoltAgent, awesome-design-md, and Microsoft, playwright-mcp, repos read Nov 1, 2026. Links in the source index, page 15.
 
 Rule Sets
 
@@ -463,8 +503,9 @@ Rule Sets
 8. **Diagrams over prose** for anything spatial or structural. Even clean writing has to be read; a diagram is easier to process and check.
 9. **Ask for artifacts, not just answers.** A working HTML page with sliders and controls beats a text explanation when the user needs to explore numbers. Large, custom, discardable artifacts are now cheap enough to ask for.
 10. **Ask for explainer video when teaching matters:** a short narrated video in a known style (3Blue1Brown) can carry a topic text cannot. As the model does more of the legwork, the human role rises into oversight.
+11. **The agent verifies its own UI work in a real browser** before calling it done (spec 07, page 12): open the build, click the flow, read console and network, fix the top problems, recheck at three widths.
 
-Rules 7 to 10: Andrej Karpathy's prompting techniques, summarized by Kathryn Petrillo, posted Oct 30, 2026. Full link in the source index, page 14.
+Rules 7 to 10: Andrej Karpathy's prompting techniques, summarized by Kathryn Petrillo, posted Oct 30, 2026. Rule 11: spec 07, page 12. Full links in the source index, page 15.
 
 **AIX acceptance test:** Force the AI to be wrong in a test run. If the user cannot spot the error, understand its impact, and reverse it in under a minute, the design fails AIX, whatever the happy path looks like.
 
@@ -475,10 +516,11 @@ Ship Gate
 ### Before any application ships
 
 - [ ] UI: tokens first, no raw values, every interactive element has default, hover, pressed, focus, and disabled states.
-- [ ] UX: flow mapped, steps and decisions counted and cut, all four screen states designed. MX: every animation passes the what-and-why test, 150 to 300ms, reduced motion respected.
-- [ ] PX: lifecycle walked, promise breaks ranked, onboarding ends at first success. AIX: failure states first, AI actions reviewable and reversible, no silent high-stakes action.
+- [ ] UX: flow mapped, steps counted and cut, all four screen states designed. MX: every animation passes the what-and-why test, 150 to 300ms, reduced motion respected.
+- [ ] PX: lifecycle walked, promise breaks ranked, onboarding ends at first success. AIX: failure states first, AI actions reviewable and reversible.
 - [ ] Components match their spec pages and acceptance checks. Brand shipped as a system (primary, secondary, badge), tested at all sizes and in one color.
-- [ ] Flows and controls pass specs 05 and 06: steps fold to summaries, live count on the button, controls match act-now-or-on-save, rows at least 44px tall.
+- [ ] Flows and controls pass specs 05 and 06: steps fold to summaries, live count on the button, controls match act-now-or-on-save, rows 44px or taller.
+- [ ] Agent workflow passes spec 07: own-direction DESIGN.md at the project root; build verified in a real browser at three widths.
 
 ### Per-project application record
 
@@ -489,7 +531,7 @@ Tokens changed from preset, and why:   DERIVED values tuned:
 Checklists passed (UI / UX / MX / PX / AIX):   Open exceptions:
 ```
 
-### Source index: every pattern traces to its video
+### Source index: every pattern traces to its source
 
 | Pattern | Creator | Posted | Source |
 | --- | --- | --- | --- |
@@ -503,7 +545,10 @@ Checklists passed (UI / UX / MX / PX / AIX):   Open exceptions:
 | Notion's blank page | Design Motion | Oct 26, 2026 | facebook.com/reel/1099521116193098/ |
 | Checkbox, switch, radio | Design Motion | Oct 8, 2026 | facebook.com/reel/1458518826177868/ |
 | Prompting techniques | Kathryn Petrillo (Karpathy) | Oct 30, 2026 | facebook.com/reel/2193563514922195/ |
+| Five design plugins roundup | hayder.developer | Oct 30, 2026 | facebook.com/reel/1780228483203385/ |
+| DESIGN.md collection (84 files) | VoltAgent | Repo, read Nov 1, 2026 | github.com/VoltAgent/awesome-design-md |
+| Playwright MCP | Microsoft | Repo, read Nov 1, 2026 | github.com/microsoft/playwright-mcp |
 
-Caveats: the sidebar Reel had no caption or transcript; its spec rests on the supplied visual description. The Code XR "Code" offer and the Design Motion UX Engine pitch are promos, not design rules.
+Caveats: the sidebar Reel had no caption or transcript; its spec rests on the supplied visual description only. The Code XR "Code" offer, the UX Engine pitch, and the roundup Reel's comment gate are promos, not rules.
 
 **Version rule:** A new video gets a spec section, a checklist update if needed, and a row in this index; the page 1 version increments. This file stays the single source.
