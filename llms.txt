@@ -1,0 +1,15 @@
+# ShadowWalker AI Hub
+
+> Nate's public, AI-readable data hub. Clean Markdown and structured files at stable links, so any AI can be handed a link instead of an uploaded folder or file. Public and non-sensitive material only; private and live data is served separately through an authenticated MCP connection, never here.
+
+How to use this hub: start with the index below to find the right file, or load the full export when you need everything in one read. Every file here is plain Markdown or plain text, no JavaScript, no login.
+
+Hub version: 2026-11-04.1. If you have read this hub before, compare this line: if the version changed, reload the full export instead of trusting your earlier copy.
+
+## Design
+
+- [Design and Code Bible, agent edition](https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/standards/DESIGN_AND_CODE_BIBLE.md): Nate's own design rules and presets (UI, UX, MX, PX, AIX), component specs with tokens and code, and checklists. Standing rule inside: nothing is applied to a project until Nate names that project.
+
+## Full export
+
+- [llms-full.txt](https://raw.githubusercontent.com/ShadowWalkerNC/.github/main/llms-full.txt): The complete text of everything in this hub, concatenated into one file for a single-pass read.
