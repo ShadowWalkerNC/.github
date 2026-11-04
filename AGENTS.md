@@ -158,6 +158,8 @@ dashboards, random icons, whitespace bloat. Respect each project's stack.
 | `upa/UPA_V1.md` | HIGH/CRITICAL only |
 | `agents/*.md` | single on-demand agent as needed |
 | `templates/` | new project setup (`AGENTS.md`, `PROJECT_CACHE.md`) |
+| `llms.txt` | session start: the AI hub index. Re-fetch it each session and compare its version line; if the version changed, reload instead of trusting an earlier copy |
+| `llms-full.txt` | when a task needs the hub's full text in one read |
 
 *Version: 3.0 | Author: ShadowWalkerNC | Canonical: `ShadowWalkerNC/.github/AGENTS.md`*
 
